@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<nidocument>
+<nicomment>
+https://decibel.ni.com/content/docs/DOC-15510
+</nicomment>
+<nierror code="537700">
+There was a mismatch between the EtherCAT Masters configured in the system definition and what was detected on the target system.
+</nierror>
+<nierror code="537701">
+There was a mismatch between the EtherCAT Slaves configured in the system definition and what was detected on the target system.
+</nierror>
+<nierror code="537702">
+There was a mismatch between the modules configured in the system definition and what was detected on the target system.
+</nierror>
+<nierror code="537704">
+Timeout waiting for the asynchronous loop.  The asynchronous loop is not running or responding.
+</nierror>
+<nierror code="537705">
+A User-Defined Variable (UDV) configured in the system definition was not found on the target.
+</nierror>
+<nierror code="537706">
+The FPGA configuration deployed to an EtherCAT Slave does not match what was configured in the system definition. Ensure that the correct FPGA bitfile has been deployed to the target.
+</nierror>
+<nierror code="537707">
+A User-Defined Variable (UDV) container was not found.
+</nierror>
+<nierror code="537710">
+Unsupported file type.  Please select a valid .lvbitx file.
+</nierror>
+</nidocument>

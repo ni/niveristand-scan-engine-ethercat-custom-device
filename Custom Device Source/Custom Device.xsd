@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--Created with Liquid XML Studio - Designer Edition 7.1.6.1440 (http://www.liquid-technologies.com)-->
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="CustomDevice">
+    <xs:complexType>
+      <xs:sequence>
+		<xs:element name="XSDVersion" minOccurs="0" type="VersionType"/>
+        <xs:element name="AddMenu" type="LocString" />
+        <xs:element minOccurs="0" name="Dependency" type="Dependency" />
+        <xs:element name="Version" type="xs:string" />
+        <xs:element name="Type">
+          <xs:simpleType>
+            <xs:restriction base="xs:string">
+              <xs:enumeration value="Asynchronous" />
+              <xs:enumeration value="Inline HW Interface" />
+              <xs:enumeration value="Inline Model Interface" />
+              <xs:enumeration value="Inline Timing and Sync" />
+              <xs:enumeration value="Asynchronous Timing and Sync" />
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:element>
+        <xs:element name="MaxOccurrence">
+          <xs:simpleType>
+            <xs:restriction base="xs:int">
+              <xs:minInclusive value="-1" />
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:element>
+        <xs:element name="MainPageGUID">
+          <xs:simpleType>
+            <xs:restriction base="xs:string">
+              <xs:minLength value="35" />
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:element>
+        <xs:element minOccurs="0" name="TimingSource">
+          <xs:complexType>
+            <xs:all>
+              <xs:element name="HasTimingSourceCapability" type="xs:boolean" />
+              <xs:element name="Paths">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Source" type="Path" />
+                    <xs:element name="RealTimeSystemDestination" type="xs:string" />
+                  </xs:sequence>
+                  <xs:attribute name="PathsIsObsolete_UseSourceDistributionInstead" />
+                </xs:complexType>
+              </xs:element>
+              <xs:element minOccurs="0" name="SourceDistribution">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element maxOccurs="unbounded" name="Source">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="SupportedTarget" type="Target" />
+                          <xs:element name="Location" type="Path" />
+                          <xs:element name="RealTimeSystemDestination" type="xs:string" />
+                          <xs:element minOccurs="0" name="Version" type="xs:string" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:all>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="InitializationVI">
+          <xs:complexType>
+            <xs:all>
+              <xs:element name="Type">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:enumeration value="Action" />
+                    <xs:enumeration value="VI" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" default="modal" name="Execution">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:enumeration value="silent" />
+                    <xs:enumeration value="modal" />
+                    <xs:enumeration value="floating" />
+                    <xs:enumeration value="default" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" default="centered" name="Position">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:enumeration value="centered" />
+                    <xs:enumeration value="mouse pointer" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Item2Launch" type="Path" />
+            </xs:all>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="CustomDeviceVI">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="Source">
+                <xs:complexType>
+                  <xs:complexContent mixed="false">
+                    <xs:extension base="Path">
+                      <xs:attribute name="SourceIsObsolete_UseSourceDistributionInstead" />
+                    </xs:extension>
+                  </xs:complexContent>
+                </xs:complexType>
+              </xs:element>
+              <xs:element minOccurs="0" name="RealTimeSystemDestination">
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:string">
+                      <xs:attribute name="Obsolete" />
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+              <xs:element minOccurs="0" name="SourceDistribution">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element maxOccurs="unbounded" name="Source">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="SupportedTarget" type="Target" />
+                          <xs:element name="Source" type="Path" />
+                          <xs:element name="RealTimeSystemDestination" type="xs:string" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Dependencies">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" maxOccurs="unbounded" name="Dependency">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element minOccurs="0" name="SupportedTarget" type="Target" />
+                    <xs:element name="Source" type="Path" />
+                    <xs:element name="RealTimeSystemDestination" type="xs:string" />
+                    <xs:element minOccurs="0" default="false" name="ForceDownload" type="xs:boolean" />
+                    <xs:element minOccurs="0" name="Version" type="xs:string" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Pages">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element maxOccurs="unbounded" name="Page">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Name" type="LocString" />
+                    <xs:element minOccurs="0" default="false" name="DisallowRenaming" type="xs:boolean" />
+                    <xs:element minOccurs="0" default="false" name="DeleteProtection" type="xs:boolean" />
+                    <xs:element minOccurs="0" default="false" name="AllowMultiSelection" type="xs:boolean" />
+                    <xs:element minOccurs="0" default="false" name="ExcludeFromAlphabeticalOrder" type="xs:boolean" />
+                    <xs:element minOccurs="0" default="Disabled" name="Copy">
+                      <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                          <xs:enumeration value="Disabled" />
+                          <xs:enumeration value="Copy" />
+                        </xs:restriction>
+                      </xs:simpleType>
+                    </xs:element>
+                    <xs:element minOccurs="0" default="Create" name="Paste">
+                      <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                          <xs:enumeration value="Create" />
+                          <xs:enumeration value="CreateIfNotExists_GUID" />
+                          <xs:enumeration value="CreateIfNotExists_Name" />
+                          <xs:enumeration value="Replace" />
+                          <xs:enumeration value="Dialog" />
+                        </xs:restriction>
+                      </xs:simpleType>
+                    </xs:element>
+                    <xs:element minOccurs="0" name="ParentGUIDs">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element minOccurs="0" maxOccurs="unbounded" name="ParentGUID" type="xs:string" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="GUID">
+                      <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                          <xs:minLength value="35" />
+                        </xs:restriction>
+                      </xs:simpleType>
+                    </xs:element>
+                    <xs:element name="Glyph" type="Path" />
+                    <xs:element minOccurs="0" name="InactiveGlyph" type="Path" />
+                    <xs:element minOccurs="0" name="BrokenGlyph" type="Path" />
+                    <xs:element name="Item2Launch" type="Path" />
+                    <xs:element minOccurs="0" name="RunTimeMenu">
+                      <xs:complexType>
+                        <xs:sequence minOccurs="0">
+                          <xs:element maxOccurs="unbounded" name="MenuItem">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="GUID">
+                                  <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                      <xs:minLength value="35" />
+                                    </xs:restriction>
+                                  </xs:simpleType>
+                                </xs:element>
+                                <xs:element name="Type">
+                                  <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                      <xs:enumeration value="Action" />
+                                      <xs:enumeration value="VI" />
+                                      <xs:enumeration value="Separator" />
+                                      <xs:enumeration value="Custom" />
+                                    </xs:restriction>
+                                  </xs:simpleType>
+                                </xs:element>
+                                <xs:element minOccurs="0" default="modal" name="Execution">
+                                  <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                      <xs:enumeration value="silent" />
+                                      <xs:enumeration value="modal" />
+                                      <xs:enumeration value="floating" />
+                                      <xs:enumeration value="default" />
+                                    </xs:restriction>
+                                  </xs:simpleType>
+                                </xs:element>
+                                <xs:element minOccurs="0" default="centered" name="Position">
+                                  <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                      <xs:enumeration value="centered" />
+                                      <xs:enumeration value="mouse pointer" />
+                                    </xs:restriction>
+                                  </xs:simpleType>
+                                </xs:element>
+                                <xs:element minOccurs="0" default="OpenFrontPanel" name="Behavior">
+                                  <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                      <xs:enumeration value="None" />
+                                      <xs:enumeration value="OpenFrontPanel" />
+                                    </xs:restriction>
+                                  </xs:simpleType>
+                                </xs:element>
+                                <xs:element minOccurs="0" default="0" name="MinNrOfChilds" type="xs:int" />
+                                <xs:element name="Name" type="LocString" />
+                                <xs:element name="Item2Launch" type="Path" />
+                                <xs:element minOccurs="0" name="Dependency" type="Dependency" />
+                                <xs:element minOccurs="0" name="CustomPopulation" type="Path" />
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element minOccurs="0" name="ButtonList">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element maxOccurs="unbounded" name="Button">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="ID" type="xs:string" />
+                                <xs:element name="Glyph" type="Path" />
+                                <xs:element minOccurs="0" default="Page" name="Type">
+                                  <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                      <xs:enumeration value="Action" />
+                                      <xs:enumeration value="Dialog" />
+                                      <xs:enumeration value="Page" />
+                                      <xs:enumeration value="Notification" />
+                                      <xs:enumeration value="Separator" />
+                                    </xs:restriction>
+                                  </xs:simpleType>
+                                </xs:element>
+                                <xs:element minOccurs="0" name="ReferencedGUID" type="xs:string" />
+                                <xs:element minOccurs="0" name="ButtonText" type="LocString" />
+                                <xs:element name="Caption" type="LocString" />
+                                <xs:element name="TipStrip" type="LocString" />
+                                <xs:element name="Documentation" type="LocString" />
+                                <xs:element minOccurs="0" name="Dependency" type="Dependency" />
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element minOccurs="0" name="ActionVIOnDelete" type="Path" />
+                    <xs:element minOccurs="0" name="ActionVIOnLoad" type="Path" />
+                    <xs:element minOccurs="0" name="ActionVIOnSystemShutdown" type="Path" />
+                    <xs:element minOccurs="0" name="ActionVIOnSave" type="Path" />
+                    <xs:element minOccurs="0" name="ActionVIOnDownload" type="Path" />
+                    <xs:element minOccurs="0" name="ActionVIOnPaste" type="Path" />
+                    <xs:element minOccurs="0" name="ActionVIOnTargetTypeChange" type="Path" />
+                    <xs:element minOccurs="0" name="ActionVIOnDeleteRequest" type="Path" />
+                    <xs:element minOccurs="0" name="ActionVIOnCompile" type="Path" />
+                    <xs:element minOccurs="0" name="Help">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="Item2Launch" type="Path" />
+                          <xs:element name="FileType">
+                            <xs:simpleType>
+                              <xs:restriction base="xs:string">
+                                <xs:enumeration value="chm" />
+                                <xs:enumeration value="other" />
+                              </xs:restriction>
+                            </xs:simpleType>
+                          </xs:element>
+                          <xs:element minOccurs="0" name="Section" type="xs:string" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element minOccurs="0" name="AdditionalInformation" type="xs:string" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element minOccurs="0" name="CustomXML">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:any processContents="skip" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="Path">
+    <xs:sequence>
+      <xs:element name="Type">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="Absolute" />
+            <xs:enumeration value="To Base" />
+			<xs:enumeration value="To Common Doc Dir" />
+            <xs:enumeration value="To Application Data Dir" />
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="Path">
+        <xs:simpleType>
+          <xs:restriction base="xs:string" />
+        </xs:simpleType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LocString">
+    <xs:sequence>
+      <xs:element name="eng">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:whiteSpace value="preserve" />
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="loc">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:whiteSpace value="preserve" />
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="Dependency">
+    <xs:sequence>
+      <xs:element name="Type">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="Absolute" />
+            <xs:enumeration value="To Base" />
+			<xs:enumeration value="To Common Doc Dir" />
+            <xs:enumeration value="To Application Data Dir" />			
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="Path">
+        <xs:simpleType>
+          <xs:restriction base="xs:string" />
+        </xs:simpleType>
+      </xs:element>
+      <xs:element minOccurs="0" default="Static" name="Behavior">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="Static" />
+            <xs:enumeration value="Dynamic" />
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:simpleType name="Target">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="All" />
+      <xs:enumeration value="Pharlap" />
+      <xs:enumeration value="VxWorks" />
+      <xs:enumeration value="Windows" />
+      <xs:enumeration value="PharlapWindows" />
+      <xs:enumeration value="PharlapVxWorks" />
+      <xs:enumeration value="VxWorksWindows" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:complexType name="VersionType">
+    <xs:attribute name="Major" type="xs:unsignedInt" use="required" />
+    <xs:attribute name="Minor" type="xs:unsignedInt" use="required" />
+    <xs:attribute name="Fix" type="xs:unsignedInt" use="required" />
+    <xs:attribute name="Build" type="xs:unsignedInt" use="required" />
+  </xs:complexType>
+</xs:schema>
