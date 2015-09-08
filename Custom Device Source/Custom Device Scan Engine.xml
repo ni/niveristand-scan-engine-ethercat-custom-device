@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <CustomDevice xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Custom Device.xsd">
-	<XSDVersion Major="2011" Minor="0" Fix="0" Build="0" />
+	<XSDVersion Major="2010" Minor="0" Fix="0" Build="0" />
 	<AddMenu>
 		<eng>National Instruments::Scan Engine and EtherCAT</eng>
 		<loc>National Instruments::Scan Engine and EtherCAT</loc>
 	</AddMenu>
-	<Version>4.1.10</Version>
+	<Version>4.1.11</Version>
 	<Type>Inline HW Interface</Type>
 	<MaxOccurrence>1</MaxOccurrence>
 	<MainPageGUID>A04A67D4-9B64-052B-A031-6B05377B9B10</MainPageGUID>
@@ -32,6 +32,22 @@
 				<Location>
 					<Type>To Common Doc Dir</Type>
 					<Path>Custom Devices\Scan Engine\VxWorks\Scan Engine Timing Source.vi</Path>
+				</Location>
+				<RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\Scan Engine Timing Source.vi</RealTimeSystemDestination>
+			</Source>
+			<Source>
+				<SupportedTarget>Linux_x64</SupportedTarget>
+				<Location>
+					<Type>To Common Doc Dir</Type>
+					<Path>Custom Devices\Scan Engine\Linux_x64\Scan Engine Timing Source.vi</Path>
+				</Location>
+				<RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\Scan Engine Timing Source.vi</RealTimeSystemDestination>
+			</Source>
+			<Source>
+				<SupportedTarget>Linux_32_ARM</SupportedTarget>
+				<Location>
+					<Type>To Common Doc Dir</Type>
+					<Path>Custom Devices\Scan Engine\Linux_32_ARM\Scan Engine Timing Source.vi</Path>
 				</Location>
 				<RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\Scan Engine Timing Source.vi</RealTimeSystemDestination>
 			</Source>
@@ -62,6 +78,22 @@
 				</Source>
 				<RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\Scan Engine RT Driver.vi</RealTimeSystemDestination>
 			</Source>
+			<Source>
+				<SupportedTarget>Linux_x64</SupportedTarget>
+				<Source>
+					<Type>To Common Doc Dir</Type>
+					<Path>Custom Devices\Scan Engine\Linux_x64\Scan Engine RT Driver.vi</Path>
+				</Source>
+				<RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\Scan Engine RT Driver.vi</RealTimeSystemDestination>
+			</Source>
+			<Source>
+				<SupportedTarget>Linux_32_ARM</SupportedTarget>
+				<Source>
+					<Type>To Common Doc Dir</Type>
+					<Path>Custom Devices\Scan Engine\Linux_32_ARM\Scan Engine RT Driver.vi</Path>
+				</Source>
+				<RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\Scan Engine RT Driver.vi</RealTimeSystemDestination>
+			</Source>
 		</SourceDistribution>
 	</CustomDeviceVI>
 	<Dependencies>
@@ -82,6 +114,22 @@
 			<RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\Scan Engine - RT.llb</RealTimeSystemDestination>
 		</Dependency>
 		<Dependency>
+			<SupportedTarget>Linux_x64</SupportedTarget>
+			<Source>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\Scan Engine\Linux_x64\Scan Engine - RT.llb</Path>
+			</Source>
+			<RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\Scan Engine - RT.llb</RealTimeSystemDestination>
+		</Dependency>
+		<Dependency>
+			<SupportedTarget>Linux_32_ARM</SupportedTarget>
+			<Source>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\Scan Engine\Linux_32_ARM\Scan Engine - RT.llb</Path>
+			</Source>
+			<RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\Scan Engine - RT.llb</RealTimeSystemDestination>
+		</Dependency>
+		<Dependency>
 			<SupportedTarget>PharlapWindows</SupportedTarget>
 			<Source>
 				<Type>To Common Doc Dir</Type>
@@ -98,6 +146,22 @@
 			<RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\Modules.lvlibp</RealTimeSystemDestination>
 		</Dependency>
 		<Dependency>
+			<SupportedTarget>Linux_x64</SupportedTarget>
+			<Source>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\Scan Engine\Linux_x64\Modules.lvlibp</Path>
+			</Source>
+			<RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\Modules.lvlibp</RealTimeSystemDestination>
+		</Dependency>
+		<Dependency>
+			<SupportedTarget>Linux_32_ARM</SupportedTarget>
+			<Source>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\Scan Engine\Linux_32_ARM\Modules.lvlibp</Path>
+			</Source>
+			<RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\Modules.lvlibp</RealTimeSystemDestination>
+		</Dependency>
+		<Dependency>
 			<SupportedTarget>PharlapWindows</SupportedTarget>
 			<Source>
 				<Type>To Common Doc Dir</Type>
@@ -110,6 +174,22 @@
 			<Source>
 				<Type>To Common Doc Dir</Type>
 				<Path>Custom Devices\Scan Engine\VxWorks\FXP.llb</Path>
+			</Source>
+			<RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\FXP.llb</RealTimeSystemDestination>
+		</Dependency>
+		<Dependency>
+			<SupportedTarget>Linux_x64</SupportedTarget>
+			<Source>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\Scan Engine\Linux_x64\FXP.llb</Path>
+			</Source>
+			<RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\FXP.llb</RealTimeSystemDestination>
+		</Dependency>
+		<Dependency>
+			<SupportedTarget>Linux_32_ARM</SupportedTarget>
+			<Source>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\Scan Engine\Linux_32_ARM\FXP.llb</Path>
 			</Source>
 			<RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\FXP.llb</RealTimeSystemDestination>
 		</Dependency>
@@ -202,8 +282,8 @@
 						<loc>Add Local Chassis</loc>
 					</TipStrip>
 					<Documentation>
-						<eng></eng>
-						<loc></loc>
+						<eng />
+						<loc />
 					</Documentation>
 				</Button>
 				<Button>
@@ -227,8 +307,8 @@
 						<loc>Add EtherCAT Master</loc>
 					</TipStrip>
 					<Documentation>
-						<eng></eng>
-						<loc></loc>
+						<eng />
+						<loc />
 					</Documentation>
 				</Button>
 				<Button>
@@ -252,8 +332,8 @@
 						<loc>Auto-Detect Modules</loc>
 					</TipStrip>
 					<Documentation>
-						<eng></eng>
-						<loc></loc>
+						<eng />
+						<loc />
 					</Documentation>
 				</Button>
 			</ButtonList>
@@ -419,8 +499,8 @@
 						<loc>Add EtherCAT Slave</loc>
 					</TipStrip>
 					<Documentation>
-						<eng></eng>
-						<loc></loc>
+						<eng />
+						<loc />
 					</Documentation>
 				</Button>
 			</ButtonList>
@@ -439,10 +519,6 @@
 				<Type>To Common Doc Dir</Type>
 				<Path>Custom Devices\Scan Engine\Scan Engine - Configuration.llb\Scan Engine EtherCAT Slave.vi</Path>
 			</Item2Launch>
-			<!--<ActionVIOnDelete>
-				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Scan Engine\Scan Engine - Configuration.llb\Action - Slave OnDelete.vi</Path>
-			</ActionVIOnDelete>-->
 		</Page>
 		<Page>
 			<Name>
@@ -539,8 +615,8 @@
 						<loc>Select/Change FPGA Bitfile</loc>
 					</TipStrip>
 					<Documentation>
-						<eng></eng>
-						<loc></loc>
+						<eng />
+						<loc />
 					</Documentation>
 				</Button>
 				<Button>
@@ -564,8 +640,8 @@
 						<loc>Clear Configuration</loc>
 					</TipStrip>
 					<Documentation>
-						<eng></eng>
-						<loc></loc>
+						<eng />
+						<loc />
 					</Documentation>
 				</Button>
 			</ButtonList>
@@ -669,8 +745,8 @@
 						<loc>Select/Change FPGA Bitfile</loc>
 					</TipStrip>
 					<Documentation>
-						<eng></eng>
-						<loc></loc>
+						<eng />
+						<loc />
 					</Documentation>
 				</Button>
 				<Button>
@@ -694,8 +770,8 @@
 						<loc>Clear Configuration</loc>
 					</TipStrip>
 					<Documentation>
-						<eng></eng>
-						<loc></loc>
+						<eng />
+						<loc />
 					</Documentation>
 				</Button>
 				<Button>
@@ -719,8 +795,8 @@
 						<loc>Download FPGA</loc>
 					</TipStrip>
 					<Documentation>
-						<eng></eng>
-						<loc></loc>
+						<eng />
+						<loc />
 					</Documentation>
 				</Button>
 				<Button>
@@ -744,8 +820,8 @@
 						<loc>Revert Slave to Scan Mode</loc>
 					</TipStrip>
 					<Documentation>
-						<eng></eng>
-						<loc></loc>
+						<eng />
+						<loc />
 					</Documentation>
 				</Button>
 			</ButtonList>
