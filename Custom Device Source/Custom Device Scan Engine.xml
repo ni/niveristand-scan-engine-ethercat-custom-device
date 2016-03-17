@@ -1,961 +1,1082 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <CustomDevice xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Custom Device.xsd">
-	<XSDVersion Major="2010" Minor="0" Fix="0" Build="0" />
-	<AddMenu>
-		<eng>National Instruments::Scan Engine and EtherCAT</eng>
-		<loc>National Instruments::Scan Engine and EtherCAT</loc>
-	</AddMenu>
-	<Version>4.1.11</Version>
-	<Type>Inline HW Interface</Type>
-	<MaxOccurrence>1</MaxOccurrence>
-	<MainPageGUID>A04A67D4-9B64-052B-A031-6B05377B9B10</MainPageGUID>
-	<TimingSource>
-		<HasTimingSourceCapability>true</HasTimingSourceCapability>
-		<Paths PathsIsObsolete_UseSourceDistributionInstead="true">
-			<Source>
-				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Scan Engine\PharLap\Scan Engine Timing Source.vi</Path>
-			</Source>
-			<RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\Scan Engine Timing Source.vi</RealTimeSystemDestination>
-		</Paths>
-		<SourceDistribution>
-			<Source>
-				<SupportedTarget>PharlapWindows</SupportedTarget>
-				<Location>
-					<Type>To Common Doc Dir</Type>
-					<Path>Custom Devices\Scan Engine\PharLap\Scan Engine Timing Source.vi</Path>
-				</Location>
-				<RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\Scan Engine Timing Source.vi</RealTimeSystemDestination>
-			</Source>
-			<Source>
-				<SupportedTarget>VxWorks</SupportedTarget>
-				<Location>
-					<Type>To Common Doc Dir</Type>
-					<Path>Custom Devices\Scan Engine\VxWorks\Scan Engine Timing Source.vi</Path>
-				</Location>
-				<RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\Scan Engine Timing Source.vi</RealTimeSystemDestination>
-			</Source>
-			<Source>
-				<SupportedTarget>Linux_x64</SupportedTarget>
-				<Location>
-					<Type>To Common Doc Dir</Type>
-					<Path>Custom Devices\Scan Engine\Linux_x64\Scan Engine Timing Source.vi</Path>
-				</Location>
-				<RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\Scan Engine Timing Source.vi</RealTimeSystemDestination>
-			</Source>
-			<Source>
-				<SupportedTarget>Linux_32_ARM</SupportedTarget>
-				<Location>
-					<Type>To Common Doc Dir</Type>
-					<Path>Custom Devices\Scan Engine\Linux_32_ARM\Scan Engine Timing Source.vi</Path>
-				</Location>
-				<RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\Scan Engine Timing Source.vi</RealTimeSystemDestination>
-			</Source>
-		</SourceDistribution>
-	</TimingSource>
-	<InitializationVI>
-		<Type>Action</Type>
-		<Item2Launch>
-			<Type>To Common Doc Dir</Type>
-			<Path>Custom Devices\Scan Engine\Scan Engine - Configuration.llb\Scan Engine Initialization VI.vi</Path>
-		</Item2Launch>
-	</InitializationVI>
-	<CustomDeviceVI>
-		<SourceDistribution>
-			<Source>
-				<SupportedTarget>PharlapWindows</SupportedTarget>
-				<Source>
-					<Type>To Common Doc Dir</Type>
-					<Path>Custom Devices\Scan Engine\PharLap\Scan Engine RT Driver.vi</Path>
-				</Source>
-				<RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\Scan Engine RT Driver.vi</RealTimeSystemDestination>
-			</Source>
-			<Source>
-				<SupportedTarget>VxWorks</SupportedTarget>
-				<Source>
-					<Type>To Common Doc Dir</Type>
-					<Path>Custom Devices\Scan Engine\VxWorks\Scan Engine RT Driver.vi</Path>
-				</Source>
-				<RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\Scan Engine RT Driver.vi</RealTimeSystemDestination>
-			</Source>
-			<Source>
-				<SupportedTarget>Linux_x64</SupportedTarget>
-				<Source>
-					<Type>To Common Doc Dir</Type>
-					<Path>Custom Devices\Scan Engine\Linux_x64\Scan Engine RT Driver.vi</Path>
-				</Source>
-				<RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\Scan Engine RT Driver.vi</RealTimeSystemDestination>
-			</Source>
-			<Source>
-				<SupportedTarget>Linux_32_ARM</SupportedTarget>
-				<Source>
-					<Type>To Common Doc Dir</Type>
-					<Path>Custom Devices\Scan Engine\Linux_32_ARM\Scan Engine RT Driver.vi</Path>
-				</Source>
-				<RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\Scan Engine RT Driver.vi</RealTimeSystemDestination>
-			</Source>
-		</SourceDistribution>
-	</CustomDeviceVI>
-	<Dependencies>
-		<Dependency>
-			<SupportedTarget>PharlapWindows</SupportedTarget>
-			<Source>
-				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Scan Engine\PharLap\Scan Engine - RT.llb</Path>
-			</Source>
-			<RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\Scan Engine - RT.llb</RealTimeSystemDestination>
-		</Dependency>
-		<Dependency>
-			<SupportedTarget>VxWorks</SupportedTarget>
-			<Source>
-				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Scan Engine\VxWorks\Scan Engine - RT.llb</Path>
-			</Source>
-			<RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\Scan Engine - RT.llb</RealTimeSystemDestination>
-		</Dependency>
-		<Dependency>
-			<SupportedTarget>Linux_x64</SupportedTarget>
-			<Source>
-				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Scan Engine\Linux_x64\Scan Engine - RT.llb</Path>
-			</Source>
-			<RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\Scan Engine - RT.llb</RealTimeSystemDestination>
-		</Dependency>
-		<Dependency>
-			<SupportedTarget>Linux_32_ARM</SupportedTarget>
-			<Source>
-				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Scan Engine\Linux_32_ARM\Scan Engine - RT.llb</Path>
-			</Source>
-			<RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\Scan Engine - RT.llb</RealTimeSystemDestination>
-		</Dependency>
-		<Dependency>
-			<SupportedTarget>PharlapWindows</SupportedTarget>
-			<Source>
-				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Scan Engine\PharLap\Modules.lvlibp</Path>
-			</Source>
-			<RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\Modules.lvlibp</RealTimeSystemDestination>
-		</Dependency>
-		<Dependency>
-			<SupportedTarget>VxWorks</SupportedTarget>
-			<Source>
-				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Scan Engine\VxWorks\Modules.lvlibp</Path>
-			</Source>
-			<RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\Modules.lvlibp</RealTimeSystemDestination>
-		</Dependency>
-		<Dependency>
-			<SupportedTarget>Linux_x64</SupportedTarget>
-			<Source>
-				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Scan Engine\Linux_x64\Modules.lvlibp</Path>
-			</Source>
-			<RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\Modules.lvlibp</RealTimeSystemDestination>
-		</Dependency>
-		<Dependency>
-			<SupportedTarget>Linux_32_ARM</SupportedTarget>
-			<Source>
-				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Scan Engine\Linux_32_ARM\Modules.lvlibp</Path>
-			</Source>
-			<RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\Modules.lvlibp</RealTimeSystemDestination>
-		</Dependency>
-		<Dependency>
-			<SupportedTarget>PharlapWindows</SupportedTarget>
-			<Source>
-				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Scan Engine\PharLap\FXP.llb</Path>
-			</Source>
-			<RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\FXP.llb</RealTimeSystemDestination>
-		</Dependency>
-		<Dependency>
-			<SupportedTarget>VxWorks</SupportedTarget>
-			<Source>
-				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Scan Engine\VxWorks\FXP.llb</Path>
-			</Source>
-			<RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\FXP.llb</RealTimeSystemDestination>
-		</Dependency>
-		<Dependency>
-			<SupportedTarget>Linux_x64</SupportedTarget>
-			<Source>
-				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Scan Engine\Linux_x64\FXP.llb</Path>
-			</Source>
-			<RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\FXP.llb</RealTimeSystemDestination>
-		</Dependency>
-		<Dependency>
-			<SupportedTarget>Linux_32_ARM</SupportedTarget>
-			<Source>
-				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Scan Engine\Linux_32_ARM\FXP.llb</Path>
-			</Source>
-			<RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\FXP.llb</RealTimeSystemDestination>
-		</Dependency>
-	</Dependencies>
-	<Pages>
-		<Page>
-			<Name>
-				<eng>Scan Engine and EtherCAT</eng>
-				<loc>Scan Engine and EtherCAT</loc>
-			</Name>
-			<DisallowRenaming>true</DisallowRenaming>
-			<GUID>A04A67D4-9B64-052B-A031-6B05377B9B10</GUID>
-			<Glyph>
-				<Type>To Application Data Dir</Type>
-				<Path>System Explorer\Glyphs\network.png</Path>
-			</Glyph>
-			<Item2Launch>
-				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Scan Engine\Scan Engine - Configuration.llb\Scan Engine Main Page.vi</Path>
-			</Item2Launch>
-			<RunTimeMenu>
-				<MenuItem>
-					<GUID>AE2AB208-9A9A-4DC7-6A99-2CA165DA3962</GUID>
-					<Type>Action</Type>
-					<Name>
-						<eng>Add Local Chassis</eng>
-						<loc>Add Local Chassis</loc>
-					</Name>
-					<Item2Launch>
-						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\Scan Engine\Scan Engine - Configuration.llb\Main - Add Local Chassis.vi</Path>
-					</Item2Launch>
-				</MenuItem>
-				<MenuItem>
-					<GUID>18B2C676-AF17-2B7F-0962-D95D206E20FB</GUID>
-					<Type>Separator</Type>
-					<Name>
-						<eng>.</eng>
-						<loc>.</loc>
-					</Name>
-					<Item2Launch>
-						<Type>Absolute</Type>
-						<Path>.</Path>
-					</Item2Launch>
-				</MenuItem>
-				<MenuItem>
-					<GUID>4DE930D8-F2AA-2BA7-8DF6-27AD836A3EB2</GUID>
-					<Type>Action</Type>
-					<Name>
-						<eng>Add EtherCAT Master</eng>
-						<loc>Add EtherCAT Master</loc>
-					</Name>
-					<Item2Launch>
-						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\Scan Engine\Scan Engine - Configuration.llb\Main - Add EtherCAT Master.vi</Path>
-					</Item2Launch>
-				</MenuItem>
-				<MenuItem>
-					<GUID>7F12E184-AB96-DBB5-A5B8-6D5278F6CDCB</GUID>
-					<Type>Action</Type>
-					<Name>
-						<eng>Auto-Detect Modules</eng>
-						<loc>Auto-Detect Modules</loc>
-					</Name>
-					<Item2Launch>
-						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\Scan Engine\Scan Engine - Configuration.llb\Main - Auto Detect Modules.vi</Path>
-					</Item2Launch>
-				</MenuItem>
-			</RunTimeMenu>
-			<ButtonList>
-				<Button>
-					<ID>NIVS_ScanEngine_AddLocal</ID>
-					<Glyph>
-						<Type>To Application Data Dir</Type>
-						<Path>System Explorer\Glyphs\rio expansion chassis.png</Path>
-					</Glyph>
-					<Type>Action</Type>
-					<ReferencedGUID>AE2AB208-9A9A-4DC7-6A99-2CA165DA3962</ReferencedGUID>
-					<ButtonText>
-						<eng>Add Local Chassis</eng>
-						<loc>Add Local Chassis</loc>
-					</ButtonText>
-					<Caption>
-						<eng>Add Local Chassis</eng>
-						<loc>Add Local Chassis</loc>
-					</Caption>
-					<TipStrip>
-						<eng>Add Local Chassis</eng>
-						<loc>Add Local Chassis</loc>
-					</TipStrip>
-					<Documentation>
-						<eng />
-						<loc />
-					</Documentation>
-				</Button>
-				<Button>
-					<ID>NIVS_ScanEngine_AddECATMaster</ID>
-					<Glyph>
-						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\Scan Engine\Glyphs\ECAT_Master.png</Path>
-					</Glyph>
-					<Type>Action</Type>
-					<ReferencedGUID>4DE930D8-F2AA-2BA7-8DF6-27AD836A3EB2</ReferencedGUID>
-					<ButtonText>
-						<eng>Add EtherCAT Master</eng>
-						<loc>Add EtherCAT Master</loc>
-					</ButtonText>
-					<Caption>
-						<eng>Add EtherCAT Master</eng>
-						<loc>Add EtherCAT Master</loc>
-					</Caption>
-					<TipStrip>
-						<eng>Add EtherCAT Master</eng>
-						<loc>Add EtherCAT Master</loc>
-					</TipStrip>
-					<Documentation>
-						<eng />
-						<loc />
-					</Documentation>
-				</Button>
-				<Button>
-					<ID>NIVS_ScanEngine_AutoDetectECAT</ID>
-					<Glyph>
-						<Type>To Application Data Dir</Type>
-						<Path>System Explorer\Glyphs\Search2.png</Path>
-					</Glyph>
-					<Type>Action</Type>
-					<ReferencedGUID>7F12E184-AB96-DBB5-A5B8-6D5278F6CDCB</ReferencedGUID>
-					<ButtonText>
-						<eng>Auto-Detect Modules</eng>
-						<loc>Auto-Detect Modules</loc>
-					</ButtonText>
-					<Caption>
-						<eng>Auto-Detect Modules</eng>
-						<loc>Auto-Detect Modules</loc>
-					</Caption>
-					<TipStrip>
-						<eng>Auto-Detect Modules</eng>
-						<loc>Auto-Detect Modules</loc>
-					</TipStrip>
-					<Documentation>
-						<eng />
-						<loc />
-					</Documentation>
-				</Button>
-			</ButtonList>
-			<ActionVIOnDelete>
-				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Scan Engine\Scan Engine - Configuration.llb\Main - On Delete.vi</Path>
-			</ActionVIOnDelete>
-			<ActionVIOnLoad>
-				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Scan Engine\Scan Engine - Configuration.llb\Main - On Load.vi</Path>
-			</ActionVIOnLoad>
-			<ActionVIOnDownload>
-				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Scan Engine\Scan Engine - Configuration.llb\ActionVIOnDownload - Set Scan Rate.vi</Path>
-			</ActionVIOnDownload>
-		</Page>
-		<Page>
-			<Name>
-				<eng>Scan Engine DO</eng>
-				<loc>Scan Engine DO</loc>
-			</Name>
-			<DeleteProtection>true</DeleteProtection>
-			<GUID>F43DA51B-9C6C-5797-56DC-ED47295D1D2E</GUID>
-			<Glyph>
-				<Type>To Application Data Dir</Type>
-				<Path>System Explorer\Glyphs\do.png</Path>
-			</Glyph>
-			<Item2Launch>
-				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Scan Engine\Scan Engine - Configuration.llb\Scan Engine DO Page.vi</Path>
-			</Item2Launch>
-		</Page>
-		<Page>
-			<Name>
-				<eng>Scan Engine DI</eng>
-				<loc>Scan Engine DI</loc>
-			</Name>
-			<DeleteProtection>true</DeleteProtection>
-			<GUID>F233E90F-ECCA-EF6E-8EEB-159F82DA778F</GUID>
-			<Glyph>
-				<Type>To Application Data Dir</Type>
-				<Path>System Explorer\Glyphs\di.png</Path>
-			</Glyph>
-			<Item2Launch>
-				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Scan Engine\Scan Engine - Configuration.llb\Scan Engine DI Page.vi</Path>
-			</Item2Launch>
-		</Page>
-		<Page>
-			<Name>
-				<eng>Scan Engine Slot</eng>
-				<loc>Scan Engine Slot</loc>
-			</Name>
-			<DeleteProtection>true</DeleteProtection>
-			<GUID>A466E035-6C67-FF94-A582-AF548F5C2F28</GUID>
-			<Glyph>
-				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Scan Engine\Glyphs\cRIOModule.png</Path>
-			</Glyph>
-			<Item2Launch>
-				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Scan Engine\Scan Engine - Configuration.llb\Scan Engine Slot Page.vi</Path>
-			</Item2Launch>
-		</Page>
-		<Page>
-			<Name>
-				<eng>Scan Engine Slot - Empty</eng>
-				<loc>Scan Engine Slot - Empty</loc>
-			</Name>
-			<DeleteProtection>true</DeleteProtection>
-			<GUID>41F294B5-009B-733F-41B9-7972E3D57FD3</GUID>
-			<Glyph>
-				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Scan Engine\Glyphs\cRIOModuleGray.png</Path>
-			</Glyph>
-			<Item2Launch>
-				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Scan Engine\Scan Engine - Configuration.llb\Scan Engine Slot Page.vi</Path>
-			</Item2Launch>
-		</Page>
-		<Page>
-			<Name>
-				<eng>Scan Engine Slot - Disabled</eng>
-				<loc>Scan Engine Slot - Disabled</loc>
-			</Name>
-			<DeleteProtection>true</DeleteProtection>
-			<GUID>C37AE504-7B62-8355-1600-C9D1A9C81815</GUID>
-			<Glyph>
-				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Scan Engine\Glyphs\cRIOModuleGrayWarning.png</Path>
-			</Glyph>
-			<Item2Launch>
-				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Scan Engine\Scan Engine - Configuration.llb\Scan Engine Slot Page.vi</Path>
-			</Item2Launch>
-		</Page>
-		<Page>
-			<Name>
-				<eng>Scan Engine Local Chassis</eng>
-				<loc>Scan Engine Local Chassis</loc>
-			</Name>
-			<GUID>E829C44F-D204-78F7-F536-2C86E8FAC5FB</GUID>
-			<Glyph>
-				<Type>To Application Data Dir</Type>
-				<Path>System Explorer\Glyphs\rio expansion chassis.png</Path>
-			</Glyph>
-			<Item2Launch>
-				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Scan Engine\Scan Engine - Configuration.llb\Scan Engine Local Chassis.vi</Path>
-			</Item2Launch>
-			<ActionVIOnDelete>
-				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Scan Engine\Scan Engine - Configuration.llb\FPGA - On Delete (Local).vi</Path>
-			</ActionVIOnDelete>
-		</Page>
-		<Page>
-			<Name>
-				<eng>Scan Engine EtherCAT Master</eng>
-				<loc>Scan Engine EtherCAT Master</loc>
-			</Name>
-			<GUID>207C3DCA-1177-DD2C-D32C-1F1D46E93318</GUID>
-			<Glyph>
-				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Scan Engine\Glyphs\ECAT_Master.png</Path>
-			</Glyph>
-			<Item2Launch>
-				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Scan Engine\Scan Engine - Configuration.llb\Scan Engine EtherCAT Master.vi</Path>
-			</Item2Launch>
-			<RunTimeMenu>
-				<MenuItem>
-					<GUID>10E725DC-90F1-A4D3-A1C2-D8F9C2DBB1E6</GUID>
-					<Type>Action</Type>
-					<Name>
-						<eng>Add EtherCAT Slave</eng>
-						<loc>Add EtherCAT Slave</loc>
-					</Name>
-					<Item2Launch>
-						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\Scan Engine\Scan Engine - Configuration.llb\Master - Add EtherCAT Slave.vi</Path>
-					</Item2Launch>
-				</MenuItem>
-			</RunTimeMenu>
-			<ButtonList>
-				<Button>
-					<ID>NIVS_ScanEngine_AddECATSlave</ID>
-					<Glyph>
-						<Type>To Application Data Dir</Type>
-						<Path>System Explorer\Glyphs\rio expansion chassis.png</Path>
-					</Glyph>
-					<Type>Action</Type>
-					<ReferencedGUID>10E725DC-90F1-A4D3-A1C2-D8F9C2DBB1E6</ReferencedGUID>
-					<ButtonText>
-						<eng>Add EtherCAT Slave</eng>
-						<loc>Add EtherCAT Slave</loc>
-					</ButtonText>
-					<Caption>
-						<eng>Add EtherCAT Slave</eng>
-						<loc>Add EtherCAT Slave</loc>
-					</Caption>
-					<TipStrip>
-						<eng>Add EtherCAT Slave</eng>
-						<loc>Add EtherCAT Slave</loc>
-					</TipStrip>
-					<Documentation>
-						<eng />
-						<loc />
-					</Documentation>
-				</Button>
-			</ButtonList>
-		</Page>
-		<Page>
-			<Name>
-				<eng>Scan Engine EtherCAT Slave</eng>
-				<loc>Scan Engine EtherCAT Slave</loc>
-			</Name>
-			<GUID>50877E70-98F5-BFCC-3809-88209D9D28F5</GUID>
-			<Glyph>
-				<Type>To Application Data Dir</Type>
-				<Path>System Explorer\Glyphs\rio expansion chassis.png</Path>
-			</Glyph>
-			<Item2Launch>
-				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Scan Engine\Scan Engine - Configuration.llb\Scan Engine EtherCAT Slave.vi</Path>
-			</Item2Launch>
-		</Page>
-		<Page>
-			<Name>
-				<eng>Scan Engine AO</eng>
-				<loc>Scan Engine AO</loc>
-			</Name>
-			<DeleteProtection>true</DeleteProtection>
-			<GUID>A613CB09-4F09-9982-AF75-BF47F7A4882F</GUID>
-			<Glyph>
-				<Type>To Application Data Dir</Type>
-				<Path>System Explorer\Glyphs\ao.png</Path>
-			</Glyph>
-			<Item2Launch>
-				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Scan Engine\Scan Engine - Configuration.llb\Scan Engine AO Page.vi</Path>
-			</Item2Launch>
-		</Page>
-		<Page>
-			<Name>
-				<eng>Scan Engine AI</eng>
-				<loc>Scan Engine AI</loc>
-			</Name>
-			<DeleteProtection>true</DeleteProtection>
-			<GUID>7D1F352D-C320-52BF-1ACF-10488F36F94D</GUID>
-			<Glyph>
-				<Type>To Application Data Dir</Type>
-				<Path>System Explorer\Glyphs\ai.png</Path>
-			</Glyph>
-			<Item2Launch>
-				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Scan Engine\Scan Engine - Configuration.llb\Scan Engine AI Page.vi</Path>
-			</Item2Launch>
-		</Page>
-		<Page>
-			<Name>
-				<eng>Scan Engine Custom FPGA - Local</eng>
-				<loc>Scan Engine Custom FPGA - Local</loc>
-			</Name>
-			<DeleteProtection>true</DeleteProtection>
-			<GUID>0244C2CA-486B-E148-C1E2-82323B844A49</GUID>
-			<Glyph>
-				<Type>To Application Data Dir</Type>
-				<Path>System Explorer\Glyphs\user variable.png</Path>
-			</Glyph>
-			<Item2Launch>
-				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Scan Engine\Scan Engine - Configuration.llb\Scan Engine Custom FPGA Page - Local.vi</Path>
-			</Item2Launch>
-			<RunTimeMenu>
-				<MenuItem>
-					<GUID>15594933-41D0-02C9-70AE-51CD11FA4902</GUID>
-					<Type>Action</Type>
-					<Name>
-						<eng>Select/Change FPGA Bitfile</eng>
-						<loc>Select/Change FPGA Bitfile</loc>
-					</Name>
-					<Item2Launch>
-						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\Scan Engine\Scan Engine - Configuration.llb\FPGA - Select Bitfile (Local).vi</Path>
-					</Item2Launch>
-				</MenuItem>
-				<MenuItem>
-					<GUID>6E569727-F057-25BB-B2A7-54F0612A2B88</GUID>
-					<Type>Action</Type>
-					<Name>
-						<eng>Clear Configuration</eng>
-						<loc>Clear Configuration</loc>
-					</Name>
-					<Item2Launch>
-						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\Scan Engine\Scan Engine - Configuration.llb\FPGA - Clear.vi</Path>
-					</Item2Launch>
-				</MenuItem>
-			</RunTimeMenu>
-			<ButtonList>
-				<Button>
-					<ID>NIVS_ScanEngine_SelectBitfile_Local</ID>
-					<Glyph>
-						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\Scan Engine\Glyphs\add fpga.png</Path>
-					</Glyph>
-					<Type>Action</Type>
-					<ReferencedGUID>15594933-41D0-02C9-70AE-51CD11FA4902</ReferencedGUID>
-					<ButtonText>
-						<eng>Select/Change FPGA Bitfile</eng>
-						<loc>Select/Change FPGA Bitfile</loc>
-					</ButtonText>
-					<Caption>
-						<eng>Select/Change FPGA Bitfile</eng>
-						<loc>Select/Change FPGA Bitfile</loc>
-					</Caption>
-					<TipStrip>
-						<eng>Select/Change FPGA Bitfile</eng>
-						<loc>Select/Change FPGA Bitfile</loc>
-					</TipStrip>
-					<Documentation>
-						<eng />
-						<loc />
-					</Documentation>
-				</Button>
-				<Button>
-					<ID>NIVS_ScanEngine_Clear_Local</ID>
-					<Glyph>
-						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\Scan Engine\Glyphs\clear fpga.png</Path>
-					</Glyph>
-					<Type>Action</Type>
-					<ReferencedGUID>6E569727-F057-25BB-B2A7-54F0612A2B88</ReferencedGUID>
-					<ButtonText>
-						<eng>Clear Configuration</eng>
-						<loc>Clear Configuration</loc>
-					</ButtonText>
-					<Caption>
-						<eng>Clear Configuration</eng>
-						<loc>Clear Configuration</loc>
-					</Caption>
-					<TipStrip>
-						<eng>Clear Configuration</eng>
-						<loc>Clear Configuration</loc>
-					</TipStrip>
-					<Documentation>
-						<eng />
-						<loc />
-					</Documentation>
-				</Button>
-			</ButtonList>
-		</Page>
-		<Page>
-			<Name>
-				<eng>Scan Engine Custom FPGA - ECAT</eng>
-				<loc>Scan Engine Custom FPGA - ECAT</loc>
-			</Name>
-			<DeleteProtection>true</DeleteProtection>
-			<GUID>A16C5AEF-BF42-EF6D-BC81-FD52AB4F64C4</GUID>
-			<Glyph>
-				<Type>To Application Data Dir</Type>
-				<Path>System Explorer\Glyphs\user variable.png</Path>
-			</Glyph>
-			<Item2Launch>
-				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Scan Engine\Scan Engine - Configuration.llb\Scan Engine Custom FPGA Page - ECAT.vi</Path>
-			</Item2Launch>
-			<RunTimeMenu>
-				<MenuItem>
-					<GUID>F0790B05-2F87-F713-B2C5-E5F8F8CBBD1D</GUID>
-					<Type>Action</Type>
-					<Name>
-						<eng>Select/Change FPGA Bitfile</eng>
-						<loc>Select/Change FPGA Bitfile</loc>
-					</Name>
-					<Item2Launch>
-						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\Scan Engine\Scan Engine - Configuration.llb\FPGA - Select Bitfile (ECAT).vi</Path>
-					</Item2Launch>
-				</MenuItem>
-				<MenuItem>
-					<GUID>5BEB762C-C04D-8F4A-3DC7-17BD489F618D</GUID>
-					<Type>Action</Type>
-					<Name>
-						<eng>Clear Configuration</eng>
-						<loc>Clear Configuration</loc>
-					</Name>
-					<Item2Launch>
-						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\Scan Engine\Scan Engine - Configuration.llb\FPGA - Clear.vi</Path>
-					</Item2Launch>
-				</MenuItem>
-				<MenuItem>
-					<GUID>18B2C676-AF17-2B7F-0962-D95D206E20FB</GUID>
-					<Type>Separator</Type>
-					<Name>
-						<eng>.</eng>
-						<loc>.</loc>
-					</Name>
-					<Item2Launch>
-						<Type>Absolute</Type>
-						<Path>.</Path>
-					</Item2Launch>
-				</MenuItem>
-				<MenuItem>
-					<GUID>66823069-D687-4587-953E-1D0F923D05C9</GUID>
-					<Type>Action</Type>
-					<Name>
-						<eng>Download FPGA</eng>
-						<loc>Download FPGA</loc>
-					</Name>
-					<Item2Launch>
-						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\Scan Engine\Scan Engine - Configuration.llb\FPGA - Download (ECAT).vi</Path>
-					</Item2Launch>
-				</MenuItem>
-				<MenuItem>
-					<GUID>D7C00AB0-78F7-2B20-9062-3CBD04668A6C</GUID>
-					<Type>Action</Type>
-					<Name>
-						<eng>Revert Slave to Scan Mode</eng>
-						<loc>Revert Slave to Scan Mode</loc>
-					</Name>
-					<Item2Launch>
-						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\Scan Engine\Scan Engine - Configuration.llb\FPGA - Revert (ECAT).vi</Path>
-					</Item2Launch>
-				</MenuItem>
-			</RunTimeMenu>
-			<ButtonList>
-				<Button>
-					<ID>NIVS_ScanEngine_SelectBitfile_ECAT</ID>
-					<Glyph>
-						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\Scan Engine\Glyphs\add fpga.png</Path>
-					</Glyph>
-					<Type>Action</Type>
-					<ReferencedGUID>F0790B05-2F87-F713-B2C5-E5F8F8CBBD1D</ReferencedGUID>
-					<ButtonText>
-						<eng>Select/Change FPGA Bitfile</eng>
-						<loc>Select/Change FPGA Bitfile</loc>
-					</ButtonText>
-					<Caption>
-						<eng>Select/Change FPGA Bitfile</eng>
-						<loc>Select/Change FPGA Bitfile</loc>
-					</Caption>
-					<TipStrip>
-						<eng>Select/Change FPGA Bitfile</eng>
-						<loc>Select/Change FPGA Bitfile</loc>
-					</TipStrip>
-					<Documentation>
-						<eng />
-						<loc />
-					</Documentation>
-				</Button>
-				<Button>
-					<ID>NIVS_ScanEngine_Clear_ECAT</ID>
-					<Glyph>
-						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\Scan Engine\Glyphs\clear fpga.png</Path>
-					</Glyph>
-					<Type>Action</Type>
-					<ReferencedGUID>5BEB762C-C04D-8F4A-3DC7-17BD489F618D</ReferencedGUID>
-					<ButtonText>
-						<eng>Clear Configuration</eng>
-						<loc>Clear Configuration</loc>
-					</ButtonText>
-					<Caption>
-						<eng>Clear Configuration</eng>
-						<loc>Clear Configuration</loc>
-					</Caption>
-					<TipStrip>
-						<eng>Clear Configuration</eng>
-						<loc>Clear Configuration</loc>
-					</TipStrip>
-					<Documentation>
-						<eng />
-						<loc />
-					</Documentation>
-				</Button>
-				<Button>
-					<ID>NIVS_ScanEngine_Download_ECAT</ID>
-					<Glyph>
-						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\Scan Engine\Glyphs\download fpga.png</Path>
-					</Glyph>
-					<Type>Action</Type>
-					<ReferencedGUID>66823069-D687-4587-953E-1D0F923D05C9</ReferencedGUID>
-					<ButtonText>
-						<eng>Download FPGA</eng>
-						<loc>Download FPGA</loc>
-					</ButtonText>
-					<Caption>
-						<eng>Download FPGA</eng>
-						<loc>Download FPGA</loc>
-					</Caption>
-					<TipStrip>
-						<eng>Download FPGA</eng>
-						<loc>Download FPGA</loc>
-					</TipStrip>
-					<Documentation>
-						<eng />
-						<loc />
-					</Documentation>
-				</Button>
-				<Button>
-					<ID>NIVS_ScanEngine_Revert_ECAT</ID>
-					<Glyph>
-						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\Scan Engine\Glyphs\revert.png</Path>
-					</Glyph>
-					<Type>Action</Type>
-					<ReferencedGUID>D7C00AB0-78F7-2B20-9062-3CBD04668A6C</ReferencedGUID>
-					<ButtonText>
-						<eng>Revert Slave to Scan Mode</eng>
-						<loc>Revert Slave to Scan Mode</loc>
-					</ButtonText>
-					<Caption>
-						<eng>Revert Slave to Scan Mode</eng>
-						<loc>Revert Slave to Scan Mode</loc>
-					</Caption>
-					<TipStrip>
-						<eng>Revert Slave to Scan Mode</eng>
-						<loc>Revert Slave to Scan Mode</loc>
-					</TipStrip>
-					<Documentation>
-						<eng />
-						<loc />
-					</Documentation>
-				</Button>
-			</ButtonList>
-		</Page>
-		<Page>
-			<Name>
-				<eng>Scan Engine Custom IO To FPGA - Analog</eng>
-				<loc>Scan Engine Custom IO To FPGA - Analog</loc>
-			</Name>
-			<DeleteProtection>true</DeleteProtection>
-			<GUID>08CD8252-70E6-0957-DDD7-77D59D7DC2E9</GUID>
-			<Glyph>
-				<Type>To Application Data Dir</Type>
-				<Path>System Explorer\Glyphs\ao.png</Path>
-			</Glyph>
-			<Item2Launch>
-				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Scan Engine\Scan Engine - Configuration.llb\Scan Engine Custom IO - To FPGA.vi</Path>
-			</Item2Launch>
-		</Page>
-		<Page>
-			<Name>
-				<eng>Scan Engine Custom IO To FPGA - Digital</eng>
-				<loc>Scan Engine Custom IO To FPGA - Digital</loc>
-			</Name>
-			<DeleteProtection>true</DeleteProtection>
-			<GUID>21A3511E-B5B7-DAD1-9B8C-1391802D6061</GUID>
-			<Glyph>
-				<Type>To Application Data Dir</Type>
-				<Path>System Explorer\Glyphs\do.png</Path>
-			</Glyph>
-			<Item2Launch>
-				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Scan Engine\Scan Engine - Configuration.llb\Scan Engine Custom IO - To FPGA.vi</Path>
-			</Item2Launch>
-		</Page>
-		<Page>
-			<Name>
-				<eng>Scan Engine Custom IO To FPGA - Unsupported</eng>
-				<loc>Scan Engine Custom IO To FPGA - Unsupported</loc>
-			</Name>
-			<DeleteProtection>true</DeleteProtection>
-			<GUID>492D2E26-3388-59A7-4A05-53B4509008DB</GUID>
-			<Glyph>
-				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Scan Engine\Glyphs\UnknownData.png</Path>
-			</Glyph>
-			<Item2Launch>
-				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Scan Engine\Scan Engine - Configuration.llb\Scan Engine Custom IO - To FPGA.vi</Path>
-			</Item2Launch>
-		</Page>
-		<Page>
-			<Name>
-				<eng>Scan Engine Custom IO From FPGA - Analog</eng>
-				<loc>Scan Engine Custom IO From FPGA - Analog</loc>
-			</Name>
-			<DeleteProtection>true</DeleteProtection>
-			<GUID>725DE6B0-41A1-A0E4-E2CD-A132E5FCC5EA</GUID>
-			<Glyph>
-				<Type>To Application Data Dir</Type>
-				<Path>System Explorer\Glyphs\ai.png</Path>
-			</Glyph>
-			<Item2Launch>
-				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Scan Engine\Scan Engine - Configuration.llb\Scan Engine Custom IO - From FPGA.vi</Path>
-			</Item2Launch>
-		</Page>
-		<Page>
-			<Name>
-				<eng>Scan Engine Custom IO From FPGA - Digital</eng>
-				<loc>Scan Engine Custom IO From FPGA - Digital</loc>
-			</Name>
-			<DeleteProtection>true</DeleteProtection>
-			<GUID>B0022617-ACA6-3A27-F901-F70AB50C6C00</GUID>
-			<Glyph>
-				<Type>To Application Data Dir</Type>
-				<Path>System Explorer\Glyphs\di.png</Path>
-			</Glyph>
-			<Item2Launch>
-				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Scan Engine\Scan Engine - Configuration.llb\Scan Engine Custom IO - From FPGA.vi</Path>
-			</Item2Launch>
-		</Page>
-		<Page>
-			<Name>
-				<eng>Scan Engine Custom IO From FPGA - Unsupported</eng>
-				<loc>Scan Engine Custom IO From FPGA - Unsupported</loc>
-			</Name>
-			<DeleteProtection>true</DeleteProtection>
-			<GUID>C8197AFD-3C01-E731-6DE4-E2ECB7F7C6AF</GUID>
-			<Glyph>
-				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Scan Engine\Glyphs\UnknownData.png</Path>
-			</Glyph>
-			<Item2Launch>
-				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Scan Engine\Scan Engine - Configuration.llb\Scan Engine Custom IO - From FPGA.vi</Path>
-			</Item2Launch>
-		</Page>
-		<Page>
-			<Name>
-				<eng>Scan Engine Module Configuration Section</eng>
-				<loc>Scan Engine Module Configuration Section</loc>
-			</Name>
-			<DeleteProtection>true</DeleteProtection>
-			<GUID>1598AB10-D25A-B2C1-00CA-EA7BE52FA7ED</GUID>
-			<Glyph>
-				<Type>To Application Data Dir</Type>
-				<Path>System Explorer\Glyphs\configuration_daq.png</Path>
-			</Glyph>
-			<Item2Launch>
-				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Scan Engine\Scan Engine - Configuration.llb\Scan Engine Module Configuration Section.vi</Path>
-			</Item2Launch>
-		</Page>
-		<Page>
-			<Name>
-				<eng>Scan Engine Module Configuration Channel</eng>
-				<loc>Scan Engine Module Configuration Channel</loc>
-			</Name>
-			<DeleteProtection>true</DeleteProtection>
-			<GUID>9888E34F-1DAF-F5F9-23C9-A92C2C9D9594</GUID>
-			<Glyph>
-				<Type>To Application Data Dir</Type>
-				<Path>System Explorer\Glyphs\default fpga channel.png</Path>
-			</Glyph>
-			<Item2Launch>
-				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Scan Engine\Scan Engine - Configuration.llb\Scan Engine Module Configuration Channel.vi</Path>
-			</Item2Launch>
-		</Page>
-	</Pages>
-	<CustomXML>
-		<Dummy />
-	</CustomXML>
+  <XSDVersion Major="2010" Minor="0" Fix="0" Build="0" />
+  <AddMenu>
+    <eng>National Instruments::Scan Engine and EtherCAT</eng>
+    <loc>National Instruments::Scan Engine and EtherCAT</loc>
+  </AddMenu>
+  <Version>4.1.11</Version>
+  <Type>Inline HW Interface</Type>
+  <MaxOccurrence>1</MaxOccurrence>
+  <MainPageGUID>A04A67D4-9B64-052B-A031-6B05377B9B10</MainPageGUID>
+  <TimingSource>
+    <HasTimingSourceCapability>true</HasTimingSourceCapability>
+    <Paths PathsIsObsolete_UseSourceDistributionInstead="true">
+      <Source>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Scan Engine\PharLap\Scan Engine Timing Source.vi</Path>
+      </Source>
+      <RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\Scan Engine Timing Source.vi</RealTimeSystemDestination>
+    </Paths>
+    <SourceDistribution>
+      <Source>
+        <SupportedTarget>PharlapWindows</SupportedTarget>
+        <Location>
+          <Type>To Common Doc Dir</Type>
+          <Path>Custom Devices\Scan Engine\PharLap\Scan Engine Timing Source.vi</Path>
+        </Location>
+        <RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\Scan Engine Timing Source.vi</RealTimeSystemDestination>
+      </Source>
+      <Source>
+        <SupportedTarget>VxWorks</SupportedTarget>
+        <Location>
+          <Type>To Common Doc Dir</Type>
+          <Path>Custom Devices\Scan Engine\VxWorks\Scan Engine Timing Source.vi</Path>
+        </Location>
+        <RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\Scan Engine Timing Source.vi</RealTimeSystemDestination>
+      </Source>
+      <Source>
+        <SupportedTarget>Linux_x64</SupportedTarget>
+        <Location>
+          <Type>To Common Doc Dir</Type>
+          <Path>Custom Devices\Scan Engine\Linux_x64\Scan Engine Timing Source.vi</Path>
+        </Location>
+        <RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\Scan Engine Timing Source.vi</RealTimeSystemDestination>
+      </Source>
+      <Source>
+        <SupportedTarget>Linux_32_ARM</SupportedTarget>
+        <Location>
+          <Type>To Common Doc Dir</Type>
+          <Path>Custom Devices\Scan Engine\Linux_32_ARM\Scan Engine Timing Source.vi</Path>
+        </Location>
+        <RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\Scan Engine Timing Source.vi</RealTimeSystemDestination>
+      </Source>
+    </SourceDistribution>
+  </TimingSource>
+  <InitializationVI>
+    <Type>Action</Type>
+    <Item2Launch>
+      <Type>To Common Doc Dir</Type>
+      <Path>Custom Devices\Scan Engine\Scan Engine - Configuration.llb\Scan Engine Initialization VI.vi</Path>
+    </Item2Launch>
+  </InitializationVI>
+  <CustomDeviceVI>
+    <SourceDistribution>
+      <Source>
+        <SupportedTarget>PharlapWindows</SupportedTarget>
+        <Source>
+          <Type>To Common Doc Dir</Type>
+          <Path>Custom Devices\Scan Engine\PharLap\Scan Engine RT Driver.vi</Path>
+        </Source>
+        <RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\Scan Engine RT Driver.vi</RealTimeSystemDestination>
+      </Source>
+      <Source>
+        <SupportedTarget>VxWorks</SupportedTarget>
+        <Source>
+          <Type>To Common Doc Dir</Type>
+          <Path>Custom Devices\Scan Engine\VxWorks\Scan Engine RT Driver.vi</Path>
+        </Source>
+        <RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\Scan Engine RT Driver.vi</RealTimeSystemDestination>
+      </Source>
+      <Source>
+        <SupportedTarget>Linux_x64</SupportedTarget>
+        <Source>
+          <Type>To Common Doc Dir</Type>
+          <Path>Custom Devices\Scan Engine\Linux_x64\Scan Engine RT Driver.vi</Path>
+        </Source>
+        <RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\Scan Engine RT Driver.vi</RealTimeSystemDestination>
+      </Source>
+      <Source>
+        <SupportedTarget>Linux_32_ARM</SupportedTarget>
+        <Source>
+          <Type>To Common Doc Dir</Type>
+          <Path>Custom Devices\Scan Engine\Linux_32_ARM\Scan Engine RT Driver.vi</Path>
+        </Source>
+        <RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\Scan Engine RT Driver.vi</RealTimeSystemDestination>
+      </Source>
+    </SourceDistribution>
+  </CustomDeviceVI>
+  <Dependencies>
+    <Dependency>
+      <SupportedTarget>PharlapWindows</SupportedTarget>
+      <Source>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Scan Engine\PharLap\Scan Engine - RT.llb</Path>
+      </Source>
+      <RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\Scan Engine - RT.llb</RealTimeSystemDestination>
+    </Dependency>
+    <Dependency>
+      <SupportedTarget>VxWorks</SupportedTarget>
+      <Source>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Scan Engine\VxWorks\Scan Engine - RT.llb</Path>
+      </Source>
+      <RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\Scan Engine - RT.llb</RealTimeSystemDestination>
+    </Dependency>
+    <Dependency>
+      <SupportedTarget>Linux_x64</SupportedTarget>
+      <Source>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Scan Engine\Linux_x64\Scan Engine - RT.llb</Path>
+      </Source>
+      <RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\Scan Engine - RT.llb</RealTimeSystemDestination>
+    </Dependency>
+    <Dependency>
+      <SupportedTarget>Linux_32_ARM</SupportedTarget>
+      <Source>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Scan Engine\Linux_32_ARM\Scan Engine - RT.llb</Path>
+      </Source>
+      <RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\Scan Engine - RT.llb</RealTimeSystemDestination>
+    </Dependency>
+    <Dependency>
+      <SupportedTarget>PharlapWindows</SupportedTarget>
+      <Source>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Scan Engine\PharLap\Modules.lvlibp</Path>
+      </Source>
+      <RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\Modules.lvlibp</RealTimeSystemDestination>
+    </Dependency>
+    <Dependency>
+      <SupportedTarget>VxWorks</SupportedTarget>
+      <Source>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Scan Engine\VxWorks\Modules.lvlibp</Path>
+      </Source>
+      <RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\Modules.lvlibp</RealTimeSystemDestination>
+    </Dependency>
+    <Dependency>
+      <SupportedTarget>Linux_x64</SupportedTarget>
+      <Source>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Scan Engine\Linux_x64\Modules.lvlibp</Path>
+      </Source>
+      <RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\Modules.lvlibp</RealTimeSystemDestination>
+    </Dependency>
+    <Dependency>
+      <SupportedTarget>Linux_32_ARM</SupportedTarget>
+      <Source>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Scan Engine\Linux_32_ARM\Modules.lvlibp</Path>
+      </Source>
+      <RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\Modules.lvlibp</RealTimeSystemDestination>
+    </Dependency>
+    <Dependency>
+      <SupportedTarget>PharlapWindows</SupportedTarget>
+      <Source>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Scan Engine\PharLap\FXP.llb</Path>
+      </Source>
+      <RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\FXP.llb</RealTimeSystemDestination>
+    </Dependency>
+    <Dependency>
+      <SupportedTarget>VxWorks</SupportedTarget>
+      <Source>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Scan Engine\VxWorks\FXP.llb</Path>
+      </Source>
+      <RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\FXP.llb</RealTimeSystemDestination>
+    </Dependency>
+    <Dependency>
+      <SupportedTarget>Linux_x64</SupportedTarget>
+      <Source>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Scan Engine\Linux_x64\FXP.llb</Path>
+      </Source>
+      <RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\FXP.llb</RealTimeSystemDestination>
+    </Dependency>
+    <Dependency>
+      <SupportedTarget>Linux_32_ARM</SupportedTarget>
+      <Source>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Scan Engine\Linux_32_ARM\FXP.llb</Path>
+      </Source>
+      <RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\FXP.llb</RealTimeSystemDestination>
+    </Dependency>
+  </Dependencies>
+  <Pages>
+    <Page>
+      <Name>
+        <eng>Scan Engine and EtherCAT</eng>
+        <loc>Scan Engine and EtherCAT</loc>
+      </Name>
+      <DisallowRenaming>true</DisallowRenaming>
+      <GUID>A04A67D4-9B64-052B-A031-6B05377B9B10</GUID>
+      <Glyph>
+        <Type>To Application Data Dir</Type>
+        <Path>System Explorer\Glyphs\network.png</Path>
+      </Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Scan Engine\Scan Engine - Configuration.llb\Scan Engine Main Page.vi</Path>
+      </Item2Launch>
+      <RunTimeMenu>
+        <MenuItem>
+          <GUID>AE2AB208-9A9A-4DC7-6A99-2CA165DA3962</GUID>
+          <Type>Action</Type>
+          <Name>
+            <eng>Add Local Chassis</eng>
+            <loc>Add Local Chassis</loc>
+          </Name>
+          <Item2Launch>
+            <Type>To Common Doc Dir</Type>
+            <Path>Custom Devices\Scan Engine\Scan Engine - Configuration.llb\Main - Add Local Chassis.vi</Path>
+          </Item2Launch>
+        </MenuItem>
+        <MenuItem>
+          <GUID>18B2C676-AF17-2B7F-0962-D95D206E20FB</GUID>
+          <Type>Separator</Type>
+          <Name>
+            <eng>.</eng>
+            <loc>.</loc>
+          </Name>
+          <Item2Launch>
+            <Type>Absolute</Type>
+            <Path>.</Path>
+          </Item2Launch>
+        </MenuItem>
+        <MenuItem>
+          <GUID>4DE930D8-F2AA-2BA7-8DF6-27AD836A3EB2</GUID>
+          <Type>Action</Type>
+          <Name>
+            <eng>Add EtherCAT Master</eng>
+            <loc>Add EtherCAT Master</loc>
+          </Name>
+          <Item2Launch>
+            <Type>To Common Doc Dir</Type>
+            <Path>Custom Devices\Scan Engine\Scan Engine - Configuration.llb\Main - Add EtherCAT Master.vi</Path>
+          </Item2Launch>
+        </MenuItem>
+        <MenuItem>
+          <GUID>7F12E184-AB96-DBB5-A5B8-6D5278F6CDCB</GUID>
+          <Type>Action</Type>
+          <Name>
+            <eng>Auto-Detect Modules</eng>
+            <loc>Auto-Detect Modules</loc>
+          </Name>
+          <Item2Launch>
+            <Type>To Common Doc Dir</Type>
+            <Path>Custom Devices\Scan Engine\Scan Engine - Configuration.llb\Main - Auto Detect Modules.vi</Path>
+          </Item2Launch>
+        </MenuItem>
+        <MenuItem>
+          <GUID>C7E5DBA0-7581-42C8-BCF0-D21833E9E933</GUID>
+          <Type>VI</Type>
+          <Execution>modal</Execution>
+          <Name>
+            <eng>Manage 3rd-Party ECAT Slaves</eng>
+            <loc>Manage 3rd-Party ECAT Slaves</loc>
+          </Name>
+          <Item2Launch>
+            <Type>To Common Doc Dir</Type>
+            <Path>Custom Devices\Scan Engine\Scan Engine - Configuration.llb\Main - Manages 3rd Party Slaves.vi</Path>
+          </Item2Launch>
+        </MenuItem>
+      </RunTimeMenu>
+      <ButtonList>
+        <Button>
+          <ID>NIVS_ScanEngine_AddLocal</ID>
+          <Glyph>
+            <Type>To Application Data Dir</Type>
+            <Path>System Explorer\Glyphs\rio expansion chassis.png</Path>
+          </Glyph>
+          <Type>Action</Type>
+          <ReferencedGUID>AE2AB208-9A9A-4DC7-6A99-2CA165DA3962</ReferencedGUID>
+          <ButtonText>
+            <eng>Add Local Chassis</eng>
+            <loc>Add Local Chassis</loc>
+          </ButtonText>
+          <Caption>
+            <eng>Add Local Chassis</eng>
+            <loc>Add Local Chassis</loc>
+          </Caption>
+          <TipStrip>
+            <eng>Add Local Chassis</eng>
+            <loc>Add Local Chassis</loc>
+          </TipStrip>
+          <Documentation>
+            <eng />
+            <loc />
+          </Documentation>
+        </Button>
+        <Button>
+          <ID>NIVS_ScanEngine_AddECATMaster</ID>
+          <Glyph>
+            <Type>To Common Doc Dir</Type>
+            <Path>Custom Devices\Scan Engine\Glyphs\ECAT_Master.png</Path>
+          </Glyph>
+          <Type>Action</Type>
+          <ReferencedGUID>4DE930D8-F2AA-2BA7-8DF6-27AD836A3EB2</ReferencedGUID>
+          <ButtonText>
+            <eng>Add EtherCAT Master</eng>
+            <loc>Add EtherCAT Master</loc>
+          </ButtonText>
+          <Caption>
+            <eng>Add EtherCAT Master</eng>
+            <loc>Add EtherCAT Master</loc>
+          </Caption>
+          <TipStrip>
+            <eng>Add EtherCAT Master</eng>
+            <loc>Add EtherCAT Master</loc>
+          </TipStrip>
+          <Documentation>
+            <eng />
+            <loc />
+          </Documentation>
+        </Button>
+        <Button>
+          <ID>NIVS_ScanEngine_AutoDetectECAT</ID>
+          <Glyph>
+            <Type>To Application Data Dir</Type>
+            <Path>System Explorer\Glyphs\Search2.png</Path>
+          </Glyph>
+          <Type>Action</Type>
+          <ReferencedGUID>7F12E184-AB96-DBB5-A5B8-6D5278F6CDCB</ReferencedGUID>
+          <ButtonText>
+            <eng>Auto-Detect Modules</eng>
+            <loc>Auto-Detect Modules</loc>
+          </ButtonText>
+          <Caption>
+            <eng>Auto-Detect Modules</eng>
+            <loc>Auto-Detect Modules</loc>
+          </Caption>
+          <TipStrip>
+            <eng>Auto-Detect Modules</eng>
+            <loc>Auto-Detect Modules</loc>
+          </TipStrip>
+          <Documentation>
+            <eng />
+            <loc />
+          </Documentation>
+        </Button>
+        <Button>
+          <ID>NIVS_ScanEngine_Manage3rd-PartyECATSlaves</ID>
+          <Glyph>
+            <Type>To Common Doc Dir</Type>
+            <Path>Custom Devices\Scan Engine\Glyphs\ECAT_Slave.png</Path>
+          </Glyph>
+          <Type>Dialog</Type>
+          <ReferencedGUID>C7E5DBA0-7581-42C8-BCF0-D21833E9E933</ReferencedGUID>
+          <ButtonText>
+            <eng>Manage 3rd-Party ECAT Slaves</eng>
+            <loc>Manage 3rd-Party ECAT Slaves</loc>
+          </ButtonText>
+          <Caption>
+            <eng>Manage 3rd-Party ECAT Slaves</eng>
+            <loc>Manage 3rd-Party ECAT Slaves</loc>
+          </Caption>
+          <TipStrip>
+            <eng>Manage 3rd-Party ECAT Slaves</eng>
+            <loc>Manage 3rd-Party ECAT Slaves</loc>
+          </TipStrip>
+          <Documentation>
+            <eng />
+            <loc />
+          </Documentation>
+        </Button>
+      </ButtonList>
+      <ActionVIOnDelete>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Scan Engine\Scan Engine - Configuration.llb\Main - On Delete.vi</Path>
+      </ActionVIOnDelete>
+      <ActionVIOnLoad>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Scan Engine\Scan Engine - Configuration.llb\Main - On Load.vi</Path>
+      </ActionVIOnLoad>
+      <ActionVIOnDownload>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Scan Engine\Scan Engine - Configuration.llb\ActionVIOnDownload - Set Scan Rate.vi</Path>
+      </ActionVIOnDownload>
+    </Page>
+    <Page>
+      <Name>
+        <eng>Scan Engine DO</eng>
+        <loc>Scan Engine DO</loc>
+      </Name>
+      <DeleteProtection>true</DeleteProtection>
+      <GUID>F43DA51B-9C6C-5797-56DC-ED47295D1D2E</GUID>
+      <Glyph>
+        <Type>To Application Data Dir</Type>
+        <Path>System Explorer\Glyphs\do.png</Path>
+      </Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Scan Engine\Scan Engine - Configuration.llb\Scan Engine DO Page.vi</Path>
+      </Item2Launch>
+    </Page>
+    <Page>
+      <Name>
+        <eng>Scan Engine DI</eng>
+        <loc>Scan Engine DI</loc>
+      </Name>
+      <DeleteProtection>true</DeleteProtection>
+      <GUID>F233E90F-ECCA-EF6E-8EEB-159F82DA778F</GUID>
+      <Glyph>
+        <Type>To Application Data Dir</Type>
+        <Path>System Explorer\Glyphs\di.png</Path>
+      </Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Scan Engine\Scan Engine - Configuration.llb\Scan Engine DI Page.vi</Path>
+      </Item2Launch>
+    </Page>
+    <Page>
+      <Name>
+        <eng>Scan Engine Slot</eng>
+        <loc>Scan Engine Slot</loc>
+      </Name>
+      <DeleteProtection>true</DeleteProtection>
+      <GUID>A466E035-6C67-FF94-A582-AF548F5C2F28</GUID>
+      <Glyph>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Scan Engine\Glyphs\cRIOModule.png</Path>
+      </Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Scan Engine\Scan Engine - Configuration.llb\Scan Engine Slot Page.vi</Path>
+      </Item2Launch>
+    </Page>
+    <Page>
+      <Name>
+        <eng>Scan Engine Slot - Empty</eng>
+        <loc>Scan Engine Slot - Empty</loc>
+      </Name>
+      <DeleteProtection>true</DeleteProtection>
+      <GUID>41F294B5-009B-733F-41B9-7972E3D57FD3</GUID>
+      <Glyph>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Scan Engine\Glyphs\cRIOModuleGray.png</Path>
+      </Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Scan Engine\Scan Engine - Configuration.llb\Scan Engine Slot Page.vi</Path>
+      </Item2Launch>
+    </Page>
+    <Page>
+      <Name>
+        <eng>Scan Engine Slot - Disabled</eng>
+        <loc>Scan Engine Slot - Disabled</loc>
+      </Name>
+      <DeleteProtection>true</DeleteProtection>
+      <GUID>C37AE504-7B62-8355-1600-C9D1A9C81815</GUID>
+      <Glyph>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Scan Engine\Glyphs\cRIOModuleGrayWarning.png</Path>
+      </Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Scan Engine\Scan Engine - Configuration.llb\Scan Engine Slot Page.vi</Path>
+      </Item2Launch>
+    </Page>
+    <Page>
+      <Name>
+        <eng>Scan Engine Local Chassis</eng>
+        <loc>Scan Engine Local Chassis</loc>
+      </Name>
+      <GUID>E829C44F-D204-78F7-F536-2C86E8FAC5FB</GUID>
+      <Glyph>
+        <Type>To Application Data Dir</Type>
+        <Path>System Explorer\Glyphs\rio expansion chassis.png</Path>
+      </Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Scan Engine\Scan Engine - Configuration.llb\Scan Engine Local Chassis.vi</Path>
+      </Item2Launch>
+      <ActionVIOnDelete>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Scan Engine\Scan Engine - Configuration.llb\FPGA - On Delete (Local).vi</Path>
+      </ActionVIOnDelete>
+    </Page>
+    <Page>
+      <Name>
+        <eng>Scan Engine EtherCAT Master</eng>
+        <loc>Scan Engine EtherCAT Master</loc>
+      </Name>
+      <GUID>207C3DCA-1177-DD2C-D32C-1F1D46E93318</GUID>
+      <Glyph>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Scan Engine\Glyphs\ECAT_Master.png</Path>
+      </Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Scan Engine\Scan Engine - Configuration.llb\Scan Engine EtherCAT Master.vi</Path>
+      </Item2Launch>
+      <RunTimeMenu>
+        <MenuItem>
+          <GUID>10E725DC-90F1-A4D3-A1C2-D8F9C2DBB1E6</GUID>
+          <Type>Action</Type>
+          <Name>
+            <eng>Add NI 9144 ECAT Slave</eng>
+            <loc>Add NI 9144 ECAT Slave</loc>
+          </Name>
+          <Item2Launch>
+            <Type>To Common Doc Dir</Type>
+            <Path>Custom Devices\Scan Engine\Scan Engine - Configuration.llb\Master - Add EtherCAT Slave.vi</Path>
+          </Item2Launch>
+        </MenuItem>
+        <MenuItem>
+          <GUID>C7E5DBA0-7581-42C8-BCF0-D21833E9E933</GUID>
+          <Type>VI</Type>
+          <Execution>modal</Execution>
+          <Name>
+            <eng>Manage 3rd-Party ECAT Slaves</eng>
+            <loc>Manage 3rd-Party ECAT Slaves</loc>
+          </Name>
+          <Item2Launch>
+            <Type>To Common Doc Dir</Type>
+            <Path>Custom Devices\Scan Engine\Scan Engine - Configuration.llb\Main - Manages 3rd Party Slaves.vi</Path>
+          </Item2Launch>
+        </MenuItem>
+      </RunTimeMenu>
+      <ButtonList>
+        <Button>
+          <ID>NIVS_ScanEngine_AddECATSlave</ID>
+          <Glyph>
+            <Type>To Application Data Dir</Type>
+            <Path>System Explorer\Glyphs\rio expansion chassis.png</Path>
+          </Glyph>
+          <Type>Action</Type>
+          <ReferencedGUID>10E725DC-90F1-A4D3-A1C2-D8F9C2DBB1E6</ReferencedGUID>
+          <ButtonText>
+            <eng>Add NI 9144 ECAT Slave</eng>
+            <loc>Add NI 9144 ECAT Slave</loc>
+          </ButtonText>
+          <Caption>
+            <eng>Add NI 9144 ECAT Slave</eng>
+            <loc>Add NI 9144 ECAT Slave</loc>
+          </Caption>
+          <TipStrip>
+            <eng>Add NI 9144 ECAT Slave</eng>
+            <loc>Add NI 9144 ECAT Slave</loc>
+          </TipStrip>
+          <Documentation>
+            <eng />
+            <loc />
+          </Documentation>
+        </Button>
+        <Button>
+          <ID>NIVS_ScanEngine_Manage3rd-PartyECATSlaves</ID>
+          <Glyph>
+            <Type>To Common Doc Dir</Type>
+            <Path>Custom Devices\Scan Engine\Glyphs\ECAT_Slave.png</Path>
+          </Glyph>
+          <Type>Dialog</Type>
+          <ReferencedGUID>C7E5DBA0-7581-42C8-BCF0-D21833E9E933</ReferencedGUID>
+          <ButtonText>
+            <eng>Manage 3rd-Party ECAT Slaves</eng>
+            <loc>Manage 3rd-Party ECAT Slaves</loc>
+          </ButtonText>
+          <Caption>
+            <eng>Manage 3rd-Party ECAT Slaves</eng>
+            <loc>Manage 3rd-Party ECAT Slaves</loc>
+          </Caption>
+          <TipStrip>
+            <eng>Manage 3rd-Party ECAT Slaves</eng>
+            <loc>Manage 3rd-Party ECAT Slaves</loc>
+          </TipStrip>
+          <Documentation>
+            <eng />
+            <loc />
+          </Documentation>
+        </Button>
+      </ButtonList>
+    </Page>
+    <Page>
+      <Name>
+        <eng>Scan Engine EtherCAT Generic Slave</eng>
+        <loc>Scan Engine EtherCAT Generic Slave</loc>
+      </Name>
+      <GUID>79b01192-925a-419a-aca0-9b5b4a565a1e</GUID>
+      <Glyph>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Scan Engine\Glyphs\ECAT_Slave.png</Path>
+      </Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Scan Engine\Scan Engine - Configuration.llb\Scan Engine EtherCAT Generic Slave.vi</Path>
+      </Item2Launch>
+    </Page>
+    <Page>
+      <Name>
+        <eng>Scan Engine EtherCAT Slave</eng>
+        <loc>Scan Engine EtherCAT Slave</loc>
+      </Name>
+      <GUID>50877E70-98F5-BFCC-3809-88209D9D28F5</GUID>
+      <Glyph>
+        <Type>To Application Data Dir</Type>
+        <Path>System Explorer\Glyphs\rio expansion chassis.png</Path>
+      </Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Scan Engine\Scan Engine - Configuration.llb\Scan Engine EtherCAT Slave.vi</Path>
+      </Item2Launch>
+    </Page>
+    <Page>
+      <Name>
+        <eng>Scan Engine AO</eng>
+        <loc>Scan Engine AO</loc>
+      </Name>
+      <DeleteProtection>true</DeleteProtection>
+      <GUID>A613CB09-4F09-9982-AF75-BF47F7A4882F</GUID>
+      <Glyph>
+        <Type>To Application Data Dir</Type>
+        <Path>System Explorer\Glyphs\ao.png</Path>
+      </Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Scan Engine\Scan Engine - Configuration.llb\Scan Engine AO Page.vi</Path>
+      </Item2Launch>
+    </Page>
+    <Page>
+      <Name>
+        <eng>Scan Engine AI</eng>
+        <loc>Scan Engine AI</loc>
+      </Name>
+      <DeleteProtection>true</DeleteProtection>
+      <GUID>7D1F352D-C320-52BF-1ACF-10488F36F94D</GUID>
+      <Glyph>
+        <Type>To Application Data Dir</Type>
+        <Path>System Explorer\Glyphs\ai.png</Path>
+      </Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Scan Engine\Scan Engine - Configuration.llb\Scan Engine AI Page.vi</Path>
+      </Item2Launch>
+    </Page>
+    <Page>
+      <Name>
+        <eng>Scan Engine Custom FPGA - Local</eng>
+        <loc>Scan Engine Custom FPGA - Local</loc>
+      </Name>
+      <DeleteProtection>true</DeleteProtection>
+      <GUID>0244C2CA-486B-E148-C1E2-82323B844A49</GUID>
+      <Glyph>
+        <Type>To Application Data Dir</Type>
+        <Path>System Explorer\Glyphs\user variable.png</Path>
+      </Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Scan Engine\Scan Engine - Configuration.llb\Scan Engine Custom FPGA Page - Local.vi</Path>
+      </Item2Launch>
+      <RunTimeMenu>
+        <MenuItem>
+          <GUID>15594933-41D0-02C9-70AE-51CD11FA4902</GUID>
+          <Type>Action</Type>
+          <Name>
+            <eng>Select/Change FPGA Bitfile</eng>
+            <loc>Select/Change FPGA Bitfile</loc>
+          </Name>
+          <Item2Launch>
+            <Type>To Common Doc Dir</Type>
+            <Path>Custom Devices\Scan Engine\Scan Engine - Configuration.llb\FPGA - Select Bitfile (Local).vi</Path>
+          </Item2Launch>
+        </MenuItem>
+        <MenuItem>
+          <GUID>6E569727-F057-25BB-B2A7-54F0612A2B88</GUID>
+          <Type>Action</Type>
+          <Name>
+            <eng>Clear Configuration</eng>
+            <loc>Clear Configuration</loc>
+          </Name>
+          <Item2Launch>
+            <Type>To Common Doc Dir</Type>
+            <Path>Custom Devices\Scan Engine\Scan Engine - Configuration.llb\FPGA - Clear.vi</Path>
+          </Item2Launch>
+        </MenuItem>
+      </RunTimeMenu>
+      <ButtonList>
+        <Button>
+          <ID>NIVS_ScanEngine_SelectBitfile_Local</ID>
+          <Glyph>
+            <Type>To Common Doc Dir</Type>
+            <Path>Custom Devices\Scan Engine\Glyphs\add fpga.png</Path>
+          </Glyph>
+          <Type>Action</Type>
+          <ReferencedGUID>15594933-41D0-02C9-70AE-51CD11FA4902</ReferencedGUID>
+          <ButtonText>
+            <eng>Select/Change FPGA Bitfile</eng>
+            <loc>Select/Change FPGA Bitfile</loc>
+          </ButtonText>
+          <Caption>
+            <eng>Select/Change FPGA Bitfile</eng>
+            <loc>Select/Change FPGA Bitfile</loc>
+          </Caption>
+          <TipStrip>
+            <eng>Select/Change FPGA Bitfile</eng>
+            <loc>Select/Change FPGA Bitfile</loc>
+          </TipStrip>
+          <Documentation>
+            <eng />
+            <loc />
+          </Documentation>
+        </Button>
+        <Button>
+          <ID>NIVS_ScanEngine_Clear_Local</ID>
+          <Glyph>
+            <Type>To Common Doc Dir</Type>
+            <Path>Custom Devices\Scan Engine\Glyphs\clear fpga.png</Path>
+          </Glyph>
+          <Type>Action</Type>
+          <ReferencedGUID>6E569727-F057-25BB-B2A7-54F0612A2B88</ReferencedGUID>
+          <ButtonText>
+            <eng>Clear Configuration</eng>
+            <loc>Clear Configuration</loc>
+          </ButtonText>
+          <Caption>
+            <eng>Clear Configuration</eng>
+            <loc>Clear Configuration</loc>
+          </Caption>
+          <TipStrip>
+            <eng>Clear Configuration</eng>
+            <loc>Clear Configuration</loc>
+          </TipStrip>
+          <Documentation>
+            <eng />
+            <loc />
+          </Documentation>
+        </Button>
+      </ButtonList>
+    </Page>
+    <Page>
+      <Name>
+        <eng>Scan Engine Custom FPGA - ECAT</eng>
+        <loc>Scan Engine Custom FPGA - ECAT</loc>
+      </Name>
+      <DeleteProtection>true</DeleteProtection>
+      <GUID>A16C5AEF-BF42-EF6D-BC81-FD52AB4F64C4</GUID>
+      <Glyph>
+        <Type>To Application Data Dir</Type>
+        <Path>System Explorer\Glyphs\user variable.png</Path>
+      </Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Scan Engine\Scan Engine - Configuration.llb\Scan Engine Custom FPGA Page - ECAT.vi</Path>
+      </Item2Launch>
+      <RunTimeMenu>
+        <MenuItem>
+          <GUID>F0790B05-2F87-F713-B2C5-E5F8F8CBBD1D</GUID>
+          <Type>Action</Type>
+          <Name>
+            <eng>Select/Change FPGA Bitfile</eng>
+            <loc>Select/Change FPGA Bitfile</loc>
+          </Name>
+          <Item2Launch>
+            <Type>To Common Doc Dir</Type>
+            <Path>Custom Devices\Scan Engine\Scan Engine - Configuration.llb\FPGA - Select Bitfile (ECAT).vi</Path>
+          </Item2Launch>
+        </MenuItem>
+        <MenuItem>
+          <GUID>5BEB762C-C04D-8F4A-3DC7-17BD489F618D</GUID>
+          <Type>Action</Type>
+          <Name>
+            <eng>Clear Configuration</eng>
+            <loc>Clear Configuration</loc>
+          </Name>
+          <Item2Launch>
+            <Type>To Common Doc Dir</Type>
+            <Path>Custom Devices\Scan Engine\Scan Engine - Configuration.llb\FPGA - Clear.vi</Path>
+          </Item2Launch>
+        </MenuItem>
+        <MenuItem>
+          <GUID>18B2C676-AF17-2B7F-0962-D95D206E20FB</GUID>
+          <Type>Separator</Type>
+          <Name>
+            <eng>.</eng>
+            <loc>.</loc>
+          </Name>
+          <Item2Launch>
+            <Type>Absolute</Type>
+            <Path>.</Path>
+          </Item2Launch>
+        </MenuItem>
+        <MenuItem>
+          <GUID>66823069-D687-4587-953E-1D0F923D05C9</GUID>
+          <Type>Action</Type>
+          <Name>
+            <eng>Download FPGA</eng>
+            <loc>Download FPGA</loc>
+          </Name>
+          <Item2Launch>
+            <Type>To Common Doc Dir</Type>
+            <Path>Custom Devices\Scan Engine\Scan Engine - Configuration.llb\FPGA - Download (ECAT).vi</Path>
+          </Item2Launch>
+        </MenuItem>
+        <MenuItem>
+          <GUID>D7C00AB0-78F7-2B20-9062-3CBD04668A6C</GUID>
+          <Type>Action</Type>
+          <Name>
+            <eng>Revert Slave to Scan Mode</eng>
+            <loc>Revert Slave to Scan Mode</loc>
+          </Name>
+          <Item2Launch>
+            <Type>To Common Doc Dir</Type>
+            <Path>Custom Devices\Scan Engine\Scan Engine - Configuration.llb\FPGA - Revert (ECAT).vi</Path>
+          </Item2Launch>
+        </MenuItem>
+      </RunTimeMenu>
+      <ButtonList>
+        <Button>
+          <ID>NIVS_ScanEngine_SelectBitfile_ECAT</ID>
+          <Glyph>
+            <Type>To Common Doc Dir</Type>
+            <Path>Custom Devices\Scan Engine\Glyphs\add fpga.png</Path>
+          </Glyph>
+          <Type>Action</Type>
+          <ReferencedGUID>F0790B05-2F87-F713-B2C5-E5F8F8CBBD1D</ReferencedGUID>
+          <ButtonText>
+            <eng>Select/Change FPGA Bitfile</eng>
+            <loc>Select/Change FPGA Bitfile</loc>
+          </ButtonText>
+          <Caption>
+            <eng>Select/Change FPGA Bitfile</eng>
+            <loc>Select/Change FPGA Bitfile</loc>
+          </Caption>
+          <TipStrip>
+            <eng>Select/Change FPGA Bitfile</eng>
+            <loc>Select/Change FPGA Bitfile</loc>
+          </TipStrip>
+          <Documentation>
+            <eng />
+            <loc />
+          </Documentation>
+        </Button>
+        <Button>
+          <ID>NIVS_ScanEngine_Clear_ECAT</ID>
+          <Glyph>
+            <Type>To Common Doc Dir</Type>
+            <Path>Custom Devices\Scan Engine\Glyphs\clear fpga.png</Path>
+          </Glyph>
+          <Type>Action</Type>
+          <ReferencedGUID>5BEB762C-C04D-8F4A-3DC7-17BD489F618D</ReferencedGUID>
+          <ButtonText>
+            <eng>Clear Configuration</eng>
+            <loc>Clear Configuration</loc>
+          </ButtonText>
+          <Caption>
+            <eng>Clear Configuration</eng>
+            <loc>Clear Configuration</loc>
+          </Caption>
+          <TipStrip>
+            <eng>Clear Configuration</eng>
+            <loc>Clear Configuration</loc>
+          </TipStrip>
+          <Documentation>
+            <eng />
+            <loc />
+          </Documentation>
+        </Button>
+        <Button>
+          <ID>NIVS_ScanEngine_Download_ECAT</ID>
+          <Glyph>
+            <Type>To Common Doc Dir</Type>
+            <Path>Custom Devices\Scan Engine\Glyphs\download fpga.png</Path>
+          </Glyph>
+          <Type>Action</Type>
+          <ReferencedGUID>66823069-D687-4587-953E-1D0F923D05C9</ReferencedGUID>
+          <ButtonText>
+            <eng>Download FPGA</eng>
+            <loc>Download FPGA</loc>
+          </ButtonText>
+          <Caption>
+            <eng>Download FPGA</eng>
+            <loc>Download FPGA</loc>
+          </Caption>
+          <TipStrip>
+            <eng>Download FPGA</eng>
+            <loc>Download FPGA</loc>
+          </TipStrip>
+          <Documentation>
+            <eng />
+            <loc />
+          </Documentation>
+        </Button>
+        <Button>
+          <ID>NIVS_ScanEngine_Revert_ECAT</ID>
+          <Glyph>
+            <Type>To Common Doc Dir</Type>
+            <Path>Custom Devices\Scan Engine\Glyphs\revert.png</Path>
+          </Glyph>
+          <Type>Action</Type>
+          <ReferencedGUID>D7C00AB0-78F7-2B20-9062-3CBD04668A6C</ReferencedGUID>
+          <ButtonText>
+            <eng>Revert Slave to Scan Mode</eng>
+            <loc>Revert Slave to Scan Mode</loc>
+          </ButtonText>
+          <Caption>
+            <eng>Revert Slave to Scan Mode</eng>
+            <loc>Revert Slave to Scan Mode</loc>
+          </Caption>
+          <TipStrip>
+            <eng>Revert Slave to Scan Mode</eng>
+            <loc>Revert Slave to Scan Mode</loc>
+          </TipStrip>
+          <Documentation>
+            <eng />
+            <loc />
+          </Documentation>
+        </Button>
+      </ButtonList>
+    </Page>
+    <Page>
+      <Name>
+        <eng>Scan Engine Custom IO To FPGA - Analog</eng>
+        <loc>Scan Engine Custom IO To FPGA - Analog</loc>
+      </Name>
+      <DeleteProtection>true</DeleteProtection>
+      <GUID>08CD8252-70E6-0957-DDD7-77D59D7DC2E9</GUID>
+      <Glyph>
+        <Type>To Application Data Dir</Type>
+        <Path>System Explorer\Glyphs\ao.png</Path>
+      </Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Scan Engine\Scan Engine - Configuration.llb\Scan Engine Custom IO - To FPGA.vi</Path>
+      </Item2Launch>
+    </Page>
+    <Page>
+      <Name>
+        <eng>Scan Engine Custom IO To FPGA - Digital</eng>
+        <loc>Scan Engine Custom IO To FPGA - Digital</loc>
+      </Name>
+      <DeleteProtection>true</DeleteProtection>
+      <GUID>21A3511E-B5B7-DAD1-9B8C-1391802D6061</GUID>
+      <Glyph>
+        <Type>To Application Data Dir</Type>
+        <Path>System Explorer\Glyphs\do.png</Path>
+      </Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Scan Engine\Scan Engine - Configuration.llb\Scan Engine Custom IO - To FPGA.vi</Path>
+      </Item2Launch>
+    </Page>
+    <Page>
+      <Name>
+        <eng>Scan Engine Custom IO To FPGA - Unsupported</eng>
+        <loc>Scan Engine Custom IO To FPGA - Unsupported</loc>
+      </Name>
+      <DeleteProtection>true</DeleteProtection>
+      <GUID>492D2E26-3388-59A7-4A05-53B4509008DB</GUID>
+      <Glyph>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Scan Engine\Glyphs\UnknownData.png</Path>
+      </Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Scan Engine\Scan Engine - Configuration.llb\Scan Engine Custom IO - To FPGA.vi</Path>
+      </Item2Launch>
+    </Page>
+    <Page>
+      <Name>
+        <eng>Scan Engine Custom IO From FPGA - Analog</eng>
+        <loc>Scan Engine Custom IO From FPGA - Analog</loc>
+      </Name>
+      <DeleteProtection>true</DeleteProtection>
+      <GUID>725DE6B0-41A1-A0E4-E2CD-A132E5FCC5EA</GUID>
+      <Glyph>
+        <Type>To Application Data Dir</Type>
+        <Path>System Explorer\Glyphs\ai.png</Path>
+      </Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Scan Engine\Scan Engine - Configuration.llb\Scan Engine Custom IO - From FPGA.vi</Path>
+      </Item2Launch>
+    </Page>
+    <Page>
+      <Name>
+        <eng>Scan Engine Custom IO From FPGA - Digital</eng>
+        <loc>Scan Engine Custom IO From FPGA - Digital</loc>
+      </Name>
+      <DeleteProtection>true</DeleteProtection>
+      <GUID>B0022617-ACA6-3A27-F901-F70AB50C6C00</GUID>
+      <Glyph>
+        <Type>To Application Data Dir</Type>
+        <Path>System Explorer\Glyphs\di.png</Path>
+      </Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Scan Engine\Scan Engine - Configuration.llb\Scan Engine Custom IO - From FPGA.vi</Path>
+      </Item2Launch>
+    </Page>
+    <Page>
+      <Name>
+        <eng>Scan Engine Custom IO From FPGA - Unsupported</eng>
+        <loc>Scan Engine Custom IO From FPGA - Unsupported</loc>
+      </Name>
+      <DeleteProtection>true</DeleteProtection>
+      <GUID>C8197AFD-3C01-E731-6DE4-E2ECB7F7C6AF</GUID>
+      <Glyph>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Scan Engine\Glyphs\UnknownData.png</Path>
+      </Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Scan Engine\Scan Engine - Configuration.llb\Scan Engine Custom IO - From FPGA.vi</Path>
+      </Item2Launch>
+    </Page>
+    <Page>
+      <Name>
+        <eng>Scan Engine Module Configuration Section</eng>
+        <loc>Scan Engine Module Configuration Section</loc>
+      </Name>
+      <DeleteProtection>true</DeleteProtection>
+      <GUID>1598AB10-D25A-B2C1-00CA-EA7BE52FA7ED</GUID>
+      <Glyph>
+        <Type>To Application Data Dir</Type>
+        <Path>System Explorer\Glyphs\configuration_daq.png</Path>
+      </Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Scan Engine\Scan Engine - Configuration.llb\Scan Engine Module Configuration Section.vi</Path>
+      </Item2Launch>
+    </Page>
+    <Page>
+      <Name>
+        <eng>Scan Engine Module Configuration Channel</eng>
+        <loc>Scan Engine Module Configuration Channel</loc>
+      </Name>
+      <DeleteProtection>true</DeleteProtection>
+      <GUID>9888E34F-1DAF-F5F9-23C9-A92C2C9D9594</GUID>
+      <Glyph>
+        <Type>To Application Data Dir</Type>
+        <Path>System Explorer\Glyphs\default fpga channel.png</Path>
+      </Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Scan Engine\Scan Engine - Configuration.llb\Scan Engine Module Configuration Channel.vi</Path>
+      </Item2Launch>
+    </Page>
+    <Page>
+      <Name>
+        <eng>Scan Engine ECAT IO Network Variables</eng>
+        <loc>Scan Engine ECAT IO Network Variables</loc>
+      </Name>
+      <GUID>385C8ABA-3B7C-4183-A2E4-B1B8A7B2DFC9</GUID>
+      <Glyph>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Scan Engine\Glyphs\IO Network Variable.png</Path>
+      </Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Scan Engine\Scan Engine - Configuration.llb\Scan Engine ECAT IO Network Variables.vi</Path>
+      </Item2Launch>
+    </Page>
+    <Page>
+      <Name>
+        <eng>Scan Engine ECAT IO Network Variables</eng>
+        <loc>Scan Engine ECAT IO Network Variables</loc>
+      </Name>
+      <GUID>0ED332F0-D1BC-432A-B546-E056CE863643</GUID>
+      <Glyph>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Scan Engine\Glyphs\IO Network Variable.png</Path>
+      </Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Scan Engine\Scan Engine - Configuration.llb\Scan Engine Custom Main IO Network Variables.vi</Path>
+      </Item2Launch>
+    </Page>
+  </Pages>
+  <CustomXML>
+    <Dummy />
+  </CustomXML>
 </CustomDevice>

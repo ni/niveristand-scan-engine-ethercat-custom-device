@@ -323,3 +323,129 @@ if (typeof(registerForInitPage) == "function")
 }
 
 
+Microsoft HTML Help Compiler 4.74.8702
+
+Compiling c:\Users\grschero\Desktop\CD-Project Folder\CD_Project\Scan-Engine-Custom-Device_EtherCAT_AKD_Extension\Scan-Engine-Custom-Device\CHM Source\Scan Engine.chm
+
+
+Compile time: 0 minutes, 0 seconds
+7	Topics
+0	Local links
+0	Internet links
+0	Graphics
+
+
+Created c:\Users\grschero\Desktop\CD-Project Folder\CD_Project\Scan-Engine-Custom-Device_EtherCAT_AKD_Extension\Scan-Engine-Custom-Device\CHM Source\Scan Engine.chm, 82,808 bytes
+Compression decreased file by 259,853 bytes.
+Microsoft HTML Help Compiler 4.74.8702
+
+Compiling c:\Users\grschero\Desktop\CD-Project Folder\CD_Project\Scan-Engine-Custom-Device_EtherCAT_AKD_Extension\Scan-Engine-Custom-Device\CHM Source\Scan Engine.chm
+
+HHC5010: Error: Cannot open "c:\Users\grschero\Desktop\CD-Project Folder\CD_Project\Scan-Engine-Custom-Device_EtherCAT_AKD_Extension\Scan-Engine-Custom-Device\CHM Source\Scan Engine.chm". Compilation stopped.
+
+User cancelled compile.
+Microsoft HTML Help Compiler 4.74.8702
+
+Compiling c:\Users\grschero\Desktop\CD-Project Folder\CD_Project\Scan-Engine-Custom-Device_EtherCAT_AKD_Extension\Scan-Engine-Custom-Device\CHM Source\Scan Engine.chm
+
+
+Compile time: 0 minutes, 0 seconds
+7	Topics
+0	Local links
+0	Internet links
+0	Graphics
+
+
+Created c:\Users\grschero\Desktop\CD-Project Folder\CD_Project\Scan-Engine-Custom-Device_EtherCAT_AKD_Extension\Scan-Engine-Custom-Device\CHM Source\Scan Engine.chm, 82,776 bytes
+Compression decreased file by 260,869 bytes.
+Microsoft HTML Help Compiler 4.74.8702
+
+Compiling c:\Users\grschero\Desktop\CD-Project Folder\CD_Project\Scan-Engine-Custom-Device_EtherCAT_AKD_Extension\Scan-Engine-Custom-Device\CHM Source\Scan Engine.chm
+
+
+Compile time: 0 minutes, 0 seconds
+7	Topics
+0	Local links
+0	Internet links
+0	Graphics
+
+
+Created c:\Users\grschero\Desktop\CD-Project Folder\CD_Project\Scan-Engine-Custom-Device_EtherCAT_AKD_Extension\Scan-Engine-Custom-Device\CHM Source\Scan Engine.chm, 82,564 bytes
+Compression decreased file by 261,616 bytes.
+Microsoft HTML Help Compiler 4.74.8702
+
+Compiling c:\Users\grschero\Desktop\CD-Project Folder\CD_Project\Scan-Engine-Custom-Device_EtherCAT_AKD_Extension\Scan-Engine-Custom-Device\CHM Source\Scan Engine.chm
+
+
+Compile time: 0 minutes, 0 seconds
+8	Topics
+0	Local links
+0	Internet links
+0	Graphics
+
+
+Created c:\Users\grschero\Desktop\CD-Project Folder\CD_Project\Scan-Engine-Custom-Device_EtherCAT_AKD_Extension\Scan-Engine-Custom-Device\CHM Source\Scan Engine.chm, 82,416 bytes
+Compression decreased file by 263,426 bytes.
+Microsoft HTML Help Compiler 4.74.8702
+
+Compiling c:\Users\grschero\Desktop\CD-Project Folder\CD_Project\Scan-Engine-Custom-Device_EtherCAT_AKD_Extension\Scan-Engine-Custom-Device\CHM Source\Scan Engine.chm
+
+
+Compile time: 0 minutes, 0 seconds
+8	Topics
+0	Local links
+0	Internet links
+0	Graphics
+
+
+Created c:\Users\grschero\Desktop\CD-Project Folder\CD_Project\Scan-Engine-Custom-Device_EtherCAT_AKD_Extension\Scan-Engine-Custom-Device\CHM Source\Scan Engine.chm, 82,376 bytes
+Compression decreased file by 264,001 bytes.
+Microsoft HTML Help Compiler 4.74.8702
+
+Compiling c:\Users\grschero\Desktop\CD-Project Folder\CD_Project\Scan-Engine-Custom-Device_EtherCAT_AKD_Extension\Scan-Engine-Custom-Device\CHM Source\Scan Engine.chm
+
+
+Compile time: 0 minutes, 0 seconds
+8	Topics
+0	Local links
+0	Internet links
+0	Graphics
+
+
+Created c:\Users\grschero\Desktop\CD-Project Folder\CD_Project\Scan-Engine-Custom-Device_EtherCAT_AKD_Extension\Scan-Engine-Custom-Device\CHM Source\Scan Engine.chm, 82,450 bytes
+Compression decreased file by 264,511 bytes.
+Microsoft HTML Help Compiler 4.74.8702
+
+Compiling c:\Users\grschero\Desktop\CD-Project Folder\CD_Project\Scan-Engine-Custom-Device_EtherCAT_AKD_Extension\Scan-Engine-Custom-Device\CHM Source\Scan Engine.chm
+
+HHC6000: Error: An internal file could not be created. Make certain there is enough disk space on the drive where you are compiling your file.
+HHC5007: Error: Fatal navigational compilation error. This is likely the result of an invalid contents (.hhc) file.
+HHC5010: Error: Cannot open "c:\Users\grschero\Desktop\CD-Project Folder\CD_Project\Scan-Engine-Custom-Device_EtherCAT_AKD_Extension\Scan-Engine-Custom-Device\CHM Source\Scan Engine.chm". Compilation stopped.
+
+
+The following files were not compiled:
+Microsoft HTML Help Compiler 4.74.8702
+
+Compiling c:\Users\grschero\Desktop\CD-Project Folder\CD_Project\Scan-Engine-Custom-Device_EtherCAT_AKD_Extension\Scan-Engine-Custom-Device\CHM Source\Scan Engine.chm
+
+
+User cancelled compile.
+Microsoft HTML Help Compiler 4.74.8702
+
+Compiling c:\Users\grschero\Desktop\CD-Project Folder\CD_Project\Scan-Engine-Custom-Device_EtherCAT_AKD_Extension\Scan-Engine-Custom-Device\CHM Source\Scan Engine.chm
+
+HHC6000: Error: An internal file could not be created. Make certain there is enough disk space on the drive where you are compiling your file.
+HHC5007: Error: Fatal navigational compilation error. This is likely the result of an invalid contents (.hhc) file.
+
+
+The following files were not compiled:
+Microsoft HTML Help Compiler 4.74.8702
+
+Compiling c:\Users\grschero\Desktop\CD-Project Folder\CD_Project\Scan-Engine-Custom-Device_EtherCAT_AKD_Extension\Scan-Engine-Custom-Device\CHM Source\Scan Engine.chm
+
+HHC6000: Error: An internal file could not be created. Make certain there is enough disk space on the drive where you are compiling your file.
+HHC5007: Error: Fatal navigational compilation error. This is likely the result of an invalid contents (.hhc) file.
+HHC5010: Error: Cannot open "c:\Users\grschero\Desktop\CD-Project Folder\CD_Project\Scan-Engine-Custom-Device_EtherCAT_AKD_Extension\Scan-Engine-Custom-Device\CHM Source\Scan Engine.chm". Compilation stopped.
+
+
+The following files were not compiled:
