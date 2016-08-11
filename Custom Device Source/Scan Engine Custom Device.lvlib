@@ -153,6 +153,7 @@
 			<Item Name="Target Communication" Type="Folder">
 				<Item Name="Support" Type="Folder">
 					<Item Name="Host - Get Local and ECAT Masters.vi" Type="VI" URL="../System Explorer/Utility/Target Communication/Host - Get Local and ECAT Masters.vi"/>
+					<Item Name="Host - ECAT Slaves write to XML-Log-File.vi" Type="VI" URL="../System Explorer/Utility/Target Communication/Host - ECAT Slaves write to XML-Log-File.vi"/>
 					<Item Name="Host - Get Slave IOVs.vi" Type="VI" URL="../System Explorer/Utility/Target Communication/Host - Get Slave IOVs.vi"/>
 					<Item Name="Host - Get ECAT IOVs.vi" Type="VI" URL="../System Explorer/Utility/Target Communication/Host - Get ECAT IOVs.vi"/>
 					<Item Name="Host - Get Module Data.vi" Type="VI" URL="../System Explorer/Utility/Target Communication/Host - Get Module Data.vi"/>
@@ -213,6 +214,7 @@
 					<Item Name="Set Slave Info.vi" Type="VI" URL="../System Explorer/Utility/Set Slave Info.vi"/>
 					<Item Name="Check Slave Name.vi" Type="VI" URL="../System Explorer/Utility/Check Slave Name.vi"/>
 					<Item Name="TypeCodeToEnum.vi" Type="VI" URL="../System Explorer/Utility/TypeCodeToEnum.vi"/>
+					<Item Name="Export ECAT Section to XML.vi" Type="VI" URL="../System Explorer/Utility/Export ECAT Section to XML.vi"/>
 				</Item>
 				<Item Name="ECAT_InternalSubVIs" Type="Folder">
 					<Item Name="_ValidateDeviceProfiles.vi" Type="VI" URL="../System Explorer/Utility/ECAT_InternalSubVIs/_ValidateDeviceProfiles.vi"/>
@@ -320,6 +322,7 @@
 				<Item Name="Get ECAT IOVar Data.vi" Type="VI" URL="../RT/Initialize/Get ECAT IOVar Data.vi"/>
 				<Item Name="Get ECAT IOVar VS refs.vi" Type="VI" URL="../RT/Initialize/Get ECAT IOVar VS refs.vi"/>
 				<Item Name="Compare ECAT Vars.vi" Type="VI" URL="../RT/Initialize/Compare ECAT Vars.vi"/>
+				<Item Name="Host - Scan next ECAT Slave Level.vi" Type="VI" URL="../System Explorer/Utility/Target Communication/Host - Scan next ECAT Slave Level.vi"/>
 			</Item>
 			<Item Name="Read/Write" Type="Folder">
 				<Item Name="RW All Data.vi" Type="VI" URL="../RT/Read-Write/RW All Data.vi"/>
@@ -373,6 +376,7 @@
 				<Item Name="Data Ref FGV.vi" Type="VI" URL="../RT/Initialize/Data Ref FGV.vi"/>
 				<Item Name="Ignore Warnings.vi" Type="VI" URL="../RT/Utility/Ignore Warnings.vi"/>
 				<Item Name="Clear Specific Error.vi" Type="VI" URL="../RT/Utility/Clear Specific Error.vi"/>
+				<Item Name="Debugging RT Channels.vi" Type="VI" URL="../RT/Utility/Debugging RT Channels.vi"/>
 			</Item>
 		</Item>
 		<Item Name="Keep Front Panel" Type="Folder">
