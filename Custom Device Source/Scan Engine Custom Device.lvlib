@@ -236,6 +236,8 @@
 				<Item Name="Set FPGA Mode.vi" Type="VI" URL="../System Explorer/Utility/Set FPGA Mode.vi"/>
 				<Item Name="Add Custom Device Channel - Offline.vi" Type="VI" URL="../System Explorer/Utility/Add Custom Device Channel - Offline.vi"/>
 				<Item Name="Add Custom Device Section - Offline.vi" Type="VI" URL="../System Explorer/Utility/Add Custom Device Section - Offline.vi"/>
+				<Item Name="NI VeriStand - Get Target Operating System.vi" Type="VI" URL="../System Explorer/Utility/NI VeriStand - Get Target Operating System.vi"/>
+				<Item Name="PathToLinuxPath.vi" Type="VI" URL="../System Explorer/Utility/PathToLinuxPath.vi"/>
 			</Item>
 		</Item>
 		<Item Name="Scan Engine Initialization VI.vi" Type="VI" URL="../System Explorer/Scan Engine Initialization VI.vi"/>
