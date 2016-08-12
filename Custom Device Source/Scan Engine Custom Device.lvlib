@@ -87,6 +87,9 @@
 			<Item Name="Open Module IOVs.ctl" Type="VI" URL="../Type Defs/Open Module IOVs.ctl"/>
 			<Item Name="Module IO Type.ctl" Type="VI" URL="../Type Defs/Module IO Type.ctl"/>
 			<Item Name="Mod Size Indexes.ctl" Type="VI" URL="../Type Defs/Mod Size Indexes.ctl"/>
+			<Item Name="Generic ECAT Slave IOV Cluster.ctl" Type="VI" URL="../Type Defs/Generic ECAT Slave IOV Cluster.ctl"/>
+			<Item Name="Generic ECAT Slave Data Cluster.ctl" Type="VI" URL="../Type Defs/Generic ECAT Slave Data Cluster.ctl"/>
+			<Item Name="Generic ECAT Slave RT-Data-Array.ctl" Type="VI" URL="../Type Defs/Generic ECAT Slave RT-Data-Array.ctl"/>
 		</Item>
 		<Item Name="System Explorer" Type="Folder">
 			<Item Name="FPGA Target.ctl" Type="VI" URL="../Type Defs/FPGA Target.ctl"/>
@@ -97,6 +100,8 @@
 			<Item Name="Host - Slave.ctl" Type="VI" URL="../Type Defs/Host - Slave.ctl"/>
 			<Item Name="Host - Master.ctl" Type="VI" URL="../Type Defs/Host - Master.ctl"/>
 			<Item Name="Host - FPGAScanInterfaceMode.ctl" Type="VI" URL="../Type Defs/Host - FPGAScanInterfaceMode.ctl"/>
+			<Item Name="ECAT Channel Data Type.ctl" Type="VI" URL="../Type Defs/ECAT Channel Data Type.ctl"/>
+			<Item Name="NI ECAT Slaves.ctl" Type="VI" URL="../Type Defs/NI ECAT Slaves.ctl"/>
 		</Item>
 	</Item>
 	<Item Name="Globals" Type="Folder">
@@ -113,6 +118,9 @@
 			<Item Name="Scan Engine Local Chassis.vi" Type="VI" URL="../System Explorer/Pages/Scan Engine Local Chassis.vi"/>
 			<Item Name="Scan Engine EtherCAT Master.vi" Type="VI" URL="../System Explorer/Pages/Scan Engine EtherCAT Master.vi"/>
 			<Item Name="Scan Engine EtherCAT Slave.vi" Type="VI" URL="../System Explorer/Pages/Scan Engine EtherCAT Slave.vi"/>
+			<Item Name="Scan Engine EtherCAT Generic Slave.vi" Type="VI" URL="../System Explorer/Pages/Scan Engine EtherCAT Generic Slave.vi"/>
+			<Item Name="Scan Engine Custom Main IO Network Variables.vi" Type="VI" URL="../System Explorer/Pages/Scan Engine Custom Main IO Network Variables.vi"/>
+			<Item Name="Scan Engine ECAT IO Network Variables.vi" Type="VI" URL="../System Explorer/Pages/Scan Engine ECAT IO Network Variables.vi"/>
 			<Item Name="Scan Engine Slot Page.vi" Type="VI" URL="../System Explorer/Pages/Scan Engine Slot Page.vi"/>
 			<Item Name="Scan Engine AI Page.vi" Type="VI" URL="../System Explorer/Pages/Scan Engine AI Page.vi"/>
 			<Item Name="Scan Engine AO Page.vi" Type="VI" URL="../System Explorer/Pages/Scan Engine AO Page.vi"/>
@@ -129,6 +137,7 @@
 			<Item Name="Main - Add Local Chassis.vi" Type="VI" URL="../System Explorer/Action VIs/Main - Add Local Chassis.vi"/>
 			<Item Name="Main - Add EtherCAT Master.vi" Type="VI" URL="../System Explorer/Action VIs/Main - Add EtherCAT Master.vi"/>
 			<Item Name="Main - Auto Detect Modules.vi" Type="VI" URL="../System Explorer/Action VIs/Main - Auto Detect Modules.vi"/>
+			<Item Name="Main - Manages 3rd Party Slaves.vi" Type="VI" URL="../System Explorer/Action VIs/Main - Manages 3rd Party Slaves.vi"/>
 			<Item Name="Main - On Load.vi" Type="VI" URL="../System Explorer/Action VIs/Main - On Load.vi"/>
 			<Item Name="Master - Add EtherCAT Slave.vi" Type="VI" URL="../System Explorer/Action VIs/Master - Add EtherCAT Slave.vi"/>
 			<Item Name="FPGA - Select Bitfile (ECAT).vi" Type="VI" URL="../System Explorer/Action VIs/FPGA - Select Bitfile (ECAT).vi"/>
@@ -144,6 +153,7 @@
 			<Item Name="Target Communication" Type="Folder">
 				<Item Name="Support" Type="Folder">
 					<Item Name="Host - Get Local and ECAT Masters.vi" Type="VI" URL="../System Explorer/Utility/Target Communication/Host - Get Local and ECAT Masters.vi"/>
+					<Item Name="Host - ECAT Slaves write to XML-Log-File.vi" Type="VI" URL="../System Explorer/Utility/Target Communication/Host - ECAT Slaves write to XML-Log-File.vi"/>
 					<Item Name="Host - Get Slave IOVs.vi" Type="VI" URL="../System Explorer/Utility/Target Communication/Host - Get Slave IOVs.vi"/>
 					<Item Name="Host - Get ECAT IOVs.vi" Type="VI" URL="../System Explorer/Utility/Target Communication/Host - Get ECAT IOVs.vi"/>
 					<Item Name="Host - Get Module Data.vi" Type="VI" URL="../System Explorer/Utility/Target Communication/Host - Get Module Data.vi"/>
@@ -203,6 +213,18 @@
 					<Item Name="Get Slave Info.vi" Type="VI" URL="../System Explorer/Utility/Get Slave Info.vi"/>
 					<Item Name="Set Slave Info.vi" Type="VI" URL="../System Explorer/Utility/Set Slave Info.vi"/>
 					<Item Name="Check Slave Name.vi" Type="VI" URL="../System Explorer/Utility/Check Slave Name.vi"/>
+					<Item Name="TypeCodeToEnum.vi" Type="VI" URL="../System Explorer/Utility/TypeCodeToEnum.vi"/>
+					<Item Name="Export ECAT Section to XML.vi" Type="VI" URL="../System Explorer/Utility/Export ECAT Section to XML.vi"/>
+				</Item>
+				<Item Name="ECAT_InternalSubVIs" Type="Folder">
+					<Item Name="_ValidateDeviceProfiles.vi" Type="VI" URL="../System Explorer/Utility/ECAT_InternalSubVIs/_ValidateDeviceProfiles.vi"/>
+					<Item Name="_importProcessBar.vi" Type="VI" URL="../System Explorer/Utility/ECAT_InternalSubVIs/_importProcessBar.vi"/>
+					<Item Name="Get_Profile_pathess.vi" Type="VI" URL="../System Explorer/Utility/ECAT_InternalSubVIs/Get_Profile_pathess.vi"/>
+					<Item Name="Read Target XML-Files.vi" Type="VI" URL="../System Explorer/Utility/ECAT_InternalSubVIs/Read Target XML-Files.vi"/>
+					<Item Name="Read Profiles from Target.vi" Type="VI" URL="../System Explorer/Utility/ECAT_InternalSubVIs/Read Profiles from Target.vi"/>
+					<Item Name="Get Webdav.vi" Type="VI" URL="../System Explorer/Utility/ECAT_InternalSubVIs/Get Webdav.vi"/>
+					<Item Name="Read imported Profiles.vi" Type="VI" URL="../System Explorer/Utility/ECAT_InternalSubVIs/Read imported Profiles.vi"/>
+					<Item Name="Get Selected Profile from List.vi" Type="VI" URL="../System Explorer/Utility/ECAT_InternalSubVIs/Get Selected Profile from List.vi"/>
 				</Item>
 			</Item>
 			<Item Name="Other" Type="Folder">
@@ -297,6 +319,12 @@
 				<Item Name="Open Module Refs.vi" Type="VI" URL="../RT/Initialize/Open Module Refs.vi"/>
 				<Item Name="Compute Variable Container Size and Type.vi" Type="VI" URL="../RT/Initialize/Compute Variable Container Size and Type.vi"/>
 				<Item Name="Identify Module Size.vi" Type="VI" URL="../RT/Initialize/Identify Module Size.vi"/>
+				<Item Name="Get Generic Slave IOVars.vi" Type="VI" URL="../RT/Initialize/Get Generic Slave IOVars.vi"/>
+				<Item Name="Get Generic Slave Data.vi" Type="VI" URL="../RT/Initialize/Get Generic Slave Data.vi"/>
+				<Item Name="Get ECAT IOVar Data.vi" Type="VI" URL="../RT/Initialize/Get ECAT IOVar Data.vi"/>
+				<Item Name="Get ECAT IOVar VS refs.vi" Type="VI" URL="../RT/Initialize/Get ECAT IOVar VS refs.vi"/>
+				<Item Name="Compare ECAT Vars.vi" Type="VI" URL="../RT/Initialize/Compare ECAT Vars.vi"/>
+				<Item Name="Host - Scan next ECAT Slave Level.vi" Type="VI" URL="../System Explorer/Utility/Target Communication/Host - Scan next ECAT Slave Level.vi"/>
 			</Item>
 			<Item Name="Read/Write" Type="Folder">
 				<Item Name="RW All Data.vi" Type="VI" URL="../RT/Read-Write/RW All Data.vi"/>
@@ -328,6 +356,9 @@
 				<Item Name="Get Scan Mode.vi" Type="VI" URL="../RT/Read-Write/Get Scan Mode.vi"/>
 				<Item Name="Read Input Modules at Indexes.vi" Type="VI" URL="../RT/Read-Write/Read Input Modules at Indexes.vi"/>
 				<Item Name="Read Mixed Modules at Indexes.vi" Type="VI" URL="../RT/Read-Write/Read Mixed Modules at Indexes.vi"/>
+				<Item Name="RW Generic Slaves.vi" Type="VI" URL="../RT/Read-Write/RW Generic Slaves.vi"/>
+				<Item Name="Read ECAT VARs.vi" Type="VI" URL="../RT/Read-Write/Read ECAT VARs.vi"/>
+				<Item Name="Write ECAT VARs.vi" Type="VI" URL="../RT/Read-Write/Write ECAT VARs.vi"/>
 			</Item>
 			<Item Name="Close" Type="Folder">
 				<Item Name="NiFPGA Close.vi" Type="VI" URL="../RT/Close/NiFPGA Close.vi"/>
@@ -347,6 +378,7 @@
 				<Item Name="Data Ref FGV.vi" Type="VI" URL="../RT/Initialize/Data Ref FGV.vi"/>
 				<Item Name="Ignore Warnings.vi" Type="VI" URL="../RT/Utility/Ignore Warnings.vi"/>
 				<Item Name="Clear Specific Error.vi" Type="VI" URL="../RT/Utility/Clear Specific Error.vi"/>
+				<Item Name="Debugging RT Channels.vi" Type="VI" URL="../RT/Utility/Debugging RT Channels.vi"/>
 			</Item>
 		</Item>
 		<Item Name="Keep Front Panel" Type="Folder">
