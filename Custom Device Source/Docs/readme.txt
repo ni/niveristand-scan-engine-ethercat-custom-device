@@ -1,5 +1,5 @@
 Scan Engine and EtherCAT custom device for NI VeriStand 2011 or later
-Version: 4.1.10
+Version: 4.3.0
 https://decibel.ni.com/content/docs/DOC-15510
 
 Migrating from previous versions of this Add-on
