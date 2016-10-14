@@ -5,7 +5,7 @@
     <eng>National Instruments::Scan Engine and EtherCAT</eng>
     <loc>National Instruments::Scan Engine and EtherCAT</loc>
   </AddMenu>
-  <Version>4.3.0</Version>
+  <Version>4.3.1</Version>
   <Type>Inline HW Interface</Type>
   <MaxOccurrence>1</MaxOccurrence>
   <MainPageGUID>A04A67D4-9B64-052B-A031-6B05377B9B10</MainPageGUID>
@@ -212,6 +212,247 @@
       </Item2Launch>
       <RunTimeMenu>
         <MenuItem>
+          <GUID>19bc53ea-1e5a-4660-998c-87022222f051</GUID>
+          <Type>Action</Type>
+          <Name>
+            <eng>Disable</eng>
+            <loc>Disable</loc>
+          </Name>
+          <Item2Launch>
+            <Type>To Common Doc Dir</Type>
+            <Path>Custom Devices\Scan Engine\Scan Engine - Configuration.llb\EnableDisable Main Page.vi</Path>
+          </Item2Launch>
+        </MenuItem>
+        <MenuItem>
+          <GUID>7755077A-1485-13A6-5674A23FB86277FF</GUID>
+          <Type>Separator</Type>
+          <Name>
+            <eng>.</eng>
+            <loc>.</loc>
+          </Name>
+          <Item2Launch>
+            <Type>Absolute</Type>
+            <Path>.</Path>
+          </Item2Launch>
+        </MenuItem>
+		<MenuItem>
+          <GUID>AE2AB208-9A9A-4DC7-6A99-2CA165DA3962</GUID>
+          <Type>Action</Type>
+          <Name>
+            <eng>Add Local Chassis</eng>
+            <loc>Add Local Chassis</loc>
+          </Name>
+          <Item2Launch>
+            <Type>To Common Doc Dir</Type>
+            <Path>Custom Devices\Scan Engine\Scan Engine - Configuration.llb\Main - Add Local Chassis.vi</Path>
+          </Item2Launch>
+        </MenuItem>
+        <MenuItem>
+          <GUID>18B2C676-AF17-2B7F-0962-D95D206E20FB</GUID>
+          <Type>Separator</Type>
+          <Name>
+            <eng>.</eng>
+            <loc>.</loc>
+          </Name>
+          <Item2Launch>
+            <Type>Absolute</Type>
+            <Path>.</Path>
+          </Item2Launch>
+        </MenuItem>
+        <MenuItem>
+          <GUID>4DE930D8-F2AA-2BA7-8DF6-27AD836A3EB2</GUID>
+          <Type>Action</Type>
+          <Name>
+            <eng>Add EtherCAT Master</eng>
+            <loc>Add EtherCAT Master</loc>
+          </Name>
+          <Item2Launch>
+            <Type>To Common Doc Dir</Type>
+            <Path>Custom Devices\Scan Engine\Scan Engine - Configuration.llb\Main - Add EtherCAT Master.vi</Path>
+          </Item2Launch>
+        </MenuItem>
+        <MenuItem>
+          <GUID>7F12E184-AB96-DBB5-A5B8-6D5278F6CDCB</GUID>
+          <Type>Action</Type>
+          <Name>
+            <eng>Auto-Detect Modules</eng>
+            <loc>Auto-Detect Modules</loc>
+          </Name>
+          <Item2Launch>
+            <Type>To Common Doc Dir</Type>
+            <Path>Custom Devices\Scan Engine\Scan Engine - Configuration.llb\Main - Auto Detect Modules.vi</Path>
+          </Item2Launch>
+        </MenuItem>
+        <MenuItem>
+          <GUID>C7E5DBA0-7581-42C8-BCF0-D21833E9E933</GUID>
+          <Type>VI</Type>
+          <Execution>modal</Execution>
+          <Name>
+            <eng>Manage 3rd-Party ECAT Slaves</eng>
+            <loc>Manage 3rd-Party ECAT Slaves</loc>
+          </Name>
+          <Item2Launch>
+            <Type>To Common Doc Dir</Type>
+            <Path>Custom Devices\Scan Engine\Scan Engine - Configuration.llb\Main - Manages 3rd Party Slaves.vi</Path>
+          </Item2Launch>
+        </MenuItem>
+      </RunTimeMenu>
+      <ButtonList>
+        <Button>
+          <ID>NIVS_ScanEngine_AddLocal</ID>
+          <Glyph>
+            <Type>To Application Data Dir</Type>
+            <Path>System Explorer\Glyphs\rio expansion chassis.png</Path>
+          </Glyph>
+          <Type>Action</Type>
+          <ReferencedGUID>AE2AB208-9A9A-4DC7-6A99-2CA165DA3962</ReferencedGUID>
+          <ButtonText>
+            <eng>Add Local Chassis</eng>
+            <loc>Add Local Chassis</loc>
+          </ButtonText>
+          <Caption>
+            <eng>Add Local Chassis</eng>
+            <loc>Add Local Chassis</loc>
+          </Caption>
+          <TipStrip>
+            <eng>Add Local Chassis</eng>
+            <loc>Add Local Chassis</loc>
+          </TipStrip>
+          <Documentation>
+            <eng />
+            <loc />
+          </Documentation>
+        </Button>
+        <Button>
+          <ID>NIVS_ScanEngine_AddECATMaster</ID>
+          <Glyph>
+            <Type>To Common Doc Dir</Type>
+            <Path>Custom Devices\Scan Engine\Glyphs\ECAT_Master.png</Path>
+          </Glyph>
+          <Type>Action</Type>
+          <ReferencedGUID>4DE930D8-F2AA-2BA7-8DF6-27AD836A3EB2</ReferencedGUID>
+          <ButtonText>
+            <eng>Add EtherCAT Master</eng>
+            <loc>Add EtherCAT Master</loc>
+          </ButtonText>
+          <Caption>
+            <eng>Add EtherCAT Master</eng>
+            <loc>Add EtherCAT Master</loc>
+          </Caption>
+          <TipStrip>
+            <eng>Add EtherCAT Master</eng>
+            <loc>Add EtherCAT Master</loc>
+          </TipStrip>
+          <Documentation>
+            <eng />
+            <loc />
+          </Documentation>
+        </Button>
+        <Button>
+          <ID>NIVS_ScanEngine_AutoDetectECAT</ID>
+          <Glyph>
+            <Type>To Application Data Dir</Type>
+            <Path>System Explorer\Glyphs\Search2.png</Path>
+          </Glyph>
+          <Type>Action</Type>
+          <ReferencedGUID>7F12E184-AB96-DBB5-A5B8-6D5278F6CDCB</ReferencedGUID>
+          <ButtonText>
+            <eng>Auto-Detect Modules</eng>
+            <loc>Auto-Detect Modules</loc>
+          </ButtonText>
+          <Caption>
+            <eng>Auto-Detect Modules</eng>
+            <loc>Auto-Detect Modules</loc>
+          </Caption>
+          <TipStrip>
+            <eng>Auto-Detect Modules</eng>
+            <loc>Auto-Detect Modules</loc>
+          </TipStrip>
+          <Documentation>
+            <eng />
+            <loc />
+          </Documentation>
+        </Button>
+        <Button>
+          <ID>NIVS_ScanEngine_Manage3rd-PartyECATSlaves</ID>
+          <Glyph>
+            <Type>To Common Doc Dir</Type>
+            <Path>Custom Devices\Scan Engine\Glyphs\ECAT_Slave.png</Path>
+          </Glyph>
+          <Type>Dialog</Type>
+          <ReferencedGUID>C7E5DBA0-7581-42C8-BCF0-D21833E9E933</ReferencedGUID>
+          <ButtonText>
+            <eng>Manage 3rd-Party ECAT Slaves</eng>
+            <loc>Manage 3rd-Party ECAT Slaves</loc>
+          </ButtonText>
+          <Caption>
+            <eng>Manage 3rd-Party ECAT Slaves</eng>
+            <loc>Manage 3rd-Party ECAT Slaves</loc>
+          </Caption>
+          <TipStrip>
+            <eng>Manage 3rd-Party ECAT Slaves</eng>
+            <loc>Manage 3rd-Party ECAT Slaves</loc>
+          </TipStrip>
+          <Documentation>
+            <eng />
+            <loc />
+          </Documentation>
+        </Button>
+      </ButtonList>
+      <ActionVIOnDelete>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Scan Engine\Scan Engine - Configuration.llb\Main - On Delete.vi</Path>
+      </ActionVIOnDelete>
+      <ActionVIOnLoad>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Scan Engine\Scan Engine - Configuration.llb\Main - On Load.vi</Path>
+      </ActionVIOnLoad>
+      <ActionVIOnDownload>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Scan Engine\Scan Engine - Configuration.llb\ActionVIOnDownload - Set Scan Rate.vi</Path>
+      </ActionVIOnDownload>
+    </Page>
+    <Page> <!-- disabled main page -->
+      <Name>
+        <eng>Scan Engine and EtherCAT</eng>
+        <loc>Scan Engine and EtherCAT</loc>
+      </Name>
+      <DisallowRenaming>true</DisallowRenaming>
+      <GUID>648dbacc-166f-4d11-a145-bec5ccc39f70</GUID>
+      <Glyph>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Scan Engine\Glyphs\network disabled.png</Path>
+      </Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Scan Engine\Scan Engine - Configuration.llb\Scan Engine Main Page.vi</Path>
+      </Item2Launch>
+      <RunTimeMenu>
+        <MenuItem>
+          <GUID>19bc53ea-1e5a-4660-998c-87022222f051</GUID>
+          <Type>Action</Type>
+          <Name>
+            <eng>Enable</eng>
+            <loc>Enable</loc>
+          </Name>
+          <Item2Launch>
+            <Type>To Common Doc Dir</Type>
+            <Path>Custom Devices\Scan Engine\Scan Engine - Configuration.llb\EnableDisable Main Page.vi</Path>
+          </Item2Launch>
+        </MenuItem>
+        <MenuItem>
+          <GUID>7755077A-1485-13A6-5674A23FB86277FF</GUID>
+          <Type>Separator</Type>
+          <Name>
+            <eng>.</eng>
+            <loc>.</loc>
+          </Name>
+          <Item2Launch>
+            <Type>Absolute</Type>
+            <Path>.</Path>
+          </Item2Launch>
+        </MenuItem>
+		<MenuItem>
           <GUID>AE2AB208-9A9A-4DC7-6A99-2CA165DA3962</GUID>
           <Type>Action</Type>
           <Name>

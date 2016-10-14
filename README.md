@@ -1,6 +1,6 @@
 ## Scan Engine Custom Device ##
 
-**Scan Engine Custom Device**  allows users to easily read scanned I/O from C series modules located in a CompactRIO or NI 9144 EtherCAT chassis.  The add-on also supports custom FPGA personalities to be used with a 9144 chassis.
+**Scan Engine Custom Device**  allows users to easily read scanned I/O from C series modules located in a CompactRIO or NI 9144 EtherCAT chassis.  The add-on also supports custom FPGA personalities to be used with a 9144 chassis. From version 4.3 there is also support for generic EtherCAT slaves (PDO only).
 
 ### LabVIEW Version ###
 
@@ -13,8 +13,6 @@ Builds of this IP are available on the [NI VeriStand Add-ons Community](https://
 ### Quality, Limitations ###
 
 This IP should be considered high quality and mature. The IP has been used worldwide by many customers in deployed applications.
-
-This IP does not work with 3rd party EtherCAT slaves.
 
 ### Dependencies ###
 

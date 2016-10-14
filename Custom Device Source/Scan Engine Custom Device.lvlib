@@ -57,6 +57,7 @@
 		<Item Name="clear fpga.png" Type="Document" URL="../Glyphs/clear fpga.png"/>
 		<Item Name="download fpga.png" Type="Document" URL="../Glyphs/download fpga.png"/>
 		<Item Name="revert.png" Type="Document" URL="../Glyphs/revert.png"/>
+		<Item Name="network disabled.png" Type="Document" URL="../Glyphs/network disabled.png"/>
 	</Item>
 	<Item Name="Type Defs" Type="Folder">
 		<Item Name="RT" Type="Folder">
@@ -239,6 +240,9 @@
 				<Item Name="NI VeriStand - Get Target Operating System.vi" Type="VI" URL="../System Explorer/Utility/NI VeriStand - Get Target Operating System.vi"/>
 				<Item Name="PathToLinuxPath.vi" Type="VI" URL="../System Explorer/Utility/PathToLinuxPath.vi"/>
 			</Item>
+		</Item>
+		<Item Name="RTM" Type="Folder">
+			<Item Name="EnableDisable Main Page.vi" Type="VI" URL="../System Explorer/RTM/EnableDisable Main Page.vi"/>
 		</Item>
 		<Item Name="Scan Engine Initialization VI.vi" Type="VI" URL="../System Explorer/Scan Engine Initialization VI.vi"/>
 	</Item>
