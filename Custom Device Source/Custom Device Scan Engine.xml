@@ -280,7 +280,7 @@
           </Name>
           <Item2Launch>
             <Type>To Common Doc Dir</Type>
-            <Path>Custom Devices\Scan Engine\Scan Engine - Configuration.llb\Main - Auto Detect Modules.vi</Path>
+            <Path>Custom Devices\Scan Engine\Scan Engine - Configuration.llb\Main - Auto Detect Remote IO Modules.vi</Path>
           </Item2Launch>
         </MenuItem>
         <MenuItem>
@@ -497,7 +497,7 @@
           </Name>
           <Item2Launch>
             <Type>To Common Doc Dir</Type>
-            <Path>Custom Devices\Scan Engine\Scan Engine - Configuration.llb\Main - Auto Detect Modules.vi</Path>
+            <Path>Custom Devices\Scan Engine\Scan Engine - Configuration.llb\Main - Auto Detect Remote IO Modules.vi</Path>
           </Item2Launch>
         </MenuItem>
         <MenuItem>
