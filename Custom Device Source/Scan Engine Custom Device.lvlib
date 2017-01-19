@@ -321,7 +321,6 @@
 				<Item Name="Get FPGA Data - ECAT.vi" Type="VI" URL="../RT/Initialize/Get FPGA Data - ECAT.vi"/>
 				<Item Name="Get FPGA Data - Local.vi" Type="VI" URL="../RT/Initialize/Get FPGA Data - Local.vi"/>
 				<Item Name="Get UDV Data.vi" Type="VI" URL="../RT/Initialize/Get UDV Data.vi"/>
-				<Item Name="Get REM IO Slave Data.vi" Type="VI" URL="../RT/Initialize/Get REM IO Slave Data.vi"/>
 				<Item Name="Get FXP VI Ref.vi" Type="VI" URL="../RT/Initialize/Get FXP VI Ref.vi"/>
 				<Item Name="Get Local and ECAT Refs.vi" Type="VI" URL="../RT/Initialize/Get Local and ECAT Refs.vi"/>
 				<Item Name="Open Variable Refs.vi" Type="VI" URL="../RT/Initialize/Open Variable Refs.vi"/>
@@ -331,16 +330,16 @@
 				<Item Name="Compute Variable Container Size and Type.vi" Type="VI" URL="../RT/Initialize/Compute Variable Container Size and Type.vi"/>
 				<Item Name="Identify Module Size.vi" Type="VI" URL="../RT/Initialize/Identify Module Size.vi"/>
 				<Item Name="Get Generic Slave IOVars.vi" Type="VI" URL="../RT/Initialize/Get Generic Slave IOVars.vi"/>
-				<Item Name="Get REM IO Slave IOVars.vi" Type="VI" URL="../RT/Initialize/Get REM IO Slave IOVars.vi"/>
 				<Item Name="Get Generic Slave Data.vi" Type="VI" URL="../RT/Initialize/Get Generic Slave Data.vi"/>
 				<Item Name="Get ECAT IOVar Data.vi" Type="VI" URL="../RT/Initialize/Get ECAT IOVar Data.vi"/>
 				<Item Name="Get ECAT IOVar VS refs.vi" Type="VI" URL="../RT/Initialize/Get ECAT IOVar VS refs.vi"/>
 				<Item Name="Compare ECAT Vars.vi" Type="VI" URL="../RT/Initialize/Compare ECAT Vars.vi"/>
 				<Item Name="Host - Scan next ECAT Slave Level.vi" Type="VI" URL="../System Explorer/Utility/Target Communication/Host - Scan next ECAT Slave Level.vi"/>
-				<Item Name="Get ECAT REM IO IOVar Data.vi" Type="VI" URL="../RT/Initialize/Get ECAT REM IO IOVar Data.vi"/>
-				<Item Name="Get REM IO IOVar VS refs.vi" Type="VI" URL="../RT/Initialize/Get REM IO IOVar VS refs.vi"/>
-				<Item Name="Get ECAT REM IO Status Data.vi" Type="VI" URL="../RT/Initialize/Get ECAT REM IO Status Data.vi"/>
-				<Item Name="Get REM IO Data Clusters.vi" Type="VI" URL="../RT/Initialize/Get REM IO Data Clusters.vi"/>
+				<Item Name="REM IO - Get Slave Data.vi" Type="VI" URL="../RT/Initialize/REM IO - Get Slave Data.vi"/>
+				<Item Name="REM IO - Get Slave IOVars.vi" Type="VI" URL="../RT/Initialize/REM IO - Get Slave IOVars.vi"/>
+				<Item Name="REM IO - Get IOVar VS refs.vi" Type="VI" URL="../RT/Initialize/REM IO - Get IOVar VS refs.vi"/>
+				<Item Name="REM IO - Get ECAT Status Data.vi" Type="VI" URL="../RT/Initialize/REM IO - Get ECAT Status Data.vi"/>
+				<Item Name="REM IO - Get Data Clusters.vi" Type="VI" URL="../RT/Initialize/REM IO - Get Data Clusters.vi"/>
 			</Item>
 			<Item Name="Read/Write" Type="Folder">
 				<Item Name="RW All Data.vi" Type="VI" URL="../RT/Read-Write/RW All Data.vi"/>
