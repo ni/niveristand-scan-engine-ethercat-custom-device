@@ -172,6 +172,9 @@
 					<Item Name="ECAT Close FoE Write.vi" Type="VI" URL="../System Explorer/Utility/Target Communication/ECAT Close FoE Write.vi"/>
 					<Item Name="ECAT Start FoE Write.vi" Type="VI" URL="../System Explorer/Utility/Target Communication/ECAT Start FoE Write.vi"/>
 					<Item Name="ECAT Execute FoE Write.vi" Type="VI" URL="../System Explorer/Utility/Target Communication/ECAT Execute FoE Write.vi"/>
+					<Item Name="Host - Get Remote IO IOVs.vi" Type="VI" URL="../System Explorer/Utility/Target Communication/Host - Get Remote IO IOVs.vi"/>
+					<Item Name="Host - Get Remote IO Module Data.vi" Type="VI" URL="../System Explorer/Utility/Target Communication/Host - Get Remote IO Module Data.vi"/>
+					<Item Name="Host - Lookup Remote IO ID.vi" Type="VI" URL="../System Explorer/Utility/Target Communication/Host - Lookup Remote IO ID.vi"/>
 				</Item>
 				<Item Name="Host - Refresh All.vi" Type="VI" URL="../System Explorer/Utility/Target Communication/Host - Refresh All.vi"/>
 				<Item Name="Host - Get HW Config.vi" Type="VI" URL="../System Explorer/Utility/Target Communication/Host - Get HW Config.vi"/>
@@ -329,6 +332,11 @@
 				<Item Name="Get ECAT IOVar VS refs.vi" Type="VI" URL="../RT/Initialize/Get ECAT IOVar VS refs.vi"/>
 				<Item Name="Compare ECAT Vars.vi" Type="VI" URL="../RT/Initialize/Compare ECAT Vars.vi"/>
 				<Item Name="Host - Scan next ECAT Slave Level.vi" Type="VI" URL="../System Explorer/Utility/Target Communication/Host - Scan next ECAT Slave Level.vi"/>
+				<Item Name="REM IO - Get Data Clusters.vi" Type="VI" URL="../RT/Initialize/REM IO - Get Data Clusters.vi"/>
+				<Item Name="REM IO - Get ECAT IOVar Data.vi" Type="VI" URL="../RT/Initialize/REM IO - Get ECAT IOVar Data.vi"/>
+				<Item Name="REM IO - Get IOVar VS refs.vi" Type="VI" URL="../RT/Initialize/REM IO - Get IOVar VS refs.vi"/>
+				<Item Name="REM IO - Get Slave Data.vi" Type="VI" URL="../RT/Initialize/REM IO - Get Slave Data.vi"/>
+				<Item Name="REM IO - Get Slave IOVars.vi" Type="VI" URL="../RT/Initialize/REM IO - Get Slave IOVars.vi"/>
 			</Item>
 			<Item Name="Read/Write" Type="Folder">
 				<Item Name="RW All Data.vi" Type="VI" URL="../RT/Read-Write/RW All Data.vi"/>
