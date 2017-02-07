@@ -338,7 +338,7 @@
 				<Item Name="REM IO - Get Slave Data.vi" Type="VI" URL="../RT/Initialize/REM IO - Get Slave Data.vi"/>
 				<Item Name="REM IO - Get Slave IOVars.vi" Type="VI" URL="../RT/Initialize/REM IO - Get Slave IOVars.vi"/>
 				<Item Name="REM IO - Get IOVar VS refs.vi" Type="VI" URL="../RT/Initialize/REM IO - Get IOVar VS refs.vi"/>
-				<Item Name="REM IO - Get ECAT IOVar Data.vi" Type="VI" URL="../RT/Initialize/REM IO - Get ECAT IOVar Data.vi"/>
+				<Item Name="REM IO - Get ECAT Status Data.vi" Type="VI" URL="../RT/Initialize/REM IO - Get ECAT Status Data.vi"/>
 				<Item Name="REM IO - Get Data Clusters.vi" Type="VI" URL="../RT/Initialize/REM IO - Get Data Clusters.vi"/>
 			</Item>
 			<Item Name="Read/Write" Type="Folder">
