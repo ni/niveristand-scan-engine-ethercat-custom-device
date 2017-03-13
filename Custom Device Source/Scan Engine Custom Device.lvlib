@@ -58,6 +58,7 @@
 		<Item Name="download fpga.png" Type="Document" URL="../Glyphs/download fpga.png"/>
 		<Item Name="revert.png" Type="Document" URL="../Glyphs/revert.png"/>
 		<Item Name="network disabled.png" Type="Document" URL="../Glyphs/network disabled.png"/>
+		<Item Name="RemoteIOModule.png" Type="Document" URL="../Glyphs/RemoteIOModule.png"/>
 	</Item>
 	<Item Name="Type Defs" Type="Folder">
 		<Item Name="RT" Type="Folder">
@@ -122,6 +123,7 @@
 			<Item Name="Scan Engine EtherCAT Generic Slave.vi" Type="VI" URL="../System Explorer/Pages/Scan Engine EtherCAT Generic Slave.vi"/>
 			<Item Name="Scan Engine Custom Main IO Network Variables.vi" Type="VI" URL="../System Explorer/Pages/Scan Engine Custom Main IO Network Variables.vi"/>
 			<Item Name="Scan Engine ECAT IO Network Variables.vi" Type="VI" URL="../System Explorer/Pages/Scan Engine ECAT IO Network Variables.vi"/>
+			<Item Name="Scan Engine RemIO Module Page.vi" Type="VI" URL="../System Explorer/Pages/Scan Engine RemIO Module Page.vi"/>
 			<Item Name="Scan Engine Slot Page.vi" Type="VI" URL="../System Explorer/Pages/Scan Engine Slot Page.vi"/>
 			<Item Name="Scan Engine AI Page.vi" Type="VI" URL="../System Explorer/Pages/Scan Engine AI Page.vi"/>
 			<Item Name="Scan Engine AO Page.vi" Type="VI" URL="../System Explorer/Pages/Scan Engine AO Page.vi"/>
@@ -242,6 +244,10 @@
 				<Item Name="Add Custom Device Section - Offline.vi" Type="VI" URL="../System Explorer/Utility/Add Custom Device Section - Offline.vi"/>
 				<Item Name="NI VeriStand - Get Target Operating System.vi" Type="VI" URL="../System Explorer/Utility/NI VeriStand - Get Target Operating System.vi"/>
 				<Item Name="PathToLinuxPath.vi" Type="VI" URL="../System Explorer/Utility/PathToLinuxPath.vi"/>
+			</Item>
+			<Item Name="RemIO" Type="Folder">
+				<Item Name="Scan Engine Update RemIO Subpanel.vi" Type="VI" URL="../System Explorer/Utility/Scan Engine Update RemIO Subpanel.vi"/>
+				<Item Name="Scan Engine Init RemIO Mod.vi" Type="VI" URL="../System Explorer/Utility/Scan Engine Init RemIO Mod.vi"/>
 			</Item>
 		</Item>
 		<Item Name="RTM" Type="Folder">

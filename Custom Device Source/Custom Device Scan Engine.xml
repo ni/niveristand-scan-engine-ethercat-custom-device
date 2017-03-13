@@ -1316,6 +1316,21 @@
         <Path>Custom Devices\Scan Engine\Scan Engine - Configuration.llb\Scan Engine Custom Main IO Network Variables.vi</Path>
       </Item2Launch>
     </Page>
+    <Page>
+      <Name>
+        <eng>Scan Engine Remote IO Module</eng>
+        <loc>Scan Engine Remote IO Module</loc>
+      </Name>
+      <GUID>42675ab5-2b8a-48f2-bd5d-b35e6603b679</GUID>
+      <Glyph>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Scan Engine\Glyphs\RemoteIOModule.png</Path>
+      </Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Scan Engine\Scan Engine - Configuration.llb\Scan Engine RemIO Module Page.vi</Path>
+      </Item2Launch>
+    </Page>
   </Pages>
   <CustomXML>
     <Dummy />
