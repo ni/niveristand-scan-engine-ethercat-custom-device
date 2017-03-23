@@ -89,6 +89,9 @@
 			<Item Name="Open Module IOVs.ctl" Type="VI" URL="../Type Defs/Open Module IOVs.ctl"/>
 			<Item Name="Module IO Type.ctl" Type="VI" URL="../Type Defs/Module IO Type.ctl"/>
 			<Item Name="Mod Size Indexes.ctl" Type="VI" URL="../Type Defs/Mod Size Indexes.ctl"/>
+			<Item Name="REM IO ECAT Slave IOV Cluster.ctl" Type="VI" URL="../Type Defs/REM IO ECAT Slave IOV Cluster.ctl"/>
+			<Item Name="REM IO ECAT Slave Data Cluster.ctl" Type="VI" URL="../Type Defs/REM IO ECAT Slave Data Cluster.ctl"/>
+			<Item Name="REM IO ECAT Slave RT-Data-Array.ctl" Type="VI" URL="../Type Defs/REM IO ECAT Slave RT-Data-Array.ctl"/>
 			<Item Name="Generic ECAT Slave IOV Cluster.ctl" Type="VI" URL="../Type Defs/Generic ECAT Slave IOV Cluster.ctl"/>
 			<Item Name="Generic ECAT Slave Data Cluster.ctl" Type="VI" URL="../Type Defs/Generic ECAT Slave Data Cluster.ctl"/>
 			<Item Name="Generic ECAT Slave RT-Data-Array.ctl" Type="VI" URL="../Type Defs/Generic ECAT Slave RT-Data-Array.ctl"/>
@@ -338,6 +341,7 @@
 				<Item Name="Get ECAT IOVar VS refs.vi" Type="VI" URL="../RT/Initialize/Get ECAT IOVar VS refs.vi"/>
 				<Item Name="Compare ECAT Vars.vi" Type="VI" URL="../RT/Initialize/Compare ECAT Vars.vi"/>
 				<Item Name="Host - Scan next ECAT Slave Level.vi" Type="VI" URL="../System Explorer/Utility/Target Communication/Host - Scan next ECAT Slave Level.vi"/>
+				<Item Name="REM IO - Compare ECAT Vars.vi" Type="VI" URL="../RT/Initialize/REM IO - Compare ECAT Vars.vi"/>
 				<Item Name="REM IO - Get Data Clusters.vi" Type="VI" URL="../RT/Initialize/REM IO - Get Data Clusters.vi"/>
 				<Item Name="REM IO - Get ECAT IOVar Data.vi" Type="VI" URL="../RT/Initialize/REM IO - Get ECAT IOVar Data.vi"/>
 				<Item Name="REM IO - Get IOVar VS refs.vi" Type="VI" URL="../RT/Initialize/REM IO - Get IOVar VS refs.vi"/>
@@ -376,7 +380,9 @@
 				<Item Name="Read Input Modules at Indexes.vi" Type="VI" URL="../RT/Read-Write/Read Input Modules at Indexes.vi"/>
 				<Item Name="Read Mixed Modules at Indexes.vi" Type="VI" URL="../RT/Read-Write/Read Mixed Modules at Indexes.vi"/>
 				<Item Name="RW Generic Slaves.vi" Type="VI" URL="../RT/Read-Write/RW Generic Slaves.vi"/>
+				<Item Name="RW Rem IO Slaves.vi" Type="VI" URL="../RT/Read-Write/RW Rem IO Slaves.vi"/>
 				<Item Name="Read ECAT VARs.vi" Type="VI" URL="../RT/Read-Write/Read ECAT VARs.vi"/>
+				<Item Name="Read REM IO VARs.vi" Type="VI" URL="../RT/Read-Write/Read REM IO VARs.vi"/>
 				<Item Name="Write ECAT VARs.vi" Type="VI" URL="../RT/Read-Write/Write ECAT VARs.vi"/>
 			</Item>
 			<Item Name="Close" Type="Folder">
@@ -412,4 +418,5 @@
 		<Item Name="Set Error.vi" Type="VI" URL="../Utility/Set Error.vi"/>
 	</Item>
 	<Item Name="Custom Device Scan Engine.xml" Type="Document" URL="../Custom Device Scan Engine.xml"/>
+	<Item Name="Write REM IO VARs.vi" Type="VI" URL="../RT/Read-Write/Write REM IO VARs.vi"/>
 </Library>
