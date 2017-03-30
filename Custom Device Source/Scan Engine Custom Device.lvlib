@@ -384,6 +384,7 @@
 				<Item Name="Read ECAT VARs.vi" Type="VI" URL="../RT/Read-Write/Read ECAT VARs.vi"/>
 				<Item Name="Read REM IO VARs.vi" Type="VI" URL="../RT/Read-Write/Read REM IO VARs.vi"/>
 				<Item Name="Write ECAT VARs.vi" Type="VI" URL="../RT/Read-Write/Write ECAT VARs.vi"/>
+				<Item Name="Write REM IO VARs.vi" Type="VI" URL="../RT/Read-Write/Write REM IO VARs.vi"/>
 			</Item>
 			<Item Name="Close" Type="Folder">
 				<Item Name="NiFPGA Close.vi" Type="VI" URL="../RT/Close/NiFPGA Close.vi"/>
@@ -418,5 +419,4 @@
 		<Item Name="Set Error.vi" Type="VI" URL="../Utility/Set Error.vi"/>
 	</Item>
 	<Item Name="Custom Device Scan Engine.xml" Type="Document" URL="../Custom Device Scan Engine.xml"/>
-	<Item Name="Write REM IO VARs.vi" Type="VI" URL="../RT/Read-Write/Write REM IO VARs.vi"/>
 </Library>
