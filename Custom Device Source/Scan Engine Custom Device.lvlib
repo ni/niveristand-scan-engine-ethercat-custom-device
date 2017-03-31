@@ -379,9 +379,9 @@
 				<Item Name="Get Scan Mode.vi" Type="VI" URL="../RT/Read-Write/Get Scan Mode.vi"/>
 				<Item Name="Read Input Modules at Indexes.vi" Type="VI" URL="../RT/Read-Write/Read Input Modules at Indexes.vi"/>
 				<Item Name="Read Mixed Modules at Indexes.vi" Type="VI" URL="../RT/Read-Write/Read Mixed Modules at Indexes.vi"/>
-				<Item Name="RW Generic Slaves.vi" Type="VI" URL="../RT/Read-Write/RW Generic Slaves.vi"/>
 				<Item Name="RW Rem IO Slaves.vi" Type="VI" URL="../RT/Read-Write/RW Rem IO Slaves.vi"/>
 				<Item Name="Read ECAT VARs.vi" Type="VI" URL="../RT/Read-Write/Read ECAT VARs.vi"/>
+				<Item Name="RW Generic Slaves.vi" Type="VI" URL="../RT/Read-Write/RW Generic Slaves.vi"/>
 				<Item Name="Read REM IO VARs.vi" Type="VI" URL="../RT/Read-Write/Read REM IO VARs.vi"/>
 				<Item Name="Write ECAT VARs.vi" Type="VI" URL="../RT/Read-Write/Write ECAT VARs.vi"/>
 				<Item Name="Write REM IO VARs.vi" Type="VI" URL="../RT/Read-Write/Write REM IO VARs.vi"/>
