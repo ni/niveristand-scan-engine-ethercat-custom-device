@@ -30,7 +30,10 @@ web.js
 expandable_tree.css
 VSsystemexplorer.css
 EtherCAT Master.html
-EtherCAT Slave.html
+EtherCAT NI 914x Slave.html
+EtherCAT NI 9144 Slave.html
+EtherCAT NI 9145 Slave.html
+EtherCAT Remote IO Slave.html
 FPGA - EtherCAT.html
 FPGA - Local.html
 Local Chassis.html
