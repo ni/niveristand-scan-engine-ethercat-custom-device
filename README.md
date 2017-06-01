@@ -4,7 +4,7 @@
 
 ### LabVIEW Version ###
 
-LabVIEW 2015
+LabVIEW 2016
 
 ### Built Availability ###
 
@@ -18,7 +18,7 @@ This IP should be considered high quality and mature. The IP has been used world
 
 - The packed library build from [Scan Engine Custom Device Classes](https://github.com/NIVeriStandAdd-Ons/Scan-Engine-Custom-Device-Classes).
 - The FXP build from [Scan Engine Custom Device FXP LLB](https://github.com/NIVeriStandAdd-Ons/Scan-Engine-Custom-Device-FXP-LLB).
-- NI Industrial Communications for EtherCAT
+- NI Industrial Communications for EtherCAT 16.1+
 - NI RIO
 
 ### License ###
