@@ -5,7 +5,7 @@
     <eng>National Instruments::Scan Engine and EtherCAT</eng>
     <loc>National Instruments::Scan Engine and EtherCAT</loc>
   </AddMenu>
-  <Version>4.3.1</Version>
+  <Version>4.4.0</Version>
   <Type>Inline HW Interface</Type>
   <MaxOccurrence>1</MaxOccurrence>
   <MainPageGUID>A04A67D4-9B64-052B-A031-6B05377B9B10</MainPageGUID>
@@ -747,8 +747,8 @@
           <GUID>10E725DC-90F1-A4D3-A1C2-D8F9C2DBB1E6</GUID>
           <Type>Action</Type>
           <Name>
-            <eng>Add NI 9144 ECAT Slave</eng>
-            <loc>Add NI 9144 ECAT Slave</loc>
+            <eng>Add NI 914x ECAT Slave</eng>
+            <loc>Add NI 914x ECAT Slave</loc>
           </Name>
           <Item2Launch>
             <Type>To Common Doc Dir</Type>
@@ -779,16 +779,16 @@
           <Type>Action</Type>
           <ReferencedGUID>10E725DC-90F1-A4D3-A1C2-D8F9C2DBB1E6</ReferencedGUID>
           <ButtonText>
-            <eng>Add NI 9144 ECAT Slave</eng>
-            <loc>Add NI 9144 ECAT Slave</loc>
+            <eng>Add NI 914x ECAT Slave</eng>
+            <loc>Add NI 914x ECAT Slave</loc>
           </ButtonText>
           <Caption>
-            <eng>Add NI 9144 ECAT Slave</eng>
-            <loc>Add NI 9144 ECAT Slave</loc>
+            <eng>Add NI 914x ECAT Slave</eng>
+            <loc>Add NI 914x ECAT Slave</loc>
           </Caption>
           <TipStrip>
-            <eng>Add NI 9144 ECAT Slave</eng>
-            <loc>Add NI 9144 ECAT Slave</loc>
+            <eng>Add NI 914x ECAT Slave</eng>
+            <loc>Add NI 914x ECAT Slave</loc>
           </TipStrip>
           <Documentation>
             <eng />
@@ -839,10 +839,55 @@
     </Page>
     <Page>
       <Name>
-        <eng>Scan Engine EtherCAT Slave</eng>
-        <loc>Scan Engine EtherCAT Slave</loc>
+        <eng>Scan Engine EtherCAT NI 914x Slave</eng>
+        <loc>Scan Engine EtherCAT NI 914x Slave</loc>
       </Name>
       <GUID>50877E70-98F5-BFCC-3809-88209D9D28F5</GUID>
+      <Glyph>
+        <Type>To Application Data Dir</Type>
+        <Path>System Explorer\Glyphs\rio expansion chassis.png</Path>
+      </Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Scan Engine\Scan Engine - Configuration.llb\Scan Engine EtherCAT Slave.vi</Path>
+      </Item2Launch>
+    </Page>
+	<Page>
+      <Name>
+        <eng>Scan Engine EtherCAT NI 9144 Slave</eng>
+        <loc>Scan Engine EtherCAT NI 9144 Slave</loc>
+      </Name>
+      <GUID>0967D9B5-C270-4E7D-AF0D-EBA564935FF3</GUID>
+      <Glyph>
+        <Type>To Application Data Dir</Type>
+        <Path>System Explorer\Glyphs\rio expansion chassis.png</Path>
+      </Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Scan Engine\Scan Engine - Configuration.llb\Scan Engine EtherCAT Slave.vi</Path>
+      </Item2Launch>
+    </Page>
+	<Page>
+      <Name>
+        <eng>Scan Engine EtherCAT NI 9145 Slave</eng>
+        <loc>Scan Engine EtherCAT NI 9145 Slave</loc>
+      </Name>
+      <GUID>F08D8E42-E070-4D6E-B502-45A5BF0753B8</GUID>
+      <Glyph>
+        <Type>To Application Data Dir</Type>
+        <Path>System Explorer\Glyphs\rio expansion chassis.png</Path>
+      </Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Scan Engine\Scan Engine - Configuration.llb\Scan Engine EtherCAT Slave.vi</Path>
+      </Item2Launch>
+    </Page>
+	<Page>
+      <Name>
+        <eng>Scan Engine EtherCAT Remote I/O Slave</eng>
+        <loc>Scan Engine EtherCAT Remote I/O Slave</loc>
+      </Name>
+      <GUID>82BD2A9E-8BDD-4505-A7C4-771AB6862C33</GUID>
       <Glyph>
         <Type>To Application Data Dir</Type>
         <Path>System Explorer\Glyphs\rio expansion chassis.png</Path>
@@ -1314,6 +1359,21 @@
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
         <Path>Custom Devices\Scan Engine\Scan Engine - Configuration.llb\Scan Engine Custom Main IO Network Variables.vi</Path>
+      </Item2Launch>
+    </Page>
+    <Page>
+      <Name>
+        <eng>Scan Engine Remote IO Module</eng>
+        <loc>Scan Engine Remote IO Module</loc>
+      </Name>
+      <GUID>42675ab5-2b8a-48f2-bd5d-b35e6603b679</GUID>
+      <Glyph>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Scan Engine\Glyphs\RemoteIOModule.png</Path>
+      </Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Scan Engine\Scan Engine - Configuration.llb\Scan Engine RemIO Module Page.vi</Path>
       </Item2Launch>
     </Page>
   </Pages>
