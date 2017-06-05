@@ -28,11 +28,19 @@
 			<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
 		</Item>
 		<Item Name="data" Type="Folder">
+			<Item Name="NI 9144" Type="Folder">
+				<Item Name="_loadSP3user.foe" Type="Document" URL="../System Explorer/Utility/data/NI 9144/_loadSP3user.foe"/>
+				<Item Name="_wipeback.foe" Type="Document" URL="../System Explorer/Utility/data/NI 9144/_wipeback.foe"/>
+				<Item Name="cRIO_5001HandlerBody.bin" Type="Document" URL="../System Explorer/Utility/data/NI 9144/cRIO_5001HandlerBody.bin"/>
+				<Item Name="ReloadFPGARevC.foe" Type="Document" URL="../System Explorer/Utility/data/NI 9144/ReloadFPGARevC.foe"/>
+			</Item>
+			<Item Name="NI 9145" Type="Folder">
+				<Item Name="_loadSP3user.foe" Type="Document" URL="../System Explorer/Utility/data/NI 9145/_loadSP3user.foe"/>
+				<Item Name="_wipeback.foe" Type="Document" URL="../System Explorer/Utility/data/NI 9145/_wipeback.foe"/>
+				<Item Name="cRIO_5001Handler.bin" Type="Document" URL="../System Explorer/Utility/data/NI 9145/cRIO_5001Handler.bin"/>
+				<Item Name="ReloadFPGARevC.foe" Type="Document" URL="../System Explorer/Utility/data/NI 9145/ReloadFPGARevC.foe"/>
+			</Item>
 			<Item Name="FXP.llb" Type="Document" URL="../FXP.llb"/>
-			<Item Name="_loadSP3user.foe" Type="Document" URL="../System Explorer/Utility/data/_loadSP3user.foe"/>
-			<Item Name="_wipeback.foe" Type="Document" URL="../System Explorer/Utility/data/_wipeback.foe"/>
-			<Item Name="cRIO_5001HandlerBody.bin" Type="Document" URL="../System Explorer/Utility/data/cRIO_5001HandlerBody.bin"/>
-			<Item Name="ReloadFPGARevC.foe" Type="Document" URL="../System Explorer/Utility/data/ReloadFPGARevC.foe"/>
 			<Item Name="Scan Engine.chm" Type="Document" URL="../Scan Engine.chm"/>
 		</Item>
 		<Item Name="Scan Engine Custom Device.lvlib" Type="Library" URL="../Scan Engine Custom Device.lvlib"/>
@@ -370,16 +378,16 @@
 				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[5].type" Type="Str">Container</Property>
 				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[6].itemID" Type="Ref">/My Computer/data/_loadSP3user.foe</Property>
+				<Property Name="Source[6].itemID" Type="Ref"></Property>
 				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[7].itemID" Type="Ref">/My Computer/data/_wipeback.foe</Property>
+				<Property Name="Source[7].itemID" Type="Ref"></Property>
 				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[8].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[8].itemID" Type="Ref">/My Computer/data/cRIO_5001HandlerBody.bin</Property>
+				<Property Name="Source[8].itemID" Type="Ref"></Property>
 				<Property Name="Source[8].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[9].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[9].itemID" Type="Ref">/My Computer/data/ReloadFPGARevC.foe</Property>
+				<Property Name="Source[9].itemID" Type="Ref"></Property>
 				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="SourceCount" Type="Int">17</Property>
 			</Item>
@@ -407,10 +415,14 @@
 				<Property Name="Destination[4].path" Type="Path">../Built/NI_AB_PROJECTNAME/data</Property>
 				<Property Name="Destination[5].destName" Type="Str">Built Directory</Property>
 				<Property Name="Destination[5].path" Type="Path">../Built</Property>
-				<Property Name="DestinationCount" Type="Int">6</Property>
+				<Property Name="Destination[6].destName" Type="Str">NI 9144</Property>
+				<Property Name="Destination[6].path" Type="Path">../Built/NI_AB_PROJECTNAME/data/NI 9144</Property>
+				<Property Name="Destination[7].destName" Type="Str">NI 9145</Property>
+				<Property Name="Destination[7].path" Type="Path">../Built/NI_AB_PROJECTNAME/data/NI 9145</Property>
+				<Property Name="DestinationCount" Type="Int">8</Property>
 				<Property Name="Source[0].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[0].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{70C4BD97-393B-46DF-B874-ACF60BE08A61}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{EF922B77-286B-432B-934D-AEF7381C3F9C}</Property>
 				<Property Name="Source[0].properties[0].type" Type="Str">Allow debugging</Property>
 				<Property Name="Source[0].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[0].properties[1].type" Type="Str">Remove front panel</Property>
@@ -423,150 +435,151 @@
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Scan Engine Custom Device.lvlib</Property>
 				<Property Name="Source[1].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[1].type" Type="Str">Library</Property>
+				<Property Name="Source[10].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[10].Container.applyProperties" Type="Bool">true</Property>
+				<Property Name="Source[10].Container.applySaveSettings" Type="Bool">true</Property>
 				<Property Name="Source[10].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[10].itemID" Type="Ref">/My Computer/data/_loadSP3user.foe</Property>
+				<Property Name="Source[10].itemID" Type="Ref">/My Computer/Scan Engine Custom Device.lvlib/System Explorer/Pages</Property>
+				<Property Name="Source[10].properties[0].type" Type="Str">Remove front panel</Property>
+				<Property Name="Source[10].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[10].properties[1].type" Type="Str">Remove block diagram</Property>
+				<Property Name="Source[10].properties[1].value" Type="Bool">true</Property>
+				<Property Name="Source[10].properties[2].type" Type="Str">Allow debugging</Property>
+				<Property Name="Source[10].properties[2].value" Type="Bool">false</Property>
+				<Property Name="Source[10].propertiesCount" Type="Int">3</Property>
 				<Property Name="Source[10].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[11].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[11].itemID" Type="Ref">/My Computer/data/_wipeback.foe</Property>
-				<Property Name="Source[11].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[12].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[12].itemID" Type="Ref">/My Computer/data/cRIO_5001HandlerBody.bin</Property>
-				<Property Name="Source[12].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[10].type" Type="Str">Container</Property>
+				<Property Name="Source[11].Container.applyProperties" Type="Bool">true</Property>
+				<Property Name="Source[11].Container.applySaveSettings" Type="Bool">true</Property>
+				<Property Name="Source[11].itemID" Type="Ref">/My Computer/APIs</Property>
+				<Property Name="Source[11].properties[0].type" Type="Str">Remove front panel</Property>
+				<Property Name="Source[11].properties[0].value" Type="Bool">true</Property>
+				<Property Name="Source[11].properties[1].type" Type="Str">Remove block diagram</Property>
+				<Property Name="Source[11].properties[1].value" Type="Bool">true</Property>
+				<Property Name="Source[11].properties[2].type" Type="Str">Allow debugging</Property>
+				<Property Name="Source[11].properties[2].value" Type="Bool">false</Property>
+				<Property Name="Source[11].propertiesCount" Type="Int">3</Property>
+				<Property Name="Source[11].type" Type="Str">Container</Property>
+				<Property Name="Source[12].Container.applyProperties" Type="Bool">true</Property>
+				<Property Name="Source[12].Container.applySaveSettings" Type="Bool">true</Property>
+				<Property Name="Source[12].itemID" Type="Ref">/My Computer/Scan Engine Custom Device.lvlib/RT</Property>
+				<Property Name="Source[12].properties[0].type" Type="Str">Allow debugging</Property>
+				<Property Name="Source[12].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[12].properties[1].type" Type="Str">Remove front panel</Property>
+				<Property Name="Source[12].properties[1].value" Type="Bool">true</Property>
+				<Property Name="Source[12].properties[2].type" Type="Str">Remove block diagram</Property>
+				<Property Name="Source[12].properties[2].value" Type="Bool">true</Property>
+				<Property Name="Source[12].properties[3].type" Type="Str">Auto error handling</Property>
+				<Property Name="Source[12].properties[3].value" Type="Bool">false</Property>
+				<Property Name="Source[12].propertiesCount" Type="Int">4</Property>
+				<Property Name="Source[12].type" Type="Str">Container</Property>
+				<Property Name="Source[13].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[13].Container.applyProperties" Type="Bool">true</Property>
+				<Property Name="Source[13].Container.applySaveSettings" Type="Bool">true</Property>
 				<Property Name="Source[13].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[13].itemID" Type="Ref">/My Computer/data/ReloadFPGARevC.foe</Property>
+				<Property Name="Source[13].itemID" Type="Ref">/My Computer/Scan Engine Custom Device.lvlib/System Explorer/Action VIs</Property>
+				<Property Name="Source[13].properties[0].type" Type="Str">Allow debugging</Property>
+				<Property Name="Source[13].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[13].properties[1].type" Type="Str">Remove front panel</Property>
+				<Property Name="Source[13].properties[1].value" Type="Bool">false</Property>
+				<Property Name="Source[13].properties[2].type" Type="Str">Remove block diagram</Property>
+				<Property Name="Source[13].properties[2].value" Type="Bool">true</Property>
+				<Property Name="Source[13].propertiesCount" Type="Int">3</Property>
 				<Property Name="Source[13].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[14].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[14].itemID" Type="Ref">/My Computer/data/Scan Engine.chm</Property>
-				<Property Name="Source[14].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[15].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[15].Container.applyProperties" Type="Bool">true</Property>
-				<Property Name="Source[15].Container.applySaveSettings" Type="Bool">true</Property>
+				<Property Name="Source[13].type" Type="Str">Container</Property>
+				<Property Name="Source[14].Container.applyProperties" Type="Bool">true</Property>
+				<Property Name="Source[14].Container.applySaveSettings" Type="Bool">true</Property>
+				<Property Name="Source[14].itemID" Type="Ref">/My Computer/Scan Engine Custom Device.lvlib/System Explorer/Utility</Property>
+				<Property Name="Source[14].properties[0].type" Type="Str">Allow debugging</Property>
+				<Property Name="Source[14].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[14].properties[1].type" Type="Str">Remove front panel</Property>
+				<Property Name="Source[14].properties[1].value" Type="Bool">true</Property>
+				<Property Name="Source[14].properties[2].type" Type="Str">Remove block diagram</Property>
+				<Property Name="Source[14].properties[2].value" Type="Bool">true</Property>
+				<Property Name="Source[14].propertiesCount" Type="Int">3</Property>
+				<Property Name="Source[14].type" Type="Str">Container</Property>
 				<Property Name="Source[15].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[15].itemID" Type="Ref">/My Computer/Scan Engine Custom Device.lvlib/System Explorer/Pages</Property>
-				<Property Name="Source[15].properties[0].type" Type="Str">Remove front panel</Property>
+				<Property Name="Source[15].itemID" Type="Ref">/My Computer/Scan Engine Custom Device.lvlib/System Explorer/Scan Engine Initialization VI.vi</Property>
+				<Property Name="Source[15].properties[0].type" Type="Str">Allow debugging</Property>
 				<Property Name="Source[15].properties[0].value" Type="Bool">false</Property>
-				<Property Name="Source[15].properties[1].type" Type="Str">Remove block diagram</Property>
+				<Property Name="Source[15].properties[1].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[15].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[15].properties[2].type" Type="Str">Allow debugging</Property>
-				<Property Name="Source[15].properties[2].value" Type="Bool">false</Property>
+				<Property Name="Source[15].properties[2].type" Type="Str">Remove block diagram</Property>
+				<Property Name="Source[15].properties[2].value" Type="Bool">true</Property>
 				<Property Name="Source[15].propertiesCount" Type="Int">3</Property>
 				<Property Name="Source[15].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[15].type" Type="Str">Container</Property>
-				<Property Name="Source[16].Container.applyProperties" Type="Bool">true</Property>
+				<Property Name="Source[15].type" Type="Str">VI</Property>
 				<Property Name="Source[16].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[16].itemID" Type="Ref">/My Computer/APIs</Property>
+				<Property Name="Source[16].itemID" Type="Ref">/My Computer/Scan Engine Custom Device.lvlib/System Explorer/Utility/Target Communication</Property>
 				<Property Name="Source[16].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[16].properties[0].value" Type="Bool">true</Property>
+				<Property Name="Source[16].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[16].properties[1].type" Type="Str">Remove block diagram</Property>
 				<Property Name="Source[16].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[16].properties[2].type" Type="Str">Allow debugging</Property>
-				<Property Name="Source[16].properties[2].value" Type="Bool">false</Property>
-				<Property Name="Source[16].propertiesCount" Type="Int">3</Property>
+				<Property Name="Source[16].propertiesCount" Type="Int">2</Property>
 				<Property Name="Source[16].type" Type="Str">Container</Property>
-				<Property Name="Source[17].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[17].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[17].itemID" Type="Ref">/My Computer/Scan Engine Custom Device.lvlib/RT</Property>
-				<Property Name="Source[17].properties[0].type" Type="Str">Allow debugging</Property>
-				<Property Name="Source[17].properties[0].value" Type="Bool">false</Property>
-				<Property Name="Source[17].properties[1].type" Type="Str">Remove front panel</Property>
+				<Property Name="Source[17].itemID" Type="Ref">/My Computer/Scan Engine Custom Device.lvlib/System Explorer/Utility/FPGA</Property>
+				<Property Name="Source[17].properties[0].type" Type="Str">Remove front panel</Property>
+				<Property Name="Source[17].properties[0].value" Type="Bool">true</Property>
+				<Property Name="Source[17].properties[1].type" Type="Str">Remove block diagram</Property>
 				<Property Name="Source[17].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[17].properties[2].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[17].properties[2].value" Type="Bool">true</Property>
-				<Property Name="Source[17].properties[3].type" Type="Str">Auto error handling</Property>
-				<Property Name="Source[17].properties[3].value" Type="Bool">false</Property>
-				<Property Name="Source[17].propertiesCount" Type="Int">4</Property>
+				<Property Name="Source[17].propertiesCount" Type="Int">2</Property>
 				<Property Name="Source[17].type" Type="Str">Container</Property>
-				<Property Name="Source[18].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[18].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[18].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[18].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[18].itemID" Type="Ref">/My Computer/Scan Engine Custom Device.lvlib/System Explorer/Action VIs</Property>
-				<Property Name="Source[18].properties[0].type" Type="Str">Allow debugging</Property>
-				<Property Name="Source[18].properties[0].value" Type="Bool">false</Property>
-				<Property Name="Source[18].properties[1].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[18].properties[1].value" Type="Bool">false</Property>
-				<Property Name="Source[18].properties[2].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[18].properties[2].value" Type="Bool">true</Property>
-				<Property Name="Source[18].propertiesCount" Type="Int">3</Property>
-				<Property Name="Source[18].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[18].itemID" Type="Ref">/My Computer/Scan Engine Custom Device.lvlib/System Explorer/Utility/Module Slot</Property>
+				<Property Name="Source[18].properties[0].type" Type="Str">Remove front panel</Property>
+				<Property Name="Source[18].properties[0].value" Type="Bool">true</Property>
+				<Property Name="Source[18].properties[1].type" Type="Str">Remove block diagram</Property>
+				<Property Name="Source[18].properties[1].value" Type="Bool">true</Property>
+				<Property Name="Source[18].propertiesCount" Type="Int">2</Property>
 				<Property Name="Source[18].type" Type="Str">Container</Property>
-				<Property Name="Source[19].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[19].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[19].itemID" Type="Ref">/My Computer/Scan Engine Custom Device.lvlib/System Explorer/Utility</Property>
-				<Property Name="Source[19].properties[0].type" Type="Str">Allow debugging</Property>
-				<Property Name="Source[19].properties[0].value" Type="Bool">false</Property>
-				<Property Name="Source[19].properties[1].type" Type="Str">Remove front panel</Property>
+				<Property Name="Source[19].itemID" Type="Ref">/My Computer/Scan Engine Custom Device.lvlib/System Explorer/Utility/ECAT</Property>
+				<Property Name="Source[19].properties[0].type" Type="Str">Remove front panel</Property>
+				<Property Name="Source[19].properties[0].value" Type="Bool">true</Property>
+				<Property Name="Source[19].properties[1].type" Type="Str">Remove block diagram</Property>
 				<Property Name="Source[19].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[19].properties[2].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[19].properties[2].value" Type="Bool">true</Property>
-				<Property Name="Source[19].propertiesCount" Type="Int">3</Property>
+				<Property Name="Source[19].propertiesCount" Type="Int">2</Property>
 				<Property Name="Source[19].type" Type="Str">Container</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">2</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Scan Engine Custom Device.lvlib/Custom Device Scan Engine.xml</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[20].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[20].itemID" Type="Ref">/My Computer/Scan Engine Custom Device.lvlib/System Explorer/Scan Engine Initialization VI.vi</Property>
-				<Property Name="Source[20].properties[0].type" Type="Str">Allow debugging</Property>
-				<Property Name="Source[20].properties[0].value" Type="Bool">false</Property>
-				<Property Name="Source[20].properties[1].type" Type="Str">Remove front panel</Property>
+				<Property Name="Source[20].Container.applySaveSettings" Type="Bool">true</Property>
+				<Property Name="Source[20].itemID" Type="Ref">/My Computer/Scan Engine Custom Device.lvlib/System Explorer/Utility/Other</Property>
+				<Property Name="Source[20].properties[0].type" Type="Str">Remove front panel</Property>
+				<Property Name="Source[20].properties[0].value" Type="Bool">true</Property>
+				<Property Name="Source[20].properties[1].type" Type="Str">Remove block diagram</Property>
 				<Property Name="Source[20].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[20].properties[2].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[20].properties[2].value" Type="Bool">true</Property>
-				<Property Name="Source[20].propertiesCount" Type="Int">3</Property>
-				<Property Name="Source[20].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[20].type" Type="Str">VI</Property>
-				<Property Name="Source[21].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[21].itemID" Type="Ref">/My Computer/Scan Engine Custom Device.lvlib/System Explorer/Utility/Target Communication</Property>
-				<Property Name="Source[21].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[21].properties[0].value" Type="Bool">false</Property>
-				<Property Name="Source[21].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[21].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[21].propertiesCount" Type="Int">2</Property>
-				<Property Name="Source[21].type" Type="Str">Container</Property>
-				<Property Name="Source[22].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[22].itemID" Type="Ref">/My Computer/Scan Engine Custom Device.lvlib/System Explorer/Utility/FPGA</Property>
-				<Property Name="Source[22].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[22].properties[0].value" Type="Bool">true</Property>
-				<Property Name="Source[22].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[22].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[22].propertiesCount" Type="Int">2</Property>
-				<Property Name="Source[22].type" Type="Str">Container</Property>
-				<Property Name="Source[23].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[23].itemID" Type="Ref">/My Computer/Scan Engine Custom Device.lvlib/System Explorer/Utility/Module Slot</Property>
-				<Property Name="Source[23].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[23].properties[0].value" Type="Bool">true</Property>
-				<Property Name="Source[23].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[23].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[23].propertiesCount" Type="Int">2</Property>
+				<Property Name="Source[20].propertiesCount" Type="Int">2</Property>
+				<Property Name="Source[20].type" Type="Str">Container</Property>
+				<Property Name="Source[21].destinationIndex" Type="Int">5</Property>
+				<Property Name="Source[21].itemID" Type="Ref">/My Computer/Scan Engine Custom Device.lvlib/Docs/readme.txt</Property>
+				<Property Name="Source[21].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[22].destinationIndex" Type="Int">5</Property>
+				<Property Name="Source[22].itemID" Type="Ref">/My Computer/Scan Engine Custom Device.lvlib/Docs/scanengineveristand-errors.txt</Property>
+				<Property Name="Source[22].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[23].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[23].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[23].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[23].itemID" Type="Ref">/My Computer/Scan Engine Custom Device.lvlib/System Explorer/RTM</Property>
+				<Property Name="Source[23].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[23].type" Type="Str">Container</Property>
-				<Property Name="Source[24].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[24].itemID" Type="Ref">/My Computer/Scan Engine Custom Device.lvlib/System Explorer/Utility/ECAT</Property>
-				<Property Name="Source[24].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[24].properties[0].value" Type="Bool">true</Property>
-				<Property Name="Source[24].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[24].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[24].propertiesCount" Type="Int">2</Property>
+				<Property Name="Source[24].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[24].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[24].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[24].destinationIndex" Type="Int">6</Property>
+				<Property Name="Source[24].itemID" Type="Ref">/My Computer/data/NI 9144</Property>
+				<Property Name="Source[24].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[24].type" Type="Str">Container</Property>
-				<Property Name="Source[25].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[25].itemID" Type="Ref">/My Computer/Scan Engine Custom Device.lvlib/System Explorer/Utility/Other</Property>
-				<Property Name="Source[25].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[25].properties[0].value" Type="Bool">true</Property>
-				<Property Name="Source[25].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[25].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[25].propertiesCount" Type="Int">2</Property>
+				<Property Name="Source[25].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[25].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[25].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[25].destinationIndex" Type="Int">7</Property>
+				<Property Name="Source[25].itemID" Type="Ref">/My Computer/data/NI 9145</Property>
+				<Property Name="Source[25].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[25].type" Type="Str">Container</Property>
-				<Property Name="Source[26].destinationIndex" Type="Int">5</Property>
-				<Property Name="Source[26].itemID" Type="Ref">/My Computer/Scan Engine Custom Device.lvlib/Docs/readme.txt</Property>
-				<Property Name="Source[26].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[27].destinationIndex" Type="Int">5</Property>
-				<Property Name="Source[27].itemID" Type="Ref">/My Computer/Scan Engine Custom Device.lvlib/Docs/scanengineveristand-errors.txt</Property>
-				<Property Name="Source[27].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[28].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[28].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[28].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[28].itemID" Type="Ref">/My Computer/Scan Engine Custom Device.lvlib/System Explorer/RTM</Property>
-				<Property Name="Source[28].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[28].type" Type="Str">Container</Property>
+				<Property Name="Source[26].destinationIndex" Type="Int">4</Property>
+				<Property Name="Source[26].itemID" Type="Ref">/My Computer/data/FXP.llb</Property>
 				<Property Name="Source[3].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[3].Container.applySaveSettings" Type="Bool">true</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
@@ -628,16 +641,15 @@
 				<Property Name="Source[7].preventRename" Type="Bool">true</Property>
 				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[8].Container.applyDestination" Type="Bool">true</Property>
-				<Property Name="Source[8].destinationIndex" Type="Int">4</Property>
-				<Property Name="Source[8].itemID" Type="Ref">/My Computer/data</Property>
+				<Property Name="Source[8].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[8].destinationIndex" Type="Int">3</Property>
+				<Property Name="Source[8].itemID" Type="Ref">/My Computer/Scan Engine Custom Device.lvlib/Glyphs</Property>
+				<Property Name="Source[8].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[8].type" Type="Str">Container</Property>
-				<Property Name="Source[9].Container.applyDestination" Type="Bool">true</Property>
-				<Property Name="Source[9].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[9].destinationIndex" Type="Int">3</Property>
-				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Scan Engine Custom Device.lvlib/Glyphs</Property>
+				<Property Name="Source[9].destinationIndex" Type="Int">4</Property>
+				<Property Name="Source[9].itemID" Type="Ref">/My Computer/data/Scan Engine.chm</Property>
 				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[9].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">29</Property>
+				<Property Name="SourceCount" Type="Int">27</Property>
 			</Item>
 			<Item Name="PharLap - Debug" Type="Source Distribution">
 				<Property Name="Bld_buildCacheID" Type="Str">{01299F42-64C7-4D45-AA38-043BCF73FA9E}</Property>
@@ -915,13 +927,13 @@
 				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Scan Engine Custom Device.lvlib/Glyphs</Property>
 				<Property Name="Source[5].type" Type="Str">Container</Property>
 				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[6].itemID" Type="Ref">/My Computer/data/_loadSP3user.foe</Property>
+				<Property Name="Source[6].itemID" Type="Ref"></Property>
 				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[7].itemID" Type="Ref">/My Computer/data/_wipeback.foe</Property>
+				<Property Name="Source[7].itemID" Type="Ref"></Property>
 				<Property Name="Source[8].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[8].itemID" Type="Ref">/My Computer/data/cRIO_5001HandlerBody.bin</Property>
+				<Property Name="Source[8].itemID" Type="Ref"></Property>
 				<Property Name="Source[9].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[9].itemID" Type="Ref">/My Computer/data/ReloadFPGARevC.foe</Property>
+				<Property Name="Source[9].itemID" Type="Ref"></Property>
 				<Property Name="SourceCount" Type="Int">11</Property>
 			</Item>
 			<Item Name="Readme &amp; XML - Built Folder" Type="Source Distribution">
