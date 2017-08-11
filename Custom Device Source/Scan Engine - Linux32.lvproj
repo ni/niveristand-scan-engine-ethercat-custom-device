@@ -229,6 +229,8 @@
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
+				<Item Name="NI VeriStand - Get Custom Device Channel List.vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/NI VeriStand - Get Custom Device Channel List.vi"/>
+				<Item Name="NI VeriStand - Search for Item.vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/Custom Device Tools/Custom Device Utility Library/NI VeriStand - Search for Item.vi"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_FTP.lvlib" Type="Library" URL="/&lt;vilib&gt;/FTP/NI_FTP.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
@@ -373,7 +375,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{C8DB84FD-1C4D-4DEE-8615-EAE525A412F6}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/Linux_32_ARM/Scan Engine - RT.llb</Property>
-				<Property Name="Bld_version.build" Type="Int">95</Property>
+				<Property Name="Bld_version.build" Type="Int">96</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">/Linux_32_ARM/Scan Engine - RT.llb</Property>
