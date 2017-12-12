@@ -1,0 +1,59 @@
+[archive]
+build_output_dir = 'Built'
+archive_location = '\\nirvana\temp\vs_cds\scan_engine_custom_device'
+
+[dependencies.Scan-Engine-Custom-Device-FXP-LLB]
+libraries = ['FXP.llb']
+copy_location = 'Custom Device Source'
+
+[dependencies.Scan-Engine-Custom-Device-Classes]
+libraries = ['Modules.lvlibp']
+copy_location = 'Custom Device Source'
+
+[projects.pharlap]
+path = 'Custom Device Source\Scan Engine.lvproj'
+
+[projects.vxworks]
+path = 'Custom Device Source\Scan Engine - VxWorks.lvproj'
+
+[projects.linux64]
+path = 'Custom Device Source\Scan Engine - Linux.lvproj'
+
+[projects.linux32]
+path = 'Custom Device Source\Scan Engine - Linux32.lvproj'
+
+[[build.steps]]
+name = 'Configuration Library'
+type = 'lvBuildSpec'
+project = '{pharlap}'
+target = 'My Computer'
+build_spec = 'Configuration - Release'
+dependency_target = 'pharlap'
+
+[[build.steps]]
+name = 'Pharlap Engine Library'
+type = 'lvBuildSpecAllTargets'
+project = '{pharlap}'
+build_spec = 'PharLap - Release'
+dependency_target = 'pharlap'
+
+[[build.steps]]
+name = 'VxWorks Engine Library'
+type = 'lvBuildSpecAllTargets'
+project = '{vxworks}'
+build_spec = 'VxWorks - Release'
+dependency_target = 'vxworks'
+
+[[build.steps]]
+name = 'Linux x64 Engine Library'
+type = 'lvBuildSpecAllTargets'
+project = '{linux64}'
+build_spec = 'Linux - Release'
+dependency_target = 'linux64'
+
+[[build.steps]]
+name = 'Linux x86 Engine Library'
+type = 'lvBuildSpecAllTargets'
+project = '{linux32}'
+build_spec = 'Linux 32 - release'
+dependency_target = 'linux32'
