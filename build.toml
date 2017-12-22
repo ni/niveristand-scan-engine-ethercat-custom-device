@@ -1,6 +1,6 @@
 [archive]
 build_output_dir = 'Built'
-archive_location = '\\us-aus-hilbuild\builds\archive\vs_cds\scan_engine_custom_device'
+archive_location = '\\us-aus-hilbuild\builds\niveristandadd-ons\archive\vs_cds\scan_engine_custom_device'
 
 [dependencies.Scan-Engine-Custom-Device-FXP-LLB]
 libraries = ['FXP.llb']
