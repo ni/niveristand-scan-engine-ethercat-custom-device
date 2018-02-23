@@ -1,0 +1,15 @@
+Package: scan-engine-and-ethercat-custom-device-{version}
+Version: 4.4.1
+Architecture: windows_x64
+Maintainer: National Instruments <support@ni.com>
+XB-Plugin: file
+Description:  This package allows users to easily read scanned I/O from C series modules located in a CompactRIO or NI 9144 EtherCAT chassis. The add-on also supports custom FPGA personalities to be used with a 914x chassis and support for both Remote I/O and generic EtherCAT slaves (PDO only).
+XB-Eula:  
+Priority: standard
+Homepage: http://www.ni.com
+XB-LanguageSupport: en
+XB-UserVisible: yes
+Section: Add-Ons
+XB-DisplayVersion: 4.4.1
+XB-DisplayName: Scan Engine and EtherCAT Custom Device for VeriStand {version}
+Depends: 
