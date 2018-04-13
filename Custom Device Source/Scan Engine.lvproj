@@ -45,81 +45,7 @@
 		</Item>
 		<Item Name="Scan Engine Custom Device.lvlib" Type="Library" URL="../Scan Engine Custom Device.lvlib"/>
 		<Item Name="Build VIs.lvlib" Type="Library" URL="../Build VIs/Build VIs.lvlib"/>
-		<Item Name="Modules.lvlibp" Type="LVLibp" URL="../Modules.lvlibp">
-			<Item Name="RSI Module Template" Type="Folder">
-				<Item Name="Module Template.lvclass" Type="LVClass" URL="../Modules.lvlibp/Module Template/Module Template.lvclass"/>
-			</Item>
-			<Item Name="Specific RSI Modules" Type="Folder">
-				<Item Name="Specialty Digital" Type="Folder">
-					<Item Name="SD Module.lvclass" Type="LVClass" URL="../Modules.lvlibp/SD Module/SD Module.lvclass"/>
-					<Item Name="9401.lvclass" Type="LVClass" URL="../Modules.lvlibp/9401/9401.lvclass"/>
-					<Item Name="9402.lvclass" Type="LVClass" URL="../Modules.lvlibp/9402/9402.lvclass"/>
-				</Item>
-				<Item Name="9203.lvclass" Type="LVClass" URL="../Modules.lvlibp/9203/9203.lvclass"/>
-				<Item Name="9205.lvclass" Type="LVClass" URL="../Modules.lvlibp/9205/9205.lvclass"/>
-				<Item Name="9207.lvclass" Type="LVClass" URL="../Modules.lvlibp/9207/9207.lvclass"/>
-				<Item Name="9211.lvclass" Type="LVClass" URL="../Modules.lvlibp/9211/9211.lvclass"/>
-				<Item Name="9213.lvclass" Type="LVClass" URL="../Modules.lvlibp/9213/9213.lvclass"/>
-				<Item Name="9214.lvclass" Type="LVClass" URL="../Modules.lvlibp/9214/9214.lvclass"/>
-				<Item Name="9217.lvclass" Type="LVClass" URL="../Modules.lvlibp/9217/9217.lvclass"/>
-				<Item Name="9219.lvclass" Type="LVClass" URL="../Modules.lvlibp/9219/9219.lvclass"/>
-				<Item Name="9229.lvclass" Type="LVClass" URL="../Modules.lvlibp/9229/9229.lvclass"/>
-				<Item Name="9233.lvclass" Type="LVClass" URL="../Modules.lvlibp/9233/9233.lvclass"/>
-				<Item Name="9234.lvclass" Type="LVClass" URL="../Modules.lvlibp/9234/9234.lvclass"/>
-				<Item Name="9235.lvclass" Type="LVClass" URL="../Modules.lvlibp/9235/9235.lvclass"/>
-				<Item Name="9237.lvclass" Type="LVClass" URL="../Modules.lvlibp/9237/9237.lvclass"/>
-				<Item Name="9239.lvclass" Type="LVClass" URL="../Modules.lvlibp/9239/9239.lvclass"/>
-				<Item Name="9403.lvclass" Type="LVClass" URL="../Modules.lvlibp/9403/9403.lvclass"/>
-				<Item Name="9478.lvclass" Type="LVClass" URL="../Modules.lvlibp/9478/9478.lvclass"/>
-				<Item Name="9244.lvclass" Type="LVClass" URL="../Modules.lvlibp/9244/9244.lvclass"/>
-				<Item Name="9212.lvclass" Type="LVClass" URL="../Modules.lvlibp/9212/9212.lvclass"/>
-				<Item Name="9242.lvclass" Type="LVClass" URL="../Modules.lvlibp/9242/9242.lvclass"/>
-			</Item>
-			<Item Name="Specific RemIO Modules" Type="Folder">
-				<Item Name="11102.lvclass" Type="LVClass" URL="../Modules.lvlibp/REM-11102/11102.lvclass"/>
-				<Item Name="11115.lvclass" Type="LVClass" URL="../Modules.lvlibp/REM-11115/11115.lvclass"/>
-				<Item Name="11152.lvclass" Type="LVClass" URL="../Modules.lvlibp/REM-11152/11152.lvclass"/>
-				<Item Name="11154.lvclass" Type="LVClass" URL="../Modules.lvlibp/REM-11154/11154.lvclass"/>
-				<Item Name="11175.lvclass" Type="LVClass" URL="../Modules.lvlibp/REM-11175/11175.lvclass"/>
-				<Item Name="11178.lvclass" Type="LVClass" URL="../Modules.lvlibp/REM-11178/11178.lvclass"/>
-				<Item Name="11120.lvclass" Type="LVClass" URL="../Modules.lvlibp/REM-11120/11120.lvclass"/>
-				<Item Name="11100.lvclass" Type="LVClass" URL="../Modules.lvlibp/REM-11100/11100.lvclass"/>
-			</Item>
-			<Item Name="RSI Module.lvclass" Type="LVClass" URL="../Modules.lvlibp/RSI Module/RSI Module.lvclass"/>
-			<Item Name="Init Module.vi" Type="VI" URL="../Modules.lvlibp/Init Module.vi"/>
-			<Item Name="RemIO Module.lvclass" Type="LVClass" URL="../Modules.lvlibp/RemIO Module/RemIO Module.lvclass"/>
-			<Item Name="NI ECAT Remote IO.lvlib" Type="Library" URL="../Modules.lvlibp/1abvi3w/vi.lib/indcomecat/Remote IO/NI ECAT Remote IO.lvlib"/>
-			<Item Name="Custom Device API.lvlib" Type="Library" URL="../Modules.lvlibp/1abvi3w/vi.lib/NI Veristand/Custom Device API/Custom Device API.lvlib"/>
-			<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="../Modules.lvlibp/1abvi3w/vi.lib/NI Veristand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
-			<Item Name="Clear Errors.vi" Type="VI" URL="../Modules.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Clear Errors.vi"/>
-			<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../Modules.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
-			<Item Name="LVRowAndColumnUnsignedTypeDef.ctl" Type="VI" URL="../Modules.lvlibp/1abvi3w/vi.lib/Utility/miscctls.llb/LVRowAndColumnUnsignedTypeDef.ctl"/>
-			<Item Name="Open File+.vi" Type="VI" URL="../Modules.lvlibp/1abvi3w/vi.lib/Utility/file.llb/Open File+.vi"/>
-			<Item Name="compatReadText.vi" Type="VI" URL="../Modules.lvlibp/1abvi3w/vi.lib/_oldvers/_oldvers.llb/compatReadText.vi"/>
-			<Item Name="Read File+ (string).vi" Type="VI" URL="../Modules.lvlibp/1abvi3w/vi.lib/Utility/file.llb/Read File+ (string).vi"/>
-			<Item Name="Find First Error.vi" Type="VI" URL="../Modules.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Find First Error.vi"/>
-			<Item Name="Close File+.vi" Type="VI" URL="../Modules.lvlibp/1abvi3w/vi.lib/Utility/file.llb/Close File+.vi"/>
-			<Item Name="DialogType.ctl" Type="VI" URL="../Modules.lvlibp/1abvi3w/vi.lib/Utility/error.llb/DialogType.ctl"/>
-			<Item Name="Write Spreadsheet String.vi" Type="VI" URL="../Modules.lvlibp/1abvi3w/vi.lib/Utility/file.llb/Write Spreadsheet String.vi"/>
-			<Item Name="LVRowAndColumnTypeDef.ctl" Type="VI" URL="../Modules.lvlibp/1abvi3w/vi.lib/Utility/miscctls.llb/LVRowAndColumnTypeDef.ctl"/>
-			<Item Name="LVRectTypeDef.ctl" Type="VI" URL="../Modules.lvlibp/1abvi3w/vi.lib/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
-			<Item Name="DialogTypeEnum.ctl" Type="VI" URL="../Modules.lvlibp/1abvi3w/vi.lib/Utility/error.llb/DialogTypeEnum.ctl"/>
-			<Item Name="TagReturnType.ctl" Type="VI" URL="../Modules.lvlibp/1abvi3w/vi.lib/Utility/error.llb/TagReturnType.ctl"/>
-			<Item Name="Check Special Tags.vi" Type="VI" URL="../Modules.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Check Special Tags.vi"/>
-			<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="../Modules.lvlibp/1abvi3w/vi.lib/Utility/error.llb/GetRTHostConnectedProp.vi"/>
-			<Item Name="Error Code Database.vi" Type="VI" URL="../Modules.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Code Database.vi"/>
-			<Item Name="whitespace.ctl" Type="VI" URL="../Modules.lvlibp/1abvi3w/vi.lib/Utility/error.llb/whitespace.ctl"/>
-			<Item Name="Trim Whitespace.vi" Type="VI" URL="../Modules.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Trim Whitespace.vi"/>
-			<Item Name="Search and Replace Pattern.vi" Type="VI" URL="../Modules.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Search and Replace Pattern.vi"/>
-			<Item Name="Find Tag.vi" Type="VI" URL="../Modules.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Find Tag.vi"/>
-			<Item Name="Format Message String.vi" Type="VI" URL="../Modules.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Format Message String.vi"/>
-			<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="../Modules.lvlibp/1abvi3w/vi.lib/Utility/error.llb/General Error Handler Core CORE.vi"/>
-			<Item Name="General Error Handler.vi" Type="VI" URL="../Modules.lvlibp/1abvi3w/vi.lib/Utility/error.llb/General Error Handler.vi"/>
-			<Item Name="Simple Error Handler.vi" Type="VI" URL="../Modules.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Simple Error Handler.vi"/>
-			<Item Name="Read Lines From File.vi" Type="VI" URL="../Modules.lvlibp/1abvi3w/vi.lib/Utility/file.llb/Read Lines From File.vi"/>
-			<Item Name="Read From Spreadsheet File (DBL).vi" Type="VI" URL="../Modules.lvlibp/1abvi3w/vi.lib/Utility/file.llb/Read From Spreadsheet File (DBL).vi"/>
-			<Item Name="Write To Spreadsheet File (DBL).vi" Type="VI" URL="../Modules.lvlibp/1abvi3w/vi.lib/Utility/file.llb/Write To Spreadsheet File (DBL).vi"/>
-		</Item>
+		<Item Name="Modules.lvlibp" Type="LVLibp" URL="../Modules.lvlibp"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -296,9 +222,34 @@
 			<Item Name="_loadDeviceProfiles.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/indcomecat/_InternalSubVIs/_loadDeviceProfiles.vi"/>
 			<Item Name="_copyToHost.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/indcomecat/_InternalSubVIs/_copyToHost.vi"/>
 			<Item Name="_recodeResult.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/indcomecat/_InternalSubVIs/_recodeResult.vi"/>
-			<Item Name="niecatviapi.dll" Type="Document" URL="niecatviapi.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
+			<Item Name="RSI Module.lvclass" Type="LVClass" URL="../Modules.lvlibp/RSI Module/RSI Module.lvclass"/>
+			<Item Name="Read RemIO Module Page Property.vi" Type="VI" URL="../Modules.lvlibp/RemIO Module/Read RemIO Module Page Property.vi"/>
+			<Item Name="RemIO Module.lvclass" Type="LVClass" URL="../Modules.lvlibp/RemIO Module/RemIO Module.lvclass"/>
+			<Item Name="11152.lvclass" Type="LVClass" URL="../Modules.lvlibp/REM-11152/11152.lvclass"/>
+			<Item Name="11115.lvclass" Type="LVClass" URL="../Modules.lvlibp/REM-11115/11115.lvclass"/>
+			<Item Name="11154.lvclass" Type="LVClass" URL="../Modules.lvlibp/REM-11154/11154.lvclass"/>
+			<Item Name="11175.lvclass" Type="LVClass" URL="../Modules.lvlibp/REM-11175/11175.lvclass"/>
+			<Item Name="11178.lvclass" Type="LVClass" URL="../Modules.lvlibp/REM-11178/11178.lvclass"/>
+			<Item Name="11102.lvclass" Type="LVClass" URL="../Modules.lvlibp/REM-11102/11102.lvclass"/>
+			<Item Name="11100.lvclass" Type="LVClass" URL="../Modules.lvlibp/REM-11100/11100.lvclass"/>
+			<Item Name="11120.lvclass" Type="LVClass" URL="../Modules.lvlibp/REM-11120/11120.lvclass"/>
+			<Item Name="Write RemIO Module Page Property.vi" Type="VI" URL="../Modules.lvlibp/RemIO Module/Write RemIO Module Page Property.vi"/>
+			<Item Name="Init Module.vi" Type="VI" URL="../Modules.lvlibp/Init Module.vi"/>
+			<Item Name="Module Models.ctl" Type="VI" URL="../Modules.lvlibp/RSI Module/Module Models.ctl"/>
+			<Item Name="Channel Type.ctl" Type="VI" URL="../Modules.lvlibp/RSI Module/Channel Type.ctl"/>
+			<Item Name="Slot Settings.ctl" Type="VI" URL="../Modules.lvlibp/RSI Module/Slot Settings.ctl"/>
+			<Item Name="Read Module Page Property.vi" Type="VI" URL="../Modules.lvlibp/RSI Module/Read Module Page Property.vi"/>
+			<Item Name="Read Slot.vi" Type="VI" URL="../Modules.lvlibp/RSI Module/Read Slot.vi"/>
+			<Item Name="Class Property Strings.vi" Type="VI" URL="../Modules.lvlibp/RSI Module/Class Property Strings.vi"/>
+			<Item Name="RSI Module_Initialize.vi" Type="VI" URL="../Modules.lvlibp/RSI Module/RSI Module_Initialize.vi"/>
+			<Item Name="SubPanel Command.ctl" Type="VI" URL="../Modules.lvlibp/RSI Module/SubPanel Command.ctl"/>
+			<Item Name="Read Model.vi" Type="VI" URL="../Modules.lvlibp/RSI Module/Read Model.vi"/>
+			<Item Name="Read Slot Settings.vi" Type="VI" URL="../Modules.lvlibp/RSI Module/Read Slot Settings.vi"/>
+			<Item Name="Write Module Page Property.vi" Type="VI" URL="../Modules.lvlibp/RSI Module/Write Module Page Property.vi"/>
+			<Item Name="Write Model.vi" Type="VI" URL="../Modules.lvlibp/RSI Module/Write Model.vi"/>
+			<Item Name="Channel GUIDs.vi" Type="VI" URL="../Modules.lvlibp/RSI Module/Channel GUIDs.vi"/>
+			<Item Name="Read EtherCAT.vi" Type="VI" URL="../Modules.lvlibp/RSI Module/Read EtherCAT.vi"/>
+			<Item Name="Read Channel Type.vi" Type="VI" URL="../Modules.lvlibp/RSI Module/Read Channel Type.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Configuration - Debug" Type="Source Distribution">
@@ -306,60 +257,46 @@
 				<Property Name="Bld_buildSpecName" Type="Str">Configuration - Debug</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../Built/NI_AB_PROJECTNAME/Scan Engine - Configuration.llb</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Built/Custom Devices/NI_AB_PROJECTNAME/Scan Engine - Configuration.llb</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Build VIs.lvlib/Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{03584EBF-F7D5-44FC-AEEC-72F440496243}</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
-				<Property Name="Destination[0].path" Type="Path">../Built/NI_AB_PROJECTNAME/Scan Engine - Configuration.llb</Property>
+				<Property Name="Destination[0].path" Type="Path">../Built/Custom Devices/NI_AB_PROJECTNAME/Scan Engine - Configuration.llb</Property>
 				<Property Name="Destination[0].type" Type="Str">LLB</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../Built/NI_AB_PROJECTNAME/PharLap</Property>
+				<Property Name="Destination[1].path" Type="Path">../Built/Custom Devices/NI_AB_PROJECTNAME/PharLap</Property>
 				<Property Name="Destination[2].destName" Type="Str">Custom Device Directory</Property>
-				<Property Name="Destination[2].path" Type="Path">../Built/NI_AB_PROJECTNAME</Property>
+				<Property Name="Destination[2].path" Type="Path">../Built/Custom Devices/NI_AB_PROJECTNAME</Property>
 				<Property Name="Destination[3].destName" Type="Str">Glyphs</Property>
-				<Property Name="Destination[3].path" Type="Path">../Built/NI_AB_PROJECTNAME/Glyphs</Property>
+				<Property Name="Destination[3].path" Type="Path">../Built/Custom Devices/NI_AB_PROJECTNAME/Glyphs</Property>
 				<Property Name="Destination[4].destName" Type="Str">Data</Property>
-				<Property Name="Destination[4].path" Type="Path">../Built/NI_AB_PROJECTNAME/data</Property>
+				<Property Name="Destination[4].path" Type="Path">../Built/Custom Devices/NI_AB_PROJECTNAME/data</Property>
 				<Property Name="Destination[5].destName" Type="Str">Built Directory</Property>
-				<Property Name="Destination[5].path" Type="Path">../Built</Property>
+				<Property Name="Destination[5].path" Type="Path">../Built/Custom Devices</Property>
 				<Property Name="DestinationCount" Type="Int">6</Property>
-				<Property Name="Source[0].itemID" Type="Str">{6690EBE7-4748-4BAE-BB07-1FC1F59C8F7B}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{860F4BCD-094E-465E-B1DE-EFE2BC55468A}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Scan Engine Custom Device.lvlib</Property>
 				<Property Name="Source[1].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[1].type" Type="Str">Library</Property>
+				<Property Name="Source[10].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[10].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[10].itemID" Type="Ref">/My Computer/data/Scan Engine.chm</Property>
+				<Property Name="Source[10].itemID" Type="Ref">/My Computer/Scan Engine Custom Device.lvlib/System Explorer/Action VIs</Property>
 				<Property Name="Source[10].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[11].destinationIndex" Type="Int">5</Property>
-				<Property Name="Source[11].itemID" Type="Ref">/My Computer/Scan Engine Custom Device.lvlib/Docs/readme.txt</Property>
+				<Property Name="Source[10].type" Type="Str">Container</Property>
+				<Property Name="Source[11].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[11].itemID" Type="Ref">/My Computer/Scan Engine Custom Device.lvlib/System Explorer/Scan Engine Initialization VI.vi</Property>
 				<Property Name="Source[11].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[12].destinationIndex" Type="Int">5</Property>
-				<Property Name="Source[12].itemID" Type="Ref">/My Computer/Scan Engine Custom Device.lvlib/Docs/scanengineveristand-errors.txt</Property>
+				<Property Name="Source[11].type" Type="Str">VI</Property>
+				<Property Name="Source[12].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[12].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[12].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[12].itemID" Type="Ref">/My Computer/Scan Engine Custom Device.lvlib/System Explorer/RTM</Property>
 				<Property Name="Source[12].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[13].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[13].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[13].itemID" Type="Ref">/My Computer/Scan Engine Custom Device.lvlib/System Explorer/Pages</Property>
-				<Property Name="Source[13].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[13].type" Type="Str">Container</Property>
-				<Property Name="Source[14].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[14].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[14].itemID" Type="Ref">/My Computer/Scan Engine Custom Device.lvlib/System Explorer/Action VIs</Property>
-				<Property Name="Source[14].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[14].type" Type="Str">Container</Property>
-				<Property Name="Source[15].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[15].itemID" Type="Ref">/My Computer/Scan Engine Custom Device.lvlib/System Explorer/Scan Engine Initialization VI.vi</Property>
-				<Property Name="Source[15].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[15].type" Type="Str">VI</Property>
-				<Property Name="Source[16].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[16].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[16].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[16].itemID" Type="Ref">/My Computer/Scan Engine Custom Device.lvlib/System Explorer/RTM</Property>
-				<Property Name="Source[16].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[16].type" Type="Str">Container</Property>
+				<Property Name="Source[12].type" Type="Str">Container</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">2</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Scan Engine Custom Device.lvlib/Custom Device Scan Engine.xml</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
@@ -378,18 +315,20 @@
 				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[5].type" Type="Str">Container</Property>
 				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[6].itemID" Type="Ref"></Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/data/Scan Engine.chm</Property>
 				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[7].itemID" Type="Ref"></Property>
+				<Property Name="Source[7].destinationIndex" Type="Int">5</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/My Computer/Scan Engine Custom Device.lvlib/Docs/readme.txt</Property>
 				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[8].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[8].itemID" Type="Ref"></Property>
+				<Property Name="Source[8].destinationIndex" Type="Int">5</Property>
+				<Property Name="Source[8].itemID" Type="Ref">/My Computer/Scan Engine Custom Device.lvlib/Docs/scanengineveristand-errors.txt</Property>
 				<Property Name="Source[8].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[9].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[9].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[9].itemID" Type="Ref"></Property>
+				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Scan Engine Custom Device.lvlib/System Explorer/Pages</Property>
 				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="SourceCount" Type="Int">17</Property>
+				<Property Name="Source[9].type" Type="Str">Container</Property>
+				<Property Name="SourceCount" Type="Int">13</Property>
 			</Item>
 			<Item Name="Configuration - Release" Type="Source Distribution">
 				<Property Name="Bld_buildCacheID" Type="Str">{9151D68D-479A-4161-8FE4-62BFB773C952}</Property>
@@ -397,32 +336,32 @@
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeTypedefs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../Built/NI_AB_PROJECTNAME/Scan Engine - Configuration.llb</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Built/Custom Devices/NI_AB_PROJECTNAME/Scan Engine - Configuration.llb</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Build VIs.lvlib/Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{A4EFB0D8-B1F3-4C55-8DE3-5FBD683BB03C}</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
-				<Property Name="Destination[0].path" Type="Path">../Built/NI_AB_PROJECTNAME/Scan Engine - Configuration.llb</Property>
+				<Property Name="Destination[0].path" Type="Path">../Built/Custom Devices/NI_AB_PROJECTNAME/Scan Engine - Configuration.llb</Property>
 				<Property Name="Destination[0].type" Type="Str">LLB</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../Built/NI_AB_PROJECTNAME/PharLap</Property>
+				<Property Name="Destination[1].path" Type="Path">../Built/Custom Devices/NI_AB_PROJECTNAME/PharLap</Property>
 				<Property Name="Destination[2].destName" Type="Str">Custom Device Directory</Property>
-				<Property Name="Destination[2].path" Type="Path">../Built/NI_AB_PROJECTNAME</Property>
+				<Property Name="Destination[2].path" Type="Path">../Built/Custom Devices/NI_AB_PROJECTNAME</Property>
 				<Property Name="Destination[3].destName" Type="Str">Glyphs</Property>
-				<Property Name="Destination[3].path" Type="Path">../Built/NI_AB_PROJECTNAME/Glyphs</Property>
+				<Property Name="Destination[3].path" Type="Path">../Built/Custom Devices/NI_AB_PROJECTNAME/Glyphs</Property>
 				<Property Name="Destination[4].destName" Type="Str">Data</Property>
-				<Property Name="Destination[4].path" Type="Path">../Built/NI_AB_PROJECTNAME/data</Property>
+				<Property Name="Destination[4].path" Type="Path">../Built/Custom Devices/NI_AB_PROJECTNAME/data</Property>
 				<Property Name="Destination[5].destName" Type="Str">Built Directory</Property>
-				<Property Name="Destination[5].path" Type="Path">../Built</Property>
+				<Property Name="Destination[5].path" Type="Path">../Built/Custom Devices</Property>
 				<Property Name="Destination[6].destName" Type="Str">NI 9144</Property>
-				<Property Name="Destination[6].path" Type="Path">../Built/NI_AB_PROJECTNAME/data/NI 9144</Property>
+				<Property Name="Destination[6].path" Type="Path">../Built/Custom Devices/NI_AB_PROJECTNAME/data/NI 9144</Property>
 				<Property Name="Destination[7].destName" Type="Str">NI 9145</Property>
-				<Property Name="Destination[7].path" Type="Path">../Built/NI_AB_PROJECTNAME/data/NI 9145</Property>
+				<Property Name="Destination[7].path" Type="Path">../Built/Custom Devices/NI_AB_PROJECTNAME/data/NI 9145</Property>
 				<Property Name="DestinationCount" Type="Int">8</Property>
 				<Property Name="Source[0].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[0].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{EF922B77-286B-432B-934D-AEF7381C3F9C}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{EDB449F5-E53B-427A-B7D2-C5DD4B9D6813}</Property>
 				<Property Name="Source[0].properties[0].type" Type="Str">Allow debugging</Property>
 				<Property Name="Source[0].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[0].properties[1].type" Type="Str">Remove front panel</Property>
@@ -656,13 +595,12 @@
 				<Property Name="Bld_buildSpecName" Type="Str">PharLap - Debug</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../Built/NI_AB_PROJECTNAME/PharLap/Scan Engine - RT.llb</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Built/Custom Devices/NI_AB_PROJECTNAME/PharLap/Scan Engine - RT.llb</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
-				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Build VIs.lvlib/Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{7E473B2C-9226-417D-A8E5-48F57C742EB9}</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
-				<Property Name="Destination[0].path" Type="Path">../Built/NI_AB_PROJECTNAME/PharLap/Scan Engine - RT.llb</Property>
+				<Property Name="Destination[0].path" Type="Path">../Built/Custom Devices/NI_AB_PROJECTNAME/PharLap/Scan Engine - RT.llb</Property>
 				<Property Name="Destination[0].type" Type="Str">LLB</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../Built/NI_AB_PROJECTNAME/PharLap</Property>
@@ -671,7 +609,7 @@
 				<Property Name="DestinationCount" Type="Int">3</Property>
 				<Property Name="Source[0].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[0].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[0].itemID" Type="Str">{608E4CA6-BB4F-4542-AE05-8DE2C32C66E6}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{860F4BCD-094E-465E-B1DE-EFE2BC55468A}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">1</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Modules.lvlibp</Property>
@@ -724,24 +662,24 @@
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeTypedefs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../Built/NI_AB_PROJECTNAME/PharLap/Scan Engine - RT.llb</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Built/Custom Devices/NI_AB_PROJECTNAME/PharLap/Scan Engine - RT.llb</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Build VIs.lvlib/Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{AFEAAA49-E93F-4A05-8254-06B6EEE774A6}</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
-				<Property Name="Destination[0].path" Type="Path">../Built/NI_AB_PROJECTNAME/PharLap/Scan Engine - RT.llb</Property>
+				<Property Name="Destination[0].path" Type="Path">../Built/Custom Devices/NI_AB_PROJECTNAME/PharLap/Scan Engine - RT.llb</Property>
 				<Property Name="Destination[0].type" Type="Str">LLB</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../Built/NI_AB_PROJECTNAME/PharLap</Property>
+				<Property Name="Destination[1].path" Type="Path">../Built/Custom Devices/NI_AB_PROJECTNAME/PharLap</Property>
 				<Property Name="Destination[2].destName" Type="Str">Custom Device Directory</Property>
-				<Property Name="Destination[2].path" Type="Path">../Built/NI_AB_PROJECTNAME</Property>
+				<Property Name="Destination[2].path" Type="Path">../Built/Custom Devices/NI_AB_PROJECTNAME</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
 				<Property Name="Source[0].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[0].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[0].Container.applySaveSettings" Type="Bool">true</Property>
 				<Property Name="Source[0].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[0].itemID" Type="Str">{4BADF3CE-1B05-4408-A3FF-5C5AD900983D}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{EDB449F5-E53B-427A-B7D2-C5DD4B9D6813}</Property>
 				<Property Name="Source[0].properties[0].type" Type="Str">Allow debugging</Property>
 				<Property Name="Source[0].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[0].properties[1].type" Type="Str">Remove front panel</Property>
@@ -889,87 +827,6 @@
 				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[9].type" Type="Str">Container</Property>
 				<Property Name="SourceCount" Type="Int">17</Property>
-			</Item>
-			<Item Name="XML - CD Folder" Type="Source Distribution">
-				<Property Name="Bld_buildCacheID" Type="Str">{6D462895-4307-43D8-B538-90159FA15BCC}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">XML - CD Folder</Property>
-				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
-				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../Built/NI_AB_PROJECTNAME</Property>
-				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
-				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Build VIs.lvlib/Post-Build Action.vi</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{325C84E1-2288-4FFE-BBA6-3C38D1D97ABB}</Property>
-				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
-				<Property Name="Destination[0].path" Type="Path">../Built/NI_AB_PROJECTNAME</Property>
-				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../Built/NI_AB_PROJECTNAME/PharLap</Property>
-				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{3175CEF5-14C4-4E9C-8F21-98016965F32B}</Property>
-				<Property Name="Source[0].type" Type="Str">Container</Property>
-				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Scan Engine Custom Device.lvlib</Property>
-				<Property Name="Source[1].Library.allowMissingMembers" Type="Bool">true</Property>
-				<Property Name="Source[1].type" Type="Str">Library</Property>
-				<Property Name="Source[10].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[10].itemID" Type="Ref">/My Computer/data/Scan Engine.chm</Property>
-				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Scan Engine Custom Device.lvlib/Custom Device Scan Engine.xml</Property>
-				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Modules.lvlibp</Property>
-				<Property Name="Source[3].preventRename" Type="Bool">true</Property>
-				<Property Name="Source[4].Container.applyDestination" Type="Bool">true</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/data</Property>
-				<Property Name="Source[4].type" Type="Str">Container</Property>
-				<Property Name="Source[5].Container.applyDestination" Type="Bool">true</Property>
-				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Scan Engine Custom Device.lvlib/Glyphs</Property>
-				<Property Name="Source[5].type" Type="Str">Container</Property>
-				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[6].itemID" Type="Ref"></Property>
-				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[7].itemID" Type="Ref"></Property>
-				<Property Name="Source[8].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[8].itemID" Type="Ref"></Property>
-				<Property Name="Source[9].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[9].itemID" Type="Ref"></Property>
-				<Property Name="SourceCount" Type="Int">11</Property>
-			</Item>
-			<Item Name="Readme &amp; XML - Built Folder" Type="Source Distribution">
-				<Property Name="Bld_buildCacheID" Type="Str">{F4E86807-8897-4E9E-898A-1D9983E0BC01}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">Readme &amp; XML - Built Folder</Property>
-				<Property Name="Bld_excludedDirectory[0]" Type="Path">vi.lib</Property>
-				<Property Name="Bld_excludedDirectory[0].pathType" Type="Str">relativeToAppDir</Property>
-				<Property Name="Bld_excludedDirectory[1]" Type="Path">instr.lib</Property>
-				<Property Name="Bld_excludedDirectory[1].pathType" Type="Str">relativeToAppDir</Property>
-				<Property Name="Bld_excludedDirectory[2]" Type="Path">user.lib</Property>
-				<Property Name="Bld_excludedDirectory[2].pathType" Type="Str">relativeToAppDir</Property>
-				<Property Name="Bld_excludedDirectory[3]" Type="Path">resource/objmgr</Property>
-				<Property Name="Bld_excludedDirectory[3].pathType" Type="Str">relativeToAppDir</Property>
-				<Property Name="Bld_excludedDirectory[4]" Type="Path">/C/Users/dkoopman/Documents/LabVIEW Data/InstCache</Property>
-				<Property Name="Bld_excludedDirectoryCount" Type="Int">5</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../Built</Property>
-				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
-				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Build VIs.lvlib/Post-Build Action.vi</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{62BE3E4B-5FC1-4DBE-9221-4A6AAA8ECD68}</Property>
-				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
-				<Property Name="Destination[0].path" Type="Path">../Built</Property>
-				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../Built/data</Property>
-				<Property Name="Destination[2].destName" Type="Str">XML</Property>
-				<Property Name="Destination[2].path" Type="Path">../Built/NI_AB_PROJECTNAME</Property>
-				<Property Name="DestinationCount" Type="Int">3</Property>
-				<Property Name="Source[0].itemID" Type="Str">{BA2BB703-F009-4CA8-A8FA-B5DCF1C375FF}</Property>
-				<Property Name="Source[0].type" Type="Str">Container</Property>
-				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Scan Engine Custom Device.lvlib/Docs/readme.txt</Property>
-				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[2].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Scan Engine Custom Device.lvlib/Custom Device Scan Engine.xml</Property>
-				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="SourceCount" Type="Int">3</Property>
 			</Item>
 		</Item>
 	</Item>

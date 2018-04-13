@@ -1,6 +1,6 @@
 [archive]
 build_output_dir = 'Built'
-archive_location = '\\nirvana\temp\vs_cds\scan_engine_custom_device'
+archive_location = '\\us-aus-hilbuild\builds\niveristandadd-ons\custom devices\scan_engine_custom_device'
 
 [dependencies.Scan-Engine-Custom-Device-FXP-LLB]
 libraries = ['FXP.llb']
@@ -57,3 +57,9 @@ type = 'lvBuildSpecAllTargets'
 project = '{linux32}'
 build_spec = 'Linux 32 - release'
 dependency_target = 'linux32'
+
+[package]
+type = 'nipkg'
+name = 'scan-engine-and-ethercat-custom-device-{version}'
+release_version = '4.4.1'
+install_destination = 'documents\National Instruments\NI VeriStand {version}'
