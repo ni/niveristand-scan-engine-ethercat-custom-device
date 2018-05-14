@@ -257,24 +257,24 @@
 				<Property Name="Bld_buildSpecName" Type="Str">Configuration - Debug</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../Built/Custom Devices/NI_AB_PROJECTNAME/Scan Engine - Configuration.llb</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Built/NI_AB_PROJECTNAME/Scan Engine - Configuration.llb</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Build VIs.lvlib/Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{03584EBF-F7D5-44FC-AEEC-72F440496243}</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
-				<Property Name="Destination[0].path" Type="Path">../Built/Custom Devices/NI_AB_PROJECTNAME/Scan Engine - Configuration.llb</Property>
+				<Property Name="Destination[0].path" Type="Path">../Built/NI_AB_PROJECTNAME/Scan Engine - Configuration.llb</Property>
 				<Property Name="Destination[0].type" Type="Str">LLB</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../Built/Custom Devices/NI_AB_PROJECTNAME/PharLap</Property>
+				<Property Name="Destination[1].path" Type="Path">../Built/NI_AB_PROJECTNAME/PharLap</Property>
 				<Property Name="Destination[2].destName" Type="Str">Custom Device Directory</Property>
-				<Property Name="Destination[2].path" Type="Path">../Built/Custom Devices/NI_AB_PROJECTNAME</Property>
+				<Property Name="Destination[2].path" Type="Path">../Built/NI_AB_PROJECTNAME</Property>
 				<Property Name="Destination[3].destName" Type="Str">Glyphs</Property>
-				<Property Name="Destination[3].path" Type="Path">../Built/Custom Devices/NI_AB_PROJECTNAME/Glyphs</Property>
+				<Property Name="Destination[3].path" Type="Path">../Built/NI_AB_PROJECTNAME/Glyphs</Property>
 				<Property Name="Destination[4].destName" Type="Str">Data</Property>
-				<Property Name="Destination[4].path" Type="Path">../Built/Custom Devices/NI_AB_PROJECTNAME/data</Property>
+				<Property Name="Destination[4].path" Type="Path">../Built/NI_AB_PROJECTNAME/data</Property>
 				<Property Name="Destination[5].destName" Type="Str">Built Directory</Property>
-				<Property Name="Destination[5].path" Type="Path">../Built/Custom Devices</Property>
+				<Property Name="Destination[5].path" Type="Path">../Built</Property>
 				<Property Name="DestinationCount" Type="Int">6</Property>
 				<Property Name="Source[0].itemID" Type="Str">{860F4BCD-094E-465E-B1DE-EFE2BC55468A}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
@@ -336,28 +336,28 @@
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeTypedefs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../Built/Custom Devices/NI_AB_PROJECTNAME/Scan Engine - Configuration.llb</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Built/NI_AB_PROJECTNAME/Scan Engine - Configuration.llb</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Build VIs.lvlib/Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{A4EFB0D8-B1F3-4C55-8DE3-5FBD683BB03C}</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
-				<Property Name="Destination[0].path" Type="Path">../Built/Custom Devices/NI_AB_PROJECTNAME/Scan Engine - Configuration.llb</Property>
+				<Property Name="Destination[0].path" Type="Path">../Built/NI_AB_PROJECTNAME/Scan Engine - Configuration.llb</Property>
 				<Property Name="Destination[0].type" Type="Str">LLB</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../Built/Custom Devices/NI_AB_PROJECTNAME/PharLap</Property>
+				<Property Name="Destination[1].path" Type="Path">../Built/NI_AB_PROJECTNAME/PharLap</Property>
 				<Property Name="Destination[2].destName" Type="Str">Custom Device Directory</Property>
-				<Property Name="Destination[2].path" Type="Path">../Built/Custom Devices/NI_AB_PROJECTNAME</Property>
+				<Property Name="Destination[2].path" Type="Path">../Built/NI_AB_PROJECTNAME</Property>
 				<Property Name="Destination[3].destName" Type="Str">Glyphs</Property>
-				<Property Name="Destination[3].path" Type="Path">../Built/Custom Devices/NI_AB_PROJECTNAME/Glyphs</Property>
+				<Property Name="Destination[3].path" Type="Path">../Built/NI_AB_PROJECTNAME/Glyphs</Property>
 				<Property Name="Destination[4].destName" Type="Str">Data</Property>
-				<Property Name="Destination[4].path" Type="Path">../Built/Custom Devices/NI_AB_PROJECTNAME/data</Property>
+				<Property Name="Destination[4].path" Type="Path">../Built/NI_AB_PROJECTNAME/data</Property>
 				<Property Name="Destination[5].destName" Type="Str">Built Directory</Property>
-				<Property Name="Destination[5].path" Type="Path">../Built/Custom Devices</Property>
+				<Property Name="Destination[5].path" Type="Path">../Built</Property>
 				<Property Name="Destination[6].destName" Type="Str">NI 9144</Property>
-				<Property Name="Destination[6].path" Type="Path">../Built/Custom Devices/NI_AB_PROJECTNAME/data/NI 9144</Property>
+				<Property Name="Destination[6].path" Type="Path">../Built/NI_AB_PROJECTNAME/data/NI 9144</Property>
 				<Property Name="Destination[7].destName" Type="Str">NI 9145</Property>
-				<Property Name="Destination[7].path" Type="Path">../Built/Custom Devices/NI_AB_PROJECTNAME/data/NI 9145</Property>
+				<Property Name="Destination[7].path" Type="Path">../Built/NI_AB_PROJECTNAME/data/NI 9145</Property>
 				<Property Name="DestinationCount" Type="Int">8</Property>
 				<Property Name="Source[0].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[0].Container.applySaveSettings" Type="Bool">true</Property>
@@ -595,12 +595,12 @@
 				<Property Name="Bld_buildSpecName" Type="Str">PharLap - Debug</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../Built/Custom Devices/NI_AB_PROJECTNAME/PharLap/Scan Engine - RT.llb</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Built/NI_AB_PROJECTNAME/PharLap/Scan Engine - RT.llb</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{7E473B2C-9226-417D-A8E5-48F57C742EB9}</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
-				<Property Name="Destination[0].path" Type="Path">../Built/Custom Devices/NI_AB_PROJECTNAME/PharLap/Scan Engine - RT.llb</Property>
+				<Property Name="Destination[0].path" Type="Path">../Built/NI_AB_PROJECTNAME/PharLap/Scan Engine - RT.llb</Property>
 				<Property Name="Destination[0].type" Type="Str">LLB</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../Built/NI_AB_PROJECTNAME/PharLap</Property>
@@ -662,18 +662,18 @@
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeTypedefs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../Built/Custom Devices/NI_AB_PROJECTNAME/PharLap/Scan Engine - RT.llb</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Built/NI_AB_PROJECTNAME/PharLap/Scan Engine - RT.llb</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Build VIs.lvlib/Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{AFEAAA49-E93F-4A05-8254-06B6EEE774A6}</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
-				<Property Name="Destination[0].path" Type="Path">../Built/Custom Devices/NI_AB_PROJECTNAME/PharLap/Scan Engine - RT.llb</Property>
+				<Property Name="Destination[0].path" Type="Path">../Built/NI_AB_PROJECTNAME/PharLap/Scan Engine - RT.llb</Property>
 				<Property Name="Destination[0].type" Type="Str">LLB</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../Built/Custom Devices/NI_AB_PROJECTNAME/PharLap</Property>
+				<Property Name="Destination[1].path" Type="Path">../Built/NI_AB_PROJECTNAME/PharLap</Property>
 				<Property Name="Destination[2].destName" Type="Str">Custom Device Directory</Property>
-				<Property Name="Destination[2].path" Type="Path">../Built/Custom Devices/NI_AB_PROJECTNAME</Property>
+				<Property Name="Destination[2].path" Type="Path">../Built/NI_AB_PROJECTNAME</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
 				<Property Name="Source[0].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[0].Container.applyProperties" Type="Bool">true</Property>

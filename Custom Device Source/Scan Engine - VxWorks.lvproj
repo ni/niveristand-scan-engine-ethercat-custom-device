@@ -320,7 +320,7 @@
 				<Property Name="Bld_buildSpecName" Type="Str">VxWorks - Debug</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../Built/Custom Devices/Scan Engine</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Built/Scan Engine</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{9991128C-9F29-4E9D-97CB-44809523BAF3}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/c/Scan Engine - RT.llb</Property>
@@ -381,7 +381,7 @@
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeTypedefs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../Built/Custom Devices/Scan Engine</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Built/Scan Engine</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Build VIs.lvlib/VxWorks/Post-Build Action - VxWorks.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{586807A4-D6C9-4AD2-B096-BFDFE97AC043}</Property>
