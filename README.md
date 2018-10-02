@@ -8,8 +8,8 @@ LabVIEW 2016
 
 ### Dependencies ###
 
-- The packed library build from [Scan Engine Custom Device Classes](https://github.com/NIVeriStandAdd-Ons/Scan-Engine-Custom-Device-Classes).
-- The FXP build from [Scan Engine Custom Device FXP LLB](https://github.com/NIVeriStandAdd-Ons/Scan-Engine-Custom-Device-FXP-LLB).
+- The packed library build from [Scan Engine Custom Device Module Libraries](https://github.com/ni/niveristand-scan-engine-module-libraries).
+- The FXP build from [Scan Engine Custom Device FXP Libraries](https://github.com/ni/niveristand-scan-engine-fxp-libraries).
 - NI Industrial Communications for EtherCAT 16.1+
 - NI RIO
 

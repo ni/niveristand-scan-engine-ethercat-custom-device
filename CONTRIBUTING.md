@@ -13,8 +13,8 @@ See [GitHub's official documentation](https://help.github.com/articles/using-pul
 
 # Getting Started
 
-Build specifications are provided for building the custom device. The build process should automatically
-copy the output files to the directory required by VeriStand.
+Multiple projects exist for building the custom device; each project is specific to one target type and requires
+the relevant builds of the modules and FXP libraries to be copied into the build directory.
 
 # Testing
 
