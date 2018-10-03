@@ -1,9 +1,9 @@
 #!/usr/bin/env groovy
 //Leave the above line alone.  It identifies this as a groovy script.
-@Library('vs-common-build') _
+@Library('vs-build-tools') _
 
 def lvVersions = ['2018']
 
-List<String> dependencies = ['Scan-Engine-Custom-Device-FXP-LLB', 'Scan-Engine-Custom-Device-Classes']
+List<String> dependencies = ['niveristand-scan-engine-fxp-libraries', 'niveristand-scan-engine-module-libraries']
 
 ni.vsbuild.PipelineExecutor.execute(this, lvVersions, dependencies)
