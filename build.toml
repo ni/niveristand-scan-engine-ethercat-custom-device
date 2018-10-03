@@ -2,11 +2,11 @@
 build_output_dir = 'Built'
 archive_location = '\\nirvana\temp\vs_cds\scan_engine_custom_device'
 
-[dependencies.Scan-Engine-Custom-Device-FXP-LLB]
+[dependencies.niveristand-scan-engine-fxp-libraries]
 libraries = ['FXP.llb']
 copy_location = 'Custom Device Source'
 
-[dependencies.Scan-Engine-Custom-Device-Classes]
+[dependencies.niveristand-scan-engine-module-libraries]
 libraries = ['Modules.lvlibp']
 copy_location = 'Custom Device Source'
 
