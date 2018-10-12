@@ -12,9 +12,9 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Scan Engine cRIO System Tests.lvclass" Type="LVClass" URL="../Tests/cRIO System Tests/Scan Engine cRIO System Tests.lvclass"/>
-		<Item Name="Scan Engine EtherCAT System Tests.lvclass" Type="LVClass" URL="../Tests/System/Scan Engine EtherCAT System Tests.lvclass"/>
-		<Item Name="Scan Engine Unit Tests.lvclass" Type="LVClass" URL="../Tests/Unit/Scan Engine Unit Tests.lvclass"/>
+		<Item Name="Scan Engine EtherCAT System Tests.lvclass" Type="LVClass" URL="../Tests/EtherCAT System Tests/Scan Engine EtherCAT System Tests.lvclass"/>
+		<Item Name="Scan Engine Specialty Digital System Tests.lvclass" Type="LVClass" URL="../Tests/Specialty Digital System Tests/Scan Engine Specialty Digital System Tests.lvclass"/>
+		<Item Name="Scan Engine Unit Tests.lvclass" Type="LVClass" URL="../Tests/Unit Tests/Scan Engine Unit Tests.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Append Path to Root if Relative - Absolute or Relative Path Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Append Path to Root if Relative - Absolute or Relative Path Array__ogtk.vi"/>
