@@ -1,22 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="System definition.xsd">
 	<MD5Checksum />
-	<Version Major="2017" Minor="0" Fix="1" Build="0" />
+	<Version Major="2015" Minor="1" Fix="0" Build="0" />
 	<Content>Definition</Content>
-	<Root Name="cRIO Scan Engine" TypeGUID="03D3BA22-1485-13A6-56BD17DA950CCD00">
+	<Root Name="PWM" TypeGUID="03D3BA22-1485-13A6-56BD17DA950CCD00">
 		<Description />
 		<Properties>
 			<Property Name="Name">
-				<String>cRIO Scan Engine</String>
+				<String>PWM</String>
 			</Property>
 			<Property Name="Version">
-				<String>1.0.0.29</String>
+				<String>1.0.0.9</String>
 			</Property>
 			<Property Name="Creator">
 				<String />
 			</Property>
 			<Property Name="Creation Date">
-				<Double>3622041156.4184551</Double>
+				<Double>3622465442.6184692</Double>
 			</Property>
 		</Properties>
 		<Errors />
@@ -58,7 +58,7 @@
 						<Double>100</Double>
 					</Property>
 					<Property Name="TL timeout">
-						<Double>240</Double>
+						<Double>120</Double>
 					</Property>
 					<Property Name="daq timeout">
 						<U32>1000</U32>
@@ -88,7 +88,7 @@
 						<U32>0</U32>
 					</Property>
 					<Property Name="ts">
-						<U32>2</U32>
+						<U32>0</U32>
 					</Property>
 					<Property Name="Warmup Time [ms]">
 						<U32>2000</U32>
@@ -101,12 +101,6 @@
 					</Property>
 					<Property Name="Timing Source Settings">
 						<U16>0</U16>
-					</Property>
-					<Property Name="Username">
-						<String>admin</String>
-					</Property>
-					<Property Name="TS_Custom_Dev_Resolved">
-						<DependentNode Path="Targets/Controller/Custom Devices/Scan Engine and EtherCAT" />
 					</Property>
 				</Properties>
 				<Errors />
@@ -182,11 +176,6 @@
 							<Errors />
 						</Section>
 					</Section>
-					<Section Name="SLSC" TypeGUID="3ea8ee87-daf4-4abc-a6e6-9c54a9452824">
-						<Description />
-						<Properties />
-						<Errors />
-					</Section>
 				</Section>
 				<Section Name="Custom Devices" TypeGUID="03D3BB79-1485-13A6-5605EB7AFD7405AC">
 					<Description />
@@ -216,7 +205,7 @@
 									<ForceDownload>false</ForceDownload>
 									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\Scan Engine RT Driver.vi</RTDestination>
 									<SupportedTarget>Linux_x64</SupportedTarget>
-									<MD5>b19db8390ad91a22c0dce144383feb08</MD5>
+									<MD5>17ab725f018e2f2de5249d4558cfff9b</MD5>
 								</DependentFile>
 							</Property>
 							<Property Name="Driver VI Path_2">
@@ -234,7 +223,7 @@
 									<ForceDownload>false</ForceDownload>
 									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\Scan Engine RT Driver.vi</RTDestination>
 									<SupportedTarget>PharLap &amp; Windows</SupportedTarget>
-									<MD5>ded7be6f093a7e3e34fd5139542620b2</MD5>
+									<MD5>52409d9a5d845038cc6c10dfa02e2ecd</MD5>
 								</DependentFile>
 							</Property>
 							<Property Name="Version">
@@ -255,7 +244,7 @@
 									<ForceDownload>false</ForceDownload>
 									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\Scan Engine Timing Source.vi</RTDestination>
 									<SupportedTarget>Linux_x64</SupportedTarget>
-									<MD5>628ba9b322373d3a345b8c6bb675adf5</MD5>
+									<MD5>cd8c925fbfcc915c0f30989ce41cde1e</MD5>
 								</DependentFile>
 							</Property>
 							<Property Name="Timing Source Init VI_2">
@@ -273,7 +262,7 @@
 									<ForceDownload>false</ForceDownload>
 									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\Scan Engine Timing Source.vi</RTDestination>
 									<SupportedTarget>PharLap &amp; Windows</SupportedTarget>
-									<MD5>3e321cd0a941a3fb5f254fad72c405ed</MD5>
+									<MD5>e2d25bc49414f87275f11f8b0c1eda70</MD5>
 								</DependentFile>
 							</Property>
 							<Property Name="Timing Source Init VI_4">
@@ -282,7 +271,7 @@
 									<ForceDownload>true</ForceDownload>
 									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\Scan Engine Timing Source.vi</RTDestination>
 									<SupportedTarget>PharLap &amp; Windows</SupportedTarget>
-									<MD5>3e321cd0a941a3fb5f254fad72c405ed</MD5>
+									<MD5>e2d25bc49414f87275f11f8b0c1eda70</MD5>
 								</DependentFile>
 							</Property>
 							<Property Name="Dependency_1">
@@ -291,7 +280,7 @@
 									<ForceDownload>false</ForceDownload>
 									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\Scan Engine - RT.llb</RTDestination>
 									<SupportedTarget>PharLap &amp; Windows</SupportedTarget>
-									<MD5>d1e7c95f848c7b31ea5387d256f95f54</MD5>
+									<MD5>984b39f406ca58225453c24d8ca16959</MD5>
 								</DependentFile>
 							</Property>
 							<Property Name="Dependency_2">
@@ -309,7 +298,7 @@
 									<ForceDownload>false</ForceDownload>
 									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\Scan Engine - RT.llb</RTDestination>
 									<SupportedTarget>Linux_x64</SupportedTarget>
-									<MD5>3d08ff086e1c9e62efac5d6c6e076be3</MD5>
+									<MD5>582da348b48daebb503397282d464076</MD5>
 								</DependentFile>
 							</Property>
 							<Property Name="Dependency_4">
@@ -327,7 +316,7 @@
 									<ForceDownload>false</ForceDownload>
 									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\Modules.lvlibp</RTDestination>
 									<SupportedTarget>PharLap &amp; Windows</SupportedTarget>
-									<MD5>7a1df8e9a93f6baac11977cfb52eb46a</MD5>
+									<MD5>47b1747d0d40705e1c515e18a764c338</MD5>
 								</DependentFile>
 							</Property>
 							<Property Name="Dependency_6">
@@ -345,7 +334,7 @@
 									<ForceDownload>false</ForceDownload>
 									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\Modules.lvlibp</RTDestination>
 									<SupportedTarget>Linux_x64</SupportedTarget>
-									<MD5>f41e6c598bea9331ebcdd2ca35c932c5</MD5>
+									<MD5>99e40748710ee7b99e56feb11b106c32</MD5>
 								</DependentFile>
 							</Property>
 							<Property Name="Dependency_8">
@@ -363,7 +352,7 @@
 									<ForceDownload>false</ForceDownload>
 									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\FXP.llb</RTDestination>
 									<SupportedTarget>PharLap &amp; Windows</SupportedTarget>
-									<MD5>6d6f7acfc1c72881fd9f91560016cbff</MD5>
+									<MD5>e309dac0478ef7e2cdbb8a621f79356b</MD5>
 								</DependentFile>
 							</Property>
 							<Property Name="Dependency_10">
@@ -381,7 +370,7 @@
 									<ForceDownload>false</ForceDownload>
 									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\FXP.llb</RTDestination>
 									<SupportedTarget>Linux_x64</SupportedTarget>
-									<MD5>6d6f7acfc1c72881fd9f91560016cbff</MD5>
+									<MD5>9b72f88ce671c1cbc5e7d44df7c7acf8</MD5>
 								</DependentFile>
 							</Property>
 							<Property Name="Dependency_12">
@@ -395,9 +384,6 @@
 							</Property>
 							<Property Name="user.CD.Async Decimation">
 								<U16>1</U16>
-							</Property>
-							<Property Name="user.CD.FPGALoadDelay">
-								<U16>10</U16>
 							</Property>
 						</Properties>
 						<Errors />
@@ -724,7 +710,7 @@
 								<Errors />
 							</Section>
 							<Section Name="User Variables" TypeGUID="0244C2CA-486B-E148-C1E2-82323B844A49">
-								<Description>A CompactRIO chassis can run a custom FPGA personality created with LabVIEW FPGA. Use this page to import the user variables of the custom personality to NI VeriStand.
+								<Description>A NI-9144 EtherCAT chassis can run a custom FPGA personality created with LabVIEW FPGA. After downloading the FPGA personality to the NI-9144 chassis, use this page to import the user variables of the custom personality to NI VeriStand.
 
 User variable types supported include:
 U32, U16, U8, I32, I16, I8, Boolean, and FXP.
@@ -1216,16 +1202,16 @@ Note: The only supported FXP UDVs are those  with word lengths up to 32 bits, an
 							<Elem>0</Elem>
 						</DefaultValue>
 					</Channel>
-					<Channel Name="ASAM XIL EESPort Trigger" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="3">
-						<Description>Trigger the next EES Error Set from the EES Error Configuration.</Description>
+					<Channel Name="System Reserved 41" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
 						<Properties />
 						<Errors />
 						<DefaultValue>
 							<Elem>0</Elem>
 						</DefaultValue>
 					</Channel>
-					<Channel Name="ASAM XIL EESPort Trigger Count" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="3">
-						<Description>Count the number of EESPort Triggers.</Description>
+					<Channel Name="System Reserved 42" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
 						<Properties />
 						<Errors />
 						<DefaultValue>

@@ -3,14 +3,14 @@
 	<MD5Checksum />
 	<Version Major="2015" Minor="1" Fix="0" Build="0" />
 	<Content>Definition</Content>
-	<Root Name="Counter" TypeGUID="03D3BA22-1485-13A6-56BD17DA950CCD00">
+	<Root Name="Counter-Driven Output" TypeGUID="03D3BA22-1485-13A6-56BD17DA950CCD00">
 		<Description />
 		<Properties>
 			<Property Name="Name">
-				<String>Counter</String>
+				<String>Counter-Driven Output</String>
 			</Property>
 			<Property Name="Version">
-				<String>1.0.0.3</String>
+				<String>1.0.0.6</String>
 			</Property>
 			<Property Name="Creator">
 				<String />
@@ -700,14 +700,110 @@
 									</DefaultValue>
 								</Channel>
 							</Section>
-							<Section Name="Slot8 (Empty)" TypeGUID="41F294B5-009B-733F-41B9-7972E3D57FD3">
+							<Section Name="Slot8 (NI 9401)" TypeGUID="A466E035-6C67-FF94-A582-AF548F5C2F28">
 								<Description />
 								<Properties>
 									<Property Name="user.CD.Module Class">
-										<BinaryString>AAAAASMOTW9kdWxlcy5sdmxpYnASUlNJIE1vZHVsZS5sdmNsYXNzAAABAAAAAAAUAAAAFQAAAAAACAAAAAAAAAAAAAAAAAAAAA==</BinaryString>
+										<BinaryString>AAAAAx0OTW9kdWxlcy5sdmxpYnAMOTQwMS5sdmNsYXNzAAAAAAEAAAAAAAIAAQAAAAAAAwABAAAAAAAUAAAAFQAiAAAACAAAAAAAAAAACAABAAAAAAAAAboAAAAIAAIAAAACAAAAgAAAAAgAAAAAAAAAAAAAAAAAAAAA/////wAAAAAAAAADAAAAAAAAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/////AAAAAAAAAAMAAAAAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP////8AAAAAAAAAAwAAAAAAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/////wAAAAAAAAADAAAAAAAAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/////AAAAAAAAAAMAAAAAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP////8AAAAAAAAAAwAAAAAAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/////wAAAAAAAAADAAAAAAAAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/////AAAAAAAAAAMAAAAAAAAAAwAAAAAAAAAAAAAABQAAAAgBAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryString>
 									</Property>
 								</Properties>
 								<Errors />
+								<Channel Name="DO 0" TypeGUID="F43DA51B-9C6C-5797-56DC-ED47295D1D2E" RowDim="1" ColDim="1" Units="" BitFields="15">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Chan #">
+											<I32>0</I32>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="DO 1" TypeGUID="F43DA51B-9C6C-5797-56DC-ED47295D1D2E" RowDim="1" ColDim="1" Units="" BitFields="15">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Chan #">
+											<I32>1</I32>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="DO 2" TypeGUID="F43DA51B-9C6C-5797-56DC-ED47295D1D2E" RowDim="1" ColDim="1" Units="" BitFields="15">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Chan #">
+											<I32>2</I32>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="DO 3" TypeGUID="F43DA51B-9C6C-5797-56DC-ED47295D1D2E" RowDim="1" ColDim="1" Units="" BitFields="15">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Chan #">
+											<I32>3</I32>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="DO 4" TypeGUID="F43DA51B-9C6C-5797-56DC-ED47295D1D2E" RowDim="1" ColDim="1" Units="" BitFields="15">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Chan #">
+											<I32>4</I32>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="DO 5" TypeGUID="F43DA51B-9C6C-5797-56DC-ED47295D1D2E" RowDim="1" ColDim="1" Units="" BitFields="15">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Chan #">
+											<I32>5</I32>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="DO 6" TypeGUID="F43DA51B-9C6C-5797-56DC-ED47295D1D2E" RowDim="1" ColDim="1" Units="" BitFields="15">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Chan #">
+											<I32>6</I32>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="DO 7" TypeGUID="F43DA51B-9C6C-5797-56DC-ED47295D1D2E" RowDim="1" ColDim="1" Units="" BitFields="15">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Chan #">
+											<I32>7</I32>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
 							</Section>
 							<Section Name="User Variables" TypeGUID="0244C2CA-486B-E148-C1E2-82323B844A49">
 								<Description>A NI-9144 EtherCAT chassis can run a custom FPGA personality created with LabVIEW FPGA. After downloading the FPGA personality to the NI-9144 chassis, use this page to import the user variables of the custom personality to NI VeriStand.
@@ -1747,6 +1843,24 @@ Note: The only supported FXP UDVs are those  with word lengths up to 32 bits, an
 				<Properties>
 					<Property Name="Referenced Channel">
 						<DependentNode Path="Targets/Controller/Custom Devices/Scan Engine and EtherCAT/Local Chassis/Slot7 (NI 9401)/DIO 0" />
+					</Property>
+				</Properties>
+				<Errors />
+			</Alias>
+			<Alias Name="Counter-Driven Output" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+				<Description />
+				<Properties>
+					<Property Name="Referenced Channel">
+						<DependentNode Path="Targets/Controller/Custom Devices/Scan Engine and EtherCAT/Local Chassis/Slot8 (NI 9401)/DO 0" />
+					</Property>
+				</Properties>
+				<Errors />
+			</Alias>
+			<Alias Name="Counter-Driven Output Reader" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+				<Description />
+				<Properties>
+					<Property Name="Referenced Channel">
+						<DependentNode Path="Targets/Controller/Custom Devices/Scan Engine and EtherCAT/Local Chassis/Slot7 (NI 9401)/DIO 4" />
 					</Property>
 				</Properties>
 				<Errors />
