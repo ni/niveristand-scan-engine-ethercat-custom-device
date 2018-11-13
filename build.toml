@@ -57,3 +57,8 @@ type = 'lvBuildSpecAllTargets'
 project = '{linux32}'
 build_spec = 'Linux 32 - release'
 dependency_target = 'linux32'
+
+[package]
+type = 'nipkg'
+payload_dir = 'Built'
+install_destination = 'documents\National Instruments\NI VeriStand {veristand_version}\Custom Devices'
