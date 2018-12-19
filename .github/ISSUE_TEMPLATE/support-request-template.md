@@ -7,7 +7,9 @@ assignees: ''
 
 ---
 
-**? Please describe the problem you're facing.**
+## If you need immediate assistance, please contact NI Support at support@ni.com or 1(800)531-5066.
+
+**Please describe the problem you're facing.**
 A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
 
 **Describe the expected behavior**
