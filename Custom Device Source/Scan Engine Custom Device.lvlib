@@ -248,6 +248,8 @@
 				<Item Name="Add Custom Device Section - Offline.vi" Type="VI" URL="../System Explorer/Utility/Add Custom Device Section - Offline.vi"/>
 				<Item Name="NI VeriStand - Get Target Operating System.vi" Type="VI" URL="../System Explorer/Utility/NI VeriStand - Get Target Operating System.vi"/>
 				<Item Name="PathToLinuxPath.vi" Type="VI" URL="../System Explorer/Utility/PathToLinuxPath.vi"/>
+				<Item Name="Align cRIO Programming Mode.vi" Type="VI" URL="../System Explorer/Utility/Align cRIO Programming Mode.vi"/>
+				<Item Name="Set Main FPGA Chassis Slots Programming Mode.vi" Type="VI" URL="../System Explorer/Utility/Set Main FPGA Chassis Slots Programming Mode.vi"/>
 			</Item>
 			<Item Name="RemIO" Type="Folder">
 				<Item Name="Scan Engine Update RemIO Subpanel.vi" Type="VI" URL="../System Explorer/Utility/Scan Engine Update RemIO Subpanel.vi"/>
