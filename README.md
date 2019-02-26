@@ -1,6 +1,6 @@
 # Scan Engine Custom Device
 
-**Scan Engine Custom Device**  allows users to easily read scanned I/O from C series modules located in a CompactRIO or NI 914x EtherCAT chassis. The add-on also supports custom FPGA personalities to be used with a 914x chassis. From version 4.4.1, there is support for NI Remote I/O modules as well. Version 4.4.2 fixes Issue #12. It introduces a Conditional Disable Symbol called: "LV_Version". It must be set to right version (2016, 2017, 2018) before compilation. 
+**Scan Engine Custom Device**  allows users to easily read scanned I/O from C series modules located in a CompactRIO or NI 914x EtherCAT chassis. The add-on also supports custom FPGA personalities to be used with a 914x chassis. From version 4.3, there is support for generic EtherCAT slaves (PDO only). From version 4.4.1, there is support for NI Remote I/O modules as well.
 
 ## LabVIEW Version
 
