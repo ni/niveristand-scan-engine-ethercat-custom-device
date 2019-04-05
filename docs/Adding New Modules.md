@@ -16,6 +16,6 @@
 1. Add a case for the new module in `Modules.lvlib:Init Module.vi`. Initialize the module with appropriate subsystem and number of channels.
 1. Bump the version number in `Scan Engine Custom Device.lvlib:Custom Device Scan Engine.xml`. Bump the minor version for new hardware.
 1. Add mutation code in `Scan Engine Custom Device.lvlib:Main - On Load.vi` to update the module model enumeration for older module classes.
-1. Update VI template in `Scan Engine Custom Device.lvlib:Get ECAT Config Wrapper.vi`.
+1. Update VI typedef in `Scan Engine Custom Device.lvlib:Get ECAT Config Wrapper.vi`.
 
 
