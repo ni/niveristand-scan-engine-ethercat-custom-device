@@ -1,6 +1,6 @@
 ## Overview
 
-**Scan Engine Custom Device** supports various C series modules. In order to use newly released modules in VeriStand, custom device developers must add module support to [`Modules.lvlibp`](https://github.com/ni/niveristand-scan-engine-module-libraries/tree/master/Source) and add mutation code to [`Scan Engine Custom Device.lvlib`](https://github.com/ni/niveristand-scan-engine-ethercat-custom-device/tree/master/Custom%20Device%20Source).
+**Scan Engine Custom Device** supports various C series modules. In order to use newly released modules in VeriStand, custom device developers must add module support to [`Modules.lvlibp`](https://github.com/ni/niveristand-scan-engine-module-libraries) and add mutation code to [`Scan Engine Custom Device.lvlib`](https://github.com/ni/niveristand-scan-engine-ethercat-custom-device).
 
 ## Modules.lvlib
 
