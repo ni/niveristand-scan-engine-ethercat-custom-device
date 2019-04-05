@@ -203,6 +203,7 @@
 			</Item>
 			<Item Name="Module Slot" Type="Folder">
 				<Item Name="Create Slots.vi" Type="VI" URL="../System Explorer/Utility/Create Slots.vi"/>
+				<Item Name="Get Module Model.vi" Type="VI" URL="../System Explorer/Utility/Get Module Model.vi"/>
 				<Item Name="Scan Engine Init Slot.vi" Type="VI" URL="../System Explorer/Utility/Scan Engine Init Slot.vi"/>
 				<Item Name="Scan Engine Rename Slot.vi" Type="VI" URL="../System Explorer/Utility/Scan Engine Rename Slot.vi"/>
 				<Item Name="Scan Engine Change Module.vi" Type="VI" URL="../System Explorer/Utility/Scan Engine Change Module.vi"/>
