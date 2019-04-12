@@ -4,13 +4,13 @@
 
 ## LabVIEW Version
 
-LabVIEW 2016
+LabVIEW 2017
 
 ## Dependencies
 
 - The packed library build from [Scan Engine Custom Device Module Libraries](https://github.com/ni/niveristand-scan-engine-module-libraries).
 - The FXP build from [Scan Engine Custom Device FXP Libraries](https://github.com/ni/niveristand-scan-engine-fxp-libraries).
-- NI Industrial Communications for EtherCAT 16.1+
+- NI Industrial Communications for EtherCAT 17.6+
 - NI RIO
 
 ## Git History & Rebasing Policy
