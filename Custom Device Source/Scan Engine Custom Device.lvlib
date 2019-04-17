@@ -109,6 +109,8 @@
 			<Item Name="ECAT Channel Data Type.ctl" Type="VI" URL="../Type Defs/ECAT Channel Data Type.ctl"/>
 			<Item Name="FPGAScanInterfaceMode.ctl" Type="VI" URL="../Type Defs/FPGAScanInterfaceMode.ctl"/>
 			<Item Name="NI ECAT Slaves.ctl" Type="VI" URL="../Type Defs/NI ECAT Slaves.ctl"/>
+			<Item Name="Slot Programming Mode.ctl" Type="VI" URL="../Type Defs/Slot Programming Mode.ctl"/>
+			<Item Name="Slot - Slot Programming Mode.ctl" Type="VI" URL="../Type Defs/Slot - Slot Programming Mode.ctl"/>
 		</Item>
 	</Item>
 	<Item Name="Globals" Type="Folder">
@@ -253,6 +255,12 @@
 				<Item Name="Align cRIO Programming Mode.vi" Type="VI" URL="../System Explorer/Utility/Align cRIO Programming Mode.vi"/>
 				<Item Name="Set Main FPGA Chassis Slots Programming Mode.vi" Type="VI" URL="../System Explorer/Utility/Set Main FPGA Chassis Slots Programming Mode.vi"/>
 				<Item Name="List Local Chassis Modules.vi" Type="VI" URL="../System Explorer/Utility/List Local Chassis Modules.vi"/>
+				<Item Name="Auto Detect_Programming Mode.vi" Type="VI" URL="../System Explorer/Utility/Auto Detect_Programming Mode.vi"/>
+				<Item Name="Auto Detect_Programming Mode_Initialize UI Elements.vi" Type="VI" URL="../System Explorer/Utility/Auto Detect_Programming Mode_Initialize UI Elements.vi"/>
+				<Item Name="Auto Detect_Programming Mode_List Slots.vi" Type="VI" URL="../System Explorer/Utility/Auto Detect_Programming Mode_List Slots.vi"/>
+				<Item Name="Auto Detect_Programming Mode_Read Property.vi" Type="VI" URL="../System Explorer/Utility/Auto Detect_Programming Mode_Read Property.vi"/>
+				<Item Name="Auto Detect_Programming Mode_Change property value.vi" Type="VI" URL="../System Explorer/Utility/Auto Detect_Programming Mode_Change property value.vi"/>
+				<Item Name="Auto Detect_Programming Mode_Set All.vi" Type="VI" URL="../System Explorer/Utility/Auto Detect_Programming Mode_Set All.vi"/>
 			</Item>
 			<Item Name="RemIO" Type="Folder">
 				<Item Name="Scan Engine Update RemIO Subpanel.vi" Type="VI" URL="../System Explorer/Utility/Scan Engine Update RemIO Subpanel.vi"/>
