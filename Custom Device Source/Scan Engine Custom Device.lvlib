@@ -242,6 +242,14 @@
 				</Item>
 			</Item>
 			<Item Name="Other" Type="Folder">
+				<Item Name="Auto Detect" Type="Folder">
+					<Item Name="Auto Detect_Programming Mode.vi" Type="VI" URL="../System Explorer/Utility/Auto Detect_Programming Mode.vi"/>
+					<Item Name="Auto Detect_Programming Mode_Initialize UI Elements.vi" Type="VI" URL="../System Explorer/Utility/Auto Detect_Programming Mode_Initialize UI Elements.vi"/>
+					<Item Name="Auto Detect_Programming Mode_List Slots.vi" Type="VI" URL="../System Explorer/Utility/Auto Detect_Programming Mode_List Slots.vi"/>
+					<Item Name="Auto Detect_Programming Mode_Read Property.vi" Type="VI" URL="../System Explorer/Utility/Auto Detect_Programming Mode_Read Property.vi"/>
+					<Item Name="Auto Detect_Programming Mode_Change property value.vi" Type="VI" URL="../System Explorer/Utility/Auto Detect_Programming Mode_Change property value.vi"/>
+					<Item Name="Auto Detect_Programming Mode_Set All.vi" Type="VI" URL="../System Explorer/Utility/Auto Detect_Programming Mode_Set All.vi"/>
+				</Item>
 				<Item Name="Get Target IP Address.vi" Type="VI" URL="../System Explorer/Utility/Get Target IP Address.vi"/>
 				<Item Name="Is Synced to Scan.vi" Type="VI" URL="../System Explorer/Utility/Is Synced to Scan.vi"/>
 				<Item Name="Set Timing Source.vi" Type="VI" URL="../System Explorer/Utility/Set Timing Source.vi"/>
@@ -255,12 +263,6 @@
 				<Item Name="Align cRIO Programming Mode.vi" Type="VI" URL="../System Explorer/Utility/Align cRIO Programming Mode.vi"/>
 				<Item Name="Set Main FPGA Chassis Slots Programming Mode.vi" Type="VI" URL="../System Explorer/Utility/Set Main FPGA Chassis Slots Programming Mode.vi"/>
 				<Item Name="List Local Chassis Modules.vi" Type="VI" URL="../System Explorer/Utility/List Local Chassis Modules.vi"/>
-				<Item Name="Auto Detect_Programming Mode.vi" Type="VI" URL="../System Explorer/Utility/Auto Detect_Programming Mode.vi"/>
-				<Item Name="Auto Detect_Programming Mode_Initialize UI Elements.vi" Type="VI" URL="../System Explorer/Utility/Auto Detect_Programming Mode_Initialize UI Elements.vi"/>
-				<Item Name="Auto Detect_Programming Mode_List Slots.vi" Type="VI" URL="../System Explorer/Utility/Auto Detect_Programming Mode_List Slots.vi"/>
-				<Item Name="Auto Detect_Programming Mode_Read Property.vi" Type="VI" URL="../System Explorer/Utility/Auto Detect_Programming Mode_Read Property.vi"/>
-				<Item Name="Auto Detect_Programming Mode_Change property value.vi" Type="VI" URL="../System Explorer/Utility/Auto Detect_Programming Mode_Change property value.vi"/>
-				<Item Name="Auto Detect_Programming Mode_Set All.vi" Type="VI" URL="../System Explorer/Utility/Auto Detect_Programming Mode_Set All.vi"/>
 			</Item>
 			<Item Name="RemIO" Type="Folder">
 				<Item Name="Scan Engine Update RemIO Subpanel.vi" Type="VI" URL="../System Explorer/Utility/Scan Engine Update RemIO Subpanel.vi"/>
