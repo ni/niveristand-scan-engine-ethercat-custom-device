@@ -243,12 +243,12 @@
 			</Item>
 			<Item Name="Other" Type="Folder">
 				<Item Name="Auto Detect" Type="Folder">
-					<Item Name="Auto Detect_Programming Mode.vi" Type="VI" URL="../System Explorer/Utility/Auto Detect_Programming Mode.vi"/>
-					<Item Name="Auto Detect_Programming Mode_Initialize UI Elements.vi" Type="VI" URL="../System Explorer/Utility/Auto Detect_Programming Mode_Initialize UI Elements.vi"/>
-					<Item Name="Auto Detect_Programming Mode_List Slots.vi" Type="VI" URL="../System Explorer/Utility/Auto Detect_Programming Mode_List Slots.vi"/>
-					<Item Name="Auto Detect_Programming Mode_Read Property.vi" Type="VI" URL="../System Explorer/Utility/Auto Detect_Programming Mode_Read Property.vi"/>
-					<Item Name="Auto Detect_Programming Mode_Change property value.vi" Type="VI" URL="../System Explorer/Utility/Auto Detect_Programming Mode_Change property value.vi"/>
-					<Item Name="Auto Detect_Programming Mode_Set All.vi" Type="VI" URL="../System Explorer/Utility/Auto Detect_Programming Mode_Set All.vi"/>
+					<Item Name="Programming Mode.vi" Type="VI" URL="../System Explorer/Utility/Programming Mode.vi"/>
+					<Item Name="Initialize UI Elements.vi" Type="VI" URL="../System Explorer/Utility/Initialize UI Elements.vi"/>
+					<Item Name="List Slots.vi" Type="VI" URL="../System Explorer/Utility/List Slots.vi"/>
+					<Item Name="Read Property.vi" Type="VI" URL="../System Explorer/Utility/Read Property.vi"/>
+					<Item Name="Change property value.vi" Type="VI" URL="../System Explorer/Utility/Change property value.vi"/>
+					<Item Name="Set All.vi" Type="VI" URL="../System Explorer/Utility/Set All.vi"/>
 				</Item>
 				<Item Name="Get Target IP Address.vi" Type="VI" URL="../System Explorer/Utility/Get Target IP Address.vi"/>
 				<Item Name="Is Synced to Scan.vi" Type="VI" URL="../System Explorer/Utility/Is Synced to Scan.vi"/>
