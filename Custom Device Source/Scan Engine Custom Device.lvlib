@@ -110,7 +110,7 @@
 			<Item Name="FPGAScanInterfaceMode.ctl" Type="VI" URL="../Type Defs/FPGAScanInterfaceMode.ctl"/>
 			<Item Name="NI ECAT Slaves.ctl" Type="VI" URL="../Type Defs/NI ECAT Slaves.ctl"/>
 			<Item Name="Slot Programming Mode.ctl" Type="VI" URL="../Type Defs/Slot Programming Mode.ctl"/>
-			<Item Name="Slot - Slot Programming Mode.ctl" Type="VI" URL="../Type Defs/Slot - Slot Programming Mode.ctl"/>
+			<Item Name="Slot - Configuration.ctl" Type="VI" URL="../Type Defs/Slot - Configuration.ctl"/>
 		</Item>
 	</Item>
 	<Item Name="Globals" Type="Folder">
@@ -247,7 +247,7 @@
 					<Item Name="Initialize UI Elements.vi" Type="VI" URL="../System Explorer/Utility/Initialize UI Elements.vi"/>
 					<Item Name="List Slots.vi" Type="VI" URL="../System Explorer/Utility/List Slots.vi"/>
 					<Item Name="Read Property.vi" Type="VI" URL="../System Explorer/Utility/Read Property.vi"/>
-					<Item Name="Change property value.vi" Type="VI" URL="../System Explorer/Utility/Change property value.vi"/>
+					<Item Name="Set Slot Programming Mode.vi" Type="VI" URL="../System Explorer/Utility/Set Slot Programming Mode.vi"/>
 					<Item Name="Set All.vi" Type="VI" URL="../System Explorer/Utility/Set All.vi"/>
 				</Item>
 				<Item Name="Get Target IP Address.vi" Type="VI" URL="../System Explorer/Utility/Get Target IP Address.vi"/>
