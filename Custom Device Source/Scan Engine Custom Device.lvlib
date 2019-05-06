@@ -210,6 +210,7 @@
 				<Item Name="Scan Engine Init Slot.vi" Type="VI" URL="../System Explorer/Utility/Scan Engine Init Slot.vi"/>
 				<Item Name="Scan Engine Rename Slot.vi" Type="VI" URL="../System Explorer/Utility/Scan Engine Rename Slot.vi"/>
 				<Item Name="Scan Engine Change Module.vi" Type="VI" URL="../System Explorer/Utility/Scan Engine Change Module.vi"/>
+				<Item Name="Handle Subpanel VI Run State.vi" Type="VI" URL="../System Explorer/Utility/Handle Subpanel VI Run State.vi"/>
 				<Item Name="Scan Engine Update Slot Subpanel.vi" Type="VI" URL="../System Explorer/Utility/Scan Engine Update Slot Subpanel.vi"/>
 				<Item Name="Update Slots.vi" Type="VI" URL="../System Explorer/Utility/Update Slots.vi"/>
 				<Item Name="Reset Slots.vi" Type="VI" URL="../System Explorer/Utility/Reset Slots.vi"/>
