@@ -163,6 +163,7 @@
 			<Item Name="Target Communication" Type="Folder">
 				<Item Name="Support" Type="Folder">
 					<Item Name="Host - Get Local and ECAT Masters.vi" Type="VI" URL="../System Explorer/Utility/Target Communication/Host - Get Local and ECAT Masters.vi"/>
+					<Item Name="Host - Get Local and ECAT Masters With Retries.vi" Type="VI" URL="../System Explorer/Utility/Target Communication/Host - Get Local and ECAT Masters With Retries.vi"/>
 					<Item Name="Host - ECAT Slaves write to XML-Log-File.vi" Type="VI" URL="../System Explorer/Utility/Target Communication/Host - ECAT Slaves write to XML-Log-File.vi"/>
 					<Item Name="Host - Get Slave IOVs.vi" Type="VI" URL="../System Explorer/Utility/Target Communication/Host - Get Slave IOVs.vi"/>
 					<Item Name="Host - Get ECAT IOVs.vi" Type="VI" URL="../System Explorer/Utility/Target Communication/Host - Get ECAT IOVs.vi"/>
