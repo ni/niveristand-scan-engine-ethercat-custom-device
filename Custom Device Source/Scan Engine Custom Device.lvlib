@@ -231,6 +231,7 @@
 					<Item Name="Check Slave Name.vi" Type="VI" URL="../System Explorer/Utility/Check Slave Name.vi"/>
 					<Item Name="TypeCodeToEnum.vi" Type="VI" URL="../System Explorer/Utility/TypeCodeToEnum.vi"/>
 					<Item Name="Export ECAT Section to XML.vi" Type="VI" URL="../System Explorer/Utility/Export ECAT Section to XML.vi"/>
+					<Item Name="Prompt Import 3rd Party ECAT Slaves Will Reboot.vi" Type="VI" URL="../System Explorer/Utility/Prompt Import 3rd Party ECAT Slaves Will Reboot.vi"/>
 				</Item>
 				<Item Name="ECAT_InternalSubVIs" Type="Folder">
 					<Item Name="_ValidateDeviceProfiles.vi" Type="VI" URL="../System Explorer/Utility/ECAT_InternalSubVIs/_ValidateDeviceProfiles.vi"/>
