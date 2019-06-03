@@ -10,8 +10,8 @@ LabVIEW 2017
 
 - The packed library build from [Scan Engine Custom Device Module Libraries](https://github.com/ni/niveristand-scan-engine-module-libraries).
 - The FXP build from [Scan Engine Custom Device FXP Libraries](https://github.com/ni/niveristand-scan-engine-fxp-libraries).
-- NI Industrial Communications for EtherCAT 17.6+
-- NI RIO
+- NI CompactRIO
+- NI-Industrial Communications for EtherCAT 17.6+
 
 ## Git History & Rebasing Policy
 Branch rebasing and other history modifications will be listed here, with several notable exceptions:
