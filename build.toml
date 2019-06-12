@@ -25,7 +25,7 @@ dependency_target = 'Pharlap'
 name = 'Pharlap Engine Library'
 type = 'lvBuildSpec'
 project = '{cd}'
-target = 'My Computer'
+target = 'Pharlap'
 build_spec = 'Engine Release'
 dependency_target = 'Pharlap'
 
