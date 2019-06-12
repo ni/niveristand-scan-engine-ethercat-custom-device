@@ -10,53 +10,48 @@ copy_location = 'Custom Device Source'
 libraries = ['Modules.lvlibp']
 copy_location = 'Custom Device Source'
 
-[projects.pharlap]
+[projects.cd]
 path = 'Custom Device Source\Scan Engine.lvproj'
-
-[projects.vxworks]
-path = 'Custom Device Source\Scan Engine - VxWorks.lvproj'
-
-[projects.linux64]
-path = 'Custom Device Source\Scan Engine - Linux.lvproj'
-
-[projects.linux32]
-path = 'Custom Device Source\Scan Engine - Linux32.lvproj'
 
 [[build.steps]]
 name = 'Configuration Library'
 type = 'lvBuildSpec'
-project = '{pharlap}'
+project = '{cd}'
 target = 'My Computer'
-build_spec = 'Configuration - Release'
-dependency_target = 'pharlap'
+build_spec = 'Configuration Release'
+dependency_target = 'Pharlap'
 
 [[build.steps]]
 name = 'Pharlap Engine Library'
-type = 'lvBuildSpecAllTargets'
-project = '{pharlap}'
-build_spec = 'PharLap - Release'
-dependency_target = 'pharlap'
+type = 'lvBuildSpec'
+project = '{cd}'
+target = 'Pharlap'
+build_spec = 'Engine Release'
+dependency_target = 'Pharlap'
 
 [[build.steps]]
 name = 'VxWorks Engine Library'
-type = 'lvBuildSpecAllTargets'
-project = '{vxworks}'
-build_spec = 'VxWorks - Release'
-dependency_target = 'vxworks'
+type = 'lvBuildSpec'
+project = '{cd}'
+target = 'VxWorks'
+build_spec = 'Engine Release'
+dependency_target = 'VxWorks'
 
 [[build.steps]]
 name = 'Linux x64 Engine Library'
-type = 'lvBuildSpecAllTargets'
-project = '{linux64}'
-build_spec = 'Linux - Release'
-dependency_target = 'linux64'
+type = 'lvBuildSpec'
+project = '{cd}'
+target = 'Linux x64'
+build_spec = 'Engine Release'
+dependency_target = 'Linux_x64'
 
 [[build.steps]]
 name = 'Linux x86 Engine Library'
-type = 'lvBuildSpecAllTargets'
-project = '{linux32}'
-build_spec = 'Linux 32 - release'
-dependency_target = 'linux32'
+type = 'lvBuildSpec'
+project = '{cd}'
+target = 'Linux 32 ARM'
+build_spec = 'Engine Release'
+dependency_target = 'Linux_32_ARM'
 
 [package]
 type = 'nipkg'

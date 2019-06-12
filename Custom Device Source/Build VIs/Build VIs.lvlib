@@ -4,8 +4,5 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">385908736</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
-	<Item Name="VxWorks" Type="Folder">
-		<Item Name="Post-Build Action - VxWorks.vi" Type="VI" URL="../Post-Build Action - VxWorks.vi"/>
-	</Item>
 	<Item Name="Post-Build Action.vi" Type="VI" URL="../Post-Build Action.vi"/>
 </Library>
