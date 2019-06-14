@@ -7,7 +7,7 @@ libraries = ['FXP.llb']
 copy_location = 'Custom Device Source'
 
 [dependencies.niveristand-scan-engine-module-libraries]
-libraries = ['Modules.lvlibp']
+libraries = ['Modules.lvlibp', 'NI ECAT Remote IO.llb']
 copy_location = 'Custom Device Source'
 
 [projects.cd]

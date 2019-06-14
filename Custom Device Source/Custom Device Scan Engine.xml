@@ -165,6 +165,38 @@
       <SupportedTarget>PharlapWindows</SupportedTarget>
       <Source>
         <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Scan Engine\PharLap\NI ECAT Remote IO.llb</Path>
+      </Source>
+      <RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\NI ECAT Remote IO.llb</RealTimeSystemDestination>
+    </Dependency>
+    <Dependency>
+      <SupportedTarget>VxWorks</SupportedTarget>
+      <Source>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Scan Engine\VxWorks\NI ECAT Remote IO.llb</Path>
+      </Source>
+      <RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\NI ECAT Remote IO.llb</RealTimeSystemDestination>
+    </Dependency>
+    <Dependency>
+      <SupportedTarget>Linux_x64</SupportedTarget>
+      <Source>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Scan Engine\Linux_x64\NI ECAT Remote IO.llb</Path>
+      </Source>
+      <RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\NI ECAT Remote IO.llb</RealTimeSystemDestination>
+    </Dependency>
+    <Dependency>
+      <SupportedTarget>Linux_32_ARM</SupportedTarget>
+      <Source>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Scan Engine\Linux_32_ARM\NI ECAT Remote IO.llb</Path>
+      </Source>
+      <RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\NI ECAT Remote IO.llb</RealTimeSystemDestination>
+    </Dependency>
+    <Dependency>
+      <SupportedTarget>PharlapWindows</SupportedTarget>
+      <Source>
+        <Type>To Common Doc Dir</Type>
         <Path>Custom Devices\Scan Engine\PharLap\FXP.llb</Path>
       </Source>
       <RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\FXP.llb</RealTimeSystemDestination>
