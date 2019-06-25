@@ -456,7 +456,7 @@
 								</Property>
 							</Properties>
 							<Errors />
-							<Section Name="0: NI 9144" TypeGUID="0967D9B5-C270-4E7D-AF0D-EBA564935FF3">
+							<Section Name="0: NI 9145" TypeGUID="F08D8E42-E070-4D6E-B502-45A5BF0753B8">
 								<Description />
 								<Properties>
 									<Property Name="user.CD.ECAT Slave #">
@@ -1662,7 +1662,7 @@ Note: The only supported FXP UDVs are those  with word lengths up to 32 bits, an
 					<Description />
 					<Properties>
 						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Scan Engine and EtherCAT/0: EtherCAT Master/0: NI 9144/Slot8 (NI 9401)/DIO 0" />
+							<DependentNode Path="Targets/Controller/Custom Devices/Scan Engine and EtherCAT/0: EtherCAT Master/0: NI 9145/Slot8 (NI 9401)/DIO 0" />
 						</Property>
 					</Properties>
 					<Errors />
@@ -1671,7 +1671,7 @@ Note: The only supported FXP UDVs are those  with word lengths up to 32 bits, an
 					<Description />
 					<Properties>
 						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Scan Engine and EtherCAT/0: EtherCAT Master/0: NI 9144/Slot8 (NI 9401)/DIO 1" />
+							<DependentNode Path="Targets/Controller/Custom Devices/Scan Engine and EtherCAT/0: EtherCAT Master/0: NI 9145/Slot8 (NI 9401)/DIO 1" />
 						</Property>
 					</Properties>
 					<Errors />
@@ -1680,7 +1680,7 @@ Note: The only supported FXP UDVs are those  with word lengths up to 32 bits, an
 					<Description />
 					<Properties>
 						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Scan Engine and EtherCAT/0: EtherCAT Master/0: NI 9144/Slot8 (NI 9401)/DIO 2" />
+							<DependentNode Path="Targets/Controller/Custom Devices/Scan Engine and EtherCAT/0: EtherCAT Master/0: NI 9145/Slot8 (NI 9401)/DIO 2" />
 						</Property>
 					</Properties>
 					<Errors />
@@ -1689,7 +1689,7 @@ Note: The only supported FXP UDVs are those  with word lengths up to 32 bits, an
 					<Description />
 					<Properties>
 						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Scan Engine and EtherCAT/0: EtherCAT Master/0: NI 9144/Slot8 (NI 9401)/DIO 3" />
+							<DependentNode Path="Targets/Controller/Custom Devices/Scan Engine and EtherCAT/0: EtherCAT Master/0: NI 9145/Slot8 (NI 9401)/DIO 3" />
 						</Property>
 					</Properties>
 					<Errors />
@@ -1703,7 +1703,7 @@ Note: The only supported FXP UDVs are those  with word lengths up to 32 bits, an
 					<Description />
 					<Properties>
 						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Scan Engine and EtherCAT/0: EtherCAT Master/0: NI 9144/Slot8 (NI 9401)/DIO 4" />
+							<DependentNode Path="Targets/Controller/Custom Devices/Scan Engine and EtherCAT/0: EtherCAT Master/0: NI 9145/Slot8 (NI 9401)/DIO 4" />
 						</Property>
 					</Properties>
 					<Errors />
@@ -1712,7 +1712,7 @@ Note: The only supported FXP UDVs are those  with word lengths up to 32 bits, an
 					<Description />
 					<Properties>
 						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Scan Engine and EtherCAT/0: EtherCAT Master/0: NI 9144/Slot8 (NI 9401)/DIO 5" />
+							<DependentNode Path="Targets/Controller/Custom Devices/Scan Engine and EtherCAT/0: EtherCAT Master/0: NI 9145/Slot8 (NI 9401)/DIO 5" />
 						</Property>
 					</Properties>
 					<Errors />
@@ -1721,7 +1721,7 @@ Note: The only supported FXP UDVs are those  with word lengths up to 32 bits, an
 					<Description />
 					<Properties>
 						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Scan Engine and EtherCAT/0: EtherCAT Master/0: NI 9144/Slot8 (NI 9401)/DIO 6" />
+							<DependentNode Path="Targets/Controller/Custom Devices/Scan Engine and EtherCAT/0: EtherCAT Master/0: NI 9145/Slot8 (NI 9401)/DIO 6" />
 						</Property>
 					</Properties>
 					<Errors />
@@ -1730,7 +1730,7 @@ Note: The only supported FXP UDVs are those  with word lengths up to 32 bits, an
 					<Description />
 					<Properties>
 						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Scan Engine and EtherCAT/0: EtherCAT Master/0: NI 9144/Slot8 (NI 9401)/DIO 7" />
+							<DependentNode Path="Targets/Controller/Custom Devices/Scan Engine and EtherCAT/0: EtherCAT Master/0: NI 9145/Slot8 (NI 9401)/DIO 7" />
 						</Property>
 					</Properties>
 					<Errors />
