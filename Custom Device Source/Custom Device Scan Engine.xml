@@ -5,7 +5,7 @@
     <eng>National Instruments::Scan Engine and EtherCAT</eng>
     <loc>National Instruments::Scan Engine and EtherCAT</loc>
   </AddMenu>
-  <Version>4.5.0</Version>
+  <Version>4.6.0</Version>
   <Type>Inline HW Interface</Type>
   <MaxOccurrence>1</MaxOccurrence>
   <MainPageGUID>A04A67D4-9B64-052B-A031-6B05377B9B10</MainPageGUID>
