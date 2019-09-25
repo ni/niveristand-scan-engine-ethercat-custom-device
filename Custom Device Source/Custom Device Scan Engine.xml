@@ -5,7 +5,7 @@
     <eng>National Instruments::Scan Engine and EtherCAT</eng>
     <loc>National Instruments::Scan Engine and EtherCAT</loc>
   </AddMenu>
-  <Version>4.6.0</Version>
+  <Version>4.7.0</Version>
   <Type>Inline HW Interface</Type>
   <MaxOccurrence>1</MaxOccurrence>
   <MainPageGUID>A04A67D4-9B64-052B-A031-6B05377B9B10</MainPageGUID>
@@ -739,6 +739,22 @@
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
         <Path>Custom Devices\Scan Engine\Scan Engine - Configuration.llb\Scan Engine Slot Page.vi</Path>
+      </Item2Launch>
+    </Page>
+	<Page>
+      <Name>
+        <eng>Scan Engine Generic IOV Channel</eng>
+        <loc>Scan Engine Generic IOV Channel</loc>
+      </Name>
+      <DeleteProtection>true</DeleteProtection>
+      <GUID>e7e36d18-5479-4ad7-8b54-ca14862b3242</GUID>
+      <Glyph>
+        <Type>To Application Data Dir</Type>
+        <Path>System Explorer\Glyphs\default fpga channel.png</Path>
+      </Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Scan Engine\Scan Engine - Configuration.llb\Scan Engine Generic IOV Channel Page.vi</Path>
       </Item2Launch>
     </Page>
     <Page>
