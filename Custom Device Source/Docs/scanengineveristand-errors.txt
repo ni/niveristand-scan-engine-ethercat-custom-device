@@ -27,4 +27,7 @@ A User-Defined Variable (UDV) container was not found.
 <nierror code="537710">
 Unsupported file type.  Please select a valid .lvbitx file.
 </nierror>
+<nierror code="537711">
+Unsupported module type. This module is not supported in this version of VeriStand.
+</nierror>
 </nidocument>
