@@ -59,4 +59,4 @@ package_output_dir = 'Built'
 
 [package.payload_map]
 'Built\Scan Engine' = 'documents\National Instruments\NI VeriStand {veristand_version}\Custom Devices\Scan Engine'
-'Built\scanengineveristand-errors.txt' = 'ni-paths-NISHAREDDIR\LabVIEW Run-Time\{veristand_version}\errors\English'
+'Built\Errors' = 'ni-paths-NISHAREDDIR\LabVIEW Run-Time\{veristand_version}\errors\English'
