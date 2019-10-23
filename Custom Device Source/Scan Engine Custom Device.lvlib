@@ -268,6 +268,7 @@
 				<Item Name="Set Main FPGA Chassis Slots Programming Mode.vi" Type="VI" URL="../System Explorer/Utility/Set Main FPGA Chassis Slots Programming Mode.vi"/>
 				<Item Name="List Local Chassis Modules.vi" Type="VI" URL="../System Explorer/Utility/List Local Chassis Modules.vi"/>
 				<Item Name="Add Channel Properties To String Array.vi" Type="VI" URL="../System Explorer/Utility/Add Channel Properties To String Array.vi"/>
+				<Item Name="Channel Data and Porperties to Table.vi" Type="VI" URL="../System Explorer/Utility/Channel Data and Porperties to Table.vi"/>
 			</Item>
 			<Item Name="RemIO" Type="Folder">
 				<Item Name="Scan Engine Update RemIO Subpanel.vi" Type="VI" URL="../System Explorer/Utility/Scan Engine Update RemIO Subpanel.vi"/>
