@@ -131,6 +131,7 @@
 			<Item Name="Scan Engine Custom Main IO Network Variables.vi" Type="VI" URL="../System Explorer/Pages/Scan Engine Custom Main IO Network Variables.vi"/>
 			<Item Name="Scan Engine ECAT IO Network Variables.vi" Type="VI" URL="../System Explorer/Pages/Scan Engine ECAT IO Network Variables.vi"/>
 			<Item Name="Scan Engine RemIO Module Page.vi" Type="VI" URL="../System Explorer/Pages/Scan Engine RemIO Module Page.vi"/>
+			<Item Name="Scan Engine Generic IOV Channel Page.vi" Type="VI" URL="../System Explorer/Pages/Scan Engine Generic IOV Channel Page.vi"/>
 			<Item Name="Scan Engine Slot Page.vi" Type="VI" URL="../System Explorer/Pages/Scan Engine Slot Page.vi"/>
 			<Item Name="Scan Engine AI Page.vi" Type="VI" URL="../System Explorer/Pages/Scan Engine AI Page.vi"/>
 			<Item Name="Scan Engine AO Page.vi" Type="VI" URL="../System Explorer/Pages/Scan Engine AO Page.vi"/>
@@ -266,6 +267,8 @@
 				<Item Name="Align cRIO Programming Mode.vi" Type="VI" URL="../System Explorer/Utility/Align cRIO Programming Mode.vi"/>
 				<Item Name="Set Main FPGA Chassis Slots Programming Mode.vi" Type="VI" URL="../System Explorer/Utility/Set Main FPGA Chassis Slots Programming Mode.vi"/>
 				<Item Name="List Local Chassis Modules.vi" Type="VI" URL="../System Explorer/Utility/List Local Chassis Modules.vi"/>
+				<Item Name="Add Channel Properties To String Array.vi" Type="VI" URL="../System Explorer/Utility/Add Channel Properties To String Array.vi"/>
+				<Item Name="Channel Data and Properties to Table.vi" Type="VI" URL="../System Explorer/Utility/Channel Data and Properties to Table.vi"/>
 				<Item Name="Get Modules Disabled Items.vi" Type="VI" URL="../System Explorer/Utility/Get Modules Disabled Items.vi"/>
 			</Item>
 			<Item Name="RemIO" Type="Folder">
