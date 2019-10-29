@@ -14,6 +14,7 @@
 # Metadata
 *.aliases
 *.lvlps
+*.lvproj.config
 
 # =========================
 # Operating System Files
