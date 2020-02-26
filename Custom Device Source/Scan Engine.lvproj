@@ -1,4 +1,4 @@
-﻿<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="17008000">
 	<Property Name="CCSymbols" Type="Str">Debugging,False;LV_Version,2016;</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
@@ -47,7 +47,6 @@
 			<Item Name="System" Type="Folder">
 				<Item Name="EtherCAT" Type="Folder">
 					<Item Name="Assets" Type="Folder">
-						<Item Name="config.ini" Type="Document" URL="../Tests/EtherCAT System Tests/Assets/config.ini"/>
 						<Item Name="EtherCAT.nivssdf" Type="Document" URL="../Tests/EtherCAT System Tests/Assets/EtherCAT.nivssdf"/>
 						<Item Name="Remote IO.nivssdf" Type="Document" URL="../Tests/EtherCAT System Tests/Assets/Remote IO.nivssdf"/>
 					</Item>
