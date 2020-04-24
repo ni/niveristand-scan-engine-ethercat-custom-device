@@ -10,7 +10,7 @@
 				<String>Remote IO</String>
 			</Property>
 			<Property Name="Version">
-				<String>1.0.0.3</String>
+				<String>1.0.0.4</String>
 			</Property>
 			<Property Name="Creator">
 				<String />
@@ -232,7 +232,7 @@
 								</DependentFile>
 							</Property>
 							<Property Name="Version">
-								<String>4.6.1</String>
+								<String>4.7.0</String>
 							</Property>
 							<Property Name="Timing Source Init VI_0">
 								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Scan Engine\Linux_32_ARM\Scan Engine Timing Source.vi">
