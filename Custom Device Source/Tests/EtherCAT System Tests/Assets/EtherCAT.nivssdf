@@ -10,7 +10,7 @@
 				<String>EtherCAT</String>
 			</Property>
 			<Property Name="Version">
-				<String>1.0.0.31</String>
+				<String>1.0.0.32</String>
 			</Property>
 			<Property Name="Creator">
 				<String />
@@ -235,7 +235,7 @@
 								</DependentFile>
 							</Property>
 							<Property Name="Version">
-								<String>4.6.0</String>
+								<String>4.7.0</String>
 							</Property>
 							<Property Name="Timing Source Init VI_0">
 								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Scan Engine\Linux_32_ARM\Scan Engine Timing Source.vi">
@@ -534,7 +534,7 @@
 									<Description />
 									<Properties>
 										<Property Name="user.CD.Module Class">
-											<BinaryString>AAAAAx0OTW9kdWxlcy5sdmxpYnAMOTQwMS5sdmNsYXNzAAAAAAEAAAAAAAIAAQAAAAAAAwABAAAAAAAZAAAAFQAoAAAACAEAAAAEAAAABAABAAAAAAAAAAAAAAAIAAAAAAAAAAE=</BinaryString>
+											<BinaryString>AAAAAx0OTW9kdWxlcy5sdmxpYnAMOTQwMS5sdmNsYXNzAAAAAAEAAAAAAAIAAQAAAAAAAwABAAAAAAAbAAAAFQAsAAAACAEAAAAEAAAABAABAAAAAAAAAAAAAAAIAAAAAAAAAAE=</BinaryString>
 										</Property>
 									</Properties>
 									<Errors />
