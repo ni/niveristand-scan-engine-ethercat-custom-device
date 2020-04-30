@@ -3,85 +3,85 @@
 This document lists supported modules. If you need support for a new c-Series module, or if you find an issue with the support for a specific module, please create an issue and consider committing the necessary changes and submitting a pull request. 
 
 ## Analog Input
-| Model | Description | Channel Type | Channels | Units |
-|:---:|---|:---:|:---:|:---:|
-| 9201 | 8-Ch +/- 10 V 12-Bit Analog Input | AI | 8 | V |
-| 9203 | 8-Ch +/- 20 mA 16-Bit Analog Input | AI | 8 | A |
-| 9205 | 32-Ch +/- 10 V to +/- 200 mV 16-Bit Analog Input | AI | 32 | V |
-| 9206 | 32-Ch +/- 10 V to +/- 200 mV 16-Bit Analog Input for Fuel Cells | AI | 32 | V |
-| 9207 | 8-Ch +/- 10 V and 8-Ch +/- 20 mA 24-Bit Isolated Analog Input | AI | 8V + 8A | V , A |
-| 9208 | 16-Ch +/- 20 mA 24-Bit Isolated Analog Input | AI | 16 | A |
-| 9209 | 16-Ch +/- 10 V with 60 Vdc isolation 24-Bit Analog Input | AI | 16 | V |
-| 9210 | 4-Ch +/- 80 mV 24-Bit Thermocouple Input | AI | 4 | Custom |
-| 9211 | 4-Ch +/- 80 mV 24-Bit Thermocouple Input | AI | 4 | Custom |
-| 9212 | 8-Ch +/- 78, 125 mV with 250 Vrms Ch-Ch isolation 24-Bit Thermocouple Input | AI | 8 | Custom |
-| 9213 | 16-Ch +/- 78 mV 24-Bit Thermocouple Input | AI | 16 | Custom |
-| 9214 | 16-Ch +/- 78 mV 24-Bit Thermocouple Input | AI | 16 | Custom |
-| 9215 | 4-Ch +/- 10 V 16-Bit Simultaneous Analog Input | AI | 4 | V |
-| 9216 | 8-Ch -200 to 850 deg C or 0 - 400 Ohm 24-Bit RTD Input | AI | 8 | Custom |
-| 9217 | 4-Ch 24-Bit RTD Input | AI | 4 | Custom |
-| 9219 | 4-Ch 24-Bit Universal Analog Input | AI | 4 | Custom |
-| 9220 | 16-Ch +/- 10 V 16-Bit Analog Input | AI | 8 | V |
-| 9221 | 8-Ch +/- 60 V 12-Bit Analog Input | AI | 8 | V |
-| 9222 | 4-Ch +/- 10 V 16-Bit Analog Input | AI | 4 | V |
-| 9223 | 4-Ch +/- 10 V 16-Bit Analog Input | AI | 4 | V |
-| 9224 | 8-Ch +/- 10 V 24-Bit Analog Input | AI | 8 | V |
-| 9225 | 3-Ch 300 Vrms 24-Bit Simultaneous Analog Input | AI | 3 | V |
-| 9226 | 8-Ch -200 to 850 deg C or 0 to 4000 Ohm 24-Bit RTD Input | AI | 8 | Custom |
-| 9227 | 4-Ch 5 Arms 24-Bit Simultaneous Analog Input | AI | 4 | A |
-| 9228 | 8-Ch +/- 60 V 24-Bit Analog Input | AI | 8 | V |
-| 9229 | 4-Ch +/- 60 V 24-Bit Simultaneous Analog Input | AI | 4 | V |
-| 9233 | 4-Ch +/- 5 V 24-Bit IEPE Analog Input | AI | 4 | V |
-| 9234 | 4-Ch 24-Bit SW Selectable IEPE & AC/DC | AI | 4 | V |
-| 9235 | 8-Ch 24-Bit Quarter Bridge Analog Input | AI | 8 | V/V |
-| 9236 | 8-Ch 24-Bit Quarter Bridge Analog Input | AI | 8 | V/V |
-| 9237 | 4-Ch 24-Bit Half/Full Bridge Analog Input | AI | 4 | V/V |
-| 9239 | 4-Ch +/- 10 V 24-Bit Simultaneous Analog Input | AI | 4 | V |
-| 9242 | 3-phase + neutral 400 Vrms L-L 24-Bit Analog Input | AI | 4 | A |
-| 9244 | 3-phase + neutral 400 Vrms L-L 24-Bit Analog Input | AI | 4 | A |
-| 9253 | 8-Ch +/- 20 mA 24-Bit Analog Input | AI | 8 | A |
+| Model | ADC Resolution | Description | Channels | Measurement Type | Units |
+|:---:|:---:|---|:---:|:---:|:---:|
+| 9201 | 12-Bit | Analog Input | 8 | Voltage | V |
+| 9203 | 16-Bit | Analog Input | 8 | Current | A |
+| 9205 | 16-Bit | Analog Input | 32 | Voltage | V |
+| 9206 | 16-Bit | Analog Input for Fuel Cells | 32 | Voltage | V |
+| 9207 | 24-Bit | Isolated Analog Input | 8V + 8A | Voltage + Current | V , A |
+| 9208 | 24-Bit | Isolated Analog Input | 16 | Current | A |
+| 9209 | 24-Bit | 60 Vdc Isolated Analog Input | 16 | Voltage | V |
+| 9210 | 24-Bit | Thermocouple Input | 4 | Temperature or Voltage | Custom |
+| 9211 | 24-Bit | Thermocouple Input | 4 | Temperature or Voltage | Custom |
+| 9212 | 24-Bit | 250 Vrms Ch-Ch Isolation Thermocouple Input | 8 | Temperature or Voltage | Custom |
+| 9213 | 24-Bit | Thermocouple Input | 16 | Temperature or Voltage | Custom |
+| 9214 | 24-Bit | Thermocouple Input | 16 | Temperature or Voltage | Custom |
+| 9215 | 16-Bit | Simultaneous Analog Input | 4 | Voltage | V |
+| 9216 | 24-Bit | RTD Input | 8 | Temperature or Resistance | Custom |
+| 9217 | 24-Bit | RTD Input | 4 | Temperature or Resistance | Custom |
+| 9219 | 24-Bit | Universal Analog Input | 4 | Universal* | Custom |
+| 9220 | 16-Bit | Analog Input | 8 | Voltage | V |
+| 9221 | 12-Bit | Analog Input | 8 | Voltage | V |
+| 9222 | 16-Bit | Analog Input | 4 | Voltage | V |
+| 9223 | 16-Bit | Analog Input | 4 | Voltage | V |
+| 9224 | 24-Bit | Analog Input | 8 | Voltage | V |
+| 9225 | 24-Bit | Simultaneous Analog Input | 3 | Voltage | V |
+| 9226 | 24-Bit | RTD Input | 8 | Temperature or Resistance | Custom |
+| 9227 | 24-Bit | Simultaneous Analog Input | 4 | Current | A |
+| 9228 | 24-Bit | Analog Input | 8 | Voltage | V |
+| 9229 | 24-Bit | Simultaneous Analog Input | 4 | Voltage | V |
+| 9233 | 24-Bit | IEPE Analog Input | 4 | Voltage | V |
+| 9234 | 24-Bit | SW Selectable IEPE & AC/DC | 4 | Voltage | V |
+| 9235 | 24-Bit | Quarter Bridge Analog Input | 8 | Strain | V/V |
+| 9236 | 24-Bit | Quarter Bridge Analog Input | 8 | Strain | V/V |
+| 9237 | 24-Bit | Half/Full Bridge Analog Input | 4 | Strain | V/V |
+| 9239 | 24-Bit | Simultaneous Analog Input | 4 | Voltage | V |
+| 9242 | 24-Bit | 3-Phase + Neutral 400 Vrms L-L | 4 | Current | A |
+| 9244 | 24-Bit | 3-Phase + Neutral 800 Vrms L-L | 4 | Current | A |
+| 9253 | 24-Bit | Analog Input | 8 | Current | A |
 
 ## Analog Output
-| Model | Description | Channel Type | Channels | Units |
-|:---:|---|:---:|:---:|:---:|
-| 9263 | 4-Ch +/- 10 V 16-Bit Analog Output | AO | 4 | V |
-| 9264 | 16-Ch +/- 10 V 16-Bit Analog Output | AO | 16 | V |
-| 9265 | 4-Ch 0-20 mA 16-bit Analog Current Output | AO | 4 | A |
-| 9266 | 8-Ch +/- 20 mA 16-Bit Analog Output | AO | 8 | A |
-| 9269 | 4-Ch +/- 10 V 16-Bit Isolated Analog Output | AO | 4 | V |
+| Model | DAC Resolution | Channels | Range | Channel Type | Units |
+|:---:|---|:---:|:---:|:---:|:---:|
+| 9263 | 16-Bit | 4 | +/- 10 V | Voltage | V |
+| 9264 | 16-Bit | 16 | +/- 10 V | Voltage | V |
+| 9265 | 16-bit | 4 | 0-20 mA | Current | A |
+| 9266 | 16-Bit | 8 | +/- 20 mA | Isolated Current | A |
+| 9269 | 16-Bit | 4 | +/- 10 V | Isolated Voltage | V |
 
 ***
 
 ## Digital Modules
-| Model | Description | Channel Type | Channels |
-|:---:|---|:---:|:---:|
-| 9344 | User Interface with 4-Ch Switch + LED | DO | 4 |
-| 9350 | 8-Ch DI + 8-Ch DO Functional Safety | DI+DO | 8+8 |
-| 9375 | 16-Ch DI and 16-Ch DO | DI+DO | 16+16 |
-| 9401 | 8-Ch High-Speed TTL Digital I/O | DIO | 8 |
-| 9402 | 4-Ch High-Speed LVTTL Digital I/O | DIO | 4 |
-| 9403 | 32-Ch TTL Digital I/O | DIO | 32 |
-| 9411 | 6-Ch Differential or TTL Digital Input | DI | 6 |
-| 9421 | 8-Ch 24 V Sinking Digital Input | DI | 8 |
-| 9422 | 8-Ch 24 V Sinking/Sourcing Digital Input | DI | 8 |
-| 9423 | 8-Ch 24 V High-Speed Sinking Digital Input | DI | 8 |
-| 9425 | 32-Ch 24 V Sinking Digital Input | DI | 32 |
-| 9426 | 32-Ch 24 V Sourcing Digital Input | DI | 32 |
-| 9435 | 4-Ch AC/DC Universal Digital Input | DI | 4 |
-| 9436 | 8-Ch AC/DC Sinking/Sourcing Digital Input | DI | 8 |
-| 9437 | 8-Ch DC Sinking Digital Input | DI | 8 |
-| 9472 | 8-Ch 24 V Sourcing Digital Output | DO | 8 |
-| 9474 | 8-Ch 24 V High-Speed Sourcing Digital Output | DO | 8 |
-| 9475 | 8-Ch 60 V High-Speed Sourcing Digital Output | DO | 8 |
-| 9476 | 32-Ch 24 V Sourcing Digital Output | DO | 32 |
-| 9477 | 32-Ch 5 V to 60 V Sinking Digital Output | DO | 32 |
-| 9478 | 16-Ch Sinking Digital Output | DO | 16 |
+| Model | Description | Lines and Direction |
+|:---:|---|:---:|
+| 9344 | User Interface with Switch + LED | 4 DO |
+| 9350 | DI + DO Functional Safety | 8 DI + 8 DO |
+| 9375 | DI + DO | 16 DI + 16 DO |
+| 9401 | High-Speed TTL Digital I/O | 8 DIO |
+| 9402 | High-Speed LVTTL Digital I/O | 4 DIO |
+| 9403 | TTL Digital I/O | 32 DIO |
+| 9411 | Differential or TTL Digital Input | 6 DI |
+| 9421 | 24 V Sinking Digital Input | 8 DI |
+| 9422 | 24 V Sinking/Sourcing Digital Input | 8 DI |
+| 9423 | 24 V High-Speed Sinking Digital Input | 8 DI |
+| 9425 | 24 V Sinking Digital Input | 32 DI |
+| 9426 | 24 V Sourcing Digital Input | 32 DI |
+| 9435 | AC/DC Universal Digital Input | 4 DI |
+| 9436 | AC/DC Sinking/Sourcing Digital Input | 8 DI |
+| 9437 | DC Sinking Digital Input | 8 DI |
+| 9472 | 24 V Sourcing Digital Output | 8 DO |
+| 9474 | 24 V High-Speed Sourcing Digital Output | 8 DO |
+| 9475 | 60 V High-Speed Sourcing Digital Output | 8 DO |
+| 9476 | 24 V Sourcing Digital Output | 32 DO |
+| 9477 | 5 V to 60 V Sinking Digital Output | 32 DO |
+| 9478 | Sinking Digital Output | 16 DO |
 
 ***
 
 ## Relay Modules
-| Model | Description | Channels |
+| Model | Description | Relays |
 |:---:|---|:---:|
-| 9481 | 4-Ch Form A Electromechanical Relay | 4 |
-| 9482 | 4-Ch SPST Electromechanical Relay | 4 |
-| 9485 | 8-Ch Solid State Relay | 8 |
+| 9481 | Form A Electromechanical Relay | 4 |
+| 9482 | SPST Electromechanical Relay | 4 |
+| 9485 | Solid State Relay | 8 |
