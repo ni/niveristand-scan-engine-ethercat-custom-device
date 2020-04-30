@@ -1,4 +1,8 @@
-# Analog Modules
+# Modules
+
+This document lists supported modules. If you need support for a new c-Series module, or if you find an issue with the support for a specific module, please create an issue and consider committing the necessary changes and submitting a pull request. 
+
+## Analog Input
 | Model | Description | Type (name) | Channels | Units |
 |:---:|---|:---:|:---:|:---:|
 | 9201 | 8-Ch +/- 10 V 12-Bit Analog Input | AI | 8 | V |
@@ -36,6 +40,10 @@
 | 9242 | 3-phase + neutral 400 Vrms L-L 24-Bit Analog Input | AI | 4 | A |
 | 9244 | 3-phase + neutral 400 Vrms L-L 24-Bit Analog Input | AI | 4 | A |
 | 9253 | 8-Ch +/- 20 mA 24-Bit Analog Input | AI | 8 | A |
+
+## Analog Output
+| Model | Description | Type (name) | Channels | Units |
+|:---:|---|:---:|:---:|:---:|
 | 9263 | 4-Ch +/- 10 V 16-Bit Analog Output | AO | 4 | V |
 | 9264 | 16-Ch +/- 10 V 16-Bit Analog Output | AO | 16 | V |
 | 9265 | 4-Ch 0-20 mA 16-bit Analog Current Output | AO | 4 | A |
@@ -44,7 +52,7 @@
 
 ***
 
-# Digital Modules
+## Digital Modules
 | Model | Description | Type (name) | Channels |
 |:---:|---|:---:|:---:|
 | 9344 | User Interface with 4-Ch Switch + LED | DO | 4 |
@@ -71,7 +79,7 @@
 
 ***
 
-# Relay Modules
+## Relay Modules
 | Model | Description | Channels |
 |:---:|---|:---:|
 | 9481 | 4-Ch Form A Electromechanical Relay | 4 |
