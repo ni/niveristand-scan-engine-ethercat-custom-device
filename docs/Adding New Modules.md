@@ -26,3 +26,4 @@ NOTE: Some of these steps may need to be run outside of the context of a LabVIEW
 1. Bump the version number in `Scan Engine Custom Device.lvlib:Custom Device Scan Engine.xml`. Bump the minor version for new hardware.
 1. Add mutation code in `Scan Engine Custom Device.lvlib:Main - On Load.vi` to update the module model enumeration for older module classes.
 1. Save the test system definition assets with the new support. This is required as mutation does not run when deploying programmatically.
+1. Update the Modules.md document by adding the new module to the appropriate table.
