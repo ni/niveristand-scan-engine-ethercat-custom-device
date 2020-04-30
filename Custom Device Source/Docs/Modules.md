@@ -1,4 +1,4 @@
-#Analog Modules
+# Analog Modules
 
 | Model | Description | Type (name) | Channels | Units |
 |-------|---|:---:|:---:|---|
@@ -45,7 +45,7 @@
 
 ***
 
-#Digital Modules
+# Digital Modules
 
 | Model | Description | Type (name) | Channels |
 |:---:|---|:---:|:---:|
@@ -73,7 +73,7 @@
 
 ***
 
-#Relay Modules
+# Relay Modules
 
 | Model | Description | Channels |
 |:---:|---|:---:|
