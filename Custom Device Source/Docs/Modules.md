@@ -6,7 +6,7 @@
 | 9203 | 8-Ch +/- 20 mA 16-Bit Analog Input | AI | 8 | A |
 | 9205 | 32-Ch +/- 10 V to +/- 200 mV 16-Bit Analog Input | AI | 32 | V |
 | 9206 | 32-Ch +/- 10 V to +/- 200 mV 16-Bit Analog Input for Fuel Cells | AI | 32 | V |
-| 9207 | 8-Ch +/- 10 V and 8-Ch +/- 20 mA 24-Bit Isolated Analog Input | AI | 8V + 8A | "Custom (V , A)" |
+| 9207 | 8-Ch +/- 10 V and 8-Ch +/- 20 mA 24-Bit Isolated Analog Input | AI | 8V + 8A | V , A |
 | 9208 | 16-Ch +/- 20 mA 24-Bit Isolated Analog Input | AI | 16 | A |
 | 9209 | 16-Ch +/- 10 V with 60 Vdc isolation 24-Bit Analog Input | AI | 16 | V |
 | 9210 | 4-Ch +/- 80 mV 24-Bit Thermocouple Input | AI (TC) | 4 | Custom |
@@ -51,10 +51,10 @@
 |:---:|---|:---:|:---:|
 | 9344 | User Interface with 4-Ch Switch + LED | DO | 4 |
 | 9350 | 8-Ch DI + 8-Ch DO Functional Safety | DI+DO | 8+8 |
-| 9375 | 16-Ch DI and 16-Ch DO | DI & DO | 16 DI 16 DO |
-| 9401 | 8-Ch High-Speed TTL Digital I/O | DIO | 8 DIO |
-| 9402 | 4-Ch High-Speed LVTTL Digital I/O | DIO | 4 DIO |
-| 9403 | 32-Ch TTL Digital I/O | DIO | 32 DIO |
+| 9375 | 16-Ch DI and 16-Ch DO | DI+DO | 16+16 |
+| 9401 | 8-Ch High-Speed TTL Digital I/O | DIO | 8 |
+| 9402 | 4-Ch High-Speed LVTTL Digital I/O | DIO | 4 |
+| 9403 | 32-Ch TTL Digital I/O | DIO | 32 |
 | 9411 | 6-Ch Differential or TTL Digital Input | DI | 6 |
 | 9421 | 8-Ch 24 V Sinking Digital Input | DI | 8 |
 | 9422 | 8-Ch 24 V Sinking/Sourcing Digital Input | DI | 8 |
