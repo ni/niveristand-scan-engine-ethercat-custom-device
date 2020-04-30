@@ -3,7 +3,7 @@
 This document lists supported modules. If you need support for a new c-Series module, or if you find an issue with the support for a specific module, please create an issue and consider committing the necessary changes and submitting a pull request. 
 
 ## Analog Input
-| Model | Description | Type (name) | Channels | Units |
+| Model | Description | Channel Type | Channels | Units |
 |:---:|---|:---:|:---:|:---:|
 | 9201 | 8-Ch +/- 10 V 12-Bit Analog Input | AI | 8 | V |
 | 9203 | 8-Ch +/- 20 mA 16-Bit Analog Input | AI | 8 | A |
@@ -12,14 +12,14 @@ This document lists supported modules. If you need support for a new c-Series mo
 | 9207 | 8-Ch +/- 10 V and 8-Ch +/- 20 mA 24-Bit Isolated Analog Input | AI | 8V + 8A | V , A |
 | 9208 | 16-Ch +/- 20 mA 24-Bit Isolated Analog Input | AI | 16 | A |
 | 9209 | 16-Ch +/- 10 V with 60 Vdc isolation 24-Bit Analog Input | AI | 16 | V |
-| 9210 | 4-Ch +/- 80 mV 24-Bit Thermocouple Input | AI (TC) | 4 | Custom |
+| 9210 | 4-Ch +/- 80 mV 24-Bit Thermocouple Input | AI | 4 | Custom |
 | 9211 | 4-Ch +/- 80 mV 24-Bit Thermocouple Input | AI | 4 | Custom |
 | 9212 | 8-Ch +/- 78, 125 mV with 250 Vrms Ch-Ch isolation 24-Bit Thermocouple Input | AI (TC) | 8 | Custom |
-| 9213 | 16-Ch +/- 78 mV 24-Bit Thermocouple Input | AI (TC) | 16 | Custom |
-| 9214 | 16-Ch +/- 78 mV 24-Bit Thermocouple Input | AI (TC) | 16 | Custom |
+| 9213 | 16-Ch +/- 78 mV 24-Bit Thermocouple Input | AI | 16 | Custom |
+| 9214 | 16-Ch +/- 78 mV 24-Bit Thermocouple Input | AI | 16 | Custom |
 | 9215 | 4-Ch +/- 10 V 16-Bit Simultaneous Analog Input | AI | 4 | V |
-| 9216 | 8-Ch -200 to 850 deg C or 0 - 400 Ohm 24-Bit RTD Input | AI (RTD) | 8 | Custom |
-| 9217 | 4-Ch 24-Bit Analog Input | AI (RTD) | 4 | Custom |
+| 9216 | 8-Ch -200 to 850 deg C or 0 - 400 Ohm 24-Bit RTD Input | AI | 8 | Custom |
+| 9217 | 4-Ch 24-Bit RTD Input | AI | 4 | Custom |
 | 9219 | 4-Ch 24-Bit Universal Analog Input | AI | 4 | Custom |
 | 9220 | 16-Ch +/- 10 V 16-Bit Analog Input | AI | 8 | V |
 | 9221 | 8-Ch +/- 60 V 12-Bit Analog Input | AI | 8 | V |
@@ -27,7 +27,7 @@ This document lists supported modules. If you need support for a new c-Series mo
 | 9223 | 4-Ch +/- 10 V 16-Bit Analog Input | AI | 4 | V |
 | 9224 | 8-Ch +/- 10 V 24-Bit Analog Input | AI | 8 | V |
 | 9225 | 3-Ch 300 Vrms 24-Bit Simultaneous Analog Input | AI | 3 | V |
-| 9226 | 8-Ch -200 to 850 deg C or 0 to 4000 Ohm 24-Bit RTD Input | AI (RTD) | 8 | Custom |
+| 9226 | 8-Ch -200 to 850 deg C or 0 to 4000 Ohm 24-Bit RTD Input | AI | 8 | Custom |
 | 9227 | 4-Ch 5 Arms 24-Bit Simultaneous Analog Input | AI | 4 | A |
 | 9228 | 8-Ch +/- 60 V 24-Bit Analog Input | AI | 8 | V |
 | 9229 | 4-Ch +/- 60 V 24-Bit Simultaneous Analog Input | AI | 4 | V |
@@ -42,7 +42,7 @@ This document lists supported modules. If you need support for a new c-Series mo
 | 9253 | 8-Ch +/- 20 mA 24-Bit Analog Input | AI | 8 | A |
 
 ## Analog Output
-| Model | Description | Type (name) | Channels | Units |
+| Model | Description | Channel Type | Channels | Units |
 |:---:|---|:---:|:---:|:---:|
 | 9263 | 4-Ch +/- 10 V 16-Bit Analog Output | AO | 4 | V |
 | 9264 | 16-Ch +/- 10 V 16-Bit Analog Output | AO | 16 | V |
@@ -53,7 +53,7 @@ This document lists supported modules. If you need support for a new c-Series mo
 ***
 
 ## Digital Modules
-| Model | Description | Type (name) | Channels |
+| Model | Description | Channel Type | Channels |
 |:---:|---|:---:|:---:|
 | 9344 | User Interface with 4-Ch Switch + LED | DO | 4 |
 | 9350 | 8-Ch DI + 8-Ch DO Functional Safety | DI+DO | 8+8 |
