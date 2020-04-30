@@ -55,7 +55,7 @@ This document lists supported modules. If you need support for a new c-Series mo
 ## Digital Modules
 | Model | Description | Lines and Direction |
 |:---:|---|:---:|
-| 9344 | User Interface with Switch + LED | 4 DO |
+| 9344 | User Interface with Switches + LEDs | 4 DI + 4 LED |
 | 9350 | DI + DO Functional Safety | 8 DI + 8 DO |
 | 9375 | DI + DO | 16 DI + 16 DO |
 | 9401 | High-Speed TTL Digital I/O | 8 DIO |
