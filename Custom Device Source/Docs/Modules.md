@@ -1,5 +1,4 @@
 # Analog Modules
-
 | Model | Description | Type (name) | Channels | Units |
 |:---:|---|:---:|:---:|:---:|
 | 9201 | 8-Ch +/- 10 V 12-Bit Analog Input | AI | 8 | V |
@@ -46,7 +45,6 @@
 ***
 
 # Digital Modules
-
 | Model | Description | Type (name) | Channels |
 |:---:|---|:---:|:---:|
 | 9344 | User Interface with 4-Ch Switch + LED | DO | 4 |
@@ -74,7 +72,6 @@
 ***
 
 # Relay Modules
-
 | Model | Description | Channels |
 |:---:|---|:---:|
 | 9481 | 4-Ch Form A Electromechanical Relay | 4 |
