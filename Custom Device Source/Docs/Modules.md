@@ -1,7 +1,7 @@
 # Analog Modules
 
 | Model | Description | Type (name) | Channels | Units |
-|-------|---|:---:|:---:|---|
+|:---:|---|:---:|:---:|:---:|
 | 9201 | 8-Ch +/- 10 V 12-Bit Analog Input | AI | 8 | V |
 | 9203 | 8-Ch +/- 20 mA 16-Bit Analog Input | AI | 8 | A |
 | 9205 | 32-Ch +/- 10 V to +/- 200 mV 16-Bit Analog Input | AI | 32 | V |
