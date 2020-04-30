@@ -14,7 +14,7 @@ This document lists supported modules. If you need support for a new c-Series mo
 | 9209 | 16-Ch +/- 10 V with 60 Vdc isolation 24-Bit Analog Input | AI | 16 | V |
 | 9210 | 4-Ch +/- 80 mV 24-Bit Thermocouple Input | AI | 4 | Custom |
 | 9211 | 4-Ch +/- 80 mV 24-Bit Thermocouple Input | AI | 4 | Custom |
-| 9212 | 8-Ch +/- 78, 125 mV with 250 Vrms Ch-Ch isolation 24-Bit Thermocouple Input | AI (TC) | 8 | Custom |
+| 9212 | 8-Ch +/- 78, 125 mV with 250 Vrms Ch-Ch isolation 24-Bit Thermocouple Input | AI | 8 | Custom |
 | 9213 | 16-Ch +/- 78 mV 24-Bit Thermocouple Input | AI | 16 | Custom |
 | 9214 | 16-Ch +/- 78 mV 24-Bit Thermocouple Input | AI | 16 | Custom |
 | 9215 | 4-Ch +/- 10 V 16-Bit Simultaneous Analog Input | AI | 4 | V |
