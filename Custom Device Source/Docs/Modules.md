@@ -9,7 +9,7 @@ This document lists supported modules. If you need support for a new c-Series mo
 | 9203 | 16-Bit | Analog Input | 8 | Current | A |
 | 9205 | 16-Bit | Analog Input | 32 | Voltage | V |
 | 9206 | 16-Bit | Analog Input for Fuel Cells | 32 | Voltage | V |
-| 9207 | 24-Bit | Isolated Analog Input | 8V + 8A | Voltage + Current | V , A |
+| 9207 | 24-Bit | Isolated Analog Input | 8V + 8A | Voltage + Current | V, A |
 | 9208 | 24-Bit | Isolated Analog Input | 16 | Current | A |
 | 9209 | 24-Bit | 60 Vdc Isolated Analog Input | 16 | Voltage | V |
 | 9210 | 24-Bit | Thermocouple Input | 4 | Temperature or Voltage | Custom |
