@@ -36,7 +36,6 @@
 	<Property Name="Serialized ACL" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!A1%!!!@````]!!".V&lt;H.J:WZF:#"C?82F)'&amp;S=G&amp;Z!!%!!1!!!!A)!!!!#!!!!!!!!!!</Property>
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
 	<Item Name="Docs" Type="Folder">
-		<Item Name="Modules.xlsx" Type="Document" URL="../Docs/Modules.xlsx"/>
 		<Item Name="Scan properties and methods.vi" Type="VI" URL="../Docs/Scan properties and methods.vi"/>
 		<Item Name="readme.txt" Type="Document" URL="../Docs/readme.txt"/>
 		<Item Name="scanengineveristand-errors.txt" Type="Document" URL="../Docs/scanengineveristand-errors.txt"/>
