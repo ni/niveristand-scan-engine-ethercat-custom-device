@@ -1,6 +1,6 @@
 Package: ni-scan-engine-veristand-{veristand_version}-support
 Version: {nipkg_version}
-Architecture: windows_all
+Architecture: windows_x64
 Maintainer: National Instruments <support@ni.com>
 XB-Plugin: file
 Description: Provides support for the NI Scan Engine and EtherCAT custom device for NI VeriStand {veristand_version}.
