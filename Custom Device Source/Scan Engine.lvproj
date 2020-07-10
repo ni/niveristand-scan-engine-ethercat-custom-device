@@ -1171,6 +1171,7 @@
 			<Item Name="Configure RemIO Module.vi" Type="VI" URL="../Modules.lvlibp/RemIO Module/Configure RemIO Module.vi"/>
 			<Item Name="Read EtherCAT.vi" Type="VI" URL="../Modules.lvlibp/RSI Module/Read EtherCAT.vi"/>
 			<Item Name="Read Channel Type.vi" Type="VI" URL="../Modules.lvlibp/RSI Module/Read Channel Type.vi"/>
+			<Item Name="Check Existing Configuration.vi" Type="VI" URL="../System Explorer/Utility/Check Existing Configuration.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Engine Release" Type="Source Distribution">
@@ -1638,6 +1639,7 @@
 			<Item Name="Configure RemIO Module.vi" Type="VI" URL="../Modules.lvlibp/RemIO Module/Configure RemIO Module.vi"/>
 			<Item Name="Read EtherCAT.vi" Type="VI" URL="../Modules.lvlibp/RSI Module/Read EtherCAT.vi"/>
 			<Item Name="Read Channel Type.vi" Type="VI" URL="../Modules.lvlibp/RSI Module/Read Channel Type.vi"/>
+			<Item Name="Check Existing Configuration.vi" Type="VI" URL="../System Explorer/Utility/Check Existing Configuration.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Engine Release" Type="Source Distribution">
@@ -2109,6 +2111,7 @@
 			<Item Name="Configure RemIO Module.vi" Type="VI" URL="../Modules.lvlibp/RemIO Module/Configure RemIO Module.vi"/>
 			<Item Name="Read EtherCAT.vi" Type="VI" URL="../Modules.lvlibp/RSI Module/Read EtherCAT.vi"/>
 			<Item Name="Read Channel Type.vi" Type="VI" URL="../Modules.lvlibp/RSI Module/Read Channel Type.vi"/>
+			<Item Name="Check Existing Configuration.vi" Type="VI" URL="../System Explorer/Utility/Check Existing Configuration.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Engine Release" Type="Source Distribution">
@@ -2559,6 +2562,7 @@
 			<Item Name="Configure RemIO Module.vi" Type="VI" URL="../Modules.lvlibp/RemIO Module/Configure RemIO Module.vi"/>
 			<Item Name="Read EtherCAT.vi" Type="VI" URL="../Modules.lvlibp/RSI Module/Read EtherCAT.vi"/>
 			<Item Name="Read Channel Type.vi" Type="VI" URL="../Modules.lvlibp/RSI Module/Read Channel Type.vi"/>
+			<Item Name="Check Existing Configuration.vi" Type="VI" URL="../System Explorer/Utility/Check Existing Configuration.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Engine Release" Type="Source Distribution">

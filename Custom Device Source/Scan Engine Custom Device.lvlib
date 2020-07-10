@@ -252,6 +252,7 @@
 					<Item Name="Read Property.vi" Type="VI" URL="../System Explorer/Utility/Read Property.vi"/>
 					<Item Name="Set Slot Programming Mode.vi" Type="VI" URL="../System Explorer/Utility/Set Slot Programming Mode.vi"/>
 					<Item Name="Set All.vi" Type="VI" URL="../System Explorer/Utility/Set All.vi"/>
+					<Item Name="Check Existing Configuration.vi" Type="VI" URL="../System Explorer/Utility/Check Existing Configuration.vi"/>
 				</Item>
 				<Item Name="Get Target IP Address.vi" Type="VI" URL="../System Explorer/Utility/Get Target IP Address.vi"/>
 				<Item Name="Is Synced to Scan.vi" Type="VI" URL="../System Explorer/Utility/Is Synced to Scan.vi"/>
