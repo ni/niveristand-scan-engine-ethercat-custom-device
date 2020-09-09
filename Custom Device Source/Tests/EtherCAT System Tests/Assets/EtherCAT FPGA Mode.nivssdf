@@ -3,20 +3,20 @@
 	<MD5Checksum />
 	<Version Major="2017" Minor="0" Fix="0" Build="0" />
 	<Content>Definition</Content>
-	<Root Name="EtherCAT" TypeGUID="03D3BA22-1485-13A6-56BD17DA950CCD00">
+	<Root Name="EtherCAT FPGA Mode" TypeGUID="03D3BA22-1485-13A6-56BD17DA950CCD00">
 		<Description />
 		<Properties>
 			<Property Name="Name">
-				<String>EtherCAT</String>
+				<String>EtherCAT FPGA Mode</String>
 			</Property>
 			<Property Name="Version">
-				<String>1.0.0.32</String>
+				<String>1.0.0.2</String>
 			</Property>
 			<Property Name="Creator">
 				<String />
 			</Property>
 			<Property Name="Creation Date">
-				<Double>3619449643.743607</Double>
+				<Double>3682515367.6578193</Double>
 			</Property>
 		</Properties>
 		<Errors />
@@ -31,7 +31,7 @@
 						<String>PharLap</String>
 					</Property>
 					<Property Name="IP Address">
-						<String>10.2.201.6</String>
+						<String>10.2.206.63</String>
 					</Property>
 					<Property Name="Control Loop Processor">
 						<I32>-2</I32>
@@ -58,7 +58,7 @@
 						<Double>100</Double>
 					</Property>
 					<Property Name="TL timeout">
-						<Double>240</Double>
+						<Double>120</Double>
 					</Property>
 					<Property Name="daq timeout">
 						<U32>1000</U32>
@@ -88,7 +88,7 @@
 						<U32>0</U32>
 					</Property>
 					<Property Name="ts">
-						<U32>2</U32>
+						<U32>0</U32>
 					</Property>
 					<Property Name="Warmup Time [ms]">
 						<U32>2000</U32>
@@ -101,9 +101,6 @@
 					</Property>
 					<Property Name="Timing Source Settings">
 						<U16>0</U16>
-					</Property>
-					<Property Name="TS_Custom_Dev_Resolved">
-						<DependentNode Path="Targets/Controller/Custom Devices/Scan Engine and EtherCAT" />
 					</Property>
 				</Properties>
 				<Errors />
@@ -200,38 +197,38 @@
 							</Property>
 							<Property Name="Driver VI Path_0">
 								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Scan Engine\Linux_32_ARM\Scan Engine RT Driver.vi">
-									<Version>4.4.1</Version>
+									<Version>4.7.0</Version>
 									<ForceDownload>false</ForceDownload>
 									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\Scan Engine RT Driver.vi</RTDestination>
 									<SupportedTarget>Linux_32_ARM</SupportedTarget>
-									<MD5>e5f079afb0869bb94c074247da7804fe</MD5>
+									<MD5>0b1f98323a403e4311efd06e9c7de142</MD5>
 								</DependentFile>
 							</Property>
 							<Property Name="Driver VI Path_1">
 								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Scan Engine\Linux_x64\Scan Engine RT Driver.vi">
-									<Version>4.4.1</Version>
+									<Version>4.7.0</Version>
 									<ForceDownload>false</ForceDownload>
 									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\Scan Engine RT Driver.vi</RTDestination>
 									<SupportedTarget>Linux_x64</SupportedTarget>
-									<MD5>ec9cf4ef65a3d93d4851fabf5db14644</MD5>
+									<MD5>4ede5c988200a3edaa061d05fb45780e</MD5>
 								</DependentFile>
 							</Property>
 							<Property Name="Driver VI Path_2">
 								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Scan Engine\VxWorks\Scan Engine RT Driver.vi">
-									<Version>4.4.1</Version>
+									<Version>4.7.0</Version>
 									<ForceDownload>false</ForceDownload>
 									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\Scan Engine RT Driver.vi</RTDestination>
 									<SupportedTarget>VxWorks</SupportedTarget>
-									<MD5>11b9f1508b05406c40a6f7ce6ddb9d88</MD5>
+									<MD5>21eb070ef118e3aef41b2ca68dff4aff</MD5>
 								</DependentFile>
 							</Property>
 							<Property Name="Driver VI Path_3">
 								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Scan Engine\PharLap\Scan Engine RT Driver.vi">
-									<Version>4.4.1</Version>
+									<Version>4.7.0</Version>
 									<ForceDownload>false</ForceDownload>
 									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\Scan Engine RT Driver.vi</RTDestination>
 									<SupportedTarget>PharLap &amp; Windows</SupportedTarget>
-									<MD5>e96aea5cfc08d0ffa3e334525d7d5a0e</MD5>
+									<MD5>50a1a33b9d40eb2fcb5ced155300f88e</MD5>
 								</DependentFile>
 							</Property>
 							<Property Name="Version">
@@ -243,7 +240,7 @@
 									<ForceDownload>false</ForceDownload>
 									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\Scan Engine Timing Source.vi</RTDestination>
 									<SupportedTarget>Linux_32_ARM</SupportedTarget>
-									<MD5>5ce7bcc828bbf334933b70eca09e5654</MD5>
+									<MD5>8ae9a5bfcb012240b54277ec0b50a2a1</MD5>
 								</DependentFile>
 							</Property>
 							<Property Name="Timing Source Init VI_1">
@@ -252,7 +249,7 @@
 									<ForceDownload>false</ForceDownload>
 									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\Scan Engine Timing Source.vi</RTDestination>
 									<SupportedTarget>Linux_x64</SupportedTarget>
-									<MD5>cd8c925fbfcc915c0f30989ce41cde1e</MD5>
+									<MD5>1d1e0942b6da399812b7a0c7e8cc2bac</MD5>
 								</DependentFile>
 							</Property>
 							<Property Name="Timing Source Init VI_2">
@@ -261,7 +258,7 @@
 									<ForceDownload>false</ForceDownload>
 									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\Scan Engine Timing Source.vi</RTDestination>
 									<SupportedTarget>VxWorks</SupportedTarget>
-									<MD5>c16f6a823539b79e5de6cf48cb77893a</MD5>
+									<MD5>f0be0fc2729fc4827f5df58d33a8bba3</MD5>
 								</DependentFile>
 							</Property>
 							<Property Name="Timing Source Init VI_3">
@@ -270,7 +267,7 @@
 									<ForceDownload>false</ForceDownload>
 									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\Scan Engine Timing Source.vi</RTDestination>
 									<SupportedTarget>PharLap &amp; Windows</SupportedTarget>
-									<MD5>e2d25bc49414f87275f11f8b0c1eda70</MD5>
+									<MD5>51596c84febaf3699b071c29183a5747</MD5>
 								</DependentFile>
 							</Property>
 							<Property Name="Timing Source Init VI_4">
@@ -279,7 +276,7 @@
 									<ForceDownload>true</ForceDownload>
 									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\Scan Engine Timing Source.vi</RTDestination>
 									<SupportedTarget>PharLap &amp; Windows</SupportedTarget>
-									<MD5>e2d25bc49414f87275f11f8b0c1eda70</MD5>
+									<MD5>51596c84febaf3699b071c29183a5747</MD5>
 								</DependentFile>
 							</Property>
 							<Property Name="Dependency_1">
@@ -288,7 +285,7 @@
 									<ForceDownload>false</ForceDownload>
 									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\Scan Engine - RT.llb</RTDestination>
 									<SupportedTarget>PharLap &amp; Windows</SupportedTarget>
-									<MD5>babdd549857eb945b48f120b8a9a55f9</MD5>
+									<MD5>13a9996bb7b29a7d29ba915fdbeaf627</MD5>
 								</DependentFile>
 							</Property>
 							<Property Name="Dependency_2">
@@ -297,7 +294,7 @@
 									<ForceDownload>false</ForceDownload>
 									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\Scan Engine - RT.llb</RTDestination>
 									<SupportedTarget>VxWorks</SupportedTarget>
-									<MD5>33819002526988fad47866a9c5db795d</MD5>
+									<MD5>4fae7871c241643381250e222bd4c2d8</MD5>
 								</DependentFile>
 							</Property>
 							<Property Name="Dependency_3">
@@ -306,7 +303,7 @@
 									<ForceDownload>false</ForceDownload>
 									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\Scan Engine - RT.llb</RTDestination>
 									<SupportedTarget>Linux_x64</SupportedTarget>
-									<MD5>a8903208501e6335d03b13b22c778c0f</MD5>
+									<MD5>3b756d998299983613d214bede2d43e2</MD5>
 								</DependentFile>
 							</Property>
 							<Property Name="Dependency_4">
@@ -315,7 +312,7 @@
 									<ForceDownload>false</ForceDownload>
 									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\Scan Engine - RT.llb</RTDestination>
 									<SupportedTarget>Linux_32_ARM</SupportedTarget>
-									<MD5>7f08d6986927902a0c71f1ec2a6fd3cc</MD5>
+									<MD5>4030cb6183cee35fa3ccf05ce9bde9b6</MD5>
 								</DependentFile>
 							</Property>
 							<Property Name="Dependency_5">
@@ -324,7 +321,7 @@
 									<ForceDownload>false</ForceDownload>
 									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\Modules.lvlibp</RTDestination>
 									<SupportedTarget>PharLap &amp; Windows</SupportedTarget>
-									<MD5>5d1539b2548befad7272c8497a4a8b51</MD5>
+									<MD5>15f18703158a13482145fbd620214be3</MD5>
 								</DependentFile>
 							</Property>
 							<Property Name="Dependency_6">
@@ -333,7 +330,7 @@
 									<ForceDownload>false</ForceDownload>
 									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\Modules.lvlibp</RTDestination>
 									<SupportedTarget>VxWorks</SupportedTarget>
-									<MD5>fd79c635c94347d7895a5a2dfeaee818</MD5>
+									<MD5>93a768ef046c53dce6b360d91addd06d</MD5>
 								</DependentFile>
 							</Property>
 							<Property Name="Dependency_7">
@@ -342,7 +339,7 @@
 									<ForceDownload>false</ForceDownload>
 									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\Modules.lvlibp</RTDestination>
 									<SupportedTarget>Linux_x64</SupportedTarget>
-									<MD5>6ede34fd128fc7cbf9feb6ce04f0dbe3</MD5>
+									<MD5>b72cdf9529a0eb8631da15754ee72c5e</MD5>
 								</DependentFile>
 							</Property>
 							<Property Name="Dependency_8">
@@ -351,50 +348,86 @@
 									<ForceDownload>false</ForceDownload>
 									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\Modules.lvlibp</RTDestination>
 									<SupportedTarget>Linux_32_ARM</SupportedTarget>
-									<MD5>1596e00eb2870abf68ae0d334e81f56b</MD5>
+									<MD5>0362d1fea27382904bbcfd0d71a0e1ef</MD5>
 								</DependentFile>
 							</Property>
 							<Property Name="Dependency_9">
+								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Scan Engine\PharLap\NI ECAT Remote IO.llb">
+									<Version />
+									<ForceDownload>false</ForceDownload>
+									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\NI ECAT Remote IO.llb</RTDestination>
+									<SupportedTarget>PharLap &amp; Windows</SupportedTarget>
+									<MD5>0cfb1cad369aa676c4ec17fe52719a17</MD5>
+								</DependentFile>
+							</Property>
+							<Property Name="Dependency_10">
+								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Scan Engine\VxWorks\NI ECAT Remote IO.llb">
+									<Version />
+									<ForceDownload>false</ForceDownload>
+									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\NI ECAT Remote IO.llb</RTDestination>
+									<SupportedTarget>VxWorks</SupportedTarget>
+									<MD5>ff5fb6ba8337a520bdae76c514316a5e</MD5>
+								</DependentFile>
+							</Property>
+							<Property Name="Dependency_11">
+								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Scan Engine\Linux_x64\NI ECAT Remote IO.llb">
+									<Version />
+									<ForceDownload>false</ForceDownload>
+									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\NI ECAT Remote IO.llb</RTDestination>
+									<SupportedTarget>Linux_x64</SupportedTarget>
+									<MD5>330e3025ae36830c756ced56314da485</MD5>
+								</DependentFile>
+							</Property>
+							<Property Name="Dependency_12">
+								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Scan Engine\Linux_32_ARM\NI ECAT Remote IO.llb">
+									<Version />
+									<ForceDownload>false</ForceDownload>
+									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\NI ECAT Remote IO.llb</RTDestination>
+									<SupportedTarget>Linux_32_ARM</SupportedTarget>
+									<MD5>1d9e878b10246260e68f3649d56a762d</MD5>
+								</DependentFile>
+							</Property>
+							<Property Name="Dependency_13">
 								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Scan Engine\PharLap\FXP.llb">
 									<Version />
 									<ForceDownload>false</ForceDownload>
 									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\FXP.llb</RTDestination>
 									<SupportedTarget>PharLap &amp; Windows</SupportedTarget>
-									<MD5>9a49a7598406cd72d996da3418fc955a</MD5>
+									<MD5>e7543b94b29d866aa330b5297e842add</MD5>
 								</DependentFile>
 							</Property>
-							<Property Name="Dependency_10">
+							<Property Name="Dependency_14">
 								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Scan Engine\VxWorks\FXP.llb">
 									<Version />
 									<ForceDownload>false</ForceDownload>
 									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\FXP.llb</RTDestination>
 									<SupportedTarget>VxWorks</SupportedTarget>
-									<MD5>db55e321389c6c6ad1d5ed101c992e0a</MD5>
+									<MD5>2ad8d5062a1dc2e8f375072d3f7dee9e</MD5>
 								</DependentFile>
 							</Property>
-							<Property Name="Dependency_11">
+							<Property Name="Dependency_15">
 								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Scan Engine\Linux_x64\FXP.llb">
 									<Version />
 									<ForceDownload>false</ForceDownload>
 									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\FXP.llb</RTDestination>
 									<SupportedTarget>Linux_x64</SupportedTarget>
-									<MD5>c80eb50c6c5750a8553da32d64bc2760</MD5>
+									<MD5>f1b8fc532ed857f59d657d67dca871e7</MD5>
 								</DependentFile>
 							</Property>
-							<Property Name="Dependency_12">
+							<Property Name="Dependency_16">
 								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Scan Engine\Linux_32_ARM\FXP.llb">
 									<Version />
 									<ForceDownload>false</ForceDownload>
 									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\FXP.llb</RTDestination>
 									<SupportedTarget>Linux_32_ARM</SupportedTarget>
-									<MD5>72387a10e3d77881ec55d1d6c332fefb</MD5>
+									<MD5>d1bc0bea1986584922e9bd25eaee87ce</MD5>
 								</DependentFile>
 							</Property>
 							<Property Name="user.CD.Async Decimation">
 								<U16>1</U16>
 							</Property>
 							<Property Name="user.CD.FPGALoadDelay">
-								<U16>30</U16>
+								<U16>5</U16>
 							</Property>
 						</Properties>
 						<Errors />
@@ -452,191 +485,95 @@
 							<Description />
 							<Properties>
 								<Property Name="user.CD.ECAT Master ID">
-									<U32>0</U32>
+									<I32>0</I32>
 								</Property>
 							</Properties>
 							<Errors />
-							<Section Name="0: NI 9145" TypeGUID="F08D8E42-E070-4D6E-B502-45A5BF0753B8">
+							<Section Name="0: NI 914x" TypeGUID="50877E70-98F5-BFCC-3809-88209D9D28F5">
 								<Description />
 								<Properties>
 									<Property Name="user.CD.ECAT Slave #">
-										<U16>0</U16>
+										<I32>0</I32>
 									</Property>
 									<Property Name="user.CD.ECAT Slave Prepend">
 										<Boolean>true</Boolean>
 									</Property>
 								</Properties>
 								<Errors />
-								<Section Name="Slot1 (Empty)" TypeGUID="41F294B5-009B-733F-41B9-7972E3D57FD3">
+								<Section Name="Slot1 (Unavailable)" TypeGUID="C37AE504-7B62-8355-1600-C9D1A9C81815">
 									<Description />
 									<Properties>
 										<Property Name="user.CD.Module Class">
-											<BinaryString>AAAAASMOTW9kdWxlcy5sdmxpYnASUlNJIE1vZHVsZS5sdmNsYXNzAAABAAAAAAAUAAAAFQAAAAAAAQEAAAAAAAAAAAAAAAAAAA==</BinaryString>
+											<BinaryString>AAAAASMOTW9kdWxlcy5sdmxpYnASUlNJIE1vZHVsZS5sdmNsYXNzAAABAAAAAAAbAAAAFQAAAAAAAQEAAAAAAAAAAAAAAAAAAA==</BinaryString>
 										</Property>
 									</Properties>
 									<Errors />
 								</Section>
-								<Section Name="Slot2 (Empty)" TypeGUID="41F294B5-009B-733F-41B9-7972E3D57FD3">
+								<Section Name="Slot2 (Unavailable)" TypeGUID="C37AE504-7B62-8355-1600-C9D1A9C81815">
 									<Description />
 									<Properties>
 										<Property Name="user.CD.Module Class">
-											<BinaryString>AAAAASMOTW9kdWxlcy5sdmxpYnASUlNJIE1vZHVsZS5sdmNsYXNzAAABAAAAAAAUAAAAFQAAAAAAAgEAAAAAAAAAAAAAAAAAAA==</BinaryString>
+											<BinaryString>AAAAASMOTW9kdWxlcy5sdmxpYnASUlNJIE1vZHVsZS5sdmNsYXNzAAABAAAAAAAbAAAAFQAAAAAAAgEAAAAAAAAAAAAAAAAAAA==</BinaryString>
 										</Property>
 									</Properties>
 									<Errors />
 								</Section>
-								<Section Name="Slot3 (Empty)" TypeGUID="41F294B5-009B-733F-41B9-7972E3D57FD3">
+								<Section Name="Slot3 (Unavailable)" TypeGUID="C37AE504-7B62-8355-1600-C9D1A9C81815">
 									<Description />
 									<Properties>
 										<Property Name="user.CD.Module Class">
-											<BinaryString>AAAAASMOTW9kdWxlcy5sdmxpYnASUlNJIE1vZHVsZS5sdmNsYXNzAAABAAAAAAAUAAAAFQAAAAAAAwEAAAAAAAAAAAAAAAAAAA==</BinaryString>
+											<BinaryString>AAAAASMOTW9kdWxlcy5sdmxpYnASUlNJIE1vZHVsZS5sdmNsYXNzAAABAAAAAAAbAAAAFQAAAAAAAwEAAAAAAAAAAAAAAAAAAA==</BinaryString>
 										</Property>
 									</Properties>
 									<Errors />
 								</Section>
-								<Section Name="Slot4 (Empty)" TypeGUID="41F294B5-009B-733F-41B9-7972E3D57FD3">
+								<Section Name="Slot4 (Unavailable)" TypeGUID="C37AE504-7B62-8355-1600-C9D1A9C81815">
 									<Description />
 									<Properties>
 										<Property Name="user.CD.Module Class">
-											<BinaryString>AAAAASMOTW9kdWxlcy5sdmxpYnASUlNJIE1vZHVsZS5sdmNsYXNzAAABAAAAAAAUAAAAFQAAAAAABAEAAAAAAAAAAAAAAAAAAA==</BinaryString>
+											<BinaryString>AAAAASMOTW9kdWxlcy5sdmxpYnASUlNJIE1vZHVsZS5sdmNsYXNzAAABAAAAAAAbAAAAFQAAAAAABAEAAAAAAAAAAAAAAAAAAA==</BinaryString>
 										</Property>
 									</Properties>
 									<Errors />
 								</Section>
-								<Section Name="Slot5 (Empty)" TypeGUID="41F294B5-009B-733F-41B9-7972E3D57FD3">
+								<Section Name="Slot5 (Unavailable)" TypeGUID="C37AE504-7B62-8355-1600-C9D1A9C81815">
 									<Description />
 									<Properties>
 										<Property Name="user.CD.Module Class">
-											<BinaryString>AAAAASMOTW9kdWxlcy5sdmxpYnASUlNJIE1vZHVsZS5sdmNsYXNzAAABAAAAAAAUAAAAFQAAAAAABQEAAAAAAAAAAAAAAAAAAA==</BinaryString>
+											<BinaryString>AAAAASMOTW9kdWxlcy5sdmxpYnASUlNJIE1vZHVsZS5sdmNsYXNzAAABAAAAAAAbAAAAFQAAAAAABQEAAAAAAAAAAAAAAAAAAA==</BinaryString>
 										</Property>
 									</Properties>
 									<Errors />
 								</Section>
-								<Section Name="Slot6 (Empty)" TypeGUID="41F294B5-009B-733F-41B9-7972E3D57FD3">
+								<Section Name="Slot6 (Unavailable)" TypeGUID="C37AE504-7B62-8355-1600-C9D1A9C81815">
 									<Description />
 									<Properties>
 										<Property Name="user.CD.Module Class">
-											<BinaryString>AAAAASMOTW9kdWxlcy5sdmxpYnASUlNJIE1vZHVsZS5sdmNsYXNzAAABAAAAAAAUAAAAFQAAAAAABgEAAAAAAAAAAAAAAAAAAA==</BinaryString>
+											<BinaryString>AAAAASMOTW9kdWxlcy5sdmxpYnASUlNJIE1vZHVsZS5sdmNsYXNzAAABAAAAAAAbAAAAFQAAAAAABgEAAAAAAAAAAAAAAAAAAA==</BinaryString>
 										</Property>
 									</Properties>
 									<Errors />
 								</Section>
-								<Section Name="Slot7 (Empty)" TypeGUID="41F294B5-009B-733F-41B9-7972E3D57FD3">
+								<Section Name="Slot7 (Unavailable)" TypeGUID="C37AE504-7B62-8355-1600-C9D1A9C81815">
 									<Description />
 									<Properties>
 										<Property Name="user.CD.Module Class">
-											<BinaryString>AAAAASMOTW9kdWxlcy5sdmxpYnASUlNJIE1vZHVsZS5sdmNsYXNzAAABAAAAAAAUAAAAFQAAAAAABwEAAAAAAAAAAAAAAAAAAA==</BinaryString>
+											<BinaryString>AAAAASMOTW9kdWxlcy5sdmxpYnASUlNJIE1vZHVsZS5sdmNsYXNzAAABAAAAAAAbAAAAFQAAAAAABwEAAAAAAAAAAAAAAAAAAA==</BinaryString>
 										</Property>
 									</Properties>
 									<Errors />
 								</Section>
-								<Section Name="Slot8 (NI 9401)" TypeGUID="A466E035-6C67-FF94-A582-AF548F5C2F28">
+								<Section Name="Slot8 (Unavailable)" TypeGUID="C37AE504-7B62-8355-1600-C9D1A9C81815">
 									<Description />
 									<Properties>
 										<Property Name="user.CD.Module Class">
-											<BinaryString>AAAAAx0OTW9kdWxlcy5sdmxpYnAMOTQwMS5sdmNsYXNzAAAAAAEAAAAAAAIAAQAAAAAAAwABAAAAAAAbAAAAFQAsAAAACAEAAAAEAAAABAABAAAAAAAAAAAAAAAIAAAAAAAAAAE=</BinaryString>
+											<BinaryString>AAAAASMOTW9kdWxlcy5sdmxpYnASUlNJIE1vZHVsZS5sdmNsYXNzAAABAAAAAAAbAAAAFQAAAAAACAEAAAAAAAAAAAAAAAAAAA==</BinaryString>
 										</Property>
 									</Properties>
 									<Errors />
-									<Channel Name="DIO 0" TypeGUID="F233E90F-ECCA-EF6E-8EEB-159F82DA778F" RowDim="1" ColDim="1" Units="" BitFields="13">
-										<Description />
-										<Properties>
-											<Property Name="user.CD.Chan #">
-												<I32>0</I32>
-											</Property>
-										</Properties>
-										<Errors />
-										<DefaultValue>
-											<Elem>0</Elem>
-										</DefaultValue>
-									</Channel>
-									<Channel Name="DIO 1" TypeGUID="F233E90F-ECCA-EF6E-8EEB-159F82DA778F" RowDim="1" ColDim="1" Units="" BitFields="13">
-										<Description />
-										<Properties>
-											<Property Name="user.CD.Chan #">
-												<I32>1</I32>
-											</Property>
-										</Properties>
-										<Errors />
-										<DefaultValue>
-											<Elem>0</Elem>
-										</DefaultValue>
-									</Channel>
-									<Channel Name="DIO 2" TypeGUID="F233E90F-ECCA-EF6E-8EEB-159F82DA778F" RowDim="1" ColDim="1" Units="" BitFields="13">
-										<Description />
-										<Properties>
-											<Property Name="user.CD.Chan #">
-												<I32>2</I32>
-											</Property>
-										</Properties>
-										<Errors />
-										<DefaultValue>
-											<Elem>0</Elem>
-										</DefaultValue>
-									</Channel>
-									<Channel Name="DIO 3" TypeGUID="F233E90F-ECCA-EF6E-8EEB-159F82DA778F" RowDim="1" ColDim="1" Units="" BitFields="13">
-										<Description />
-										<Properties>
-											<Property Name="user.CD.Chan #">
-												<I32>3</I32>
-											</Property>
-										</Properties>
-										<Errors />
-										<DefaultValue>
-											<Elem>0</Elem>
-										</DefaultValue>
-									</Channel>
-									<Channel Name="DIO 4" TypeGUID="F43DA51B-9C6C-5797-56DC-ED47295D1D2E" RowDim="1" ColDim="1" Units="" BitFields="15">
-										<Description />
-										<Properties>
-											<Property Name="user.CD.Chan #">
-												<I32>4</I32>
-											</Property>
-										</Properties>
-										<Errors />
-										<DefaultValue>
-											<Elem>0</Elem>
-										</DefaultValue>
-									</Channel>
-									<Channel Name="DIO 5" TypeGUID="F43DA51B-9C6C-5797-56DC-ED47295D1D2E" RowDim="1" ColDim="1" Units="" BitFields="15">
-										<Description />
-										<Properties>
-											<Property Name="user.CD.Chan #">
-												<I32>5</I32>
-											</Property>
-										</Properties>
-										<Errors />
-										<DefaultValue>
-											<Elem>0</Elem>
-										</DefaultValue>
-									</Channel>
-									<Channel Name="DIO 6" TypeGUID="F43DA51B-9C6C-5797-56DC-ED47295D1D2E" RowDim="1" ColDim="1" Units="" BitFields="15">
-										<Description />
-										<Properties>
-											<Property Name="user.CD.Chan #">
-												<I32>6</I32>
-											</Property>
-										</Properties>
-										<Errors />
-										<DefaultValue>
-											<Elem>0</Elem>
-										</DefaultValue>
-									</Channel>
-									<Channel Name="DIO 7" TypeGUID="F43DA51B-9C6C-5797-56DC-ED47295D1D2E" RowDim="1" ColDim="1" Units="" BitFields="15">
-										<Description />
-										<Properties>
-											<Property Name="user.CD.Chan #">
-												<I32>7</I32>
-											</Property>
-										</Properties>
-										<Errors />
-										<DefaultValue>
-											<Elem>0</Elem>
-										</DefaultValue>
-									</Channel>
 								</Section>
 								<Section Name="User Variables" TypeGUID="A16C5AEF-BF42-EF6D-BC81-FD52AB4F64C4">
-									<Description>A NI-9144 EtherCAT chassis can run a custom FPGA personality created with LabVIEW FPGA. After downloading the FPGA personality to the NI-9144 chassis, use this page to import the user variables of the custom personality to NI VeriStand.
+									<Description>A CompactRIO chassis can run a custom FPGA personality created with LabVIEW FPGA. Use this page to import the user variables of the custom personality to NI VeriStand.
 
 User variable types supported include:
 U32, U16, U8, I32, I16, I8, Boolean, and FXP.
@@ -644,13 +581,65 @@ U32, U16, U8, I32, I16, I8, Boolean, and FXP.
 Note: The only supported FXP UDVs are those  with word lengths up to 32 bits, and integer word lengths between -32 and +32.</Description>
 									<Properties>
 										<Property Name="user.CD.Bitfile Path - Host">
-											<String />
+											<String>C:\Users\nitest\Desktop\ECAT FPGA Project\FPGA Bitfiles\ECATFPGA_FPGAMain.lvbitx</String>
 										</Property>
 										<Property Name="user.CD.FPGA Sig">
-											<U32>0</U32>
+											<U32>2692131914</U32>
 										</Property>
 									</Properties>
 									<Errors />
+									<Section Name="To FPGA" TypeGUID="03D3BB89-1485-13A6-56005DE6430FF8B7">
+										<Description />
+										<Properties />
+										<Errors />
+										<Channel Name="DO0" TypeGUID="21A3511E-B5B7-DAD1-9B8C-1391802D6061" RowDim="1" ColDim="1" Units="" BitFields="15">
+											<Description />
+											<Properties>
+												<Property Name="user.CD.Data Type">
+													<U16>0</U16>
+												</Property>
+												<Property Name="user.CD.FXP Config">
+													<Variant>
+														<Type>AAAACgAUQDD/////C2RhdGEgc3RyaW5n</Type>
+														<Data>AAAAWRcAgAAAAAAEAAxAIQZzaWduZWQAAAtABwAEc2l6ZQAAEUADAAtpbnRlZ2Vyc2l6ZQAYQFAAAwAAAAEAAgpGWFAgQ29uZmlnAAABAAMAAAAAAQAAAAAAAAAA</Data>
+													</Variant>
+												</Property>
+												<Property Name="user.CD.IOVarName">
+													<BinaryString>RE8w</BinaryString>
+												</Property>
+											</Properties>
+											<Errors />
+											<DefaultValue>
+												<Elem>0</Elem>
+											</DefaultValue>
+										</Channel>
+									</Section>
+									<Section Name="From FPGA" TypeGUID="03D3BB89-1485-13A6-56005DE6430FF8B7">
+										<Description />
+										<Properties />
+										<Errors />
+										<Channel Name="DI4" TypeGUID="B0022617-ACA6-3A27-F901-F70AB50C6C00" RowDim="1" ColDim="1" Units="" BitFields="13">
+											<Description />
+											<Properties>
+												<Property Name="user.CD.Data Type">
+													<U16>0</U16>
+												</Property>
+												<Property Name="user.CD.FXP Config">
+													<Variant>
+														<Type>AAAACgAUQDD/////C2RhdGEgc3RyaW5n</Type>
+														<Data>AAAAWRcAgAAAAAAEAAxAIQZzaWduZWQAAAtABwAEc2l6ZQAAEUADAAtpbnRlZ2Vyc2l6ZQAYQFAAAwAAAAEAAgpGWFAgQ29uZmlnAAABAAMAAAAAAQAAAAAAAAAA</Data>
+													</Variant>
+												</Property>
+												<Property Name="user.CD.IOVarName">
+													<BinaryString>REk0</BinaryString>
+												</Property>
+											</Properties>
+											<Errors />
+											<DefaultValue>
+												<Elem>0</Elem>
+											</DefaultValue>
+										</Channel>
+									</Section>
 								</Section>
 							</Section>
 						</Section>
@@ -1654,88 +1643,24 @@ Note: The only supported FXP UDVs are those  with word lengths up to 32 bits, an
 				</Property>
 			</Properties>
 			<Errors />
-			<Section Name="DIO Loopback Read" TypeGUID="A579F6FF-5680-1F22-249C-2C499E16CDB8">
+			<Alias Name="DIO Loopback Write" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
 				<Description />
-				<Properties />
+				<Properties>
+					<Property Name="Referenced Channel">
+						<DependentNode Path="Targets/Controller/Custom Devices/Scan Engine and EtherCAT/0: EtherCAT Master/0: NI 914x/User Variables/To FPGA/DO0" />
+					</Property>
+				</Properties>
 				<Errors />
-				<Alias Name="0" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
-					<Description />
-					<Properties>
-						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Scan Engine and EtherCAT/0: EtherCAT Master/0: NI 9145/Slot8 (NI 9401)/DIO 0" />
-						</Property>
-					</Properties>
-					<Errors />
-				</Alias>
-				<Alias Name="1" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
-					<Description />
-					<Properties>
-						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Scan Engine and EtherCAT/0: EtherCAT Master/0: NI 9145/Slot8 (NI 9401)/DIO 1" />
-						</Property>
-					</Properties>
-					<Errors />
-				</Alias>
-				<Alias Name="2" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
-					<Description />
-					<Properties>
-						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Scan Engine and EtherCAT/0: EtherCAT Master/0: NI 9145/Slot8 (NI 9401)/DIO 2" />
-						</Property>
-					</Properties>
-					<Errors />
-				</Alias>
-				<Alias Name="3" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
-					<Description />
-					<Properties>
-						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Scan Engine and EtherCAT/0: EtherCAT Master/0: NI 9145/Slot8 (NI 9401)/DIO 3" />
-						</Property>
-					</Properties>
-					<Errors />
-				</Alias>
-			</Section>
-			<Section Name="DIO Loopback Write" TypeGUID="A579F6FF-5680-1F22-249C-2C499E16CDB8">
+			</Alias>
+			<Alias Name="DIO Loopback Read" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
 				<Description />
-				<Properties />
+				<Properties>
+					<Property Name="Referenced Channel">
+						<DependentNode Path="Targets/Controller/Custom Devices/Scan Engine and EtherCAT/0: EtherCAT Master/0: NI 914x/User Variables/From FPGA/DI4" />
+					</Property>
+				</Properties>
 				<Errors />
-				<Alias Name="0" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
-					<Description />
-					<Properties>
-						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Scan Engine and EtherCAT/0: EtherCAT Master/0: NI 9145/Slot8 (NI 9401)/DIO 4" />
-						</Property>
-					</Properties>
-					<Errors />
-				</Alias>
-				<Alias Name="1" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
-					<Description />
-					<Properties>
-						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Scan Engine and EtherCAT/0: EtherCAT Master/0: NI 9145/Slot8 (NI 9401)/DIO 5" />
-						</Property>
-					</Properties>
-					<Errors />
-				</Alias>
-				<Alias Name="2" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
-					<Description />
-					<Properties>
-						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Scan Engine and EtherCAT/0: EtherCAT Master/0: NI 9145/Slot8 (NI 9401)/DIO 6" />
-						</Property>
-					</Properties>
-					<Errors />
-				</Alias>
-				<Alias Name="3" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
-					<Description />
-					<Properties>
-						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Scan Engine and EtherCAT/0: EtherCAT Master/0: NI 9145/Slot8 (NI 9401)/DIO 7" />
-						</Property>
-					</Properties>
-					<Errors />
-				</Alias>
-			</Section>
+			</Alias>
 		</Section>
 		<Section Name="Scales" TypeGUID="032c8aec-ce5b-6d40-06c5-5703bbc7ccee">
 			<Description />

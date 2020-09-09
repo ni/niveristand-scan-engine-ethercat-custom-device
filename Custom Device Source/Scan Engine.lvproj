@@ -47,7 +47,8 @@
 			<Item Name="System" Type="Folder">
 				<Item Name="EtherCAT" Type="Folder">
 					<Item Name="Assets" Type="Folder">
-						<Item Name="EtherCAT.nivssdf" Type="Document" URL="../Tests/EtherCAT System Tests/Assets/EtherCAT.nivssdf"/>
+						<Item Name="EtherCAT FPGA Mode.nivssdf" Type="Document" URL="../Tests/EtherCAT System Tests/Assets/EtherCAT FPGA Mode.nivssdf"/>
+						<Item Name="EtherCAT Scan Mode.nivssdf" Type="Document" URL="../Tests/EtherCAT System Tests/Assets/EtherCAT Scan Mode.nivssdf"/>
 						<Item Name="Remote IO.nivssdf" Type="Document" URL="../Tests/EtherCAT System Tests/Assets/Remote IO.nivssdf"/>
 					</Item>
 					<Item Name="Scan Engine EtherCAT System Tests.lvclass" Type="LVClass" URL="../Tests/EtherCAT System Tests/Scan Engine EtherCAT System Tests.lvclass"/>
