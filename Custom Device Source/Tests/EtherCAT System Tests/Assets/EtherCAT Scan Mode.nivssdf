@@ -31,7 +31,7 @@
 						<String>PharLap</String>
 					</Property>
 					<Property Name="IP Address">
-						<String>10.2.201.6</String>
+						<String>10.2.206.63</String>
 					</Property>
 					<Property Name="Control Loop Processor">
 						<I32>-2</I32>
