@@ -581,7 +581,7 @@ U32, U16, U8, I32, I16, I8, Boolean, and FXP.
 Note: The only supported FXP UDVs are those  with word lengths up to 32 bits, and integer word lengths between -32 and +32.</Description>
 									<Properties>
 										<Property Name="user.CD.Bitfile Path - Host">
-											<String>C:\Users\nitest\Desktop\ECAT FPGA Project\FPGA Bitfiles\ECATFPGA_FPGAMain.lvbitx</String>
+											<String>C:\Users\nitest\Git\niveristand-scan-engine-ethercat-custom-device\Custom Device Source\Tests\EtherCAT System Tests\Assets\ECATFPGA_FPGAMain.lvbitx</String>
 										</Property>
 										<Property Name="user.CD.FPGA Sig">
 											<U32>2692131914</U32>
