@@ -30,14 +30,6 @@ build_spec = 'Engine Release'
 dependency_target = 'Pharlap'
 
 [[build.steps]]
-name = 'VxWorks Engine Library'
-type = 'lvBuildSpec'
-project = '{cd}'
-target = 'VxWorks'
-build_spec = 'Engine Release'
-dependency_target = 'VxWorks'
-
-[[build.steps]]
 name = 'Linux x64 Engine Library'
 type = 'lvBuildSpec'
 project = '{cd}'
