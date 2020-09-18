@@ -4,4 +4,14 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">385908736</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
+	<Item Name="Main" Type="Folder">
+		<Item Name="Add Scan Engine Custom Device.vi" Type="VI" URL="../Main/Add Scan Engine Custom Device.vi"/>
+		<Item Name="Find Scan Engine Custom Device.vi" Type="VI" URL="../Main/Find Scan Engine Custom Device.vi"/>
+		<Item Name="Remove Scan Engine Custom Device.vi" Type="VI" URL="../Main/Remove Scan Engine Custom Device.vi"/>
+	</Item>
+	<Item Name="Utility" Type="Folder">
+		<Item Name="Ref Constants.vi" Type="VI" URL="../Utility/Ref Constants.vi"/>
+		<Item Name="Validate Reference by GUID.vi" Type="VI" URL="../Utility/Validate Reference by GUID.vi"/>
+		<Item Name="Validate Reference by Name.vi" Type="VI" URL="../Utility/Validate Reference by Name.vi"/>
+	</Item>
 </Library>
