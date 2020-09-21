@@ -271,6 +271,11 @@
 				<Item Name="Add Channel Properties To String Array.vi" Type="VI" URL="../System Explorer/Utility/Add Channel Properties To String Array.vi"/>
 				<Item Name="Channel Data and Properties to Table.vi" Type="VI" URL="../System Explorer/Utility/Channel Data and Properties to Table.vi"/>
 				<Item Name="Get Modules Disabled Items.vi" Type="VI" URL="../System Explorer/Utility/Get Modules Disabled Items.vi"/>
+				<Item Name="Filter Out VxWorks Dependent Files.vi" Type="VI" URL="../System Explorer/Utility/Filter Out VxWorks Dependent Files.vi"/>
+				<Item Name="Get Dependent File Properties.vi" Type="VI" URL="../System Explorer/Utility/Get Dependent File Properties.vi"/>
+				<Item Name="Get Dependent File Property Names.vi" Type="VI" URL="../System Explorer/Utility/Get Dependent File Property Names.vi"/>
+				<Item Name="Set Dependent File Properties.vi" Type="VI" URL="../System Explorer/Utility/Set Dependent File Properties.vi"/>
+				<Item Name="Remove Properties.vi" Type="VI" URL="../System Explorer/Utility/Remove Properties.vi"/>
 				<Item Name="Set Main Settings.vi" Type="VI" URL="../System Explorer/Utility/Set Main Settings.vi"/>
 			</Item>
 			<Item Name="RemIO" Type="Folder">
