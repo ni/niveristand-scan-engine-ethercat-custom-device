@@ -110,6 +110,7 @@
 			<Item Name="NI ECAT Slaves.ctl" Type="VI" URL="../Type Defs/NI ECAT Slaves.ctl"/>
 			<Item Name="Slot Programming Mode.ctl" Type="VI" URL="../Type Defs/Slot Programming Mode.ctl"/>
 			<Item Name="Slot - Configuration.ctl" Type="VI" URL="../Type Defs/Slot - Configuration.ctl"/>
+			<Item Name="Main Settings.ctl" Type="VI" URL="../Type Defs/Main Settings.ctl"/>
 		</Item>
 	</Item>
 	<Item Name="Globals" Type="Folder">
@@ -270,6 +271,7 @@
 				<Item Name="Add Channel Properties To String Array.vi" Type="VI" URL="../System Explorer/Utility/Add Channel Properties To String Array.vi"/>
 				<Item Name="Channel Data and Properties to Table.vi" Type="VI" URL="../System Explorer/Utility/Channel Data and Properties to Table.vi"/>
 				<Item Name="Get Modules Disabled Items.vi" Type="VI" URL="../System Explorer/Utility/Get Modules Disabled Items.vi"/>
+				<Item Name="Set Main Settings.vi" Type="VI" URL="../System Explorer/Utility/Set Main Settings.vi"/>
 			</Item>
 			<Item Name="RemIO" Type="Folder">
 				<Item Name="Scan Engine Update RemIO Subpanel.vi" Type="VI" URL="../System Explorer/Utility/Scan Engine Update RemIO Subpanel.vi"/>

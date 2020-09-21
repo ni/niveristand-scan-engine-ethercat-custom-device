@@ -30,4 +30,19 @@ Unsupported file type.  Please select a valid .lvbitx file.
 <nierror code="537711">
 Unsupported module type. This module is not supported in this version of VeriStand.
 </nierror>
+<nierror code="537713">
+ECAT Slave I/O Variable does not match configuration to SDF.
+</nierror>
+<nierror code="537714">
+Timeout communicating with EtherCAT reconfiguration loop.
+</nierror>
+<nierror code="537715">
+The Scan Engine and EtherCAT custom device already exists.
+</nierror>
+<nierror code="537716">
+The reference ID provided does not match the expected name or cannot be found.
+</nierror>
+<nierror code="537717">
+The reference ID provided does not match the expected GUID or cannot be found.
+</nierror>
 </nidocument>
