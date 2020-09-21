@@ -42,7 +42,6 @@ The Scan Engine and EtherCAT custom device already exists.
 <nierror code="537716">
 The reference ID provided does not match the expected name or cannot be found.
 </nierror>
-</nierror>
 <nierror code="537717">
 The reference ID provided does not match the expected GUID or cannot be found.
 </nierror>
