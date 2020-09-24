@@ -111,6 +111,7 @@
 			<Item Name="Slot Programming Mode.ctl" Type="VI" URL="../Type Defs/Slot Programming Mode.ctl"/>
 			<Item Name="Slot - Configuration.ctl" Type="VI" URL="../Type Defs/Slot - Configuration.ctl"/>
 			<Item Name="Main Settings.ctl" Type="VI" URL="../Type Defs/Main Settings.ctl"/>
+			<Item Name="Local Chassis Settings.ctl" Type="VI" URL="../Type Defs/Local Chassis Settings.ctl"/>
 		</Item>
 	</Item>
 	<Item Name="Globals" Type="Folder">

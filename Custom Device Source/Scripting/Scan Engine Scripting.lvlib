@@ -5,12 +5,16 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="Main" Type="Folder">
+		<Item Name="Add Local Chassis.vi" Type="VI" URL="../Main/Add Local Chassis.vi"/>
 		<Item Name="Add Scan Engine Custom Device.vi" Type="VI" URL="../Main/Add Scan Engine Custom Device.vi"/>
+		<Item Name="Find Local Chassis.vi" Type="VI" URL="../Main/Find Local Chassis.vi"/>
 		<Item Name="Find Scan Engine Custom Device.vi" Type="VI" URL="../Main/Find Scan Engine Custom Device.vi"/>
+		<Item Name="Remove Local Chassis.vi" Type="VI" URL="../Main/Remove Local Chassis.vi"/>
 		<Item Name="Remove Scan Engine Custom Device.vi" Type="VI" URL="../Main/Remove Scan Engine Custom Device.vi"/>
 	</Item>
 	<Item Name="Utility" Type="Folder">
 		<Item Name="Ref Constants.vi" Type="VI" URL="../Utility/Ref Constants.vi"/>
+		<Item Name="Remove Item Reference from Tree.vi" Type="VI" URL="../Utility/Remove Item Reference from Tree.vi"/>
 		<Item Name="Validate Reference by GUID.vi" Type="VI" URL="../Utility/Validate Reference by GUID.vi"/>
 		<Item Name="Validate Reference by Name.vi" Type="VI" URL="../Utility/Validate Reference by Name.vi"/>
 	</Item>
