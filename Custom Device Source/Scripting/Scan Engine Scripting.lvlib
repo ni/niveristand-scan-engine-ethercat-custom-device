@@ -9,8 +9,10 @@
 		<Item Name="Add Scan Engine Custom Device.vi" Type="VI" URL="../Main/Add Scan Engine Custom Device.vi"/>
 		<Item Name="Find Local Chassis.vi" Type="VI" URL="../Main/Find Local Chassis.vi"/>
 		<Item Name="Find Scan Engine Custom Device.vi" Type="VI" URL="../Main/Find Scan Engine Custom Device.vi"/>
+		<Item Name="Get Number of Slots.vi" Type="VI" URL="../Main/Get Number of Slots.vi"/>
 		<Item Name="Remove Local Chassis.vi" Type="VI" URL="../Main/Remove Local Chassis.vi"/>
 		<Item Name="Remove Scan Engine Custom Device.vi" Type="VI" URL="../Main/Remove Scan Engine Custom Device.vi"/>
+		<Item Name="Set Number of Slots.vi" Type="VI" URL="../Main/Set Number of Slots.vi"/>
 	</Item>
 	<Item Name="Utility" Type="Folder">
 		<Item Name="Ref Constants.vi" Type="VI" URL="../Utility/Ref Constants.vi"/>
