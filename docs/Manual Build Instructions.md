@@ -13,7 +13,7 @@ For example, building for VeriStand 2020 requires using LabVIEW 2020 to build ea
 
 Glossary of Terms:
 - PPL = Packed Project Library designated by the file extension .lvlibp
-- LLB = LabVIEW Library designated by the file extension .llb
+- LLB = LabVIEW Library that is a build artifact designated by the file extension .llb
 
 ### 1. [Scan Engine FXP Libraries](https://github.com/ni/niveristand-scan-engine-fxp-libraries)
 1. Open `FXP LLB.lvproj`
