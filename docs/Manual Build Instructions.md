@@ -71,7 +71,6 @@ The final file structure of the `Built` directory should be as follows (only two
     - Linux_32_ARM\
     - Linux_x64\
     - Pharlap\
-    - VxWorks\
     - Custom Device Scan Engine.xml
     - Scan Engine - Configuration.llb
 - Errors
@@ -85,7 +84,7 @@ The build specifications for the Custom Device contain post-build action VIs to 
 ### Install Custom Device Files
 1. Ensure VeriStand is completely closed
 1. Delete existing contents in the `<Public Documents>\National Instruments\NI VeriStand 20xx\Custom Devices\Scan Engine` directory
-1. Copy the `Built\Scan Engine` directory into the `<Public Documents>\National Instruments\NI VeriStand 20xx\Custom Devices` directory.
+1. Copy the `Built\Scan Engine` directory into the `<Public Documents>\National Instruments\NI VeriStand 20xx\Custom Devices` directory
 
 ### Optional Error Code Installation
 If you want the appropriate text for the custom error codes shown below to be displayed by VeriStand, follow these steps:
