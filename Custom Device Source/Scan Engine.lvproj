@@ -75,6 +75,7 @@
 					<Item Name="Open System Definition File.vi" Type="VI" URL="../Tests/Unit Tests/Unit Test Assets/Open System Definition File.vi"/>
 					<Item Name="Convert to Absolute Path.vi" Type="VI" URL="../Tests/Unit Tests/Unit Test Assets/Convert to Absolute Path.vi"/>
 					<Item Name="Get Target Properties.vi" Type="VI" URL="../Tests/Unit Tests/Unit Test Assets/Get Target Properties.vi"/>
+					<Item Name="Change Number of Slots and Check.vi" Type="VI" URL="../Tests/Unit Tests/Unit Test Assets/Change Number of Slots and Check.vi"/>
 				</Item>
 				<Item Name="Scan Engine Unit Tests.lvclass" Type="LVClass" URL="../Tests/Unit Tests/Scan Engine Unit Tests.lvclass"/>
 			</Item>
