@@ -13,11 +13,15 @@
 		<Item Name="Find Local Chassis.vi" Type="VI" URL="../Main/Find Local Chassis.vi"/>
 		<Item Name="Find Scan Engine Custom Device.vi" Type="VI" URL="../Main/Find Scan Engine Custom Device.vi"/>
 		<Item Name="Get Delay After FPGA Load.vi" Type="VI" URL="../Main/Get Delay After FPGA Load.vi"/>
+		<Item Name="Get Local Chassis Name.vi" Type="VI" URL="../Main/Get Local Chassis Name.vi"/>
+		<Item Name="Get Number of Slots.vi" Type="VI" URL="../Main/Get Number of Slots.vi"/>
 		<Item Name="Get Scan Engine Decimation.vi" Type="VI" URL="../Main/Get Scan Engine Decimation.vi"/>
 		<Item Name="Get Sync to Scan.vi" Type="VI" URL="../Main/Get Sync to Scan.vi"/>
 		<Item Name="Remove Local Chassis.vi" Type="VI" URL="../Main/Remove Local Chassis.vi"/>
 		<Item Name="Remove Scan Engine Custom Device.vi" Type="VI" URL="../Main/Remove Scan Engine Custom Device.vi"/>
 		<Item Name="Set Delay After FPGA Load.vi" Type="VI" URL="../Main/Set Delay After FPGA Load.vi"/>
+		<Item Name="Set Local Chassis Name.vi" Type="VI" URL="../Main/Set Local Chassis Name.vi"/>
+		<Item Name="Set Number of Slots.vi" Type="VI" URL="../Main/Set Number of Slots.vi"/>
 		<Item Name="Set Scan Engine Decimation.vi" Type="VI" URL="../Main/Set Scan Engine Decimation.vi"/>
 		<Item Name="Set Sync to Scan.vi" Type="VI" URL="../Main/Set Sync to Scan.vi"/>
 	</Item>
