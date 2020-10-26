@@ -230,6 +230,11 @@
             <Type>To Common Doc Dir</Type>
             <Path>Custom Devices\Scan Engine\Scan Engine - Configuration.llb\Main - Add Local Chassis.vi</Path>
           </Item2Launch>
+          <Dependency>
+            <Type>To Common Doc Dir</Type>
+            <Path>Custom Devices\Scan Engine\Scan Engine - Configuration.llb\Main - Can Add Local Chassis.vi</Path>
+            <Behavior>Dynamic</Behavior>
+          </Dependency>
         </MenuItem>
         <MenuItem>
           <GUID>18B2C676-AF17-2B7F-0962-D95D206E20FB</GUID>
@@ -306,6 +311,11 @@
             <eng />
             <loc />
           </Documentation>
+          <Dependency>
+            <Type>To Common Doc Dir</Type>
+            <Path>Custom Devices\Scan Engine\Scan Engine - Configuration.llb\Main - Can Add Local Chassis.vi</Path>
+            <Behavior>Dynamic</Behavior>
+          </Dependency>
         </Button>
         <Button>
           <ID>NIVS_ScanEngine_AddECATMaster</ID>
