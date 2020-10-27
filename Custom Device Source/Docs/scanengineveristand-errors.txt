@@ -48,4 +48,7 @@ The reference ID provided does not match the expected GUID or cannot be found.
 <nierror code="537718">
 The Local Chassis already exists.
 </nierror>
+<nierror code="537719">
+An insufficient number of channels was provided for module creation.
+</nierror>
 </nidocument>

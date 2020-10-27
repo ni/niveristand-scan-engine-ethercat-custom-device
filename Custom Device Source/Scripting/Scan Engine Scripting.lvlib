@@ -25,6 +25,34 @@
 		<Item Name="Set Scan Engine Decimation.vi" Type="VI" URL="../Main/Set Scan Engine Decimation.vi"/>
 		<Item Name="Set Sync to Scan.vi" Type="VI" URL="../Main/Set Sync to Scan.vi"/>
 	</Item>
+	<Item Name="Modules" Type="Folder">
+		<Item Name="Channels" Type="Folder">
+			<Item Name="Digital" Type="Folder">
+				<Item Name="Counter Driven Output Channel.lvclass" Type="LVClass" URL="../Modules/Channel Classes/Counter Driven Output Channel/Counter Driven Output Channel.lvclass"/>
+				<Item Name="DI Channel.lvclass" Type="LVClass" URL="../Modules/Channel Classes/DI Channel/DI Channel.lvclass"/>
+				<Item Name="Digital Channel.lvclass" Type="LVClass" URL="../Modules/Channel Classes/Digital Channel/Digital Channel.lvclass"/>
+				<Item Name="DO Channel.lvclass" Type="LVClass" URL="../Modules/Channel Classes/DO Channel/DO Channel.lvclass"/>
+				<Item Name="PWM Channel.lvclass" Type="LVClass" URL="../Modules/Channel Classes/PWM Channel/PWM Channel.lvclass"/>
+				<Item Name="PWM Input Channel.lvclass" Type="LVClass" URL="../Modules/Channel Classes/PWM Input Channel/PWM Input Channel.lvclass"/>
+				<Item Name="PWM Output Channel.lvclass" Type="LVClass" URL="../Modules/Channel Classes/PWM Output Channel/PWM Output Channel.lvclass"/>
+			</Item>
+			<Item Name="Channel.lvclass" Type="LVClass" URL="../Modules/Channel Classes/Channel/Channel.lvclass"/>
+		</Item>
+		<Item Name="Modes" Type="Folder">
+			<Item Name="Controls" Type="Folder">
+				<Item Name="counter driven output channel settings.ctl" Type="VI" URL="../Modules/Mode Classes/Controls/counter driven output channel settings.ctl"/>
+				<Item Name="digital channel settings.ctl" Type="VI" URL="../Modules/Mode Classes/Controls/digital channel settings.ctl"/>
+				<Item Name="pwm channel settings.ctl" Type="VI" URL="../Modules/Mode Classes/Controls/pwm channel settings.ctl"/>
+			</Item>
+			<Item Name="Counter Driven Output Mode.lvclass" Type="LVClass" URL="../Modules/Mode Classes/Counter Driven Output Mode/Counter Driven Output Mode.lvclass"/>
+			<Item Name="Digital Output Mode.lvclass" Type="LVClass" URL="../Modules/Mode Classes/Digital Output Mode/Digital Output Mode.lvclass"/>
+			<Item Name="Mode.lvclass" Type="LVClass" URL="../Modules/Mode Classes/Mode/Mode.lvclass"/>
+			<Item Name="PWM Mode.lvclass" Type="LVClass" URL="../Modules/Mode Classes/PWM Mode/PWM Mode.lvclass"/>
+		</Item>
+		<Item Name="Module.lvclass" Type="LVClass" URL="../Modules/Module/Module.lvclass"/>
+		<Item Name="NI 9474.lvclass" Type="LVClass" URL="../Modules/NI 9474/NI 9474.lvclass"/>
+		<Item Name="NI 9475.lvclass" Type="LVClass" URL="../Modules/NI 9475/NI 9475.lvclass"/>
+	</Item>
 	<Item Name="Utility" Type="Folder">
 		<Item Name="Ref Constants.vi" Type="VI" URL="../Utility/Ref Constants.vi"/>
 		<Item Name="Remove Item Reference from Tree.vi" Type="VI" URL="../Utility/Remove Item Reference from Tree.vi"/>
