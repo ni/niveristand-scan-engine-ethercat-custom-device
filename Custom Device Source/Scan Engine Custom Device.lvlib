@@ -160,6 +160,7 @@
 			<Item Name="ActionVIOnDownload - Set Scan Rate.vi" Type="VI" URL="../System Explorer/Action VIs/ActionVIOnDownload - Set Scan Rate.vi"/>
 			<Item Name="Main - On Delete.vi" Type="VI" URL="../System Explorer/Action VIs/Main - On Delete.vi"/>
 			<Item Name="FPGA - On Delete (Local).vi" Type="VI" URL="../System Explorer/Action VIs/FPGA - On Delete (Local).vi"/>
+			<Item Name="Main - Can Add Local Chassis.vi" Type="VI" URL="../System Explorer/Action VIs/Main - Can Add Local Chassis.vi"/>
 		</Item>
 		<Item Name="Utility" Type="Folder">
 			<Item Name="Target Communication" Type="Folder">
