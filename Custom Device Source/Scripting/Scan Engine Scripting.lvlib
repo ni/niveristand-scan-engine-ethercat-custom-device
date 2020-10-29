@@ -54,7 +54,9 @@
 		<Item Name="NI 9475.lvclass" Type="LVClass" URL="../Modules/NI 9475/NI 9475.lvclass"/>
 	</Item>
 	<Item Name="Slots" Type="Folder">
+		<Item Name="Get Slot.vi" Type="VI" URL="../Slots/Get Slot.vi"/>
 		<Item Name="Set Slot.vi" Type="VI" URL="../Slots/Set Slot.vi"/>
+		<Item Name="Update Channels.vi" Type="VI" URL="../Slots/Update Channels.vi"/>
 	</Item>
 	<Item Name="Utility" Type="Folder">
 		<Item Name="Ref Constants.vi" Type="VI" URL="../Utility/Ref Constants.vi"/>
