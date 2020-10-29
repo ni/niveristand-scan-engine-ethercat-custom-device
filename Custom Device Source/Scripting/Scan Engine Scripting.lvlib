@@ -53,6 +53,9 @@
 		<Item Name="NI 9474.lvclass" Type="LVClass" URL="../Modules/NI 9474/NI 9474.lvclass"/>
 		<Item Name="NI 9475.lvclass" Type="LVClass" URL="../Modules/NI 9475/NI 9475.lvclass"/>
 	</Item>
+	<Item Name="Slots" Type="Folder">
+		<Item Name="Set Slot.vi" Type="VI" URL="../Slots/Set Slot.vi"/>
+	</Item>
 	<Item Name="Utility" Type="Folder">
 		<Item Name="Ref Constants.vi" Type="VI" URL="../Utility/Ref Constants.vi"/>
 		<Item Name="Remove Item Reference from Tree.vi" Type="VI" URL="../Utility/Remove Item Reference from Tree.vi"/>

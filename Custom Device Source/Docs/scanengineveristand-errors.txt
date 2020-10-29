@@ -51,4 +51,7 @@ The Local Chassis already exists.
 <nierror code="537719">
 An insufficient number of channels was provided for module creation.
 </nierror>
+<nierror code="537720">
+The module could not be added to the slot because it was not found in the list of supported modules.
+</nierror>
 </nidocument>
