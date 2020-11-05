@@ -53,9 +53,28 @@
 		<Item Name="NI 9474.lvclass" Type="LVClass" URL="../Modules/NI 9474/NI 9474.lvclass"/>
 		<Item Name="NI 9475.lvclass" Type="LVClass" URL="../Modules/NI 9475/NI 9475.lvclass"/>
 	</Item>
+	<Item Name="Slots" Type="Folder">
+		<Item Name="Get Slot.vi" Type="VI" URL="../Slots/Get Slot.vi"/>
+		<Item Name="Set Slot.vi" Type="VI" URL="../Slots/Set Slot.vi"/>
+	</Item>
 	<Item Name="Utility" Type="Folder">
+		<Item Name="Convert CDO Module to Slot Configuration.vi" Type="VI" URL="../Utility/Convert CDO Module to Slot Configuration.vi"/>
+		<Item Name="Convert CDO to Channel Settings.vi" Type="VI" URL="../Utility/Convert CDO to Channel Settings.vi"/>
+		<Item Name="Convert Channel Settings to CDO.vi" Type="VI" URL="../Utility/Convert Channel Settings to CDO.vi"/>
+		<Item Name="Convert Channel Settings to Digital.vi" Type="VI" URL="../Utility/Convert Channel Settings to Digital.vi"/>
+		<Item Name="Convert Channel Settings to PWM.vi" Type="VI" URL="../Utility/Convert Channel Settings to PWM.vi"/>
+		<Item Name="Convert Digital to Channel Settings.vi" Type="VI" URL="../Utility/Convert Digital to Channel Settings.vi"/>
+		<Item Name="Convert DO Module to Slot Configuration.vi" Type="VI" URL="../Utility/Convert DO Module to Slot Configuration.vi"/>
+		<Item Name="Convert Module Model to Module Class.vi" Type="VI" URL="../Utility/Convert Module Model to Module Class.vi"/>
+		<Item Name="Convert PWM Module to Slot Configuration.vi" Type="VI" URL="../Utility/Convert PWM Module to Slot Configuration.vi"/>
+		<Item Name="Convert PWM to Channel Settings.vi" Type="VI" URL="../Utility/Convert PWM to Channel Settings.vi"/>
+		<Item Name="Convert to CDO Module.vi" Type="VI" URL="../Utility/Convert to CDO Module.vi"/>
+		<Item Name="Convert to DO Module.vi" Type="VI" URL="../Utility/Convert to DO Module.vi"/>
+		<Item Name="Convert to PWM Module.vi" Type="VI" URL="../Utility/Convert to PWM Module.vi"/>
+		<Item Name="Get Channel Names and Default Values for Slot.vi" Type="VI" URL="../Utility/Get Channel Names and Default Values for Slot.vi"/>
 		<Item Name="Ref Constants.vi" Type="VI" URL="../Utility/Ref Constants.vi"/>
 		<Item Name="Remove Item Reference from Tree.vi" Type="VI" URL="../Utility/Remove Item Reference from Tree.vi"/>
+		<Item Name="Set Channel Names and Default Values for Slot.vi" Type="VI" URL="../Utility/Set Channel Names and Default Values for Slot.vi"/>
 		<Item Name="Validate Reference by GUID.vi" Type="VI" URL="../Utility/Validate Reference by GUID.vi"/>
 		<Item Name="Validate Reference by Name.vi" Type="VI" URL="../Utility/Validate Reference by Name.vi"/>
 	</Item>

@@ -217,6 +217,8 @@
 				<Item Name="Scan Engine Update Slot Subpanel.vi" Type="VI" URL="../System Explorer/Utility/Scan Engine Update Slot Subpanel.vi"/>
 				<Item Name="Update Slots.vi" Type="VI" URL="../System Explorer/Utility/Update Slots.vi"/>
 				<Item Name="Reset Slots.vi" Type="VI" URL="../System Explorer/Utility/Reset Slots.vi"/>
+				<Item Name="Update Slot GUID.vi" Type="VI" URL="../System Explorer/Utility/Update Slot GUID.vi"/>
+				<Item Name="Update Slot Name.vi" Type="VI" URL="../System Explorer/Utility/Update Slot Name.vi"/>
 			</Item>
 			<Item Name="ECAT" Type="Folder">
 				<Item Name="Master" Type="Folder">
