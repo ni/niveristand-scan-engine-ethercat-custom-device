@@ -58,23 +58,23 @@
 		<Item Name="Set Slot.vi" Type="VI" URL="../Slots/Set Slot.vi"/>
 	</Item>
 	<Item Name="Utility" Type="Folder">
-		<Item Name="CDO Module to Slot Configuration.vi" Type="VI" URL="../Utility/CDO Module to Slot Configuration.vi"/>
-		<Item Name="CDO to Channel Settings.vi" Type="VI" URL="../Utility/CDO to Channel Settings.vi"/>
-		<Item Name="Channel Names and Default Values from Slot.vi" Type="VI" URL="../Utility/Channel Names and Default Values from Slot.vi"/>
-		<Item Name="Channel Settings to CDO.vi" Type="VI" URL="../Utility/Channel Settings to CDO.vi"/>
-		<Item Name="Channel Settings to Digital.vi" Type="VI" URL="../Utility/Channel Settings to Digital.vi"/>
-		<Item Name="Channel Settings to PWM.vi" Type="VI" URL="../Utility/Channel Settings to PWM.vi"/>
+		<Item Name="Convert CDO Module to Slot Configuration.vi" Type="VI" URL="../Utility/Convert CDO Module to Slot Configuration.vi"/>
+		<Item Name="Convert CDO to Channel Settings.vi" Type="VI" URL="../Utility/Convert CDO to Channel Settings.vi"/>
+		<Item Name="Convert Channel Settings to CDO.vi" Type="VI" URL="../Utility/Convert Channel Settings to CDO.vi"/>
+		<Item Name="Convert Channel Settings to Digital.vi" Type="VI" URL="../Utility/Convert Channel Settings to Digital.vi"/>
+		<Item Name="Convert Channel Settings to PWM.vi" Type="VI" URL="../Utility/Convert Channel Settings to PWM.vi"/>
+		<Item Name="Convert Digital to Channel Settings.vi" Type="VI" URL="../Utility/Convert Digital to Channel Settings.vi"/>
+		<Item Name="Convert DO Module to Slot Configuration.vi" Type="VI" URL="../Utility/Convert DO Module to Slot Configuration.vi"/>
+		<Item Name="Convert Module Model to Module Class.vi" Type="VI" URL="../Utility/Convert Module Model to Module Class.vi"/>
+		<Item Name="Convert PWM Module to Slot Configuration.vi" Type="VI" URL="../Utility/Convert PWM Module to Slot Configuration.vi"/>
+		<Item Name="Convert PWM to Channel Settings.vi" Type="VI" URL="../Utility/Convert PWM to Channel Settings.vi"/>
 		<Item Name="Convert to CDO Module.vi" Type="VI" URL="../Utility/Convert to CDO Module.vi"/>
 		<Item Name="Convert to DO Module.vi" Type="VI" URL="../Utility/Convert to DO Module.vi"/>
 		<Item Name="Convert to PWM Module.vi" Type="VI" URL="../Utility/Convert to PWM Module.vi"/>
-		<Item Name="Digital to Channel Settings.vi" Type="VI" URL="../Utility/Digital to Channel Settings.vi"/>
-		<Item Name="DO Module to Slot Configuration.vi" Type="VI" URL="../Utility/DO Module to Slot Configuration.vi"/>
-		<Item Name="Module Model to Module Class.vi" Type="VI" URL="../Utility/Module Model to Module Class.vi"/>
-		<Item Name="PWM Module to Slot Configuration.vi" Type="VI" URL="../Utility/PWM Module to Slot Configuration.vi"/>
-		<Item Name="PWM to Channel Settings.vi" Type="VI" URL="../Utility/PWM to Channel Settings.vi"/>
+		<Item Name="Get Channel Names and Default Values from Slot.vi" Type="VI" URL="../Utility/Get Channel Names and Default Values from Slot.vi"/>
 		<Item Name="Ref Constants.vi" Type="VI" URL="../Utility/Ref Constants.vi"/>
 		<Item Name="Remove Item Reference from Tree.vi" Type="VI" URL="../Utility/Remove Item Reference from Tree.vi"/>
-		<Item Name="Update Channels.vi" Type="VI" URL="../Slots/Update Channels.vi"/>
+		<Item Name="Set Channel Names and Default Values from Slot.vi" Type="VI" URL="../Slots/Set Channel Names and Default Values from Slot.vi"/>
 		<Item Name="Validate Reference by GUID.vi" Type="VI" URL="../Utility/Validate Reference by GUID.vi"/>
 		<Item Name="Validate Reference by Name.vi" Type="VI" URL="../Utility/Validate Reference by Name.vi"/>
 	</Item>
