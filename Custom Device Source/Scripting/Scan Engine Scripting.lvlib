@@ -52,6 +52,7 @@
 		<Item Name="Module.lvclass" Type="LVClass" URL="../Modules/Module/Module.lvclass"/>
 		<Item Name="NI 9474.lvclass" Type="LVClass" URL="../Modules/NI 9474/NI 9474.lvclass"/>
 		<Item Name="NI 9475.lvclass" Type="LVClass" URL="../Modules/NI 9475/NI 9475.lvclass"/>
+		<Item Name="NI 9482.lvclass" Type="LVClass" URL="../Modules/NI 9482/NI 9482.lvclass"/>
 	</Item>
 	<Item Name="Utility" Type="Folder">
 		<Item Name="Ref Constants.vi" Type="VI" URL="../Utility/Ref Constants.vi"/>
