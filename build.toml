@@ -45,6 +45,14 @@ target = 'Linux 32 ARM'
 build_spec = 'Engine Release'
 dependency_target = 'Linux_32_ARM'
 
+[[build.steps]]
+name = 'Scripting API'
+type = 'lvBuildSpec'
+project = '{cd}'
+target = 'My Computer'
+build_spec = 'Scripting API'
+dependency_target = 'Windows'
+
 [package]
 type = 'nipkg'
 package_output_dir = 'Built'
@@ -52,3 +60,4 @@ package_output_dir = 'Built'
 [package.payload_map]
 'Built\\Scan Engine' = 'documents\National Instruments\NI VeriStand {veristand_version}\Custom Devices\Scan Engine'
 'Built\\Errors' = 'ni-paths-NISHAREDDIR\LabVIEW Run-Time\{veristand_version}\errors\English'
+'Built\\Scripting\\Scan Engine' = 'ni-paths-LV{veristand_version}DIR\vi.lib\addons\VeriStand Custom Device Scripting APIs\Scan Engine'
