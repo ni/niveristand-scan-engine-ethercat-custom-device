@@ -41,7 +41,6 @@
 			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
-			<Property Name="NI.ClassItem.MustOverride" Type="Bool">true</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1342710272</Property>
 		</Item>
@@ -123,7 +122,6 @@
 			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
-			<Property Name="NI.ClassItem.MustOverride" Type="Bool">true</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1107821056</Property>
 		</Item>
@@ -162,9 +160,46 @@
 			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
-			<Property Name="NI.ClassItem.MustOverride" Type="Bool">true</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1342710272</Property>
+		</Item>
+	</Item>
+	<Item Name="AI" Type="Folder">
+		<Item Name="Check AI Channel Settings.vi" Type="VI" URL="../../Check AI Channel Settings.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(&lt;!!!!$A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#J!=!!?!!!3%&amp;2F=X2$98.F,GRW9WRB=X-!!!R5:8.U1W&amp;T:3"P&gt;81!!":!5!!$!!!!!1!##'6S=G^S)'FO!!!/1$$`````"'ZB&lt;75!!".!#A!.:'6G986M&gt;#"W97RV:1"A!0%!!!!!!!!!!BN49W&amp;O)%6O:WFO:3"49X*J=(2J&lt;G=O&lt;(:M;7)&lt;97ZB&lt;'^H)'.I97ZO:7QA=W6U&gt;'FO:X-O9X2M!#"!5!!#!!=!#""D;'&amp;O&lt;G6M)(.F&gt;(2J&lt;G&gt;T!!!C1%!!!@````]!#26S:7&amp;E)'.I97ZO:7QA=W6U&gt;'FO:X-!*E"!!!(`````!!E9;7ZJ&gt;'FB&lt;#"D;'&amp;O&lt;G6M)(.F&gt;(2J&lt;G&gt;T!!!I1(!!(A!!%B"5:8.U1W&amp;T:3ZM&gt;G.M98.T!!!,6'6T&gt;%.B=W5A;7Y!91$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!#A!,!!Q$!!"Y!!!.#!!!!!!!!!!!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!)1!!!#%!!!!")!!!U!!!!-!!!!!!!!!!!!!!%!$1!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
+		</Item>
+		<Item Name="Create and Read AI.vi" Type="VI" URL="../Create and Read AI.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(9!!!!$A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!!Z!-0````]%&lt;G&amp;N:1!!%U!+!!VE:7:B&gt;7RU)(:B&lt;(6F!'!!]1!!!!!!!!!#'V.D97YA27ZH;7ZF)&amp;.D=GFQ&gt;'FO:SZM&gt;GRJ9BNB&lt;G&amp;M&lt;W=A9WBB&lt;GZF&lt;#"T:82U;7ZH=SZD&gt;'Q!)%"1!!)!"1!'%'.I97ZO:7QA=W6U&gt;'FO:X-!!#*!1!!"`````Q!(&amp;8*F971A9WBB&lt;GZF&lt;#"T:82U;7ZH=Q!O1(!!(A!!&amp;2..&lt;W2V&lt;'5A6'6T&gt;#ZM&gt;G.M98.T!!^N&lt;W2V&lt;'5A&gt;'6T&gt;#"P&gt;81!&amp;E"1!!-!!!!"!!)):8*S&lt;X)A;7Y!!#:!1!!"`````Q!(''FO;82J97QA9WBB&lt;GZF&lt;#"T:82U;7ZH=Q!!,E"Q!"Y!!"5447^E&gt;7RF)&amp;2F=X1O&lt;(:D&lt;'&amp;T=Q!/&lt;7^E&gt;7RF)(2F=X1A;7Y!!&amp;1!]!!-!!-!"!!)!!E!"!!%!!1!"!!+!!1!#Q!-!A!!?!!!$1A!!!!!!!!.#A!!D1M!!!!!!!!!!!!!!!!!!!!!!!!)!!!!!!!!!B!!!!#1!!!!!!%!$1!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1342972416</Property>
+		</Item>
+		<Item Name="Initialize AI Channel Settings.vi" Type="VI" URL="../../Initialize AI Channel Settings.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%1!!!!"Q!%!!!!$E!Q`````Q2O97VF!!!41!I!$72F:G&amp;V&lt;(1A&gt;G&amp;M&gt;75!9!$R!!!!!!!!!!)&lt;5W.B&lt;C"&amp;&lt;G&gt;J&lt;G5A5W.S;8"U;7ZH,GRW&lt;'FC'W&amp;O97RP:S"D;'&amp;O&lt;G6M)(.F&gt;(2J&lt;G&gt;T,G.U&lt;!!A1&amp;!!!A!"!!)19WBB&lt;GZF&lt;#"T:82U;7ZH=Q!!(E"!!!(`````!!-19WBB&lt;GZF&lt;#"T:82U;7ZH=Q!!%5!$!!JB=H*B?3"T;8JF!!"5!0!!$!!!!!!!!!!%!!!!!!!!!!!!!!!!!!!!"1-!!(A!!!!!!!!!!!!!!!!!!!E!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!%A!!!!!"!!9!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
+		</Item>
+		<Item Name="Test Analog Input.vi" Type="VI" URL="../Test Analog Input.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'2!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!%*!=!!?!!!L+6.D97YA27ZH;7ZF)&amp;.D=GFQ&gt;'FO:S""5%EA47^E&gt;7RF=SZM&gt;G.M98.T!!R5:8.U1W&amp;T:3"P&gt;81!!#Z!=!!?!!!6%UVP:(6M:3"5:8.U,GRW9WRB=X-!$WVP:(6M:3"U:8.U)'^V&gt;!!71&amp;!!!Q!!!!%!!ABF=H*P=C"J&lt;A!!1%"Q!"Y!!#MJ5W.B&lt;C"&amp;&lt;G&gt;J&lt;G5A5W.S;8"U;7ZH)%&amp;133".&lt;W2V&lt;'6T,GRW9WRB=X-!#V2F=X2$98.F)'FO!#Z!=!!?!!!6%UVP:(6M:3"5:8.U,GRW9WRB=X-!$GVP:(6M:3"U:8.U)'FO!!"5!0!!$!!$!!1!"1!'!!1!"!!%!!1!"Q!%!!A!#1-!!(A!!!U)!!!!!!!!$1I!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!3!!!!EA!!!!!"!!I!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">3</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1074541072</Property>
 		</Item>
 	</Item>
 	<Item Name="Channel Array Size Error Test.vi" Type="VI" URL="../Channel Array Size Error Test.vi">
