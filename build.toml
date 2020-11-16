@@ -22,6 +22,14 @@ build_spec = 'Configuration Release'
 dependency_target = 'Pharlap'
 
 [[build.steps]]
+name = 'Scripting API'
+type = 'lvBuildSpec'
+project = '{cd}'
+target = 'My Computer'
+build_spec = 'Scripting API'
+dependency_target = 'Pharlap'
+
+[[build.steps]]
 name = 'Pharlap Engine Library'
 type = 'lvBuildSpec'
 project = '{cd}'
@@ -44,14 +52,6 @@ project = '{cd}'
 target = 'Linux 32 ARM'
 build_spec = 'Engine Release'
 dependency_target = 'Linux_32_ARM'
-
-[[build.steps]]
-name = 'Scripting API'
-type = 'lvBuildSpec'
-project = '{cd}'
-target = 'My Computer'
-build_spec = 'Scripting API'
-dependency_target = 'Windows'
 
 [package]
 type = 'nipkg'
