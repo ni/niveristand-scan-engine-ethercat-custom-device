@@ -60,4 +60,11 @@ package_output_dir = 'Built'
 [package.payload_map]
 'Built\\Scan Engine' = 'documents\National Instruments\NI VeriStand {veristand_version}\Custom Devices\Scan Engine'
 'Built\\Errors' = 'ni-paths-NISHAREDDIR\LabVIEW Run-Time\{veristand_version}\errors\English'
-'Built\\Scripting\\Scan Engine' = 'ni-paths-LV{veristand_version}DIR\vi.lib\addons\VeriStand Custom Device Scripting APIs\Scan Engine'
+
+[[package]]
+type = 'nipkg'
+control_file = 'control_scripting'
+package_output_dir = 'Built'
+
+[package.payload_map]
+'Built\\Scripting\\Scan Engine' = 'ni-paths-LV{veristand_version}DIR\vi.lib\addons\VeriStand Custom Device Scripting APIs\Scan Engine' 
