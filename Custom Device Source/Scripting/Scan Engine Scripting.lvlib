@@ -27,6 +27,11 @@
 	</Item>
 	<Item Name="Modules" Type="Folder">
 		<Item Name="Channels" Type="Folder">
+			<Item Name="Analog" Type="Folder">
+				<Item Name="AI Channel.lvclass" Type="LVClass" URL="../Modules/Channel Classes/AI Channel/AI Channel.lvclass"/>
+				<Item Name="AI Vrms Channel.lvclass" Type="LVClass" URL="../Modules/Channel Classes/AI Vrms Channel/AI Vrms Channel.lvclass"/>
+				<Item Name="Analog Channel.lvclass" Type="LVClass" URL="../Modules/Channel Classes/Analog Channel/Analog Channel.lvclass"/>
+			</Item>
 			<Item Name="Digital" Type="Folder">
 				<Item Name="Counter Driven Output Channel.lvclass" Type="LVClass" URL="../Modules/Channel Classes/Counter Driven Output Channel/Counter Driven Output Channel.lvclass"/>
 				<Item Name="DI Channel.lvclass" Type="LVClass" URL="../Modules/Channel Classes/DI Channel/DI Channel.lvclass"/>
@@ -40,16 +45,20 @@
 		</Item>
 		<Item Name="Modes" Type="Folder">
 			<Item Name="Controls" Type="Folder">
+				<Item Name="analog channel settings.ctl" Type="VI" URL="../Modules/Mode Classes/Controls/analog channel settings.ctl"/>
 				<Item Name="counter driven output channel settings.ctl" Type="VI" URL="../Modules/Mode Classes/Controls/counter driven output channel settings.ctl"/>
 				<Item Name="digital channel settings.ctl" Type="VI" URL="../Modules/Mode Classes/Controls/digital channel settings.ctl"/>
 				<Item Name="pwm channel settings.ctl" Type="VI" URL="../Modules/Mode Classes/Controls/pwm channel settings.ctl"/>
 			</Item>
+			<Item Name="Analog Input Mode.lvclass" Type="LVClass" URL="../Modules/Mode Classes/Analog Input Mode/Analog Input Vrms Mode/Analog Input Mode.lvclass"/>
+			<Item Name="Analog Input Vrms Mode.lvclass" Type="LVClass" URL="../Modules/Mode Classes/Analog Input Vrms Mode/Analog Input Vrms Mode.lvclass"/>
 			<Item Name="Counter Driven Output Mode.lvclass" Type="LVClass" URL="../Modules/Mode Classes/Counter Driven Output Mode/Counter Driven Output Mode.lvclass"/>
 			<Item Name="Digital Output Mode.lvclass" Type="LVClass" URL="../Modules/Mode Classes/Digital Output Mode/Digital Output Mode.lvclass"/>
 			<Item Name="Mode.lvclass" Type="LVClass" URL="../Modules/Mode Classes/Mode/Mode.lvclass"/>
 			<Item Name="PWM Mode.lvclass" Type="LVClass" URL="../Modules/Mode Classes/PWM Mode/PWM Mode.lvclass"/>
 		</Item>
 		<Item Name="Module.lvclass" Type="LVClass" URL="../Modules/Module/Module.lvclass"/>
+		<Item Name="NI 9225.lvclass" Type="LVClass" URL="../Modules/NI 9225/NI 9225.lvclass"/>
 		<Item Name="NI 9474.lvclass" Type="LVClass" URL="../Modules/NI 9474/NI 9474.lvclass"/>
 		<Item Name="NI 9475.lvclass" Type="LVClass" URL="../Modules/NI 9475/NI 9475.lvclass"/>
 	</Item>
@@ -58,8 +67,11 @@
 		<Item Name="Set Slot.vi" Type="VI" URL="../Slots/Set Slot.vi"/>
 	</Item>
 	<Item Name="Utility" Type="Folder">
+		<Item Name="Convert AI Module to Slot Configuration.vi" Type="VI" URL="../Utility/Convert AI Module to Slot Configuration.vi"/>
+		<Item Name="Convert Analog to Channel Settings.vi" Type="VI" URL="../Utility/Convert Analog to Channel Settings.vi"/>
 		<Item Name="Convert CDO Module to Slot Configuration.vi" Type="VI" URL="../Utility/Convert CDO Module to Slot Configuration.vi"/>
 		<Item Name="Convert CDO to Channel Settings.vi" Type="VI" URL="../Utility/Convert CDO to Channel Settings.vi"/>
+		<Item Name="Convert Channel Settings to Analog.vi" Type="VI" URL="../Utility/Convert Channel Settings to Analog.vi"/>
 		<Item Name="Convert Channel Settings to CDO.vi" Type="VI" URL="../Utility/Convert Channel Settings to CDO.vi"/>
 		<Item Name="Convert Channel Settings to Digital.vi" Type="VI" URL="../Utility/Convert Channel Settings to Digital.vi"/>
 		<Item Name="Convert Channel Settings to PWM.vi" Type="VI" URL="../Utility/Convert Channel Settings to PWM.vi"/>
@@ -68,6 +80,8 @@
 		<Item Name="Convert Module Model to Module Class.vi" Type="VI" URL="../Utility/Convert Module Model to Module Class.vi"/>
 		<Item Name="Convert PWM Module to Slot Configuration.vi" Type="VI" URL="../Utility/Convert PWM Module to Slot Configuration.vi"/>
 		<Item Name="Convert PWM to Channel Settings.vi" Type="VI" URL="../Utility/Convert PWM to Channel Settings.vi"/>
+		<Item Name="Convert to AI Module.vi" Type="VI" URL="../Utility/Convert to AI Module.vi"/>
+		<Item Name="Convert to AI Vrms Module.vi" Type="VI" URL="../Utility/Convert to AI Vrms Module.vi"/>
 		<Item Name="Convert to CDO Module.vi" Type="VI" URL="../Utility/Convert to CDO Module.vi"/>
 		<Item Name="Convert to DO Module.vi" Type="VI" URL="../Utility/Convert to DO Module.vi"/>
 		<Item Name="Convert to PWM Module.vi" Type="VI" URL="../Utility/Convert to PWM Module.vi"/>
