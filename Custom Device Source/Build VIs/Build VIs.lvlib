@@ -4,6 +4,7 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">385908736</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
+	<Item Name="Copy Scripting API to Installed Location.vi" Type="VI" URL="../Copy Scripting API to Installed Location.vi"/>
 	<Item Name="Create Stub Files.vi" Type="VI" URL="../Create Stub Files.vi"/>
 	<Item Name="Post-Build Action.vi" Type="VI" URL="../Post-Build Action.vi"/>
 	<Item Name="Pre-Build Action.vi" Type="VI" URL="../Pre-Build Action.vi"/>
