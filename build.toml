@@ -13,12 +13,31 @@ copy_location = 'Custom Device Source'
 [projects.cd]
 path = 'Custom Device Source\Scan Engine.lvproj'
 
+[projects.examples]
+path = 'Custom Device Source\Scripting Examples\Scan Engine Scripting Examples.lvproj'
+
 [[build.steps]]
 name = 'Configuration Library'
 type = 'lvBuildSpec'
 project = '{cd}'
 target = 'My Computer'
 build_spec = 'Configuration Release'
+dependency_target = 'Pharlap'
+
+[[build.steps]]
+name = 'Scripting API'
+type = 'lvBuildSpec'
+project = '{cd}'
+target = 'My Computer'
+build_spec = 'Scripting API'
+dependency_target = 'Pharlap'
+
+[[build.steps]]
+name = 'Examples'
+type = 'lvBuildSpec'
+project = '{examples}'
+target = 'My Computer'
+build_spec = 'Examples'
 dependency_target = 'Pharlap'
 
 [[build.steps]]
@@ -45,10 +64,26 @@ target = 'Linux 32 ARM'
 build_spec = 'Engine Release'
 dependency_target = 'Linux_32_ARM'
 
-[package]
+[[package]]
 type = 'nipkg'
 package_output_dir = 'Built'
 
 [package.payload_map]
 'Built\\Scan Engine' = 'documents\National Instruments\NI VeriStand {veristand_version}\Custom Devices\Scan Engine'
 'Built\\Errors' = 'ni-paths-NISHAREDDIR\LabVIEW Run-Time\{veristand_version}\errors\English'
+
+[[package]]
+type = 'nipkg'
+control_file = 'control_scripting'
+package_output_dir = 'Built'
+
+[package.payload_map]
+'Built\\Scripting\\Scan Engine' = 'ni-paths-LV{veristand_version}DIR\vi.lib\addons\VeriStand Custom Device Scripting APIs\Scan Engine' 
+
+[[package]]
+type = 'nipkg'
+control_file = 'control_examples'
+package_output_dir = 'Built'
+
+[package.payload_map]
+'Built\\Scripting Examples' = 'ni-paths-LV{veristand_version}DIR\examples\NI VeriStand Custom Devices\Scan Engine' 
