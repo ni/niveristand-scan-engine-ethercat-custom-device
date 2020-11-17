@@ -63,8 +63,8 @@ package_output_dir = 'Built'
 
 [[package]]
 type = 'nipkg'
+payload_dir = 'Built\Scripting'
+install_destination = 'ni-paths-LV{veristand_version}DIR\vi.lib\addons\VeriStand Custom Device Scripting APIs\Scan Engine'
 control_file = 'control_scripting'
 package_output_dir = 'Built'
 
-[package.payload_map]
-'Built\\Scripting\\Scan Engine' = 'ni-paths-LV{veristand_version}DIR\vi.lib\addons\VeriStand Custom Device Scripting APIs\Scan Engine' 
