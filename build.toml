@@ -14,7 +14,7 @@ copy_location = 'Custom Device Source'
 path = 'Custom Device Source\Scan Engine.lvproj'
 
 [projects.examples]
-path = 'Custom Device Source\Scripting Examples\Scan Engine Scripting Examples.lvproj'
+path = 'Scripting Examples\Scan Engine Scripting Examples.lvproj'
 
 [[build.steps]]
 name = 'Configuration Library'
