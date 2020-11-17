@@ -26,6 +26,7 @@
 		<Item Name="Set Sync to Scan.vi" Type="VI" URL="../Main/Set Sync to Scan.vi"/>
 	</Item>
 	<Item Name="Modules" Type="Folder">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="Channels" Type="Folder">
 			<Item Name="Analog" Type="Folder">
 				<Item Name="AI Channel.lvclass" Type="LVClass" URL="../Modules/Channel Classes/AI Channel/AI Channel.lvclass"/>
@@ -61,6 +62,10 @@
 		<Item Name="NI 9225.lvclass" Type="LVClass" URL="../Modules/NI 9225/NI 9225.lvclass"/>
 		<Item Name="NI 9474.lvclass" Type="LVClass" URL="../Modules/NI 9474/NI 9474.lvclass"/>
 		<Item Name="NI 9475.lvclass" Type="LVClass" URL="../Modules/NI 9475/NI 9475.lvclass"/>
+		<Item Name="Create Counter Driven Output Module.vi" Type="VI" URL="../Modules/Create Counter Driven Output Module.vi"/>
+		<Item Name="Create Digital Output Module.vi" Type="VI" URL="../Modules/Create Digital Output Module.vi"/>
+		<Item Name="Read Counter Driven Output Module.vi" Type="VI" URL="../Modules/Read Counter Driven Output Module.vi"/>
+		<Item Name="Read Digital Output Module.vi" Type="VI" URL="../Modules/Read Digital Output Module.vi"/>
 	</Item>
 	<Item Name="Slots" Type="Folder">
 		<Item Name="Get Slot.vi" Type="VI" URL="../Slots/Get Slot.vi"/>
