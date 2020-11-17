@@ -26,6 +26,7 @@
 		<Item Name="Set Sync to Scan.vi" Type="VI" URL="../Main/Set Sync to Scan.vi"/>
 	</Item>
 	<Item Name="Modules" Type="Folder">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="Channels" Type="Folder">
 			<Item Name="Analog" Type="Folder">
 				<Item Name="AI Channel.lvclass" Type="LVClass" URL="../Modules/Channel Classes/AI Channel/AI Channel.lvclass"/>
@@ -53,6 +54,7 @@
 			<Item Name="Analog Input Mode.lvclass" Type="LVClass" URL="../Modules/Mode Classes/Analog Input Mode/Analog Input Vrms Mode/Analog Input Mode.lvclass"/>
 			<Item Name="Analog Input Vrms Mode.lvclass" Type="LVClass" URL="../Modules/Mode Classes/Analog Input Vrms Mode/Analog Input Vrms Mode.lvclass"/>
 			<Item Name="Counter Driven Output Mode.lvclass" Type="LVClass" URL="../Modules/Mode Classes/Counter Driven Output Mode/Counter Driven Output Mode.lvclass"/>
+			<Item Name="Digital Input Mode.lvclass" Type="LVClass" URL="../Modules/Mode Classes/Digital Input Mode/Digital Input Mode.lvclass"/>
 			<Item Name="Digital Output Mode.lvclass" Type="LVClass" URL="../Modules/Mode Classes/Digital Output Mode/Digital Output Mode.lvclass"/>
 			<Item Name="Mode.lvclass" Type="LVClass" URL="../Modules/Mode Classes/Mode/Mode.lvclass"/>
 			<Item Name="PWM Mode.lvclass" Type="LVClass" URL="../Modules/Mode Classes/PWM Mode/PWM Mode.lvclass"/>
@@ -61,6 +63,10 @@
 		<Item Name="NI 9225.lvclass" Type="LVClass" URL="../Modules/NI 9225/NI 9225.lvclass"/>
 		<Item Name="NI 9474.lvclass" Type="LVClass" URL="../Modules/NI 9474/NI 9474.lvclass"/>
 		<Item Name="NI 9475.lvclass" Type="LVClass" URL="../Modules/NI 9475/NI 9475.lvclass"/>
+		<Item Name="Create Counter Driven Output Module.vi" Type="VI" URL="../Modules/Create Counter Driven Output Module.vi"/>
+		<Item Name="Create Digital Output Module.vi" Type="VI" URL="../Modules/Create Digital Output Module.vi"/>
+		<Item Name="Read Counter Driven Output Module.vi" Type="VI" URL="../Modules/Read Counter Driven Output Module.vi"/>
+		<Item Name="Read Digital Output Module.vi" Type="VI" URL="../Modules/Read Digital Output Module.vi"/>
 		<Item Name="NI 9482.lvclass" Type="LVClass" URL="../Modules/NI 9482/NI 9482.lvclass"/>
 	</Item>
 	<Item Name="Slots" Type="Folder">
