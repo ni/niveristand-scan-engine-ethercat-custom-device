@@ -54,6 +54,15 @@
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
 		</Item>
+		<Item Name="Create Digital Input Module.vi" Type="VI" URL="../Create Digital Input Module.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(5!!!!$1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!%*!=!!?!!!M'V.D97YA27ZH;7ZF)&amp;.D=GFQ&gt;'FO:SZM&gt;GRJ9AZ.&lt;W2V&lt;'5O&lt;(:D&lt;'&amp;T=Q!!#GVP:(6M:3"P&gt;81!!":!5!!$!!!!!1!##'6S=G^S)'FO!!!/1$$`````"'ZB&lt;75!!"*!)1VE:7:B&gt;7RU)(:B&lt;(6F!'%!]1!!!!!!!!!#'V.D97YA27ZH;7ZF)&amp;.D=GFQ&gt;'FO:SZM&gt;GRJ9BRE;7&gt;J&gt;'&amp;M)'.I97ZO:7QA=W6U&gt;'FO:X-O9X2M!#"!5!!#!!=!#""D;'&amp;O&lt;G6M)(.F&gt;(2J&lt;G&gt;T!!!?1%!!!@````]!#2"D;'&amp;O&lt;G6M)(.F&gt;(2J&lt;G&gt;T!!"!1(!!(A!!,"N49W&amp;O)%6O:WFO:3"49X*J=(2J&lt;G=O&lt;(:M;7)/47^E&gt;7RF,GRW9WRB=X-!!!FN&lt;W2V&lt;'5A;7Y!6!$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!+!!M$!!"Y!!!.#!!!!!!!!!!!!!#.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!#%!!!!*)!!!!!!1!-!!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1082401296</Property>
+		</Item>
 		<Item Name="Create Digital Output Module.vi" Type="VI" URL="../Create Digital Output Module.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(5!!!!$1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!%*!=!!?!!!M'V.D97YA27ZH;7ZF)&amp;.D=GFQ&gt;'FO:SZM&gt;GRJ9AZ.&lt;W2V&lt;'5O&lt;(:D&lt;'&amp;T=Q!!#GVP:(6M:3"P&gt;81!!":!5!!$!!!!!1!##'6S=G^S)'FO!!!/1$$`````"'ZB&lt;75!!"*!)1VE:7:B&gt;7RU)(:B&lt;(6F!'%!]1!!!!!!!!!#'V.D97YA27ZH;7ZF)&amp;.D=GFQ&gt;'FO:SZM&gt;GRJ9BRE;7&gt;J&gt;'&amp;M)'.I97ZO:7QA=W6U&gt;'FO:X-O9X2M!#"!5!!#!!=!#""D;'&amp;O&lt;G6M)(.F&gt;(2J&lt;G&gt;T!!!?1%!!!@````]!#2"D;'&amp;O&lt;G6M)(.F&gt;(2J&lt;G&gt;T!!"!1(!!(A!!,"N49W&amp;O)%6O:WFO:3"49X*J=(2J&lt;G=O&lt;(:M;7)/47^E&gt;7RF,GRW9WRB=X-!!!FN&lt;W2V&lt;'5A;7Y!6!$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!+!!M$!!"Y!!!.#!!!!!!!!!!!!!#.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!#%!!!!*)!!!!!!1!-!!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -194,6 +203,15 @@
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1342972432</Property>
+		</Item>
+		<Item Name="Read Digital Input Module.vi" Type="VI" URL="../Read Digital Input Module.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(5!!!!$1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!!Z!-0````]%&lt;G&amp;N:1!!%E!B$72F:G&amp;V&lt;(1A&gt;G&amp;M&gt;75!91$R!!!!!!!!!!)&lt;5W.B&lt;C"&amp;&lt;G&gt;J&lt;G5A5W.S;8"U;7ZH,GRW&lt;'FC('2J:WFU97QA9WBB&lt;GZF&lt;#"T:82U;7ZH=SZD&gt;'Q!)%"1!!)!"1!'%'.I97ZO:7QA=W6U&gt;'FO:X-!!"Z!1!!"`````Q!(%'.I97ZO:7QA=W6U&gt;'FO:X-!!%*!=!!?!!!M'V.D97YA27ZH;7ZF)&amp;.D=GFQ&gt;'FO:SZM&gt;GRJ9AZ.&lt;W2V&lt;'5O&lt;(:D&lt;'&amp;T=Q!!#GVP:(6M:3"P&gt;81!!":!5!!$!!!!!1!##'6S=G^S)'FO!!"!1(!!(A!!,"N49W&amp;O)%6O:WFO:3"49X*J=(2J&lt;G=O&lt;(:M;7)/47^E&gt;7RF,GRW9WRB=X-!!!FN&lt;W2V&lt;'5A;7Y!6!$Q!!Q!!Q!%!!A!#1!%!!1!"!!%!!I!"!!%!!M$!!"Y!!!.#!!!!!!!!!E!!!#.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!*)!!!!!!1!-!!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1082401296</Property>
 		</Item>
 		<Item Name="Read Digital Output Module.vi" Type="VI" URL="../Read Digital Output Module.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(5!!!!$1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!!Z!-0````]%&lt;G&amp;N:1!!%E!B$72F:G&amp;V&lt;(1A&gt;G&amp;M&gt;75!91$R!!!!!!!!!!)&lt;5W.B&lt;C"&amp;&lt;G&gt;J&lt;G5A5W.S;8"U;7ZH,GRW&lt;'FC('2J:WFU97QA9WBB&lt;GZF&lt;#"T:82U;7ZH=SZD&gt;'Q!)%"1!!)!"1!'%'.I97ZO:7QA=W6U&gt;'FO:X-!!"Z!1!!"`````Q!(%'.I97ZO:7QA=W6U&gt;'FO:X-!!%*!=!!?!!!M'V.D97YA27ZH;7ZF)&amp;.D=GFQ&gt;'FO:SZM&gt;GRJ9AZ.&lt;W2V&lt;'5O&lt;(:D&lt;'&amp;T=Q!!#GVP:(6M:3"P&gt;81!!":!5!!$!!!!!1!##'6S=G^S)'FO!!"!1(!!(A!!,"N49W&amp;O)%6O:WFO:3"49X*J=(2J&lt;G=O&lt;(:M;7)/47^E&gt;7RF,GRW9WRB=X-!!!FN&lt;W2V&lt;'5A;7Y!6!$Q!!Q!!Q!%!!A!#1!%!!1!"!!%!!I!"!!%!!M$!!"Y!!!.#!!!!!!!!!E!!!#.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!*)!!!!!!1!-!!!!!!</Property>
