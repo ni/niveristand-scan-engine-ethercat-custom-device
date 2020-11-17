@@ -3,7 +3,7 @@ Version: {nipkg_version}
 Architecture: windows_x64
 Maintainer: National Instruments <support@ni.com>
 XB-Plugin: file
-Description: Provides LabVIEW examples for the Scan Engine and EtherCAT custom device API for NI VeriStand {veristand_version}.
+Description: Provides LabVIEW examples for the Scan Engine and EtherCAT custom device for NI VeriStand {veristand_version}.
 XB-Eula: eula-ni-standard
 Priority: standard
 Homepage: http://www.ni.com
