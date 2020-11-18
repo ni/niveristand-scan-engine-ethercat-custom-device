@@ -64,6 +64,7 @@
 		<Item Name="NI 9422.lvclass" Type="LVClass" URL="../Modules/NI 9422/NI 9422.lvclass"/>
 		<Item Name="NI 9474.lvclass" Type="LVClass" URL="../Modules/NI 9474/NI 9474.lvclass"/>
 		<Item Name="NI 9475.lvclass" Type="LVClass" URL="../Modules/NI 9475/NI 9475.lvclass"/>
+		<Item Name="NI 9482.lvclass" Type="LVClass" URL="../Modules/NI 9482/NI 9482.lvclass"/>
 		<Item Name="Create Counter Driven Output Module.vi" Type="VI" URL="../Modules/Create Counter Driven Output Module.vi"/>
 		<Item Name="Create Digital Output Module.vi" Type="VI" URL="../Modules/Create Digital Output Module.vi"/>
 		<Item Name="Read Counter Driven Output Module.vi" Type="VI" URL="../Modules/Read Counter Driven Output Module.vi"/>
