@@ -69,6 +69,7 @@
 		<Item Name="Read Counter Driven Output Module.vi" Type="VI" URL="../Modules/Read Counter Driven Output Module.vi"/>
 		<Item Name="Read Digital Output Module.vi" Type="VI" URL="../Modules/Read Digital Output Module.vi"/>
 		<Item Name="NI 9224.lvclass" Type="LVClass" URL="../Modules/NI 9224/NI 9224.lvclass"/>
+		<Item Name="NI 9228.lvclass" Type="LVClass" URL="../Modules/NI 9228/NI 9228.lvclass"/>
 	</Item>
 	<Item Name="Slots" Type="Folder">
 		<Item Name="Get Slot.vi" Type="VI" URL="../Slots/Get Slot.vi"/>
