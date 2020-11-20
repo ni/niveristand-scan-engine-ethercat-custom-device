@@ -13,6 +13,9 @@ copy_location = 'Custom Device Source'
 [projects.cd]
 path = 'Custom Device Source\Scan Engine.lvproj'
 
+[projects.examples]
+path = 'Scripting Examples\Scan Engine Scripting Examples.lvproj'
+
 [[build.steps]]
 name = 'Configuration Library'
 type = 'lvBuildSpec'
@@ -28,6 +31,13 @@ project = '{cd}'
 target = 'My Computer'
 build_spec = 'Scripting API'
 dependency_target = 'Pharlap'
+
+[[build.steps]]
+name = 'Examples'
+type = 'lvBuildSpec'
+project = '{examples}'
+target = 'My Computer'
+build_spec = 'Examples'
 
 [[build.steps]]
 name = 'Pharlap Engine Library'
@@ -68,3 +78,11 @@ package_output_dir = 'Built'
 
 [package.payload_map]
 'Built\\Scripting\\Scan Engine' = 'ni-paths-LV{veristand_version}DIR\vi.lib\addons\VeriStand Custom Device Scripting APIs\Scan Engine' 
+
+[[package]]
+type = 'nipkg'
+control_file = 'control_examples'
+package_output_dir = 'Built'
+
+[package.payload_map]
+'Built\\Examples\\Scan Engine' = 'ni-paths-LV{veristand_version}DIR\examples\NI VeriStand Custom Devices\Scan Engine' 

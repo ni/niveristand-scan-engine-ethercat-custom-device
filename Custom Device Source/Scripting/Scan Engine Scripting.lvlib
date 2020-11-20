@@ -61,15 +61,16 @@
 			<Item Name="Analog Input with Conversion Time Mode.lvclass" Type="LVClass" URL="../Modules/Mode Classes/Analog Inputs with Conversion Time Mode/Analog Input with Conversion Time Mode.lvclass"/>
 		</Item>
 		<Item Name="Module.lvclass" Type="LVClass" URL="../Modules/Module/Module.lvclass"/>
+		<Item Name="NI 9224.lvclass" Type="LVClass" URL="../Modules/NI 9224/NI 9224.lvclass"/>
 		<Item Name="NI 9225.lvclass" Type="LVClass" URL="../Modules/NI 9225/NI 9225.lvclass"/>
+		<Item Name="NI 9228.lvclass" Type="LVClass" URL="../Modules/NI 9228/NI 9228.lvclass"/>
 		<Item Name="NI 9474.lvclass" Type="LVClass" URL="../Modules/NI 9474/NI 9474.lvclass"/>
 		<Item Name="NI 9475.lvclass" Type="LVClass" URL="../Modules/NI 9475/NI 9475.lvclass"/>
+		<Item Name="NI 9482.lvclass" Type="LVClass" URL="../Modules/NI 9482/NI 9482.lvclass"/>
 		<Item Name="Create Counter Driven Output Module.vi" Type="VI" URL="../Modules/Create Counter Driven Output Module.vi"/>
 		<Item Name="Create Digital Output Module.vi" Type="VI" URL="../Modules/Create Digital Output Module.vi"/>
 		<Item Name="Read Counter Driven Output Module.vi" Type="VI" URL="../Modules/Read Counter Driven Output Module.vi"/>
 		<Item Name="Read Digital Output Module.vi" Type="VI" URL="../Modules/Read Digital Output Module.vi"/>
-		<Item Name="NI 9224.lvclass" Type="LVClass" URL="../Modules/NI 9224/NI 9224.lvclass"/>
-		<Item Name="NI 9228.lvclass" Type="LVClass" URL="../Modules/NI 9228/NI 9228.lvclass"/>
 	</Item>
 	<Item Name="Slots" Type="Folder">
 		<Item Name="Get Slot.vi" Type="VI" URL="../Slots/Get Slot.vi"/>
