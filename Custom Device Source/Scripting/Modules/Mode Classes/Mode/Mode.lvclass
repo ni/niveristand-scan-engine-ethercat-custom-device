@@ -26,22 +26,13 @@
 	<Item Name="Mode.ctl" Type="Class Private Data" URL="Mode.ctl">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
-	<Item Name="Create Generic Mode.vi" Type="VI" URL="../Create Generic Mode.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(T!!!!$A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!9E"Q!"Y!!#U&lt;5W.B&lt;C"&amp;&lt;G&gt;J&lt;G5A5W.S;8"U;7ZH,GRW&lt;'FC$U.I97ZO:7QO&lt;(:D&lt;'&amp;T=Q!L5W.B&lt;C"&amp;&lt;G&gt;J&lt;G5A5W.S;8"U;7ZH,GRW&lt;'FC/E.I97ZO:7QO&lt;(:D&lt;'&amp;T=Q!71%!!!@````]!"!BD;'&amp;O&lt;G6M=Q!!"!!!!$Z!=!!?!!!K'V.D97YA27ZH;7ZF)&amp;.D=GFQ&gt;'FO:SZM&gt;GRJ9AR.&lt;W2F,GRW9WRB=X-!!!BN&lt;W2F)'^V&gt;!!!%E"4$7VP:'5A=W6U&gt;'FO:X-!&amp;E"1!!-!!!!"!!)):8*S&lt;X)A;7Y!!"F!!Q!3&lt;H6N9G6S)'^G)'.I97ZO:7RT!!!71&amp;-19WBB&lt;GZF&lt;#"T:82U;7ZH=Q!!0%"Q!"Y!!#I&lt;5W.B&lt;C"&amp;&lt;G&gt;J&lt;G5A5W.S;8"U;7ZH,GRW&lt;'FC$%VP:'5O&lt;(:D&lt;'&amp;T=Q!!"WVP:'5A;7Y!91$Q!!Q!!Q!&amp;!!9!"Q!'!!9!"A!)!!E!#A!,!!Q#!!"Y!!!.#!!!#1!!!!!!!!!.#Q!!!!!!!!!!!!!!!!!!#!!!!!A!!!!)!!!!#!!!!"!!!!U!!!!-!!!!!!!!!!!!!!%!$1!!!!!</Property>
+	<Item Name="Create.vi" Type="VI" URL="../Create.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(G!!!!$A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!9E"Q!"Y!!#U&lt;5W.B&lt;C"&amp;&lt;G&gt;J&lt;G5A5W.S;8"U;7ZH,GRW&lt;'FC$U.I97ZO:7QO&lt;(:D&lt;'&amp;T=Q!L5W.B&lt;C"&amp;&lt;G&gt;J&lt;G5A5W.S;8"U;7ZH,GRW&lt;'FC/E.I97ZO:7QO&lt;(:D&lt;'&amp;T=Q!71%!!!@````]!"!BD;'&amp;O&lt;G6M=Q!!"!!!!$Z!=!!?!!!K'V.D97YA27ZH;7ZF)&amp;.D=GFQ&gt;'FO:SZM&gt;GRJ9AR.&lt;W2F,GRW9WRB=X-!!!BN&lt;W2F)'^V&gt;!!!%E"4$7VP:'5A=W6U&gt;'FO:X-!&amp;E"1!!-!!!!"!!)):8*S&lt;X)A;7Y!!"F!!Q!3&lt;H6N9G6S)'^G)'.I97ZO:7RT!!!71&amp;-19WBB&lt;GZF&lt;#"T:82U;7ZH=Q!!0%"Q!"Y!!#I&lt;5W.B&lt;C"&amp;&lt;G&gt;J&lt;G5A5W.S;8"U;7ZH,GRW&lt;'FC$%VP:'5O&lt;(:D&lt;'&amp;T=Q!!"WVP:'5A;7Y!6!$Q!!Q!!Q!&amp;!!9!"Q!'!!9!"A!)!!E!#A!,!!Q#!!"Y!!!.#!!!#1!!!!!!!!#.#Q!!!!!!!!!!!!!!!!!!#!!!!!A!!!!)!!!!#!!!!*!!!!!!!1!.!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
-		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1342710272</Property>
-	</Item>
-	<Item Name="Create Mode Template.vit" Type="VI" URL="../Create Mode Template.vit">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(T!!!!$A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!9E"Q!"Y!!#U&lt;5W.B&lt;C"&amp;&lt;G&gt;J&lt;G5A5W.S;8"U;7ZH,GRW&lt;'FC$U.I97ZO:7QO&lt;(:D&lt;'&amp;T=Q!L5W.B&lt;C"&amp;&lt;G&gt;J&lt;G5A5W.S;8"U;7ZH,GRW&lt;'FC/E.I97ZO:7QO&lt;(:D&lt;'&amp;T=Q!71%!!!@````]!"!BD;'&amp;O&lt;G6M=Q!!"!!!!$Z!=!!?!!!K'V.D97YA27ZH;7ZF)&amp;.D=GFQ&gt;'FO:SZM&gt;GRJ9AR.&lt;W2F,GRW9WRB=X-!!!BN&lt;W2F)'^V&gt;!!!%E"4$7VP:'5A=W6U&gt;'FO:X-!&amp;E"1!!-!!!!"!!)):8*S&lt;X)A;7Y!!"F!!Q!3&lt;H6N9G6S)'^G)'.I97ZO:7RT!!!71&amp;-19WBB&lt;GZF&lt;#"T:82U;7ZH=Q!!0%"Q!"Y!!#I&lt;5W.B&lt;C"&amp;&lt;G&gt;J&lt;G5A5W.S;8"U;7ZH,GRW&lt;'FC$%VP:'5O&lt;(:D&lt;'&amp;T=Q!!"WVP:'5A;7Y!91$Q!!Q!!Q!&amp;!!9!"Q!'!!9!"A!)!!E!#A!,!!Q#!!"Y!!!.#!!!#1!!!!!!!!!.#Q!!!!!!!!!!!!!!!!!!#!!!!!A!!!!)!!!!#!!!!"!!!!U!!!!-!!!!!!!!!!!!!!%!$1!!!!!</Property>
-		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-		<Property Name="NI.ClassItem.Flags" Type="Int">1073741824</Property>
-		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
-		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1074278912</Property>
 	</Item>
 </LVClass>
