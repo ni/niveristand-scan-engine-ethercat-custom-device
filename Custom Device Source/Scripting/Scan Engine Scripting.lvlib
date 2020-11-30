@@ -62,6 +62,7 @@
 		</Item>
 		<Item Name="Utility" Type="Folder">
 			<Item Name="Create Module.vim" Type="VI" URL="../Modules/Utility/Create Module.vim"/>
+			<Item Name="Create Default Channel Array.vim" Type="VI" URL="../Modules/Utility/Create Default Channel Array.vim"/>
 		</Item>
 		<Item Name="Module.lvclass" Type="LVClass" URL="../Modules/Module/Module.lvclass"/>
 		<Item Name="NI 9225.lvclass" Type="LVClass" URL="../Modules/NI 9225/NI 9225.lvclass"/>
