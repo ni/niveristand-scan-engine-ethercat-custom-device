@@ -100,6 +100,8 @@
 		<Item Name="Set Channel Names and Default Values for Slot.vi" Type="VI" URL="../Utility/Set Channel Names and Default Values for Slot.vi"/>
 		<Item Name="Validate Reference by GUID.vi" Type="VI" URL="../Utility/Validate Reference by GUID.vi"/>
 		<Item Name="Validate Reference by Name.vi" Type="VI" URL="../Utility/Validate Reference by Name.vi"/>
+		<Item Name="Convert DI Module to Slot Configuration.vi" Type="VI" URL="../Utility/Convert DI Module to Slot Configuration.vi"/>
+		<Item Name="Convert to DI Module.vi" Type="VI" URL="../Utility/Convert to DI Module.vi"/>
 	</Item>
 	<Item Name="Create Counter Driven Output Module.vi" Type="VI" URL="../Modules/Create Counter Driven Output Module.vi"/>
 	<Item Name="Create Digital Output Module.vi" Type="VI" URL="../Modules/Create Digital Output Module.vi"/>
