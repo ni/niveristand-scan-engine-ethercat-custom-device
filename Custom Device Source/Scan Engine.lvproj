@@ -694,11 +694,7 @@
 			<Item Name="niecatviapi.dll" Type="Document" URL="niecatviapi.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="NI 9422 Test.lvclass" Type="LVClass" URL="../Tests/Unit Tests/Scripting API/Modules/Module Test Classes/NI 9422 Test/NI 9422 Test.lvclass"/>
-			<Item Name="Create Mode.vi" Type="VI" URL="../Scripting/Modules/Mode Classes/Create Mode.vi"/>
-			<Item Name="Create CDO Mode.vi" Type="VI" URL="../Scripting/Modules/Mode Classes/Counter Driven Output Mode/Create CDO Mode.vi"/>
-			<Item Name="Create PWM Mode.vi" Type="VI" URL="../Scripting/Modules/Mode Classes/PWM Mode/Create PWM Mode.vi"/>
-			<Item Name="Create AI Mode.vi" Type="VI" URL="../Scripting/Modules/Mode Classes/Analog Input Mode/Create AI Mode.vi"/>
+			<Item Name="Create Default Channel Array.vim" Type="VI" URL="../Scripting/Modules/Utility/Create Default Channel Array.vim"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Configuration Release" Type="Source Distribution">
@@ -1618,10 +1614,7 @@
 			<Item Name="niecatviapi.dll" Type="Document" URL="niecatviapi.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Create Mode.vi" Type="VI" URL="../Scripting/Modules/Mode Classes/Create Mode.vi"/>
-			<Item Name="Create CDO Mode.vi" Type="VI" URL="../Scripting/Modules/Mode Classes/Counter Driven Output Mode/Create CDO Mode.vi"/>
-			<Item Name="Create PWM Mode.vi" Type="VI" URL="../Scripting/Modules/Mode Classes/PWM Mode/Create PWM Mode.vi"/>
-			<Item Name="Create AI Mode.vi" Type="VI" URL="../Scripting/Modules/Mode Classes/Analog Input Mode/Create AI Mode.vi"/>
+			<Item Name="Create Default Channel Array.vim" Type="VI" URL="../Scripting/Modules/Utility/Create Default Channel Array.vim"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Engine Release" Type="Source Distribution">
@@ -2155,10 +2148,7 @@
 			<Item Name="niecatviapi.dll" Type="Document" URL="niecatviapi.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Create Mode.vi" Type="VI" URL="../Scripting/Modules/Mode Classes/Create Mode.vi"/>
-			<Item Name="Create CDO Mode.vi" Type="VI" URL="../Scripting/Modules/Mode Classes/Counter Driven Output Mode/Create CDO Mode.vi"/>
-			<Item Name="Create PWM Mode.vi" Type="VI" URL="../Scripting/Modules/Mode Classes/PWM Mode/Create PWM Mode.vi"/>
-			<Item Name="Create AI Mode.vi" Type="VI" URL="../Scripting/Modules/Mode Classes/Analog Input Mode/Create AI Mode.vi"/>
+			<Item Name="Create Default Channel Array.vim" Type="VI" URL="../Scripting/Modules/Utility/Create Default Channel Array.vim"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Engine Release" Type="Source Distribution">
@@ -2674,10 +2664,7 @@
 			<Item Name="niecatviapi.dll" Type="Document" URL="niecatviapi.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Create Mode.vi" Type="VI" URL="../Scripting/Modules/Mode Classes/Create Mode.vi"/>
-			<Item Name="Create CDO Mode.vi" Type="VI" URL="../Scripting/Modules/Mode Classes/Counter Driven Output Mode/Create CDO Mode.vi"/>
-			<Item Name="Create PWM Mode.vi" Type="VI" URL="../Scripting/Modules/Mode Classes/PWM Mode/Create PWM Mode.vi"/>
-			<Item Name="Create AI Mode.vi" Type="VI" URL="../Scripting/Modules/Mode Classes/Analog Input Mode/Create AI Mode.vi"/>
+			<Item Name="Create Default Channel Array.vim" Type="VI" URL="../Scripting/Modules/Utility/Create Default Channel Array.vim"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Engine Release" Type="Source Distribution">
