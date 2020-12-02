@@ -727,11 +727,6 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-			<Item Name="Create Mode.vi" Type="VI" URL="../Scripting/Modules/Mode Classes/Create Mode.vi"/>
-			<Item Name="Create CDO Mode.vi" Type="VI" URL="../Scripting/Modules/Mode Classes/Counter Driven Output Mode/Create CDO Mode.vi"/>
-			<Item Name="Create PWM Mode.vi" Type="VI" URL="../Scripting/Modules/Mode Classes/PWM Mode/Create PWM Mode.vi"/>
-			<Item Name="Create DO Mode.vi" Type="VI" URL="../Scripting/Modules/Mode Classes/Digital Output Mode/Create DO Mode.vi"/>
-			<Item Name="Create AI Mode.vi" Type="VI" URL="../Scripting/Modules/Mode Classes/Analog Input Mode/Create AI Mode.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Configuration Release" Type="Source Distribution">
@@ -1651,11 +1646,6 @@
 			<Item Name="niecatviapi.dll" Type="Document" URL="niecatviapi.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Create Mode.vi" Type="VI" URL="../Scripting/Modules/Mode Classes/Create Mode.vi"/>
-			<Item Name="Create CDO Mode.vi" Type="VI" URL="../Scripting/Modules/Mode Classes/Counter Driven Output Mode/Create CDO Mode.vi"/>
-			<Item Name="Create PWM Mode.vi" Type="VI" URL="../Scripting/Modules/Mode Classes/PWM Mode/Create PWM Mode.vi"/>
-			<Item Name="Create DO Mode.vi" Type="VI" URL="../Scripting/Modules/Mode Classes/Digital Output Mode/Create DO Mode.vi"/>
-			<Item Name="Create AI Mode.vi" Type="VI" URL="../Scripting/Modules/Mode Classes/Analog Input Mode/Create AI Mode.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Engine Release" Type="Source Distribution">
@@ -2189,11 +2179,6 @@
 			<Item Name="niecatviapi.dll" Type="Document" URL="niecatviapi.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Create Mode.vi" Type="VI" URL="../Scripting/Modules/Mode Classes/Create Mode.vi"/>
-			<Item Name="Create CDO Mode.vi" Type="VI" URL="../Scripting/Modules/Mode Classes/Counter Driven Output Mode/Create CDO Mode.vi"/>
-			<Item Name="Create PWM Mode.vi" Type="VI" URL="../Scripting/Modules/Mode Classes/PWM Mode/Create PWM Mode.vi"/>
-			<Item Name="Create DO Mode.vi" Type="VI" URL="../Scripting/Modules/Mode Classes/Digital Output Mode/Create DO Mode.vi"/>
-			<Item Name="Create AI Mode.vi" Type="VI" URL="../Scripting/Modules/Mode Classes/Analog Input Mode/Create AI Mode.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Engine Release" Type="Source Distribution">
@@ -2709,11 +2694,6 @@
 			<Item Name="niecatviapi.dll" Type="Document" URL="niecatviapi.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Create Mode.vi" Type="VI" URL="../Scripting/Modules/Mode Classes/Create Mode.vi"/>
-			<Item Name="Create CDO Mode.vi" Type="VI" URL="../Scripting/Modules/Mode Classes/Counter Driven Output Mode/Create CDO Mode.vi"/>
-			<Item Name="Create PWM Mode.vi" Type="VI" URL="../Scripting/Modules/Mode Classes/PWM Mode/Create PWM Mode.vi"/>
-			<Item Name="Create DO Mode.vi" Type="VI" URL="../Scripting/Modules/Mode Classes/Digital Output Mode/Create DO Mode.vi"/>
-			<Item Name="Create AI Mode.vi" Type="VI" URL="../Scripting/Modules/Mode Classes/Analog Input Mode/Create AI Mode.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Engine Release" Type="Source Distribution">
