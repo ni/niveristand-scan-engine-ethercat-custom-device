@@ -51,6 +51,7 @@
 				<Item Name="counter driven output channel settings.ctl" Type="VI" URL="../Modules/Mode Classes/Controls/counter driven output channel settings.ctl"/>
 				<Item Name="digital channel settings.ctl" Type="VI" URL="../Modules/Mode Classes/Controls/digital channel settings.ctl"/>
 				<Item Name="pwm channel settings.ctl" Type="VI" URL="../Modules/Mode Classes/Controls/pwm channel settings.ctl"/>
+				<Item Name="counter pwm input channel settings.ctl" Type="VI" URL="../Modules/Mode Classes/Controls/counter pwm input channel settings.ctl"/>
 			</Item>
 			<Item Name="Analog Input Mode.lvclass" Type="LVClass" URL="../Modules/Mode Classes/Analog Input Mode/Analog Input Vrms Mode/Analog Input Mode.lvclass"/>
 			<Item Name="Analog Input Vrms Mode.lvclass" Type="LVClass" URL="../Modules/Mode Classes/Analog Input Vrms Mode/Analog Input Vrms Mode.lvclass"/>
@@ -59,6 +60,7 @@
 			<Item Name="Digital Output Mode.lvclass" Type="LVClass" URL="../Modules/Mode Classes/Digital Output Mode/Digital Output Mode.lvclass"/>
 			<Item Name="Mode.lvclass" Type="LVClass" URL="../Modules/Mode Classes/Mode/Mode.lvclass"/>
 			<Item Name="PWM Mode.lvclass" Type="LVClass" URL="../Modules/Mode Classes/PWM Mode/PWM Mode.lvclass"/>
+			<Item Name="Counter PWM Input Mode.lvclass" Type="LVClass" URL="../Modules/Mode Classes/Counter PWM Input Mode/Counter PWM Input Mode.lvclass"/>
 		</Item>
 		<Item Name="Utility" Type="Folder">
 			<Item Name="Create Module.vim" Type="VI" URL="../Modules/Utility/Create Module.vim"/>
