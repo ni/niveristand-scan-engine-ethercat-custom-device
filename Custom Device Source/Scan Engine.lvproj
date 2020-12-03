@@ -728,6 +728,8 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
+			<Item Name="SD DIO Mode.ctl" Type="VI" URL="../Scripting/Modules/Mode Classes/Controls/SD DIO Mode.ctl"/>
+			<Item Name="SD Measurement Mode.ctl" Type="VI" URL="../Scripting/Modules/Mode Classes/Controls/SD Measurement Mode.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Configuration Release" Type="Source Distribution">
@@ -1648,6 +1650,10 @@
 			<Item Name="niecatviapi.dll" Type="Document" URL="niecatviapi.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Convert to CPI Module.vi" Type="VI" URL="../Scripting/Utility/Convert to CPI Module.vi"/>
+			<Item Name="Convert CPI Module to Slot Configuration.vi" Type="VI" URL="../Scripting/Utility/Convert CPI Module to Slot Configuration.vi"/>
+			<Item Name="SD DIO Mode.ctl" Type="VI" URL="../Scripting/Modules/Mode Classes/Controls/SD DIO Mode.ctl"/>
+			<Item Name="SD Measurement Mode.ctl" Type="VI" URL="../Scripting/Modules/Mode Classes/Controls/SD Measurement Mode.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Engine Release" Type="Source Distribution">
@@ -2182,6 +2188,10 @@
 			<Item Name="niecatviapi.dll" Type="Document" URL="niecatviapi.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Convert to CPI Module.vi" Type="VI" URL="../Scripting/Utility/Convert to CPI Module.vi"/>
+			<Item Name="Convert CPI Module to Slot Configuration.vi" Type="VI" URL="../Scripting/Utility/Convert CPI Module to Slot Configuration.vi"/>
+			<Item Name="SD DIO Mode.ctl" Type="VI" URL="../Scripting/Modules/Mode Classes/Controls/SD DIO Mode.ctl"/>
+			<Item Name="SD Measurement Mode.ctl" Type="VI" URL="../Scripting/Modules/Mode Classes/Controls/SD Measurement Mode.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Engine Release" Type="Source Distribution">
@@ -2698,6 +2708,10 @@
 			<Item Name="niecatviapi.dll" Type="Document" URL="niecatviapi.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Convert to CPI Module.vi" Type="VI" URL="../Scripting/Utility/Convert to CPI Module.vi"/>
+			<Item Name="Convert CPI Module to Slot Configuration.vi" Type="VI" URL="../Scripting/Utility/Convert CPI Module to Slot Configuration.vi"/>
+			<Item Name="SD DIO Mode.ctl" Type="VI" URL="../Scripting/Modules/Mode Classes/Controls/SD DIO Mode.ctl"/>
+			<Item Name="SD Measurement Mode.ctl" Type="VI" URL="../Scripting/Modules/Mode Classes/Controls/SD Measurement Mode.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Engine Release" Type="Source Distribution">
