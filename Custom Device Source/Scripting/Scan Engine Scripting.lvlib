@@ -73,6 +73,7 @@
 		<Item Name="NI 9475.lvclass" Type="LVClass" URL="../Modules/NI 9475/NI 9475.lvclass"/>
 		<Item Name="NI 9482.lvclass" Type="LVClass" URL="../Modules/NI 9482/NI 9482.lvclass"/>
 		<Item Name="NI 9423.lvclass" Type="LVClass" URL="../Modules/NI 9423/NI 9423.lvclass"/>
+		<Item Name="NI 9437.lvclass" Type="LVClass" URL="../Modules/NI 9437/NI 9437.lvclass"/>
 	</Item>
 	<Item Name="Slots" Type="Folder">
 		<Item Name="Get Slot.vi" Type="VI" URL="../Slots/Get Slot.vi"/>
