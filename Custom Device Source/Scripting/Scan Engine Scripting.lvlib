@@ -60,7 +60,7 @@
 			<Item Name="Digital Output Mode.lvclass" Type="LVClass" URL="../Modules/Mode Classes/Digital Output Mode/Digital Output Mode.lvclass"/>
 			<Item Name="Mode.lvclass" Type="LVClass" URL="../Modules/Mode Classes/Mode/Mode.lvclass"/>
 			<Item Name="PWM Mode.lvclass" Type="LVClass" URL="../Modules/Mode Classes/PWM Mode/PWM Mode.lvclass"/>
-			<Item Name="Counter PWM Input Mode.lvclass" Type="LVClass" URL="../Modules/Mode Classes/Counter PWM Input Mode/Counter PWM Input Mode.lvclass"/>
+			<Item Name="Counter Input PWM Mode.lvclass" Type="LVClass" URL="../Modules/Mode Classes/Counter Input PWM Mode/Counter Input PWM Mode.lvclass"/>
 		</Item>
 		<Item Name="Utility" Type="Folder">
 			<Item Name="Create Module.vim" Type="VI" URL="../Modules/Utility/Create Module.vim"/>
@@ -106,8 +106,8 @@
 		<Item Name="Validate Reference by Name.vi" Type="VI" URL="../Utility/Validate Reference by Name.vi"/>
 		<Item Name="Convert DI Module to Slot Configuration.vi" Type="VI" URL="../Utility/Convert DI Module to Slot Configuration.vi"/>
 		<Item Name="Convert to DI Module.vi" Type="VI" URL="../Utility/Convert to DI Module.vi"/>
-		<Item Name="Convert CPI Module to Slot Configuration.vi" Type="VI" URL="../Utility/Convert CPI Module to Slot Configuration.vi"/>
-		<Item Name="Convert to CPI Module.vi" Type="VI" URL="../Utility/Convert to CPI Module.vi"/>
+		<Item Name="Convert CI PWM Module to Slot Configuration.vi" Type="VI" URL="../Utility/Convert CI PWM Module to Slot Configuration.vi"/>
+		<Item Name="Convert to CI PWM Module.vi" Type="VI" URL="../Utility/Convert to CI PWM Module.vi"/>
 	</Item>
 	<Item Name="Create Counter Driven Output Module.vi" Type="VI" URL="../Modules/Create Counter Driven Output Module.vi"/>
 	<Item Name="Create Digital Output Module.vi" Type="VI" URL="../Modules/Create Digital Output Module.vi"/>
@@ -115,6 +115,6 @@
 	<Item Name="Read Digital Output Module.vi" Type="VI" URL="../Modules/Read Digital Output Module.vi"/>
 	<Item Name="Create Digital Input Module.vi" Type="VI" URL="../Modules/Create Digital Input Module.vi"/>
 	<Item Name="Read Digital Input Module.vi" Type="VI" URL="../Modules/Read Digital Input Module.vi"/>
-	<Item Name="Read Counter PWM Input Module.vi" Type="VI" URL="../Modules/Read Counter PWM Input Module.vi"/>
-	<Item Name="Create Counter PWM Input Module.vi" Type="VI" URL="../Modules/Create Counter PWM Input Module.vi"/>
+	<Item Name="Read Counter Input PWM Module.vi" Type="VI" URL="../Modules/Read Counter Input PWM Module.vi"/>
+	<Item Name="Create Counter Input PWM Module.vi" Type="VI" URL="../Modules/Create Counter Input PWM Module.vi"/>
 </Library>
