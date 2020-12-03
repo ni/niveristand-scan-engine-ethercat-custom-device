@@ -176,13 +176,13 @@
 			<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
 		</Item>
 		<Item Name="Read Counter Input PWM Module.vi" Type="VI" URL="../Read Counter Input PWM Module.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*T!!!!$A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!!Z!-0````]%&lt;G&amp;N:1!!%U!+!!VE:7:B&gt;7RU)(:B&lt;(6F!*)!]1!!!!!!!!!$'V.D97YA27ZH;7ZF)&amp;.D=GFQ&gt;'FO:SZM&gt;GRJ9BF16UUA37ZQ&gt;81A1WBB&lt;GZF&lt;#ZM&gt;G.M98.T&amp;%VF98.V=G6N:7ZU)&amp;2Z='5O9X2M!$^!&amp;A!$#EBJ:WAA5(6M=W5*4'^X)&amp;"V&lt;(.F#UVP=X1A5G6D:7ZU!!!1&lt;76B=X6S:7VF&lt;H1A&gt;(FQ:1!!&lt;1$R!!!!!!!!!!)&lt;5W.B&lt;C"&amp;&lt;G&gt;J&lt;G5A5W.S;8"U;7ZH,GRW&lt;'FC*G.P&gt;7ZU:8)A=(&gt;N)'FO=(6U)'.I97ZO:7QA=W6U&gt;'FO:X-O9X2M!#*!5!!$!!5!"A!(%'.I97ZO:7QA=W6U&gt;'FO:X-!!"Z!1!!"`````Q!)%'.I97ZO:7QA=W6U&gt;'FO:X-!!%*!=!!?!!!M'V.D97YA27ZH;7ZF)&amp;.D=GFQ&gt;'FO:SZM&gt;GRJ9AZ.&lt;W2V&lt;'5O&lt;(:D&lt;'&amp;T=Q!!#GVP:(6M:3"P&gt;81!!":!5!!$!!!!!1!##'6S=G^S)'FO!!"!1(!!(A!!,"N49W&amp;O)%6O:WFO:3"49X*J=(2J&lt;G=O&lt;(:M;7)/47^E&gt;7RF,GRW9WRB=X-!!!FN&lt;W2V&lt;'5A;7Y!6!$Q!!Q!!Q!%!!E!#A!%!!1!"!!%!!M!"!!%!!Q$!!"Y!!!.#!!!!!!!!!E!!!#.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!*)!!!!!!1!.!!!!!!</Property>
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*T!!!!$A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!!Z!-0````]%&lt;G&amp;N:1!!%U!+!!VE:7:B&gt;7RU)(:B&lt;(6F!*)!]1!!!!!!!!!$'V.D97YA27ZH;7ZF)&amp;.D=GFQ&gt;'FO:SZM&gt;GRJ9BF16UUA37ZQ&gt;81A1WBB&lt;GZF&lt;#ZM&gt;G.M98.T&amp;%VF98.V=G6N:7ZU)&amp;2Z='5O9X2M!$^!&amp;A!$#EBJ:WAA5(6M=W5*4'^X)&amp;"V&lt;(.F#UVP=X1A5G6D:7ZU!!!1&lt;76B=X6S:7VF&lt;H1A&gt;(FQ:1!!&lt;1$R!!!!!!!!!!)&lt;5W.B&lt;C"&amp;&lt;G&gt;J&lt;G5A5W.S;8"U;7ZH,GRW&lt;'FC*G.P&gt;7ZU:8)A;7ZQ&gt;81A=(&gt;N)'.I97ZO:7QA=W6U&gt;'FO:X-O9X2M!#*!5!!$!!5!"A!(%'.I97ZO:7QA=W6U&gt;'FO:X-!!"Z!1!!"`````Q!)%'.I97ZO:7QA=W6U&gt;'FO:X-!!%*!=!!?!!!M'V.D97YA27ZH;7ZF)&amp;.D=GFQ&gt;'FO:SZM&gt;GRJ9AZ.&lt;W2V&lt;'5O&lt;(:D&lt;'&amp;T=Q!!#GVP:(6M:3"P&gt;81!!":!5!!$!!!!!1!##'6S=G^S)'FO!!"!1(!!(A!!,"N49W&amp;O)%6O:WFO:3"49X*J=(2J&lt;G=O&lt;(:M;7)/47^E&gt;7RF,GRW9WRB=X-!!!FN&lt;W2V&lt;'5A;7Y!6!$Q!!Q!!Q!%!!E!#A!%!!1!"!!%!!M!"!!%!!Q$!!"Y!!!.#!!!!!!!!!E!!!#.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!*)!!!!!!1!.!!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1342972432</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1350574608</Property>
 		</Item>
 	</Item>
 	<Item Name="Check Channel Array Size.vi" Type="VI" URL="../Check Channel Array Size.vi">
