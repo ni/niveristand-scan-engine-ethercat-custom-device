@@ -115,5 +115,5 @@
 	<Item Name="Create Digital Input Module.vi" Type="VI" URL="../Modules/Create Digital Input Module.vi"/>
 	<Item Name="Read Digital Input Module.vi" Type="VI" URL="../Modules/Read Digital Input Module.vi"/>
 	<Item Name="Read Counter Input PWM Module.vi" Type="VI" URL="../Modules/Read Counter Input PWM Module.vi"/>
-	<Item Name="Create Counter PWM Input Module.vi" Type="VI" URL="../Modules/Create Counter PWM Input Module.vi"/>
+	<Item Name="Create Counter Input PWM Module.vi" Type="VI" URL="../Modules/Create Counter Input PWM Module.vi"/>
 </Library>
