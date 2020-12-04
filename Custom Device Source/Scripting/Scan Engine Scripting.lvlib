@@ -59,16 +59,14 @@
 			<Item Name="Digital Output Mode.lvclass" Type="LVClass" URL="../Modules/Mode Classes/Digital Output Mode/Digital Output Mode.lvclass"/>
 			<Item Name="Mode.lvclass" Type="LVClass" URL="../Modules/Mode Classes/Mode/Mode.lvclass"/>
 			<Item Name="PWM Mode.lvclass" Type="LVClass" URL="../Modules/Mode Classes/PWM Mode/PWM Mode.lvclass"/>
-			<Item Name="Analog Input with Conversion Time Mode.lvclass" Type="LVClass" URL="../Modules/Mode Classes/Analog Inputs with Conversion Time Mode/Analog Input with Conversion Time Mode.lvclass"/>
 		</Item>
 		<Item Name="Utility" Type="Folder">
 			<Item Name="Create Module.vim" Type="VI" URL="../Modules/Utility/Create Module.vim"/>
 			<Item Name="Create Default Channel Array.vim" Type="VI" URL="../Modules/Utility/Create Default Channel Array.vim"/>
 		</Item>
 		<Item Name="Module.lvclass" Type="LVClass" URL="../Modules/Module/Module.lvclass"/>
-		<Item Name="NI 9224.lvclass" Type="LVClass" URL="../Modules/NI 9224/NI 9224.lvclass"/>
 		<Item Name="NI 9225.lvclass" Type="LVClass" URL="../Modules/NI 9225/NI 9225.lvclass"/>
-		<Item Name="NI 9228.lvclass" Type="LVClass" URL="../Modules/NI 9228/NI 9228.lvclass"/>
+		<Item Name="NI 9422.lvclass" Type="LVClass" URL="../Modules/NI 9422/NI 9422.lvclass"/>
 		<Item Name="NI 9474.lvclass" Type="LVClass" URL="../Modules/NI 9474/NI 9474.lvclass"/>
 		<Item Name="NI 9475.lvclass" Type="LVClass" URL="../Modules/NI 9475/NI 9475.lvclass"/>
 		<Item Name="NI 9482.lvclass" Type="LVClass" URL="../Modules/NI 9482/NI 9482.lvclass"/>
@@ -79,7 +77,6 @@
 	</Item>
 	<Item Name="Utility" Type="Folder">
 		<Item Name="Convert AI Module to Slot Configuration.vi" Type="VI" URL="../Utility/Convert AI Module to Slot Configuration.vi"/>
-		<Item Name="Convert AI with Conversion Time Module to Slot Configuration.vi" Type="VI" URL="../Utility/Convert AI with Conversion Time Module to Slot Configuration.vi"/>
 		<Item Name="Convert Analog to Channel Settings.vi" Type="VI" URL="../Utility/Convert Analog to Channel Settings.vi"/>
 		<Item Name="Convert CDO Module to Slot Configuration.vi" Type="VI" URL="../Utility/Convert CDO Module to Slot Configuration.vi"/>
 		<Item Name="Convert CDO to Channel Settings.vi" Type="VI" URL="../Utility/Convert CDO to Channel Settings.vi"/>
@@ -94,7 +91,6 @@
 		<Item Name="Convert PWM to Channel Settings.vi" Type="VI" URL="../Utility/Convert PWM to Channel Settings.vi"/>
 		<Item Name="Convert to AI Module.vi" Type="VI" URL="../Utility/Convert to AI Module.vi"/>
 		<Item Name="Convert to AI Vrms Module.vi" Type="VI" URL="../Utility/Convert to AI Vrms Module.vi"/>
-		<Item Name="Convert to AI with Conversion Time Module.vi" Type="VI" URL="../Utility/Convert to AI with Conversion Time Module.vi"/>
 		<Item Name="Convert to CDO Module.vi" Type="VI" URL="../Utility/Convert to CDO Module.vi"/>
 		<Item Name="Convert to DO Module.vi" Type="VI" URL="../Utility/Convert to DO Module.vi"/>
 		<Item Name="Convert to PWM Module.vi" Type="VI" URL="../Utility/Convert to PWM Module.vi"/>
@@ -104,9 +100,13 @@
 		<Item Name="Set Channel Names and Default Values for Slot.vi" Type="VI" URL="../Utility/Set Channel Names and Default Values for Slot.vi"/>
 		<Item Name="Validate Reference by GUID.vi" Type="VI" URL="../Utility/Validate Reference by GUID.vi"/>
 		<Item Name="Validate Reference by Name.vi" Type="VI" URL="../Utility/Validate Reference by Name.vi"/>
+		<Item Name="Convert DI Module to Slot Configuration.vi" Type="VI" URL="../Utility/Convert DI Module to Slot Configuration.vi"/>
+		<Item Name="Convert to DI Module.vi" Type="VI" URL="../Utility/Convert to DI Module.vi"/>
 	</Item>
 	<Item Name="Create Counter Driven Output Module.vi" Type="VI" URL="../Modules/Create Counter Driven Output Module.vi"/>
 	<Item Name="Create Digital Output Module.vi" Type="VI" URL="../Modules/Create Digital Output Module.vi"/>
 	<Item Name="Read Counter Driven Output Module.vi" Type="VI" URL="../Modules/Read Counter Driven Output Module.vi"/>
 	<Item Name="Read Digital Output Module.vi" Type="VI" URL="../Modules/Read Digital Output Module.vi"/>
+	<Item Name="Create Digital Input Module.vi" Type="VI" URL="../Modules/Create Digital Input Module.vi"/>
+	<Item Name="Read Digital Input Module.vi" Type="VI" URL="../Modules/Read Digital Input Module.vi"/>
 </Library>
