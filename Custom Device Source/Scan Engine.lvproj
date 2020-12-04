@@ -728,6 +728,8 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
+			<Item Name="SD DIO Mode.ctl" Type="VI" URL="../Scripting/Modules/Mode Classes/Controls/SD DIO Mode.ctl"/>
+			<Item Name="SD Measurement Mode.ctl" Type="VI" URL="../Scripting/Modules/Mode Classes/Controls/SD Measurement Mode.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Configuration Release" Type="Source Distribution">
