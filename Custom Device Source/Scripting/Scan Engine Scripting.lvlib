@@ -52,6 +52,8 @@
 				<Item Name="digital channel settings.ctl" Type="VI" URL="../Modules/Mode Classes/Controls/digital channel settings.ctl"/>
 				<Item Name="pwm channel settings.ctl" Type="VI" URL="../Modules/Mode Classes/Controls/pwm channel settings.ctl"/>
 				<Item Name="counter input pwm channel settings.ctl" Type="VI" URL="../Modules/Mode Classes/Controls/counter input pwm channel settings.ctl"/>
+				<Item Name="SD DIO Mode.ctl" Type="VI" URL="../Modules/Mode Classes/Controls/SD DIO Mode.ctl"/>
+				<Item Name="SD Measurement Mode.ctl" Type="VI" URL="../Modules/Mode Classes/Controls/SD Measurement Mode.ctl"/>
 			</Item>
 			<Item Name="Analog Input Mode.lvclass" Type="LVClass" URL="../Modules/Mode Classes/Analog Input Mode/Analog Input Vrms Mode/Analog Input Mode.lvclass"/>
 			<Item Name="Analog Input Vrms Mode.lvclass" Type="LVClass" URL="../Modules/Mode Classes/Analog Input Vrms Mode/Analog Input Vrms Mode.lvclass"/>
