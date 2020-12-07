@@ -71,11 +71,11 @@
 		<Item Name="Module.lvclass" Type="LVClass" URL="../Modules/Module/Module.lvclass"/>
 		<Item Name="NI 9225.lvclass" Type="LVClass" URL="../Modules/NI 9225/NI 9225.lvclass"/>
 		<Item Name="NI 9422.lvclass" Type="LVClass" URL="../Modules/NI 9422/NI 9422.lvclass"/>
+		<Item Name="NI 9423.lvclass" Type="LVClass" URL="../Modules/NI 9423/NI 9423.lvclass"/>
+		<Item Name="NI 9437.lvclass" Type="LVClass" URL="../Modules/NI 9437/NI 9437.lvclass"/>
 		<Item Name="NI 9474.lvclass" Type="LVClass" URL="../Modules/NI 9474/NI 9474.lvclass"/>
 		<Item Name="NI 9475.lvclass" Type="LVClass" URL="../Modules/NI 9475/NI 9475.lvclass"/>
 		<Item Name="NI 9482.lvclass" Type="LVClass" URL="../Modules/NI 9482/NI 9482.lvclass"/>
-		<Item Name="NI 9423.lvclass" Type="LVClass" URL="../Modules/NI 9423/NI 9423.lvclass"/>
-		<Item Name="NI 9437.lvclass" Type="LVClass" URL="../Modules/NI 9437/NI 9437.lvclass"/>
 	</Item>
 	<Item Name="Slots" Type="Folder">
 		<Item Name="Get Slot.vi" Type="VI" URL="../Slots/Get Slot.vi"/>
