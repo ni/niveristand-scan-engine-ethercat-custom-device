@@ -54,6 +54,7 @@
 			</Item>
 			<Item Name="Analog Input Mode.lvclass" Type="LVClass" URL="../Modules/Mode Classes/Analog Input Mode/Analog Input Vrms Mode/Analog Input Mode.lvclass"/>
 			<Item Name="Analog Input Vrms Mode.lvclass" Type="LVClass" URL="../Modules/Mode Classes/Analog Input Vrms Mode/Analog Input Vrms Mode.lvclass"/>
+			<Item Name="Analog Input with Conversion Time Mode.lvclass" Type="LVClass" URL="../Modules/Mode Classes/Analog Inputs with Conversion Time Mode/Analog Input with Conversion Time Mode.lvclass"/>
 			<Item Name="Counter Driven Output Mode.lvclass" Type="LVClass" URL="../Modules/Mode Classes/Counter Driven Output Mode/Counter Driven Output Mode.lvclass"/>
 			<Item Name="Digital Input Mode.lvclass" Type="LVClass" URL="../Modules/Mode Classes/Digital Input Mode/Digital Input Mode.lvclass"/>
 			<Item Name="Digital Output Mode.lvclass" Type="LVClass" URL="../Modules/Mode Classes/Digital Output Mode/Digital Output Mode.lvclass"/>
@@ -65,7 +66,9 @@
 			<Item Name="Create Default Channel Array.vim" Type="VI" URL="../Modules/Utility/Create Default Channel Array.vim"/>
 		</Item>
 		<Item Name="Module.lvclass" Type="LVClass" URL="../Modules/Module/Module.lvclass"/>
+		<Item Name="NI 9224.lvclass" Type="LVClass" URL="../Modules/NI 9224/NI 9224.lvclass"/>
 		<Item Name="NI 9225.lvclass" Type="LVClass" URL="../Modules/NI 9225/NI 9225.lvclass"/>
+		<Item Name="NI 9228.lvclass" Type="LVClass" URL="../Modules/NI 9228/NI 9228.lvclass"/>
 		<Item Name="NI 9422.lvclass" Type="LVClass" URL="../Modules/NI 9422/NI 9422.lvclass"/>
 		<Item Name="NI 9474.lvclass" Type="LVClass" URL="../Modules/NI 9474/NI 9474.lvclass"/>
 		<Item Name="NI 9475.lvclass" Type="LVClass" URL="../Modules/NI 9475/NI 9475.lvclass"/>
