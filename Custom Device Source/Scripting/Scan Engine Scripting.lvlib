@@ -86,6 +86,7 @@
 	</Item>
 	<Item Name="Utility" Type="Folder">
 		<Item Name="Convert AI Module to Slot Configuration.vi" Type="VI" URL="../Utility/Convert AI Module to Slot Configuration.vi"/>
+		<Item Name="Convert AI with Conversion Time Module to Slot Configuration.vi" Type="VI" URL="../Utility/Convert AI with Conversion Time Module to Slot Configuration.vi"/>
 		<Item Name="Convert Analog to Channel Settings.vi" Type="VI" URL="../Utility/Convert Analog to Channel Settings.vi"/>
 		<Item Name="Convert CDO Module to Slot Configuration.vi" Type="VI" URL="../Utility/Convert CDO Module to Slot Configuration.vi"/>
 		<Item Name="Convert CDO to Channel Settings.vi" Type="VI" URL="../Utility/Convert CDO to Channel Settings.vi"/>
@@ -113,6 +114,7 @@
 		<Item Name="Convert to DI Module.vi" Type="VI" URL="../Utility/Convert to DI Module.vi"/>
 		<Item Name="Convert CI PWM Module to Slot Configuration.vi" Type="VI" URL="../Utility/Convert CI PWM Module to Slot Configuration.vi"/>
 		<Item Name="Convert to CI PWM Module.vi" Type="VI" URL="../Utility/Convert to CI PWM Module.vi"/>
+		<Item Name="Convert to AI with Conversion Time Module.vi" Type="VI" URL="../Utility/Convert to AI with Conversion Time Module.vi"/>
 	</Item>
 	<Item Name="Create Counter Driven Output Module.vi" Type="VI" URL="../Modules/Create Counter Driven Output Module.vi"/>
 	<Item Name="Create Digital Output Module.vi" Type="VI" URL="../Modules/Create Digital Output Module.vi"/>
