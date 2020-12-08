@@ -31,6 +31,7 @@
 		<Item Name="Channels" Type="Folder">
 			<Item Name="Analog" Type="Folder">
 				<Item Name="AI Channel.lvclass" Type="LVClass" URL="../Modules/Channel Classes/AI Channel/AI Channel.lvclass"/>
+				<Item Name="AI Arms Channel.lvclass" Type="LVClass" URL="../Modules/Channel Classes/AI Arms Channel/AI Arms Channel.lvclass"/>
 				<Item Name="AI Vrms Channel.lvclass" Type="LVClass" URL="../Modules/Channel Classes/AI Vrms Channel/AI Vrms Channel.lvclass"/>
 				<Item Name="Analog Channel.lvclass" Type="LVClass" URL="../Modules/Channel Classes/Analog Channel/Analog Channel.lvclass"/>
 			</Item>
@@ -56,6 +57,7 @@
 				<Item Name="SD Measurement Mode.ctl" Type="VI" URL="../Modules/Mode Classes/Controls/SD Measurement Mode.ctl"/>
 			</Item>
 			<Item Name="Analog Input Mode.lvclass" Type="LVClass" URL="../Modules/Mode Classes/Analog Input Mode/Analog Input Vrms Mode/Analog Input Mode.lvclass"/>
+			<Item Name="Analog Input Arms Mode.lvclass" Type="LVClass" URL="../Modules/Mode Classes/Analog Input Arms Mode/Analog Input Arms Mode.lvclass"/>
 			<Item Name="Analog Input Vrms Mode.lvclass" Type="LVClass" URL="../Modules/Mode Classes/Analog Input Vrms Mode/Analog Input Vrms Mode.lvclass"/>
 			<Item Name="Counter Driven Output Mode.lvclass" Type="LVClass" URL="../Modules/Mode Classes/Counter Driven Output Mode/Counter Driven Output Mode.lvclass"/>
 			<Item Name="Digital Input Mode.lvclass" Type="LVClass" URL="../Modules/Mode Classes/Digital Input Mode/Digital Input Mode.lvclass"/>
