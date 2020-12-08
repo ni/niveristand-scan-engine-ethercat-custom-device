@@ -70,6 +70,7 @@
 		</Item>
 		<Item Name="Module.lvclass" Type="LVClass" URL="../Modules/Module/Module.lvclass"/>
 		<Item Name="NI 9225.lvclass" Type="LVClass" URL="../Modules/NI 9225/NI 9225.lvclass"/>
+		<Item Name="NI 9227.lvclass" Type="LVClass" URL="../Modules/NI 9227/NI 9227.lvclass"/>
 		<Item Name="NI 9422.lvclass" Type="LVClass" URL="../Modules/NI 9422/NI 9422.lvclass"/>
 		<Item Name="NI 9423.lvclass" Type="LVClass" URL="../Modules/NI 9423/NI 9423.lvclass"/>
 		<Item Name="NI 9437.lvclass" Type="LVClass" URL="../Modules/NI 9437/NI 9437.lvclass"/>
