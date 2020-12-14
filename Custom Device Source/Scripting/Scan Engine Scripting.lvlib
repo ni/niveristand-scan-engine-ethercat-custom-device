@@ -80,7 +80,7 @@
 		<Item Name="NI 9482.lvclass" Type="LVClass" URL="../Modules/NI 9482/NI 9482.lvclass"/>
 	</Item>
 	<Item Name="Slots" Type="Folder">
-		<Item Name="Get Slot.vi" Type="VI" URL="../Slots/Get Slot.vi"/>
+		<Item Name="Get Slot.vim" Type="VI" URL="../Slots/Get Slot.vim"/>
 		<Item Name="Set Slot.vi" Type="VI" URL="../Slots/Set Slot.vi"/>
 	</Item>
 	<Item Name="Utility" Type="Folder">
