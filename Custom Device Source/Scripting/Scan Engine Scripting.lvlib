@@ -69,7 +69,9 @@
 			<Item Name="Create Default Channel Array.vim" Type="VI" URL="../Modules/Utility/Create Default Channel Array.vim"/>
 		</Item>
 		<Item Name="Module.lvclass" Type="LVClass" URL="../Modules/Module/Module.lvclass"/>
+		<Item Name="NI 9224.lvclass" Type="LVClass" URL="../Modules/NI 9224/NI 9224.lvclass"/>
 		<Item Name="NI 9225.lvclass" Type="LVClass" URL="../Modules/NI 9225/NI 9225.lvclass"/>
+		<Item Name="NI 9228.lvclass" Type="LVClass" URL="../Modules/NI 9228/NI 9228.lvclass"/>
 		<Item Name="NI 9422.lvclass" Type="LVClass" URL="../Modules/NI 9422/NI 9422.lvclass"/>
 		<Item Name="NI 9423.lvclass" Type="LVClass" URL="../Modules/NI 9423/NI 9423.lvclass"/>
 		<Item Name="NI 9437.lvclass" Type="LVClass" URL="../Modules/NI 9437/NI 9437.lvclass"/>
@@ -110,6 +112,7 @@
 		<Item Name="Convert to DI Module.vi" Type="VI" URL="../Utility/Convert to DI Module.vi"/>
 		<Item Name="Convert CI PWM Module to Slot Configuration.vi" Type="VI" URL="../Utility/Convert CI PWM Module to Slot Configuration.vi"/>
 		<Item Name="Convert to CI PWM Module.vi" Type="VI" URL="../Utility/Convert to CI PWM Module.vi"/>
+		<Item Name="Conversion Time.ctl" Type="VI" URL="../Modules/Utility/Shared Properties/Conversion Time.ctl"/>
 	</Item>
 	<Item Name="Create Counter Driven Output Module.vi" Type="VI" URL="../Modules/Create Counter Driven Output Module.vi"/>
 	<Item Name="Create Digital Output Module.vi" Type="VI" URL="../Modules/Create Digital Output Module.vi"/>
