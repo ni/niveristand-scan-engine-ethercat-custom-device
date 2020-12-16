@@ -100,6 +100,7 @@
 		<Item Name="Convert Channel Settings to CDO.vi" Type="VI" URL="../Utility/Convert Channel Settings to CDO.vi"/>
 		<Item Name="Convert Channel Settings to Digital.vi" Type="VI" URL="../Utility/Convert Channel Settings to Digital.vi"/>
 		<Item Name="Convert Channel Settings to PWM.vi" Type="VI" URL="../Utility/Convert Channel Settings to PWM.vi"/>
+		<Item Name="Convert Channel Settings to Thermocouple.vi" Type="VI" URL="../Utility/Convert Channel Settings to Thermocouple.vi"/>
 		<Item Name="Convert Digital to Channel Settings.vi" Type="VI" URL="../Utility/Convert Digital to Channel Settings.vi"/>
 		<Item Name="Convert DO Module to Slot Configuration.vi" Type="VI" URL="../Utility/Convert DO Module to Slot Configuration.vi"/>
 		<Item Name="Convert Module Model to Module Class.vi" Type="VI" URL="../Utility/Convert Module Model to Module Class.vi"/>
