@@ -33,7 +33,6 @@
 				<Item Name="AI Channel.lvclass" Type="LVClass" URL="../Modules/Channel Classes/AI Channel/AI Channel.lvclass"/>
 				<Item Name="AI Vrms Channel.lvclass" Type="LVClass" URL="../Modules/Channel Classes/AI Vrms Channel/AI Vrms Channel.lvclass"/>
 				<Item Name="Analog Channel.lvclass" Type="LVClass" URL="../Modules/Channel Classes/Analog Channel/Analog Channel.lvclass"/>
-				<Item Name="Thermocouple Channel.lvclass" Type="LVClass" URL="../Modules/Channel Classes/Thermocouple Channel/Thermocouple Channel.lvclass"/>
 			</Item>
 			<Item Name="Digital" Type="Folder">
 				<Item Name="Counter Driven Output Channel.lvclass" Type="LVClass" URL="../Modules/Channel Classes/Counter Driven Output Channel/Counter Driven Output Channel.lvclass"/>
@@ -55,7 +54,6 @@
 				<Item Name="counter input pwm channel settings.ctl" Type="VI" URL="../Modules/Mode Classes/Controls/counter input pwm channel settings.ctl"/>
 				<Item Name="SD DIO Mode.ctl" Type="VI" URL="../Modules/Mode Classes/Controls/SD DIO Mode.ctl"/>
 				<Item Name="SD Measurement Mode.ctl" Type="VI" URL="../Modules/Mode Classes/Controls/SD Measurement Mode.ctl"/>
-				<Item Name="thermocouple channel settings.ctl" Type="VI" URL="../Modules/Mode Classes/Controls/thermocouple channel settings.ctl"/>
 			</Item>
 			<Item Name="Analog Input Mode.lvclass" Type="LVClass" URL="../Modules/Mode Classes/Analog Input Mode/Analog Input Vrms Mode/Analog Input Mode.lvclass"/>
 			<Item Name="Analog Input Vrms Mode.lvclass" Type="LVClass" URL="../Modules/Mode Classes/Analog Input Vrms Mode/Analog Input Vrms Mode.lvclass"/>
@@ -65,18 +63,12 @@
 			<Item Name="Mode.lvclass" Type="LVClass" URL="../Modules/Mode Classes/Mode/Mode.lvclass"/>
 			<Item Name="PWM Mode.lvclass" Type="LVClass" URL="../Modules/Mode Classes/PWM Mode/PWM Mode.lvclass"/>
 			<Item Name="Counter Input PWM Mode.lvclass" Type="LVClass" URL="../Modules/Mode Classes/Counter Input PWM Mode/Counter Input PWM Mode.lvclass"/>
-			<Item Name="Thermocouple Mode.lvclass" Type="LVClass" URL="../Modules/Mode Classes/Thermocouple Mode/Thermocouple Mode.lvclass"/>
 		</Item>
 		<Item Name="Utility" Type="Folder">
-			<Item Name="Shared Properties" Type="Folder">
-				<Item Name="Conversion Time.ctl" Type="VI" URL="../Modules/Utility/Shared Properties/Conversion Time.ctl"/>
-			</Item>
 			<Item Name="Create Module.vim" Type="VI" URL="../Modules/Utility/Create Module.vim"/>
 			<Item Name="Create Default Channel Array.vim" Type="VI" URL="../Modules/Utility/Create Default Channel Array.vim"/>
 		</Item>
 		<Item Name="Module.lvclass" Type="LVClass" URL="../Modules/Module/Module.lvclass"/>
-		<Item Name="NI 9212.lvclass" Type="LVClass" URL="../Modules/NI 9212/NI 9212.lvclass"/>
-		<Item Name="NI 9213.lvclass" Type="LVClass" URL="../Modules/NI 9213/NI 9213.lvclass"/>
 		<Item Name="NI 9224.lvclass" Type="LVClass" URL="../Modules/NI 9224/NI 9224.lvclass"/>
 		<Item Name="NI 9225.lvclass" Type="LVClass" URL="../Modules/NI 9225/NI 9225.lvclass"/>
 		<Item Name="NI 9228.lvclass" Type="LVClass" URL="../Modules/NI 9228/NI 9228.lvclass"/>
@@ -120,9 +112,7 @@
 		<Item Name="Convert to DI Module.vi" Type="VI" URL="../Utility/Convert to DI Module.vi"/>
 		<Item Name="Convert CI PWM Module to Slot Configuration.vi" Type="VI" URL="../Utility/Convert CI PWM Module to Slot Configuration.vi"/>
 		<Item Name="Convert to CI PWM Module.vi" Type="VI" URL="../Utility/Convert to CI PWM Module.vi"/>
-		<Item Name="Convert Slot Configuration to 9212.vi" Type="VI" URL="../Utility/Convert Slot Configuration to 9212.vi"/>
-		<Item Name="Convert Slot Configuration to 9213.vi" Type="VI" URL="../Utility/Convert Slot Configuration to 9213.vi"/>
-		<Item Name="Convert Thermocouple Module to Slot Configuration.vi" Type="VI" URL="../Utility/Convert Thermocouple Module to Slot Configuration.vi"/>
+		<Item Name="Conversion Time.ctl" Type="VI" URL="../Modules/Utility/Shared Properties/Conversion Time.ctl"/>
 	</Item>
 	<Item Name="Create Counter Driven Output Module.vi" Type="VI" URL="../Modules/Create Counter Driven Output Module.vi"/>
 	<Item Name="Create Digital Output Module.vi" Type="VI" URL="../Modules/Create Digital Output Module.vi"/>

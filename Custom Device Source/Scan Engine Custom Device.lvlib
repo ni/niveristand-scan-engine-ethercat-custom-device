@@ -271,6 +271,8 @@
 				<Item Name="Align cRIO Programming Mode.vi" Type="VI" URL="../System Explorer/Utility/Align cRIO Programming Mode.vi"/>
 				<Item Name="Set Main FPGA Chassis Slots Programming Mode.vi" Type="VI" URL="../System Explorer/Utility/Set Main FPGA Chassis Slots Programming Mode.vi"/>
 				<Item Name="List Local Chassis Modules.vi" Type="VI" URL="../System Explorer/Utility/List Local Chassis Modules.vi"/>
+				<Item Name="Get Local Chassis Active Slots References.vi" Type="VI" URL="../System Explorer/Utility/Get Local Chassis Active Slots References.vi"/>
+				<Item Name="Get Local Chassis All Slots References.vi" Type="VI" URL="../System Explorer/Utility/Get Local Chassis All Slots References.vi"/>
 				<Item Name="Add Channel Properties To String Array.vi" Type="VI" URL="../System Explorer/Utility/Add Channel Properties To String Array.vi"/>
 				<Item Name="Channel Data and Properties to Table.vi" Type="VI" URL="../System Explorer/Utility/Channel Data and Properties to Table.vi"/>
 				<Item Name="Get Modules Disabled Items.vi" Type="VI" URL="../System Explorer/Utility/Get Modules Disabled Items.vi"/>
