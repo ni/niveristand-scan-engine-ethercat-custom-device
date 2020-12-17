@@ -63,6 +63,7 @@
 			<Item Name="Analog Input Vrms Mode.lvclass" Type="LVClass" URL="../Modules/Mode Classes/Analog Input Vrms Mode/Analog Input Vrms Mode.lvclass"/>
 			<Item Name="Counter Driven Output Mode.lvclass" Type="LVClass" URL="../Modules/Mode Classes/Counter Driven Output Mode/Counter Driven Output Mode.lvclass"/>
 			<Item Name="Digital Input Mode.lvclass" Type="LVClass" URL="../Modules/Mode Classes/Digital Input Mode/Digital Input Mode.lvclass"/>
+			<Item Name="Digital Input and Output Mode.lvclass" Type="LVClass" URL="../Modules/Mode Classes/Digital Input and Output Mode/Digital Input and Output Mode.lvclass"/>
 			<Item Name="Digital Output Mode.lvclass" Type="LVClass" URL="../Modules/Mode Classes/Digital Output Mode/Digital Output Mode.lvclass"/>
 			<Item Name="Mode.lvclass" Type="LVClass" URL="../Modules/Mode Classes/Mode/Mode.lvclass"/>
 			<Item Name="PWM Mode.lvclass" Type="LVClass" URL="../Modules/Mode Classes/PWM Mode/PWM Mode.lvclass"/>
@@ -83,6 +84,7 @@
 		<Item Name="NI 9225.lvclass" Type="LVClass" URL="../Modules/NI 9225/NI 9225.lvclass"/>
 		<Item Name="NI 9227.lvclass" Type="LVClass" URL="../Modules/NI 9227/NI 9227.lvclass"/>
 		<Item Name="NI 9228.lvclass" Type="LVClass" URL="../Modules/NI 9228/NI 9228.lvclass"/>
+		<Item Name="NI 9375.lvclass" Type="LVClass" URL="../Modules/NI 9375/NI 9375.lvclass"/>
 		<Item Name="NI 9422.lvclass" Type="LVClass" URL="../Modules/NI 9422/NI 9422.lvclass"/>
 		<Item Name="NI 9423.lvclass" Type="LVClass" URL="../Modules/NI 9423/NI 9423.lvclass"/>
 		<Item Name="NI 9437.lvclass" Type="LVClass" URL="../Modules/NI 9437/NI 9437.lvclass"/>
