@@ -121,6 +121,7 @@
 		<Item Name="Convert to AI Vrms Module.vi" Type="VI" URL="../Utility/Convert to AI Vrms Module.vi"/>
 		<Item Name="Convert to CDO Module.vi" Type="VI" URL="../Utility/Convert to CDO Module.vi"/>
 		<Item Name="Convert to DI Module.vi" Type="VI" URL="../Utility/Convert to DI Module.vi"/>
+		<Item Name="Convert to DIO Module.vi" Type="VI" URL="../Utility/Convert to DIO Module.vi"/>
 		<Item Name="Convert to DO Module.vi" Type="VI" URL="../Utility/Convert to DO Module.vi"/>
 		<Item Name="Convert to CI PWM Module.vi" Type="VI" URL="../Utility/Convert to CI PWM Module.vi"/>
 		<Item Name="Convert to PWM Module.vi" Type="VI" URL="../Utility/Convert to PWM Module.vi"/>
