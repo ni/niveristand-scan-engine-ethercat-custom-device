@@ -62,6 +62,7 @@
 			<Item Name="Analog Input Arms Mode.lvclass" Type="LVClass" URL="../Modules/Mode Classes/Analog Input Arms Mode/Analog Input Arms Mode.lvclass"/>
 			<Item Name="Analog Input Vrms Mode.lvclass" Type="LVClass" URL="../Modules/Mode Classes/Analog Input Vrms Mode/Analog Input Vrms Mode.lvclass"/>
 			<Item Name="Counter Driven Output Mode.lvclass" Type="LVClass" URL="../Modules/Mode Classes/Counter Driven Output Mode/Counter Driven Output Mode.lvclass"/>
+			<Item Name="Digital Mode.lvclass" Type="LVClass" URL="../Modules/Mode Classes/Digital Mode/Digital Mode.lvclass"/>
 			<Item Name="Digital Input Mode.lvclass" Type="LVClass" URL="../Modules/Mode Classes/Digital Input Mode/Digital Input Mode.lvclass"/>
 			<Item Name="Digital Input and Output Mode.lvclass" Type="LVClass" URL="../Modules/Mode Classes/Digital Input and Output Mode/Digital Input and Output Mode.lvclass"/>
 			<Item Name="Digital Output Mode.lvclass" Type="LVClass" URL="../Modules/Mode Classes/Digital Output Mode/Digital Output Mode.lvclass"/>
