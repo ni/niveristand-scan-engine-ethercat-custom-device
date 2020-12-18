@@ -106,16 +106,23 @@
 		<Item Name="Convert Channel Settings to Digital.vi" Type="VI" URL="../Utility/Convert Channel Settings to Digital.vi"/>
 		<Item Name="Convert Channel Settings to PWM.vi" Type="VI" URL="../Utility/Convert Channel Settings to PWM.vi"/>
 		<Item Name="Convert Channel Settings to Thermocouple.vi" Type="VI" URL="../Utility/Convert Channel Settings to Thermocouple.vi"/>
+		<Item Name="Convert CI PWM Module to Slot Configuration.vi" Type="VI" URL="../Utility/Convert CI PWM Module to Slot Configuration.vi"/>
 		<Item Name="Convert Digital to Channel Settings.vi" Type="VI" URL="../Utility/Convert Digital to Channel Settings.vi"/>
+		<Item Name="Convert DI Module to Slot Configuration.vi" Type="VI" URL="../Utility/Convert DI Module to Slot Configuration.vi"/>
 		<Item Name="Convert DO Module to Slot Configuration.vi" Type="VI" URL="../Utility/Convert DO Module to Slot Configuration.vi"/>
 		<Item Name="Convert Module Model to Module Class.vi" Type="VI" URL="../Utility/Convert Module Model to Module Class.vi"/>
 		<Item Name="Convert PWM Module to Slot Configuration.vi" Type="VI" URL="../Utility/Convert PWM Module to Slot Configuration.vi"/>
 		<Item Name="Convert PWM to Channel Settings.vi" Type="VI" URL="../Utility/Convert PWM to Channel Settings.vi"/>
+		<Item Name="Convert Slot Configuration to 9212.vi" Type="VI" URL="../Utility/Convert Slot Configuration to 9212.vi"/>
+		<Item Name="Convert Slot Configuration to 9213.vi" Type="VI" URL="../Utility/Convert Slot Configuration to 9213.vi"/>
+		<Item Name="Convert Thermocouple Module to Slot Configuration.vi" Type="VI" URL="../Utility/Convert Thermocouple Module to Slot Configuration.vi"/>
 		<Item Name="Convert to AI Arms Module.vi" Type="VI" URL="../Utility/Convert to AI Arms Module.vi"/>
 		<Item Name="Convert to AI Module.vi" Type="VI" URL="../Utility/Convert to AI Module.vi"/>
 		<Item Name="Convert to AI Vrms Module.vi" Type="VI" URL="../Utility/Convert to AI Vrms Module.vi"/>
 		<Item Name="Convert to CDO Module.vi" Type="VI" URL="../Utility/Convert to CDO Module.vi"/>
+		<Item Name="Convert to DI Module.vi" Type="VI" URL="../Utility/Convert to DI Module.vi"/>
 		<Item Name="Convert to DO Module.vi" Type="VI" URL="../Utility/Convert to DO Module.vi"/>
+		<Item Name="Convert to CI PWM Module.vi" Type="VI" URL="../Utility/Convert to CI PWM Module.vi"/>
 		<Item Name="Convert to PWM Module.vi" Type="VI" URL="../Utility/Convert to PWM Module.vi"/>
 		<Item Name="Get Channel Names and Default Values for Slot.vi" Type="VI" URL="../Utility/Get Channel Names and Default Values for Slot.vi"/>
 		<Item Name="Ref Constants.vi" Type="VI" URL="../Utility/Ref Constants.vi"/>
@@ -123,13 +130,6 @@
 		<Item Name="Set Channel Names and Default Values for Slot.vi" Type="VI" URL="../Utility/Set Channel Names and Default Values for Slot.vi"/>
 		<Item Name="Validate Reference by GUID.vi" Type="VI" URL="../Utility/Validate Reference by GUID.vi"/>
 		<Item Name="Validate Reference by Name.vi" Type="VI" URL="../Utility/Validate Reference by Name.vi"/>
-		<Item Name="Convert DI Module to Slot Configuration.vi" Type="VI" URL="../Utility/Convert DI Module to Slot Configuration.vi"/>
-		<Item Name="Convert to DI Module.vi" Type="VI" URL="../Utility/Convert to DI Module.vi"/>
-		<Item Name="Convert CI PWM Module to Slot Configuration.vi" Type="VI" URL="../Utility/Convert CI PWM Module to Slot Configuration.vi"/>
-		<Item Name="Convert to CI PWM Module.vi" Type="VI" URL="../Utility/Convert to CI PWM Module.vi"/>
-		<Item Name="Convert Thermocouple Module to Slot Configuration.vi" Type="VI" URL="../Utility/Convert Thermocouple Module to Slot Configuration.vi"/>
-		<Item Name="Convert Slot Configuration to 9212.vi" Type="VI" URL="../Utility/Convert Slot Configuration to 9212.vi"/>
-		<Item Name="Convert Slot Configuration to 9213.vi" Type="VI" URL="../Utility/Convert Slot Configuration to 9213.vi"/>
 	</Item>
 	<Item Name="Create Counter Driven Output Module.vi" Type="VI" URL="../Modules/Create Counter Driven Output Module.vi"/>
 	<Item Name="Create Digital Output Module.vi" Type="VI" URL="../Modules/Create Digital Output Module.vi"/>
