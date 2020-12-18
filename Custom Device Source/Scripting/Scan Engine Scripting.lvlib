@@ -109,8 +109,7 @@
 		<Item Name="Convert Channel Settings to Thermocouple.vi" Type="VI" URL="../Utility/Convert Channel Settings to Thermocouple.vi"/>
 		<Item Name="Convert CI PWM Module to Slot Configuration.vi" Type="VI" URL="../Utility/Convert CI PWM Module to Slot Configuration.vi"/>
 		<Item Name="Convert Digital to Channel Settings.vi" Type="VI" URL="../Utility/Convert Digital to Channel Settings.vi"/>
-		<Item Name="Convert DI Module to Slot Configuration.vi" Type="VI" URL="../Utility/Convert DI Module to Slot Configuration.vi"/>
-		<Item Name="Convert DO Module to Slot Configuration.vi" Type="VI" URL="../Utility/Convert DO Module to Slot Configuration.vi"/>
+		<Item Name="Convert Digital Module to Slot Configuration.vi" Type="VI" URL="../Utility/Convert Digital Module to Slot Configuration.vi"/>
 		<Item Name="Convert Module Model to Module Class.vi" Type="VI" URL="../Utility/Convert Module Model to Module Class.vi"/>
 		<Item Name="Convert PWM Module to Slot Configuration.vi" Type="VI" URL="../Utility/Convert PWM Module to Slot Configuration.vi"/>
 		<Item Name="Convert PWM to Channel Settings.vi" Type="VI" URL="../Utility/Convert PWM to Channel Settings.vi"/>
