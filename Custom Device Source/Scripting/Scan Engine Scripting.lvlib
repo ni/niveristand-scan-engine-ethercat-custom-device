@@ -94,8 +94,17 @@
 		<Item Name="NI 9482.lvclass" Type="LVClass" URL="../Modules/NI 9482/NI 9482.lvclass"/>
 	</Item>
 	<Item Name="Slots" Type="Folder">
+		<Item Name="Private Methods" Type="Folder">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+			<Item Name="Remove Slot Children.vi" Type="VI" URL="../Slots/Private Methods/Remove Slot Children.vi"/>
+			<Item Name="Save Module to Slot.vi" Type="VI" URL="../Slots/Private Methods/Save Module to Slot.vi"/>
+		</Item>
+		<Item Name="Clear Slot.vi" Type="VI" URL="../Slots/Clear Slot.vi"/>
+		<Item Name="Copy Slot.vi" Type="VI" URL="../Slots/Copy Slot.vi"/>
 		<Item Name="Get Slot.vim" Type="VI" URL="../Slots/Get Slot.vim"/>
+		<Item Name="Move Slot.vi" Type="VI" URL="../Slots/Move Slot.vi"/>
 		<Item Name="Set Slot.vi" Type="VI" URL="../Slots/Set Slot.vi"/>
+		<Item Name="Swap Slot.vi" Type="VI" URL="../Slots/Swap Slot.vi"/>
 	</Item>
 	<Item Name="Utility" Type="Folder">
 		<Item Name="Convert AI Module to Slot Configuration.vi" Type="VI" URL="../Utility/Convert AI Module to Slot Configuration.vi"/>
