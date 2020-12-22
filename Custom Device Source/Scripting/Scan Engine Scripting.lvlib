@@ -86,6 +86,7 @@
 			<Item Name="Save Module to Slot.vi" Type="VI" URL="../Slots/Private Methods/Save Module to Slot.vi"/>
 		</Item>
 		<Item Name="Clear Slot.vi" Type="VI" URL="../Slots/Clear Slot.vi"/>
+		<Item Name="Copy Slot.vi" Type="VI" URL="../Slots/Copy Slot.vi"/>
 		<Item Name="Get Slot.vim" Type="VI" URL="../Slots/Get Slot.vim"/>
 		<Item Name="Move Slot.vi" Type="VI" URL="../Slots/Move Slot.vi"/>
 		<Item Name="Set Slot.vi" Type="VI" URL="../Slots/Set Slot.vi"/>
@@ -130,5 +131,4 @@
 	<Item Name="Read Digital Input Module.vi" Type="VI" URL="../Modules/Read Digital Input Module.vi"/>
 	<Item Name="Read Counter Input PWM Module.vi" Type="VI" URL="../Modules/Read Counter Input PWM Module.vi"/>
 	<Item Name="Create Counter Input PWM Module.vi" Type="VI" URL="../Modules/Create Counter Input PWM Module.vi"/>
-	<Item Name="Copy Slot.vi" Type="VI" URL="../Slots/Copy Slot.vi"/>
 </Library>
