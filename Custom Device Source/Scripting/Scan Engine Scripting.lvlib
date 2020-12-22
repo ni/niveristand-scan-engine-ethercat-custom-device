@@ -88,6 +88,7 @@
 		</Item>
 		<Item Name="Clear Slot.vi" Type="VI" URL="../Slots/Clear Slot.vi"/>
 		<Item Name="Get Slot.vim" Type="VI" URL="../Slots/Get Slot.vim"/>
+		<Item Name="Move Slot.vi" Type="VI" URL="../Slots/Move Slot.vi"/>
 		<Item Name="Set Slot.vi" Type="VI" URL="../Slots/Set Slot.vi"/>
 		<Item Name="Swap Slot.vi" Type="VI" URL="../Slots/Swap Slot.vi"/>
 	</Item>
