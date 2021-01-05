@@ -184,6 +184,15 @@
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1350574608</Property>
 		</Item>
+		<Item Name="Read Thermocouple Module.vi" Type="VI" URL="../Read Thermocouple Module.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!-C!!!!$Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!!Z!-0````]%&lt;G&amp;N:1!!%U!+!!VE:7:B&gt;7RU)(:B&lt;(6F!)1!]1!!!!!!!!!$'V.D97YA27ZH;7ZF)&amp;.D=GFQ&gt;'FO:SZM&gt;GRJ9BR5;'6S&lt;7^D&lt;X6Q&lt;'5A1WBB&lt;GZF&lt;#ZM&gt;G.M98.T&amp;62I:8*N&lt;W.P&gt;8"M:3"5?8"F,G.U&lt;!!N1"9!#!&amp;+!5M"6!&amp;&amp;!6)"5Q&amp;/!5)!%82I:8*N&lt;W.P&gt;8"M:3"U?8"F!-!!]1!!!!!!!!!$'V.D97YA27ZH;7ZF)&amp;.D=GFQ&gt;'FO:SZM&gt;GRJ9BR5;'6S&lt;7^D&lt;X6Q&lt;'5A1WBB&lt;GZF&lt;#ZM&gt;G.M98.T&amp;5VF98.V=G6N:7ZU)&amp;6O;82T,G.U&lt;!"J1"9!"1F398=A6G^M&gt;(-/2'6H=G6F=S",:7RW;7Y02'6H=G6F=S"$:7RD;86T%E2F:X*F:8-A2G&amp;I=G6O;'6J&gt;!^%:7&gt;S:76T)&amp;*B&lt;GNJ&lt;G5!%7VF98.V=G6N:7ZU)(6O;82T!'I!]1!!!!!!!!!#'V.D97YA27ZH;7ZF)&amp;.D=GFQ&gt;'FO:SZM&gt;GRJ9C&amp;U;'6S&lt;7^D&lt;X6Q&lt;'5A9WBB&lt;GZF&lt;#"T:82U;7ZH=SZD&gt;'Q!*%"1!!1!"1!'!!=!#""D;'&amp;O&lt;G6M)(.F&gt;(2J&lt;G&gt;T!!!?1%!!!@````]!#2"D;'&amp;O&lt;G6M)(.F&gt;(2J&lt;G&gt;T!!"#1(!!(A!!,"N49W&amp;O)%6O:WFO:3"49X*J=(2J&lt;G=O&lt;(:M;7)/47^E&gt;7RF,GRW9WRB=X-!!!JN&lt;W2V&lt;'5A&lt;X6U!!!71&amp;!!!Q!!!!%!!ABF=H*P=C"J&lt;A!!1%"Q!"Y!!#Q&lt;5W.B&lt;C"&amp;&lt;G&gt;J&lt;G5A5W.S;8"U;7ZH,GRW&lt;'FC$EVP:(6M:3ZM&gt;G.M98.T!!!*&lt;7^E&gt;7RF)'FO!&amp;1!]!!-!!-!"!!+!!M!"!!%!!1!"!!-!!1!"!!.!Q!!?!!!$1A!!!!!!!!*!!!!D1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!#3!!!!!!%!$A!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1342972432</Property>
+		</Item>
 	</Item>
 	<Item Name="Check Channel Array Size.vi" Type="VI" URL="../Check Channel Array Size.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;/!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!%*!=!!?!!!M'V.D97YA27ZH;7ZF)&amp;.D=GFQ&gt;'FO:SZM&gt;GRJ9AZ.&lt;W2V&lt;'5O&lt;(:D&lt;'&amp;T=Q!!#GVP:(6M:3"P&gt;81!!":!5!!$!!!!!1!##'6S=G^S)'FO!!!:1!-!%G.I97ZO:7QA98*S98EA=WF[:1!!1%"Q!"Y!!#Q&lt;5W.B&lt;C"&amp;&lt;G&gt;J&lt;G5A5W.S;8"U;7ZH,GRW&lt;'FC$EVP:(6M:3ZM&gt;G.M98.T!!!*&lt;7^E&gt;7RF)'FO!&amp;1!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!1!"Q!)!Q!!?!!!$1A!!!!!!!!!!!!!D1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!"!!!!#3!!!!!!%!#1!!!!!</Property>
