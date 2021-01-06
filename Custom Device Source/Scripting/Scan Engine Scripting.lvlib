@@ -4,7 +4,6 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">385908736</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
-	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Property Name="NI_IconEditor" Type="Str">49 55 48 49 56 48 49 50 13 0 0 0 0 1 23 21 76 111 97 100 32 38 32 85 110 108 111 97 100 46 108 118 99 108 97 115 115 0 0 1 0 0 0 0 0 9 0 0 4 43 1 100 1 100 80 84 72 48 0 0 0 4 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 15 13 76 97 121 101 114 46 108 118 99 108 97 115 115 0 0 1 0 0 0 0 0 7 0 0 3 191 0 0 0 0 0 0 0 0 0 0 3 162 0 40 0 0 3 156 0 0 3 96 0 0 0 0 0 9 0 32 0 24 0 0 0 0 0 255 255 255 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 51 102 153 51 102 153 119 119 119 204 153 102 153 153 153 51 102 153 51 102 153 153 153 153 204 204 102 119 119 119 51 102 153 51 102 153 51 102 153 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 0 0 0 0 0 0 153 153 204 51 102 153 153 153 153 255 255 0 204 204 102 51 102 153 51 102 153 255 204 51 255 255 0 153 153 153 51 102 153 153 153 204 51 102 153 255 255 255 255 255 255 0 0 0 0 0 0 0 0 0 250 250 250 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 250 250 250 250 250 250 250 250 250 255 255 255 255 255 255 0 0 0 0 0 0 153 204 204 51 102 153 102 153 204 255 204 0 255 204 0 119 119 119 119 119 119 255 255 0 204 204 51 102 153 204 51 102 153 153 204 204 51 102 153 255 255 255 0 0 0 255 255 255 250 250 250 255 255 255 255 255 255 250 250 250 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 250 250 250 255 255 255 255 255 255 255 255 255 255 255 255 0 0 0 0 0 0 153 153 204 153 153 204 153 153 204 153 153 102 255 255 0 153 153 51 153 153 51 255 255 0 153 102 102 153 153 204 153 153 204 153 153 204 51 102 153 255 255 255 255 255 255 0 0 0 0 0 0 250 250 250 250 250 250 255 255 255 0 0 0 0 0 0 250 250 250 250 250 250 0 0 0 0 0 0 250 250 250 0 0 0 0 0 0 255 255 255 0 0 0 0 0 0 51 102 153 153 204 204 51 102 153 51 102 153 255 204 0 255 204 51 255 204 0 255 204 0 51 102 153 51 102 153 153 204 204 51 102 153 51 102 153 255 255 255 255 255 255 255 255 255 250 250 250 0 0 0 255 255 255 0 0 0 255 255 255 250 250 250 255 255 255 0 0 0 255 255 255 0 0 0 255 255 255 0 0 0 255 255 255 0 0 0 0 0 0 0 0 0 51 102 153 153 153 204 51 102 153 51 102 153 204 102 0 255 204 0 255 204 0 153 102 51 51 102 153 51 102 153 153 153 204 51 102 153 51 102 153 255 255 255 0 0 0 0 0 0 0 0 0 255 255 255 255 255 255 250 250 250 0 0 0 0 0 0 250 250 250 250 250 250 0 0 0 0 0 0 255 255 255 0 0 0 255 255 255 0 0 0 0 0 0 0 0 0 51 102 153 51 102 153 51 102 153 51 102 153 68 68 68 255 204 0 255 153 0 51 51 102 51 102 153 51 102 153 51 102 153 51 102 153 51 102 153 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 0 0 0 0 0 0 26 51 76 26 51 76 26 51 76 26 51 76 26 51 76 51 51 26 51 51 26 26 51 76 26 51 76 26 51 76 26 51 76 26 51 76 26 51 76 26 51 76 26 51 76 26 51 76 26 51 76 26 51 76 26 51 76 26 51 76 26 51 76 26 51 76 26 51 76 26 51 76 26 51 76 26 51 76 26 51 76 26 51 76 26 51 76 26 51 76 0 0 0 255 255 255 255 255 252 0 1 255 252 240 57 255 253 72 33 255 252 247 253 255 252 106 171 255 253 207 235 255 252 0 1 255 255 255 255 0 0 0 9 67 108 105 112 98 111 97 114 100 100 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 11 83 109 97 108 108 32 70 111 110 116 115 0 1 9 1 1
 
 </Property>
@@ -109,8 +108,8 @@
 		<Item Name="Convert Channel Settings to PWM.vi" Type="VI" URL="../Utility/Convert Channel Settings to PWM.vi"/>
 		<Item Name="Convert Channel Settings to Thermocouple.vi" Type="VI" URL="../Utility/Convert Channel Settings to Thermocouple.vi"/>
 		<Item Name="Convert CI PWM Module to Slot Configuration.vi" Type="VI" URL="../Utility/Convert CI PWM Module to Slot Configuration.vi"/>
-		<Item Name="Convert Digital to Channel Settings.vi" Type="VI" URL="../Utility/Convert Digital to Channel Settings.vi"/>
 		<Item Name="Convert Digital Module to Slot Configuration.vi" Type="VI" URL="../Utility/Convert Digital Module to Slot Configuration.vi"/>
+		<Item Name="Convert Digital to Channel Settings.vi" Type="VI" URL="../Utility/Convert Digital to Channel Settings.vi"/>
 		<Item Name="Convert Module Model to Module Class.vi" Type="VI" URL="../Utility/Convert Module Model to Module Class.vi"/>
 		<Item Name="Convert PWM Module to Slot Configuration.vi" Type="VI" URL="../Utility/Convert PWM Module to Slot Configuration.vi"/>
 		<Item Name="Convert PWM to Channel Settings.vi" Type="VI" URL="../Utility/Convert PWM to Channel Settings.vi"/>
@@ -121,10 +120,10 @@
 		<Item Name="Convert to AI Module.vi" Type="VI" URL="../Utility/Convert to AI Module.vi"/>
 		<Item Name="Convert to AI Vrms Module.vi" Type="VI" URL="../Utility/Convert to AI Vrms Module.vi"/>
 		<Item Name="Convert to CDO Module.vi" Type="VI" URL="../Utility/Convert to CDO Module.vi"/>
+		<Item Name="Convert to CI PWM Module.vi" Type="VI" URL="../Utility/Convert to CI PWM Module.vi"/>
 		<Item Name="Convert to DI Module.vi" Type="VI" URL="../Utility/Convert to DI Module.vi"/>
 		<Item Name="Convert to DIO Module.vi" Type="VI" URL="../Utility/Convert to DIO Module.vi"/>
 		<Item Name="Convert to DO Module.vi" Type="VI" URL="../Utility/Convert to DO Module.vi"/>
-		<Item Name="Convert to CI PWM Module.vi" Type="VI" URL="../Utility/Convert to CI PWM Module.vi"/>
 		<Item Name="Convert to PWM Module.vi" Type="VI" URL="../Utility/Convert to PWM Module.vi"/>
 		<Item Name="Get Channel Names and Default Values for Slot.vi" Type="VI" URL="../Utility/Get Channel Names and Default Values for Slot.vi"/>
 		<Item Name="Ref Constants.vi" Type="VI" URL="../Utility/Ref Constants.vi"/>
@@ -133,12 +132,18 @@
 		<Item Name="Validate Reference by GUID.vi" Type="VI" URL="../Utility/Validate Reference by GUID.vi"/>
 		<Item Name="Validate Reference by Name.vi" Type="VI" URL="../Utility/Validate Reference by Name.vi"/>
 	</Item>
+	<Item Name="Create Analog Input Module.vi" Type="VI" URL="../Modules/Create Analog Input Module.vi"/>
 	<Item Name="Create Counter Driven Output Module.vi" Type="VI" URL="../Modules/Create Counter Driven Output Module.vi"/>
-	<Item Name="Create Digital Output Module.vi" Type="VI" URL="../Modules/Create Digital Output Module.vi"/>
-	<Item Name="Read Counter Driven Output Module.vi" Type="VI" URL="../Modules/Read Counter Driven Output Module.vi"/>
-	<Item Name="Read Digital Output Module.vi" Type="VI" URL="../Modules/Read Digital Output Module.vi"/>
-	<Item Name="Create Digital Input Module.vi" Type="VI" URL="../Modules/Create Digital Input Module.vi"/>
-	<Item Name="Read Digital Input Module.vi" Type="VI" URL="../Modules/Read Digital Input Module.vi"/>
-	<Item Name="Read Counter Input PWM Module.vi" Type="VI" URL="../Modules/Read Counter Input PWM Module.vi"/>
+	<Item Name="Create Counter Driven Output.vi" Type="VI" URL="../Modules/Create Counter Driven Output.vi"/>
 	<Item Name="Create Counter Input PWM Module.vi" Type="VI" URL="../Modules/Create Counter Input PWM Module.vi"/>
+	<Item Name="Create Counter Output PWM Module.vi" Type="VI" URL="../Modules/Create Counter Output PWM Module.vi"/>
+	<Item Name="Create Digital Input Module.vi" Type="VI" URL="../Modules/Create Digital Input Module.vi"/>
+	<Item Name="Create Digital Output Module.vi" Type="VI" URL="../Modules/Create Digital Output Module.vi"/>
+	<Item Name="Read Analog Input Module.vi" Type="VI" URL="../Modules/Read Analog Input Module.vi"/>
+	<Item Name="Read Counter Driven Output Module.vi" Type="VI" URL="../Modules/Read Counter Driven Output Module.vi"/>
+	<Item Name="Read Counter Driven Output.vi" Type="VI" URL="../Modules/Read Counter Driven Output.vi"/>
+	<Item Name="Read Counter Input PWM Module.vi" Type="VI" URL="../Modules/Read Counter Input PWM Module.vi"/>
+	<Item Name="Read Counter Output PWM Module.vi" Type="VI" URL="../Modules/Read Counter Output PWM Module.vi"/>
+	<Item Name="Read Digital Input Module.vi" Type="VI" URL="../Modules/Read Digital Input Module.vi"/>
+	<Item Name="Read Digital Output Module.vi" Type="VI" URL="../Modules/Read Digital Output Module.vi"/>
 </Library>
