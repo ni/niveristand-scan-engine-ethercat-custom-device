@@ -100,9 +100,7 @@
 		<Item Name="Clear Slot.vi" Type="VI" URL="../Slots/Clear Slot.vi"/>
 		<Item Name="Copy Slot.vi" Type="VI" URL="../Slots/Copy Slot.vi"/>
 		<Item Name="Get Slot.vim" Type="VI" URL="../Slots/Get Slot.vim"/>
-		<Item Name="Move Slot.vi" Type="VI" URL="../Slots/Move Slot.vi"/>
 		<Item Name="Set Slot.vi" Type="VI" URL="../Slots/Set Slot.vi"/>
-		<Item Name="Swap Slot.vi" Type="VI" URL="../Slots/Swap Slot.vi"/>
 	</Item>
 	<Item Name="Utility" Type="Folder">
 		<Item Name="Convert AI Module to Slot Configuration.vi" Type="VI" URL="../Utility/Convert AI Module to Slot Configuration.vi"/>
