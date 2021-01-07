@@ -140,7 +140,6 @@
 	<Item Name="Create Digital Input and Output Module.vi" Type="VI" URL="../Modules/Create Digital Input and Output Module.vi"/>
 	<Item Name="Create Digital Input Module.vi" Type="VI" URL="../Modules/Create Digital Input Module.vi"/>
 	<Item Name="Create Digital Output Module.vi" Type="VI" URL="../Modules/Create Digital Output Module.vi"/>
-	<Item Name="Dummy.vi" Type="VI" URL="../Dummy.vi"/>
 	<Item Name="Read Analog Input Module.vi" Type="VI" URL="../Modules/Read Analog Input Module.vi"/>
 	<Item Name="Read Counter Driven Output Module.vi" Type="VI" URL="../Modules/Read Counter Driven Output Module.vi"/>
 	<Item Name="Read Counter Driven Output.vi" Type="VI" URL="../Modules/Read Counter Driven Output.vi"/>
