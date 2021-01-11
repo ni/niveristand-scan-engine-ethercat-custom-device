@@ -93,9 +93,12 @@
 		<Item Name="Scripting API" Type="Folder">
 			<Item Name="Palettes" Type="Folder">
 				<Item Name="dir.mnu" Type="Document" URL="../Scripting/Palettes/dir.mnu"/>
-				<Item Name="Chassis.mnu" Type="Document" URL="../Scripting/Palettes/Chassis.mnu"/>
-				<Item Name="Modules.mnu" Type="Document" URL="../Scripting/Palettes/Modules.mnu"/>
 				<Item Name="Scan Engine.mnu" Type="Document" URL="../Scripting/Palettes/Scan Engine.mnu"/>
+				<Item Name="Chassis.mnu" Type="Document" URL="../Scripting/Palettes/Chassis.mnu"/>
+				<Item Name="Slots.mnu" Type="Document" URL="../Scripting/Palettes/Slots.mnu"/>
+				<Item Name="Modules.mnu" Type="Document" URL="../Scripting/Palettes/Modules.mnu"/>
+				<Item Name="Create Modules.mnu" Type="Document" URL="../Scripting/Palettes/Create Modules.mnu"/>
+				<Item Name="Read Modules.mnu" Type="Document" URL="../Scripting/Palettes/Read Modules.mnu"/>
 			</Item>
 			<Item Name="Scan Engine Scripting.lvlib" Type="Library" URL="../Scripting/Scan Engine Scripting.lvlib"/>
 		</Item>
