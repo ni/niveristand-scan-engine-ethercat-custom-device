@@ -107,9 +107,15 @@
 		</Item>
 		<Item Name="Examples" Type="Folder">
 			<Item Name="Configure Scan Engine and EtherCAT Custom Device.vi" Type="VI" URL="../Configure Scan Engine and EtherCAT Custom Device.vi"/>
+			<Item Name="Read Configuration with Known Module.vi" Type="VI" URL="../Read Configuration with Known Module.vi"/>
+			<Item Name="Read Configuration with Unknown Modules.vi" Type="VI" URL="../Read Configuration with Unknown Modules.vi"/>
 		</Item>
 		<Item Name="SubVIs" Type="Folder">
 			<Item Name="Scan Engine Example Support.lvlib" Type="Library" URL="../SubVIs/Scan Engine Example Support.lvlib"/>
+			<Item Name="Get Module Mode.vi" Type="VI" URL="../SubVIs/Get Module Mode.vi"/>
+		</Item>
+		<Item Name="Types" Type="Folder">
+			<Item Name="Module Channel Settings.ctl" Type="VI" URL="../Types/Module Channel Settings.ctl"/>
 		</Item>
 		<Item Name="Post-Build Action.vi" Type="VI" URL="../Post-Build Action.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -154,6 +160,12 @@
 				<Item Name="Custom Device Offline API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device Offline API/Custom Device Offline API.lvlib"/>
 				<Item Name="Get LV Class Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Name.vi"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
+				<Item Name="Get LV Class Default Value By Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Default Value By Name.vi"/>
+				<Item Name="Get LV Class Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Path.vi"/>
+				<Item Name="Get File Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get File Extension.vi"/>
+				<Item Name="Custom Device Item Ref.ctl" Type="VI" URL="/&lt;vilib&gt;/Custom Device Source/Modules.lvlibp/1abvi3w/vi.lib/NI Veristand/Custom Device API/Custom Device Item Ref.ctl"/>
+				<Item Name="Create Digital Output Module.vi" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/Scan Engine/Modules/Create Digital Output Module.vi"/>
+				<Item Name="Create Counter Driven Output Module.vi" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/Scan Engine/Modules/Create Counter Driven Output Module.vi"/>
 			</Item>
 			<Item Name="NationalInstruments.VeriStand.SystemDefinitionAPI" Type="Document" URL="NationalInstruments.VeriStand.SystemDefinitionAPI">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -181,6 +193,7 @@
 				<Property Name="Bld_excludedDirectory[5]" Type="Path">user.lib</Property>
 				<Property Name="Bld_excludedDirectory[5].pathType" Type="Str">relativeToAppDir</Property>
 				<Property Name="Bld_excludedDirectoryCount" Type="Int">6</Property>
+				<Property Name="Bld_excludeDependentPPLs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">../Built/Examples/Scan Engine</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
@@ -196,7 +209,7 @@
 				<Property Name="Destination[2].destName" Type="Str">Destination Directory (top level)</Property>
 				<Property Name="Destination[2].path" Type="Path">../Built/Examples/Scan Engine</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
-				<Property Name="Source[0].itemID" Type="Str">{1B2E08C7-1626-470D-91EF-B6CD88D5173D}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{63773C64-7DB6-4F69-836C-293FBF8EC8D1}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Post-Build Action.vi</Property>
