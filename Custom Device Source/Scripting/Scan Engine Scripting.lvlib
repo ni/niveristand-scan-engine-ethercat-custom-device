@@ -141,7 +141,6 @@
 	</Item>
 	<Item Name="Create Analog Input Module.vi" Type="VI" URL="../Modules/Create Analog Input Module.vi"/>
 	<Item Name="Create Counter Driven Output Module.vi" Type="VI" URL="../Modules/Create Counter Driven Output Module.vi"/>
-	<Item Name="Create Counter Driven Output.vi" Type="VI" URL="../Modules/Create Counter Driven Output.vi"/>
 	<Item Name="Create Counter Input PWM Module.vi" Type="VI" URL="../Modules/Create Counter Input PWM Module.vi"/>
 	<Item Name="Create Counter Output PWM Module.vi" Type="VI" URL="../Modules/Create Counter Output PWM Module.vi"/>
 	<Item Name="Create Digital Input and Output Module.vi" Type="VI" URL="../Modules/Create Digital Input and Output Module.vi"/>
@@ -149,7 +148,6 @@
 	<Item Name="Create Digital Output Module.vi" Type="VI" URL="../Modules/Create Digital Output Module.vi"/>
 	<Item Name="Read Analog Input Module.vi" Type="VI" URL="../Modules/Read Analog Input Module.vi"/>
 	<Item Name="Read Counter Driven Output Module.vi" Type="VI" URL="../Modules/Read Counter Driven Output Module.vi"/>
-	<Item Name="Read Counter Driven Output.vi" Type="VI" URL="../Modules/Read Counter Driven Output.vi"/>
 	<Item Name="Read Counter Input PWM Module.vi" Type="VI" URL="../Modules/Read Counter Input PWM Module.vi"/>
 	<Item Name="Read Counter Output PWM Module.vi" Type="VI" URL="../Modules/Read Counter Output PWM Module.vi"/>
 	<Item Name="Read Digital Input and Output Module.vi" Type="VI" URL="../Modules/Read Digital Input and Output Module.vi"/>
