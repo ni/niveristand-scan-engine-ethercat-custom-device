@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <nidocument>
 <nicomment>
-https://decibel.ni.com/content/docs/DOC-15510
+https://github.com/ni/niveristand-scan-engine-ethercat-custom-device/
 </nicomment>
 <nierror code="537700">
 There was a mismatch between the EtherCAT Masters configured in the system definition and what was detected on the target system.
@@ -36,22 +36,22 @@ ECAT Slave I/O Variable does not match configuration to SDF.
 <nierror code="537714">
 Timeout communicating with EtherCAT reconfiguration loop.
 </nierror>
-<nierror code="537715">
+<nierror code="-732150">
 The Scan Engine and EtherCAT custom device already exists.
 </nierror>
-<nierror code="537716">
+<nierror code="-732151">
 The reference ID provided does not match the expected name or cannot be found.
 </nierror>
-<nierror code="537717">
+<nierror code="-732152">
 The reference ID provided does not match the expected GUID or cannot be found.
 </nierror>
-<nierror code="537718">
+<nierror code="-732153">
 The Local Chassis already exists.
 </nierror>
-<nierror code="537719">
+<nierror code="-732154">
 An insufficient number of channels was provided for module creation.
 </nierror>
-<nierror code="537720">
+<nierror code="-732155">
 This module and/or mode is not currently supported by the API.
 </nierror>
 </nidocument>
