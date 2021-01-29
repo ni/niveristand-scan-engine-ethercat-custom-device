@@ -27,7 +27,7 @@
 	<Item Name="NI 9375.ctl" Type="Class Private Data" URL="NI 9375.ctl">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
-	<Item Name="Create NI 9375.vi" Type="VI" URL="../Create NI 9375.vi">
+	<Item Name="Create NI 9375 - Digital Input and Output.vi" Type="VI" URL="../Create NI 9375 - Digital Input and Output.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'5!!!!$!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!%*!=!!?!!!N'V.D97YA27ZH;7ZF)&amp;.D=GFQ&gt;'FO:SZM&gt;GRJ9A^/33!Z-T=V,GRW9WRB=X-!#UZ*)$ET.T5A&lt;X6U!":!5!!$!!!!!1!##'6S=G^S)'FO!!!/1$$`````"'ZB&lt;75!!"*!)1VE:7:B&gt;7RU)(:B&lt;(6F!'%!]1!!!!!!!!!#'V.D97YA27ZH;7ZF)&amp;.D=GFQ&gt;'FO:SZM&gt;GRJ9BRE;7&gt;J&gt;'&amp;M)'.I97ZO:7QA=W6U&gt;'FO:X-O9X2M!#"!5!!#!!=!#""D;'&amp;O&lt;G6M)(.F&gt;(2J&lt;G&gt;T!!!?1%!!!@````]!#2"D;'&amp;O&lt;G6M)(.F&gt;(2J&lt;G&gt;T!!"5!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!1!#A-!!(A!!!U)!!!!!!!!!!!!!!E!!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!##!!!!!!"!!M!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
@@ -45,7 +45,7 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
 	</Item>
-	<Item Name="Read NI 9375.vi" Type="VI" URL="../Read NI 9375.vi">
+	<Item Name="Read NI 9375 - Digital Input and Output.vi" Type="VI" URL="../Read NI 9375 - Digital Input and Output.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(D!!!!$1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!!Z!-0````]%&lt;G&amp;N:1!!%E!B$72F:G&amp;V&lt;(1A&gt;G&amp;M&gt;75!91$R!!!!!!!!!!)&lt;5W.B&lt;C"&amp;&lt;G&gt;J&lt;G5A5W.S;8"U;7ZH,GRW&lt;'FC('2J:WFU97QA9WBB&lt;GZF&lt;#"T:82U;7ZH=SZD&gt;'Q!)%"1!!)!"1!'%'.I97ZO:7QA=W6U&gt;'FO:X-!!"Z!1!!"`````Q!(%'.I97ZO:7QA=W6U&gt;'FO:X-!!%*!=!!?!!!N'V.D97YA27ZH;7ZF)&amp;.D=GFQ&gt;'FO:SZM&gt;GRJ9A^/33!Z-T=V,GRW9WRB=X-!#UZ*)$ET.T5A&lt;X6U!":!5!!$!!!!!1!##'6S=G^S)'FO!!"#1(!!(A!!,2N49W&amp;O)%6O:WFO:3"49X*J=(2J&lt;G=O&lt;(:M;7)04EEA/4-X.3ZM&gt;G.M98.T!!J/33!Z-T=V)'FO!!"B!0!!$!!$!!1!#!!*!!1!"!!%!!1!#A!%!!1!#Q-!!(A!!!U)!!!!!!!!#1!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!%A!!$1!!!!Q!!!!!!!!!!!!!!1!-!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
