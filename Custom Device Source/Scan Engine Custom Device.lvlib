@@ -282,6 +282,7 @@
 				<Item Name="Set Dependent File Properties.vi" Type="VI" URL="../System Explorer/Utility/Set Dependent File Properties.vi"/>
 				<Item Name="Remove Properties.vi" Type="VI" URL="../System Explorer/Utility/Remove Properties.vi"/>
 				<Item Name="Set Main Settings.vi" Type="VI" URL="../System Explorer/Utility/Set Main Settings.vi"/>
+				<Item Name="Update Controller Settings on Delete.vi" Type="VI" URL="../System Explorer/Utility/Update Controller Settings on Delete.vi"/>
 			</Item>
 			<Item Name="RemIO" Type="Folder">
 				<Item Name="Scan Engine Update RemIO Subpanel.vi" Type="VI" URL="../System Explorer/Utility/Scan Engine Update RemIO Subpanel.vi"/>
