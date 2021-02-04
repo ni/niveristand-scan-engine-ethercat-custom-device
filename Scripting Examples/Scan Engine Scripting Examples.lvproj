@@ -112,7 +112,6 @@
 		</Item>
 		<Item Name="SubVIs" Type="Folder">
 			<Item Name="Scan Engine Example Support.lvlib" Type="Library" URL="../SubVIs/Scan Engine Example Support.lvlib"/>
-			<Item Name="Get Module Mode.vi" Type="VI" URL="../SubVIs/Get Module Mode.vi"/>
 		</Item>
 		<Item Name="Types" Type="Folder">
 			<Item Name="Module Channel Settings.ctl" Type="VI" URL="../Types/Module Channel Settings.ctl"/>
