@@ -40,28 +40,12 @@ target = 'My Computer'
 build_spec = 'Examples'
 
 [[build.steps]]
-name = 'Pharlap Engine Library'
-type = 'lvBuildSpec'
-project = '{cd}'
-target = 'Pharlap'
-build_spec = 'Engine Release'
-dependency_target = 'Pharlap'
-
-[[build.steps]]
 name = 'Linux x64 Engine Library'
 type = 'lvBuildSpec'
 project = '{cd}'
 target = 'Linux x64'
 build_spec = 'Engine Release'
 dependency_target = 'Linux_x64'
-
-[[build.steps]]
-name = 'Linux x86 Engine Library'
-type = 'lvBuildSpec'
-project = '{cd}'
-target = 'Linux 32 ARM'
-build_spec = 'Engine Release'
-dependency_target = 'Linux_32_ARM'
 
 [[package]]
 type = 'nipkg'
