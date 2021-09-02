@@ -4,7 +4,7 @@
 
 ## LabVIEW Version
 
-LabVIEW 2017
+LabVIEW 2019
 
 ## Dependencies
 
