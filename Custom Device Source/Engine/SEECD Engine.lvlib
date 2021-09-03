@@ -41,6 +41,7 @@
 			<Item Name="Stop Scan Engine.vi" Type="VI" URL="../Close/Stop Scan Engine.vi"/>
 		</Item>
 		<Item Name="Initialize" Type="Folder">
+			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="Build RT Data Cluster.vi" Type="VI" URL="../Initialize/Build RT Data Cluster.vi"/>
 			<Item Name="Compare ECAT FPGA Wrapper.vi" Type="VI" URL="../Initialize/Compare ECAT FPGA Wrapper.vi"/>
 			<Item Name="Compare ECAT Vars.vi" Type="VI" URL="../Initialize/Compare ECAT Vars.vi"/>
@@ -80,7 +81,6 @@
 			<Item Name="Get Slave IOVs.vi" Type="VI" URL="../Initialize/Get Slave IOVs.vi"/>
 			<Item Name="Get Slaves.vi" Type="VI" URL="../Initialize/Get Slaves.vi"/>
 			<Item Name="Get UDV Data.vi" Type="VI" URL="../Initialize/Get UDV Data.vi"/>
-			<Item Name="Host - Scan next ECAT Slave Level.vi" Type="VI" URL="../../System Explorer/Utility/Target Communication/Host - Scan next ECAT Slave Level.vi"/>
 			<Item Name="Identify Module Size.vi" Type="VI" URL="../Initialize/Identify Module Size.vi"/>
 			<Item Name="NiFPGA Open.vi" Type="VI" URL="../Initialize/NiFPGA Open.vi"/>
 			<Item Name="Open Module Refs.vi" Type="VI" URL="../Initialize/Open Module Refs.vi"/>

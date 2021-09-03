@@ -44,6 +44,7 @@
 		<Item Name="RT Globals.vi" Type="VI" URL="../Globals/RT Globals.vi"/>
 	</Item>
 	<Item Name="Utility" Type="Folder">
+		<Item Name="Host - Scan next ECAT Slave Level.vi" Type="VI" URL="../Utility/Host - Scan next ECAT Slave Level.vi"/>
 		<Item Name="Scan Engine Convert Module Enum.vi" Type="VI" URL="../Utility/Scan Engine Convert Module Enum.vi"/>
 		<Item Name="Scan Engine Convert Module String.vi" Type="VI" URL="../Utility/Scan Engine Convert Module String.vi"/>
 		<Item Name="Set Error.vi" Type="VI" URL="../Utility/Set Error.vi"/>
