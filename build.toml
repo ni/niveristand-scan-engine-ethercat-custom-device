@@ -22,7 +22,7 @@ type = 'lvBuildSpec'
 project = '{cd}'
 target = 'My Computer'
 build_spec = 'Configuration Release'
-dependency_target = 'Pharlap'
+dependency_target = 'Windows'
 
 [[build.steps]]
 name = 'Scripting API'
@@ -30,7 +30,7 @@ type = 'lvBuildSpec'
 project = '{cd}'
 target = 'My Computer'
 build_spec = 'Scripting API'
-dependency_target = 'Pharlap'
+dependency_target = 'Windows'
 
 [[build.steps]]
 name = 'Examples'
