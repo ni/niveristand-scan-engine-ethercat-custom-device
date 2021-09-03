@@ -48,4 +48,12 @@
 		<Item Name="Scan Engine Convert Module String.vi" Type="VI" URL="../Utility/Scan Engine Convert Module String.vi"/>
 		<Item Name="Set Error.vi" Type="VI" URL="../Utility/Set Error.vi"/>
 	</Item>
+	<Item Name="Type Defs" Type="Folder">
+		<Item Name="FPGAScanInterfaceMode.ctl" Type="VI" URL="../Type Defs/FPGAScanInterfaceMode.ctl"/>
+		<Item Name="Local Chassis Settings.ctl" Type="VI" URL="../Type Defs/Local Chassis Settings.ctl"/>
+		<Item Name="Main Settings.ctl" Type="VI" URL="../Type Defs/Main Settings.ctl"/>
+		<Item Name="FXP Config.ctl" Type="VI" URL="../Type Defs/FXP Config.ctl"/>
+		<Item Name="UDV Data Type.ctl" Type="VI" URL="../Type Defs/UDV Data Type.ctl"/>
+		<Item Name="Host - FPGAScanInterfaceMode.ctl" Type="VI" URL="../Type Defs/Host - FPGAScanInterfaceMode.ctl"/>
+	</Item>
 </Library>

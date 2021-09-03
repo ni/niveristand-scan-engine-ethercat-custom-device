@@ -158,38 +158,37 @@
 		</Item>
 	</Item>
 	<Item Name="Type Defs" Type="Folder">
-		<Item Name="Async Command.ctl" Type="VI" URL="../../Type Defs/Async Command.ctl"/>
-		<Item Name="Async Data.ctl" Type="VI" URL="../../Type Defs/Async Data.ctl"/>
-		<Item Name="Async State.ctl" Type="VI" URL="../../Type Defs/Async State.ctl"/>
-		<Item Name="Async Status.ctl" Type="VI" URL="../../Type Defs/Async Status.ctl"/>
-		<Item Name="Data Ref FGV Command.ctl" Type="VI" URL="../../Type Defs/Data Ref FGV Command.ctl"/>
-		<Item Name="Device Channels.ctl" Type="VI" URL="../../Type Defs/Device Channels.ctl"/>
-		<Item Name="ECAT Module Reconfig.ctl" Type="VI" URL="../../Type Defs/ECAT Module Reconfig.ctl"/>
-		<Item Name="ECAT Reconfig Data.ctl" Type="VI" URL="../../Type Defs/ECAT Reconfig Data.ctl"/>
-		<Item Name="ECAT Reconfig State.ctl" Type="VI" URL="../../Type Defs/ECAT Reconfig State.ctl"/>
-		<Item Name="ECAT Reconfig Status.ctl" Type="VI" URL="../../Type Defs/ECAT Reconfig Status.ctl"/>
-		<Item Name="EtherCAT Master Data.ctl" Type="VI" URL="../../Type Defs/EtherCAT Master Data.ctl"/>
-		<Item Name="EtherCAT Slave Data.ctl" Type="VI" URL="../../Type Defs/EtherCAT Slave Data.ctl"/>
-		<Item Name="FPGA Data.ctl" Type="VI" URL="../../Type Defs/FPGA Data.ctl"/>
-		<Item Name="FXP Config.ctl" Type="VI" URL="../../Type Defs/FXP Config.ctl"/>
-		<Item Name="Generic ECAT Slave Data Cluster.ctl" Type="VI" URL="../../Type Defs/Generic ECAT Slave Data Cluster.ctl"/>
-		<Item Name="Generic ECAT Slave IOV Cluster.ctl" Type="VI" URL="../../Type Defs/Generic ECAT Slave IOV Cluster.ctl"/>
-		<Item Name="Generic ECAT Slave RT-Data-Array.ctl" Type="VI" URL="../../Type Defs/Generic ECAT Slave RT-Data-Array.ctl"/>
-		<Item Name="Input Data.ctl" Type="VI" URL="../../Type Defs/Input Data.ctl"/>
-		<Item Name="Local Chassis Data.ctl" Type="VI" URL="../../Type Defs/Local Chassis Data.ctl"/>
-		<Item Name="Mixed IO.ctl" Type="VI" URL="../../Type Defs/Mixed IO.ctl"/>
-		<Item Name="Mod Size Indexes.ctl" Type="VI" URL="../../Type Defs/Mod Size Indexes.ctl"/>
-		<Item Name="Module Config Data.ctl" Type="VI" URL="../../Type Defs/Module Config Data.ctl"/>
-		<Item Name="Module IO Type.ctl" Type="VI" URL="../../Type Defs/Module IO Type.ctl"/>
-		<Item Name="Open Module IOVs.ctl" Type="VI" URL="../../Type Defs/Open Module IOVs.ctl"/>
-		<Item Name="Output Data.ctl" Type="VI" URL="../../Type Defs/Output Data.ctl"/>
-		<Item Name="REM IO ECAT Slave Data Cluster.ctl" Type="VI" URL="../../Type Defs/REM IO ECAT Slave Data Cluster.ctl"/>
-		<Item Name="REM IO ECAT Slave IOV Cluster.ctl" Type="VI" URL="../../Type Defs/REM IO ECAT Slave IOV Cluster.ctl"/>
-		<Item Name="REM IO ECAT Slave RT-Data-Array.ctl" Type="VI" URL="../../Type Defs/REM IO ECAT Slave RT-Data-Array.ctl"/>
-		<Item Name="RSI Module Data.ctl" Type="VI" URL="../../Type Defs/RSI Module Data.ctl"/>
-		<Item Name="RT Data.ctl" Type="VI" URL="../../Type Defs/RT Data.ctl"/>
-		<Item Name="RW Case.ctl" Type="VI" URL="../../Type Defs/RW Case.ctl"/>
-		<Item Name="UDV Data Type.ctl" Type="VI" URL="../../Type Defs/UDV Data Type.ctl"/>
-		<Item Name="UDV Data.ctl" Type="VI" URL="../../Type Defs/UDV Data.ctl"/>
+		<Property Name="NI.SortType" Type="Int">3</Property>
+		<Item Name="Async Command.ctl" Type="VI" URL="../Type Defs/Async Command.ctl"/>
+		<Item Name="Async Data.ctl" Type="VI" URL="../Type Defs/Async Data.ctl"/>
+		<Item Name="Async State.ctl" Type="VI" URL="../Type Defs/Async State.ctl"/>
+		<Item Name="Async Status.ctl" Type="VI" URL="../Type Defs/Async Status.ctl"/>
+		<Item Name="Data Ref FGV Command.ctl" Type="VI" URL="../Type Defs/Data Ref FGV Command.ctl"/>
+		<Item Name="Device Channels.ctl" Type="VI" URL="../Type Defs/Device Channels.ctl"/>
+		<Item Name="ECAT Module Reconfig.ctl" Type="VI" URL="../Type Defs/ECAT Module Reconfig.ctl"/>
+		<Item Name="ECAT Reconfig Data.ctl" Type="VI" URL="../Type Defs/ECAT Reconfig Data.ctl"/>
+		<Item Name="ECAT Reconfig State.ctl" Type="VI" URL="../Type Defs/ECAT Reconfig State.ctl"/>
+		<Item Name="ECAT Reconfig Status.ctl" Type="VI" URL="../Type Defs/ECAT Reconfig Status.ctl"/>
+		<Item Name="EtherCAT Master Data.ctl" Type="VI" URL="../Type Defs/EtherCAT Master Data.ctl"/>
+		<Item Name="EtherCAT Slave Data.ctl" Type="VI" URL="../Type Defs/EtherCAT Slave Data.ctl"/>
+		<Item Name="FPGA Data.ctl" Type="VI" URL="../Type Defs/FPGA Data.ctl"/>
+		<Item Name="Generic ECAT Slave Data Cluster.ctl" Type="VI" URL="../Type Defs/Generic ECAT Slave Data Cluster.ctl"/>
+		<Item Name="Generic ECAT Slave IOV Cluster.ctl" Type="VI" URL="../Type Defs/Generic ECAT Slave IOV Cluster.ctl"/>
+		<Item Name="Generic ECAT Slave RT-Data-Array.ctl" Type="VI" URL="../Type Defs/Generic ECAT Slave RT-Data-Array.ctl"/>
+		<Item Name="Input Data.ctl" Type="VI" URL="../Type Defs/Input Data.ctl"/>
+		<Item Name="Local Chassis Data.ctl" Type="VI" URL="../Type Defs/Local Chassis Data.ctl"/>
+		<Item Name="Mixed IO.ctl" Type="VI" URL="../Type Defs/Mixed IO.ctl"/>
+		<Item Name="Mod Size Indexes.ctl" Type="VI" URL="../Type Defs/Mod Size Indexes.ctl"/>
+		<Item Name="Module Config Data.ctl" Type="VI" URL="../Type Defs/Module Config Data.ctl"/>
+		<Item Name="Module IO Type.ctl" Type="VI" URL="../Type Defs/Module IO Type.ctl"/>
+		<Item Name="Open Module IOVs.ctl" Type="VI" URL="../Type Defs/Open Module IOVs.ctl"/>
+		<Item Name="Output Data.ctl" Type="VI" URL="../Type Defs/Output Data.ctl"/>
+		<Item Name="REM IO ECAT Slave Data Cluster.ctl" Type="VI" URL="../Type Defs/REM IO ECAT Slave Data Cluster.ctl"/>
+		<Item Name="REM IO ECAT Slave IOV Cluster.ctl" Type="VI" URL="../Type Defs/REM IO ECAT Slave IOV Cluster.ctl"/>
+		<Item Name="REM IO ECAT Slave RT-Data-Array.ctl" Type="VI" URL="../Type Defs/REM IO ECAT Slave RT-Data-Array.ctl"/>
+		<Item Name="RSI Module Data.ctl" Type="VI" URL="../Type Defs/RSI Module Data.ctl"/>
+		<Item Name="RT Data.ctl" Type="VI" URL="../Type Defs/RT Data.ctl"/>
+		<Item Name="RW Case.ctl" Type="VI" URL="../Type Defs/RW Case.ctl"/>
+		<Item Name="UDV Data.ctl" Type="VI" URL="../Type Defs/UDV Data.ctl"/>
 	</Item>
 </Library>

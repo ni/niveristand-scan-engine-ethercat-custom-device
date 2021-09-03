@@ -107,7 +107,6 @@
 		</Item>
 		<Item Name="SEECD Shared.lvlib" Type="Library" URL="../Shared/SEECD Shared.lvlib"/>
 		<Item Name="SEECD System Explorer.lvlib" Type="Library" URL="../System Explorer/SEECD System Explorer.lvlib"/>
-		<Item Name="SEECD Engine.lvlib" Type="Library" URL="../Engine/SEECD Engine.lvlib"/>
 		<Item Name="Build VIs.lvlib" Type="Library" URL="../Build VIs/Build VIs.lvlib"/>
 		<Item Name="Modules.lvlibp" Type="LVLibp" URL="../Modules.lvlibp">
 			<Item Name="RSI Module Template" Type="Folder">
@@ -729,12 +728,6 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-			<Item Name="niecatviapi.dll" Type="Document" URL="niecatviapi.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="nisyscfg.dll" Type="Document" URL="nisyscfg.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
 			<Item Name="NiFpga.dll" Type="Document" URL="NiFpga.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -759,6 +752,10 @@
 			<Item Name="_copyToRTFtp.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/indcomecat/_InternalSubVIs/_copyToRTFtp.vi"/>
 			<Item Name="_copyToRTWebDAV.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/indcomecat/_InternalSubVIs/_copyToRTWebDAV.vi"/>
 			<Item Name="_recodeResult.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/indcomecat/_InternalSubVIs/_recodeResult.vi"/>
+			<Item Name="nisyscfg.dll" Type="Document" URL="nisyscfg.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="SEECD Engine.lvlib" Type="Library" URL="../Engine/SEECD Engine.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Configuration Release" Type="Source Distribution">
@@ -1275,7 +1272,7 @@
 				<Property Name="Source[67].itemID" Type="Ref">/My Computer/SEECD Shared.lvlib/Globals/RT Globals.vi</Property>
 				<Property Name="Source[67].type" Type="Str">VI</Property>
 				<Property Name="Source[68].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[68].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Type Defs/FPGA Target.ctl</Property>
+				<Property Name="Source[68].itemID" Type="Ref"></Property>
 				<Property Name="Source[68].type" Type="Str">VI</Property>
 				<Property Name="Source[69].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[69].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Type Defs/Bitfile Signature.ctl</Property>
@@ -1283,28 +1280,28 @@
 				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[7].itemID" Type="Ref">/My Computer/NI ECAT Remote IO.llb</Property>
 				<Property Name="Source[70].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[70].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Type Defs/Host - HW Config.ctl</Property>
+				<Property Name="Source[70].itemID" Type="Ref"></Property>
 				<Property Name="Source[70].type" Type="Str">VI</Property>
 				<Property Name="Source[71].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[71].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Type Defs/Host - Local Chassis.ctl</Property>
+				<Property Name="Source[71].itemID" Type="Ref"></Property>
 				<Property Name="Source[71].type" Type="Str">VI</Property>
 				<Property Name="Source[72].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[72].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Type Defs/Host - Module.ctl</Property>
+				<Property Name="Source[72].itemID" Type="Ref"></Property>
 				<Property Name="Source[72].type" Type="Str">VI</Property>
 				<Property Name="Source[73].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[73].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Type Defs/Host - Slave.ctl</Property>
+				<Property Name="Source[73].itemID" Type="Ref"></Property>
 				<Property Name="Source[73].type" Type="Str">VI</Property>
 				<Property Name="Source[74].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[74].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Type Defs/Host - Master.ctl</Property>
+				<Property Name="Source[74].itemID" Type="Ref"></Property>
 				<Property Name="Source[74].type" Type="Str">VI</Property>
 				<Property Name="Source[75].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[75].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Type Defs/Host - FPGAScanInterfaceMode.ctl</Property>
+				<Property Name="Source[75].itemID" Type="Ref"></Property>
 				<Property Name="Source[75].type" Type="Str">VI</Property>
 				<Property Name="Source[76].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[76].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Type Defs/ECAT Channel Data Type.ctl</Property>
 				<Property Name="Source[76].type" Type="Str">VI</Property>
 				<Property Name="Source[77].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[77].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Type Defs/FPGAScanInterfaceMode.ctl</Property>
+				<Property Name="Source[77].itemID" Type="Ref">/My Computer/SEECD Shared.lvlib/Type Defs/FPGAScanInterfaceMode.ctl</Property>
 				<Property Name="Source[77].type" Type="Str">VI</Property>
 				<Property Name="Source[78].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[78].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Type Defs/NI ECAT Slaves.ctl</Property>
@@ -1657,14 +1654,8 @@
 			<Item Name="nNIBlueBus_nCrioFixed_nRefnum.dll" Type="Document" URL="nNIBlueBus_nCrioFixed_nRefnum.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="niecatviapi.dll" Type="Document" URL="niecatviapi.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
 			<Item Name="SEECD System Explorer.lvlib" Type="Library" URL="../System Explorer/SEECD System Explorer.lvlib"/>
 			<Item Name="NationalInstruments.VeriStand.SystemDefinitionAPI" Type="Document" URL="NationalInstruments.VeriStand.SystemDefinitionAPI">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="nisyscfg.dll" Type="Document" URL="nisyscfg.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
@@ -1693,6 +1684,9 @@
 			<Item Name="_copyToRTWebDAV.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/indcomecat/_InternalSubVIs/_copyToRTWebDAV.vi"/>
 			<Item Name="_recodeResult.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/indcomecat/_InternalSubVIs/_recodeResult.vi"/>
 			<Item Name="NiFpga.dll" Type="Document" URL="NiFpga.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="nisyscfg.dll" Type="Document" URL="nisyscfg.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 		</Item>

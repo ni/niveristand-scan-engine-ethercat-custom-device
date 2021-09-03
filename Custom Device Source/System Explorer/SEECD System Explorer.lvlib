@@ -67,21 +67,17 @@
 		<Item Name="EnableDisable Main Page.vi" Type="VI" URL="../RTM/EnableDisable Main Page.vi"/>
 	</Item>
 	<Item Name="Type Defs" Type="Folder">
-		<Item Name="Bitfile Signature.ctl" Type="VI" URL="../../Type Defs/Bitfile Signature.ctl"/>
-		<Item Name="ECAT Channel Data Type.ctl" Type="VI" URL="../../Type Defs/ECAT Channel Data Type.ctl"/>
-		<Item Name="FPGA Target.ctl" Type="VI" URL="../../Type Defs/FPGA Target.ctl"/>
-		<Item Name="FPGAScanInterfaceMode.ctl" Type="VI" URL="../../Type Defs/FPGAScanInterfaceMode.ctl"/>
-		<Item Name="Host - FPGAScanInterfaceMode.ctl" Type="VI" URL="../../Type Defs/Host - FPGAScanInterfaceMode.ctl"/>
-		<Item Name="Host - HW Config.ctl" Type="VI" URL="../../Type Defs/Host - HW Config.ctl"/>
-		<Item Name="Host - Local Chassis.ctl" Type="VI" URL="../../Type Defs/Host - Local Chassis.ctl"/>
-		<Item Name="Host - Master.ctl" Type="VI" URL="../../Type Defs/Host - Master.ctl"/>
-		<Item Name="Host - Module.ctl" Type="VI" URL="../../Type Defs/Host - Module.ctl"/>
-		<Item Name="Host - Slave.ctl" Type="VI" URL="../../Type Defs/Host - Slave.ctl"/>
-		<Item Name="Local Chassis Settings.ctl" Type="VI" URL="../../Type Defs/Local Chassis Settings.ctl"/>
-		<Item Name="Main Settings.ctl" Type="VI" URL="../../Type Defs/Main Settings.ctl"/>
-		<Item Name="NI ECAT Slaves.ctl" Type="VI" URL="../../Type Defs/NI ECAT Slaves.ctl"/>
-		<Item Name="Slot - Configuration.ctl" Type="VI" URL="../../Type Defs/Slot - Configuration.ctl"/>
-		<Item Name="Slot Programming Mode.ctl" Type="VI" URL="../../Type Defs/Slot Programming Mode.ctl"/>
+		<Item Name="Bitfile Signature.ctl" Type="VI" URL="../Type Defs/Bitfile Signature.ctl"/>
+		<Item Name="ECAT Channel Data Type.ctl" Type="VI" URL="../Type Defs/ECAT Channel Data Type.ctl"/>
+		<Item Name="FPGA Target.ctl" Type="VI" URL="../Type Defs/FPGA Target.ctl"/>
+		<Item Name="Host - HW Config.ctl" Type="VI" URL="../Type Defs/Host - HW Config.ctl"/>
+		<Item Name="Host - Local Chassis.ctl" Type="VI" URL="../Type Defs/Host - Local Chassis.ctl"/>
+		<Item Name="Host - Master.ctl" Type="VI" URL="../Type Defs/Host - Master.ctl"/>
+		<Item Name="Host - Module.ctl" Type="VI" URL="../Type Defs/Host - Module.ctl"/>
+		<Item Name="Host - Slave.ctl" Type="VI" URL="../Type Defs/Host - Slave.ctl"/>
+		<Item Name="NI ECAT Slaves.ctl" Type="VI" URL="../Type Defs/NI ECAT Slaves.ctl"/>
+		<Item Name="Slot - Configuration.ctl" Type="VI" URL="../Type Defs/Slot - Configuration.ctl"/>
+		<Item Name="Slot Programming Mode.ctl" Type="VI" URL="../Type Defs/Slot Programming Mode.ctl"/>
 	</Item>
 	<Item Name="Utility" Type="Folder">
 		<Item Name="ECAT" Type="Folder">
