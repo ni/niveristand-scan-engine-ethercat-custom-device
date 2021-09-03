@@ -989,8 +989,8 @@
 				<Property Name="Bld_excludedDirectory[0].pathType" Type="Str">relativeToAppDir</Property>
 				<Property Name="Bld_excludedDirectory[1]" Type="Path">resource/objmgr</Property>
 				<Property Name="Bld_excludedDirectory[1].pathType" Type="Str">relativeToAppDir</Property>
-				<Property Name="Bld_excludedDirectory[2]" Type="Path">/C/ProgramData/National Instruments/InstCache/17.0</Property>
-				<Property Name="Bld_excludedDirectory[3]" Type="Path">/C/Users/nitest/Documents/LabVIEW Data/2017(32-bit)/ExtraVILib</Property>
+				<Property Name="Bld_excludedDirectory[2]" Type="Path">/C/ProgramData/National Instruments/InstCache/19.0</Property>
+				<Property Name="Bld_excludedDirectory[3]" Type="Path">/C/Users/nitest/Documents/LabVIEW Data/2019(32-bit)/ExtraVILib</Property>
 				<Property Name="Bld_excludedDirectory[4]" Type="Path">instr.lib</Property>
 				<Property Name="Bld_excludedDirectory[4].pathType" Type="Str">relativeToAppDir</Property>
 				<Property Name="Bld_excludedDirectory[5]" Type="Path">user.lib</Property>
@@ -1015,275 +1015,258 @@
 				<Property Name="Destination[3].path" Type="Path">../Built/Scripting/NI_AB_PROJECTNAME/Scan Engine Dependencies.llb</Property>
 				<Property Name="Destination[3].type" Type="Str">LLB</Property>
 				<Property Name="DestinationCount" Type="Int">4</Property>
-				<Property Name="Source[0].itemID" Type="Str">{B1AC5F1F-4C50-4572-BFC3-5F43062B5F13}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{26F94849-3BBE-4912-9C4C-61ED7D45ED4A}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">2</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Scripting API/Scan Engine Scripting.lvlib</Property>
 				<Property Name="Source[1].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[1].type" Type="Str">Library</Property>
 				<Property Name="Source[10].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[10].itemID" Type="Ref">/My Computer/Scripting API/Scan Engine Scripting.lvlib/Modules/NI 9474.lvclass</Property>
+				<Property Name="Source[10].itemID" Type="Ref">/My Computer/Scripting API/Scan Engine Scripting.lvlib/Modules/NI 9475.lvclass</Property>
 				<Property Name="Source[10].type" Type="Str">Library</Property>
 				<Property Name="Source[11].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[11].itemID" Type="Ref">/My Computer/Scripting API/Scan Engine Scripting.lvlib/Modules/NI 9475.lvclass</Property>
+				<Property Name="Source[11].itemID" Type="Ref">/My Computer/Scripting API/Scan Engine Scripting.lvlib/Modules/Channels/Channel.lvclass</Property>
 				<Property Name="Source[11].type" Type="Str">Library</Property>
-				<Property Name="Source[12].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[12].itemID" Type="Ref">/My Computer/Scripting API/Scan Engine Scripting.lvlib/Modules/Channels/Channel.lvclass</Property>
-				<Property Name="Source[12].type" Type="Str">Library</Property>
+				<Property Name="Source[12].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[12].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[12].destinationIndex" Type="Int">3</Property>
+				<Property Name="Source[12].itemID" Type="Ref">/My Computer/SEECD Shared.lvlib/Globals</Property>
+				<Property Name="Source[12].type" Type="Str">Container</Property>
 				<Property Name="Source[13].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[13].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[13].destinationIndex" Type="Int">3</Property>
-				<Property Name="Source[13].itemID" Type="Ref">/My Computer/SEECD Shared.lvlib/Globals</Property>
+				<Property Name="Source[13].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[13].itemID" Type="Ref">/My Computer/Scripting API/Palettes</Property>
 				<Property Name="Source[13].type" Type="Str">Container</Property>
 				<Property Name="Source[14].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[14].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[14].destinationIndex" Type="Int">3</Property>
-				<Property Name="Source[14].itemID" Type="Ref"></Property>
+				<Property Name="Source[14].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[14].itemID" Type="Ref">/My Computer/Scripting API/Scan Engine Scripting.lvlib/Main</Property>
 				<Property Name="Source[14].type" Type="Str">Container</Property>
 				<Property Name="Source[15].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[15].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[15].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[15].itemID" Type="Ref">/My Computer/Scripting API/Palettes</Property>
+				<Property Name="Source[15].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[15].itemID" Type="Ref">/My Computer/Scripting API/Scan Engine Scripting.lvlib/Modules</Property>
 				<Property Name="Source[15].type" Type="Str">Container</Property>
 				<Property Name="Source[16].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[16].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[16].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[16].itemID" Type="Ref">/My Computer/Scripting API/Scan Engine Scripting.lvlib/Main</Property>
+				<Property Name="Source[16].itemID" Type="Ref">/My Computer/Scripting API/Scan Engine Scripting.lvlib/Slots</Property>
 				<Property Name="Source[16].type" Type="Str">Container</Property>
 				<Property Name="Source[17].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[17].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[17].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[17].itemID" Type="Ref">/My Computer/Scripting API/Scan Engine Scripting.lvlib/Modules</Property>
+				<Property Name="Source[17].itemID" Type="Ref">/My Computer/Scripting API/Scan Engine Scripting.lvlib/Utility</Property>
 				<Property Name="Source[17].type" Type="Str">Container</Property>
-				<Property Name="Source[18].Container.applyDestination" Type="Bool">true</Property>
-				<Property Name="Source[18].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[18].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[18].itemID" Type="Ref">/My Computer/Scripting API/Scan Engine Scripting.lvlib/Slots</Property>
-				<Property Name="Source[18].type" Type="Str">Container</Property>
-				<Property Name="Source[19].Container.applyDestination" Type="Bool">true</Property>
-				<Property Name="Source[19].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[19].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[19].itemID" Type="Ref">/My Computer/Scripting API/Scan Engine Scripting.lvlib/Utility</Property>
-				<Property Name="Source[19].type" Type="Str">Container</Property>
+				<Property Name="Source[18].destinationIndex" Type="Int">3</Property>
+				<Property Name="Source[18].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Scan Engine Initialization VI.vi</Property>
+				<Property Name="Source[18].type" Type="Str">VI</Property>
+				<Property Name="Source[19].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[19].itemID" Type="Ref">/My Computer/SEECD Shared.lvlib/Utility/Scan Engine Convert Module Enum.vi</Property>
+				<Property Name="Source[19].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Modules.lvlibp</Property>
 				<Property Name="Source[2].preventRename" Type="Bool">true</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[20].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[20].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Scan Engine Initialization VI.vi</Property>
+				<Property Name="Source[20].itemID" Type="Ref">/My Computer/SEECD Shared.lvlib/Utility/Scan Engine Convert Module String.vi</Property>
 				<Property Name="Source[20].type" Type="Str">VI</Property>
 				<Property Name="Source[21].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[21].itemID" Type="Ref">/My Computer/SEECD Shared.lvlib/Utility/Scan Engine Convert Module Enum.vi</Property>
+				<Property Name="Source[21].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Action VIs/Main - Add Local Chassis.vi</Property>
 				<Property Name="Source[21].type" Type="Str">VI</Property>
 				<Property Name="Source[22].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[22].itemID" Type="Ref">/My Computer/SEECD Shared.lvlib/Utility/Scan Engine Convert Module String.vi</Property>
+				<Property Name="Source[22].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Action VIs/Main - Add EtherCAT Master.vi</Property>
 				<Property Name="Source[22].type" Type="Str">VI</Property>
 				<Property Name="Source[23].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[23].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Action VIs/Main - Add Local Chassis.vi</Property>
+				<Property Name="Source[23].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Action VIs/Main - Auto Detect Modules.vi</Property>
 				<Property Name="Source[23].type" Type="Str">VI</Property>
 				<Property Name="Source[24].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[24].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Action VIs/Main - Add EtherCAT Master.vi</Property>
+				<Property Name="Source[24].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Action VIs/Main - Manages 3rd Party Slaves.vi</Property>
 				<Property Name="Source[24].type" Type="Str">VI</Property>
 				<Property Name="Source[25].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[25].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Action VIs/Main - Auto Detect Modules.vi</Property>
+				<Property Name="Source[25].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Action VIs/Main - On Load.vi</Property>
 				<Property Name="Source[25].type" Type="Str">VI</Property>
 				<Property Name="Source[26].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[26].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Action VIs/Main - Manages 3rd Party Slaves.vi</Property>
+				<Property Name="Source[26].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Action VIs/Master - Add EtherCAT Slave.vi</Property>
 				<Property Name="Source[26].type" Type="Str">VI</Property>
 				<Property Name="Source[27].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[27].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Action VIs/Main - On Load.vi</Property>
+				<Property Name="Source[27].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Action VIs/FPGA - Select Bitfile (ECAT).vi</Property>
 				<Property Name="Source[27].type" Type="Str">VI</Property>
 				<Property Name="Source[28].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[28].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Action VIs/Master - Add EtherCAT Slave.vi</Property>
+				<Property Name="Source[28].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Action VIs/FPGA - Select Bitfile (Local).vi</Property>
 				<Property Name="Source[28].type" Type="Str">VI</Property>
 				<Property Name="Source[29].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[29].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Action VIs/FPGA - Select Bitfile (ECAT).vi</Property>
+				<Property Name="Source[29].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Action VIs/FPGA - Clear.vi</Property>
 				<Property Name="Source[29].type" Type="Str">VI</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">3</Property>
 				<Property Name="Source[3].itemID" Type="Ref">/My Computer/SEECD Shared.lvlib</Property>
 				<Property Name="Source[3].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[3].type" Type="Str">Library</Property>
 				<Property Name="Source[30].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[30].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Action VIs/FPGA - Select Bitfile (Local).vi</Property>
+				<Property Name="Source[30].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Action VIs/FPGA - Download (ECAT).vi</Property>
 				<Property Name="Source[30].type" Type="Str">VI</Property>
 				<Property Name="Source[31].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[31].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Action VIs/FPGA - Clear.vi</Property>
+				<Property Name="Source[31].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Action VIs/FPGA - Revert (ECAT).vi</Property>
 				<Property Name="Source[31].type" Type="Str">VI</Property>
 				<Property Name="Source[32].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[32].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Action VIs/FPGA - Download (ECAT).vi</Property>
+				<Property Name="Source[32].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Action VIs/ActionVIOnDownload - Set Scan Rate.vi</Property>
 				<Property Name="Source[32].type" Type="Str">VI</Property>
 				<Property Name="Source[33].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[33].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Action VIs/FPGA - Revert (ECAT).vi</Property>
+				<Property Name="Source[33].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Action VIs/FPGA - On Delete (Local).vi</Property>
 				<Property Name="Source[33].type" Type="Str">VI</Property>
 				<Property Name="Source[34].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[34].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Action VIs/ActionVIOnDownload - Set Scan Rate.vi</Property>
+				<Property Name="Source[34].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Action VIs/Main - Can Add Local Chassis.vi</Property>
 				<Property Name="Source[34].type" Type="Str">VI</Property>
 				<Property Name="Source[35].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[35].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Action VIs/FPGA - On Delete (Local).vi</Property>
+				<Property Name="Source[35].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility/Module Slot/Get Module Model.vi</Property>
 				<Property Name="Source[35].type" Type="Str">VI</Property>
 				<Property Name="Source[36].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[36].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Action VIs/Main - Can Add Local Chassis.vi</Property>
+				<Property Name="Source[36].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility/Module Slot/Scan Engine Init Slot.vi</Property>
 				<Property Name="Source[36].type" Type="Str">VI</Property>
 				<Property Name="Source[37].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[37].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility/Module Slot/Get Module Model.vi</Property>
+				<Property Name="Source[37].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility/Module Slot/Scan Engine Rename Slot.vi</Property>
 				<Property Name="Source[37].type" Type="Str">VI</Property>
 				<Property Name="Source[38].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[38].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility/Module Slot/Scan Engine Init Slot.vi</Property>
+				<Property Name="Source[38].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility/Module Slot/Scan Engine Change Module.vi</Property>
 				<Property Name="Source[38].type" Type="Str">VI</Property>
 				<Property Name="Source[39].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[39].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility/Module Slot/Scan Engine Rename Slot.vi</Property>
+				<Property Name="Source[39].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility/Module Slot/Handle Subpanel VI Run State.vi</Property>
 				<Property Name="Source[39].type" Type="Str">VI</Property>
 				<Property Name="Source[4].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[4].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">3</Property>
-				<Property Name="Source[4].itemID" Type="Ref"></Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/SEECD Shared.lvlib/Utility</Property>
 				<Property Name="Source[4].type" Type="Str">Container</Property>
 				<Property Name="Source[40].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[40].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility/Module Slot/Scan Engine Change Module.vi</Property>
+				<Property Name="Source[40].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility/Module Slot/Scan Engine Update Slot Subpanel.vi</Property>
 				<Property Name="Source[40].type" Type="Str">VI</Property>
 				<Property Name="Source[41].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[41].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility/Module Slot/Handle Subpanel VI Run State.vi</Property>
+				<Property Name="Source[41].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility/Module Slot/Update Slots.vi</Property>
 				<Property Name="Source[41].type" Type="Str">VI</Property>
 				<Property Name="Source[42].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[42].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility/Module Slot/Scan Engine Update Slot Subpanel.vi</Property>
+				<Property Name="Source[42].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility/Module Slot/Reset Slots.vi</Property>
 				<Property Name="Source[42].type" Type="Str">VI</Property>
 				<Property Name="Source[43].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[43].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility/Module Slot/Update Slots.vi</Property>
+				<Property Name="Source[43].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility/Module Slot/Update Slot GUID.vi</Property>
 				<Property Name="Source[43].type" Type="Str">VI</Property>
 				<Property Name="Source[44].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[44].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility/Module Slot/Reset Slots.vi</Property>
+				<Property Name="Source[44].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility/Module Slot/Update Slot Name.vi</Property>
 				<Property Name="Source[44].type" Type="Str">VI</Property>
 				<Property Name="Source[45].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[45].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility/Module Slot/Update Slot GUID.vi</Property>
+				<Property Name="Source[45].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility/Other/Get Target IP Address.vi</Property>
 				<Property Name="Source[45].type" Type="Str">VI</Property>
 				<Property Name="Source[46].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[46].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility/Module Slot/Update Slot Name.vi</Property>
+				<Property Name="Source[46].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility/Other/Data Type to Enum.vi</Property>
 				<Property Name="Source[46].type" Type="Str">VI</Property>
 				<Property Name="Source[47].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[47].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility/Other/Get Target IP Address.vi</Property>
+				<Property Name="Source[47].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility/Other/Update Dialog Box.vi</Property>
 				<Property Name="Source[47].type" Type="Str">VI</Property>
 				<Property Name="Source[48].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[48].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility/Other/Data Type to Enum.vi</Property>
+				<Property Name="Source[48].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility/Other/Set FPGA Mode.vi</Property>
 				<Property Name="Source[48].type" Type="Str">VI</Property>
 				<Property Name="Source[49].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[49].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility/Other/Update Dialog Box.vi</Property>
+				<Property Name="Source[49].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility/Other/Add Custom Device Channel - Offline.vi</Property>
 				<Property Name="Source[49].type" Type="Str">VI</Property>
-				<Property Name="Source[5].Container.applyDestination" Type="Bool">true</Property>
-				<Property Name="Source[5].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[5].destinationIndex" Type="Int">3</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/My Computer/SEECD Shared.lvlib/Utility</Property>
-				<Property Name="Source[5].type" Type="Str">Container</Property>
+				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Custom Device Scan Engine.xml</Property>
 				<Property Name="Source[50].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[50].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility/Other/Set FPGA Mode.vi</Property>
+				<Property Name="Source[50].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility/Other/Add Custom Device Section - Offline.vi</Property>
 				<Property Name="Source[50].type" Type="Str">VI</Property>
 				<Property Name="Source[51].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[51].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility/Other/Add Custom Device Channel - Offline.vi</Property>
+				<Property Name="Source[51].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility/Other/NI VeriStand - Get Target Operating System.vi</Property>
 				<Property Name="Source[51].type" Type="Str">VI</Property>
 				<Property Name="Source[52].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[52].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility/Other/Add Custom Device Section - Offline.vi</Property>
+				<Property Name="Source[52].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility/Other/PathToLinuxPath.vi</Property>
 				<Property Name="Source[52].type" Type="Str">VI</Property>
 				<Property Name="Source[53].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[53].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility/Other/NI VeriStand - Get Target Operating System.vi</Property>
+				<Property Name="Source[53].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility/Other/Align cRIO Programming Mode.vi</Property>
 				<Property Name="Source[53].type" Type="Str">VI</Property>
 				<Property Name="Source[54].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[54].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility/Other/PathToLinuxPath.vi</Property>
+				<Property Name="Source[54].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility/Other/Set Main FPGA Chassis Slots Programming Mode.vi</Property>
 				<Property Name="Source[54].type" Type="Str">VI</Property>
 				<Property Name="Source[55].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[55].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility/Other/Align cRIO Programming Mode.vi</Property>
+				<Property Name="Source[55].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility/Other/List Local Chassis Modules.vi</Property>
 				<Property Name="Source[55].type" Type="Str">VI</Property>
 				<Property Name="Source[56].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[56].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility/Other/Set Main FPGA Chassis Slots Programming Mode.vi</Property>
+				<Property Name="Source[56].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility/Other/Add Channel Properties To String Array.vi</Property>
 				<Property Name="Source[56].type" Type="Str">VI</Property>
 				<Property Name="Source[57].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[57].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility/Other/List Local Chassis Modules.vi</Property>
+				<Property Name="Source[57].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility/Other/Channel Data and Properties to Table.vi</Property>
 				<Property Name="Source[57].type" Type="Str">VI</Property>
 				<Property Name="Source[58].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[58].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility/Other/Add Channel Properties To String Array.vi</Property>
+				<Property Name="Source[58].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility/Other/Get Modules Disabled Items.vi</Property>
 				<Property Name="Source[58].type" Type="Str">VI</Property>
 				<Property Name="Source[59].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[59].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility/Other/Channel Data and Properties to Table.vi</Property>
+				<Property Name="Source[59].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility/Other/Filter Out VxWorks Dependent Files.vi</Property>
 				<Property Name="Source[59].type" Type="Str">VI</Property>
 				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Custom Device Scan Engine.xml</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/NI ECAT Remote IO.llb</Property>
 				<Property Name="Source[60].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[60].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility/Other/Get Modules Disabled Items.vi</Property>
+				<Property Name="Source[60].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility/Other/Get Dependent File Properties.vi</Property>
 				<Property Name="Source[60].type" Type="Str">VI</Property>
 				<Property Name="Source[61].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[61].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility/Other/Filter Out VxWorks Dependent Files.vi</Property>
+				<Property Name="Source[61].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility/Other/Get Dependent File Property Names.vi</Property>
 				<Property Name="Source[61].type" Type="Str">VI</Property>
 				<Property Name="Source[62].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[62].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility/Other/Get Dependent File Properties.vi</Property>
+				<Property Name="Source[62].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility/Other/Set Dependent File Properties.vi</Property>
 				<Property Name="Source[62].type" Type="Str">VI</Property>
 				<Property Name="Source[63].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[63].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility/Other/Get Dependent File Property Names.vi</Property>
+				<Property Name="Source[63].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility/Other/Remove Properties.vi</Property>
 				<Property Name="Source[63].type" Type="Str">VI</Property>
 				<Property Name="Source[64].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[64].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility/Other/Set Dependent File Properties.vi</Property>
+				<Property Name="Source[64].itemID" Type="Ref">/My Computer/SEECD Shared.lvlib/Globals/SubPanel Controls.vi</Property>
 				<Property Name="Source[64].type" Type="Str">VI</Property>
 				<Property Name="Source[65].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[65].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility/Other/Remove Properties.vi</Property>
+				<Property Name="Source[65].itemID" Type="Ref">/My Computer/SEECD Shared.lvlib/Globals/RT Globals.vi</Property>
 				<Property Name="Source[65].type" Type="Str">VI</Property>
 				<Property Name="Source[66].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[66].itemID" Type="Ref">/My Computer/SEECD Shared.lvlib/Globals/SubPanel Controls.vi</Property>
+				<Property Name="Source[66].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Type Defs/Bitfile Signature.ctl</Property>
 				<Property Name="Source[66].type" Type="Str">VI</Property>
 				<Property Name="Source[67].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[67].itemID" Type="Ref">/My Computer/SEECD Shared.lvlib/Globals/RT Globals.vi</Property>
+				<Property Name="Source[67].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Type Defs/ECAT Channel Data Type.ctl</Property>
 				<Property Name="Source[67].type" Type="Str">VI</Property>
 				<Property Name="Source[68].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[68].itemID" Type="Ref"></Property>
+				<Property Name="Source[68].itemID" Type="Ref">/My Computer/SEECD Shared.lvlib/Type Defs/FPGAScanInterfaceMode.ctl</Property>
 				<Property Name="Source[68].type" Type="Str">VI</Property>
 				<Property Name="Source[69].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[69].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Type Defs/Bitfile Signature.ctl</Property>
+				<Property Name="Source[69].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Type Defs/NI ECAT Slaves.ctl</Property>
 				<Property Name="Source[69].type" Type="Str">VI</Property>
 				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[7].itemID" Type="Ref">/My Computer/NI ECAT Remote IO.llb</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/My Computer/Build VIs.lvlib</Property>
+				<Property Name="Source[7].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[7].type" Type="Str">Library</Property>
 				<Property Name="Source[70].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[70].itemID" Type="Ref"></Property>
+				<Property Name="Source[70].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Type Defs/Slot Programming Mode.ctl</Property>
 				<Property Name="Source[70].type" Type="Str">VI</Property>
 				<Property Name="Source[71].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[71].itemID" Type="Ref"></Property>
+				<Property Name="Source[71].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Type Defs/Slot - Configuration.ctl</Property>
 				<Property Name="Source[71].type" Type="Str">VI</Property>
+				<Property Name="Source[72].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[72].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[72].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[72].itemID" Type="Ref"></Property>
-				<Property Name="Source[72].type" Type="Str">VI</Property>
-				<Property Name="Source[73].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[73].itemID" Type="Ref"></Property>
-				<Property Name="Source[73].type" Type="Str">VI</Property>
-				<Property Name="Source[74].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[74].itemID" Type="Ref"></Property>
-				<Property Name="Source[74].type" Type="Str">VI</Property>
-				<Property Name="Source[75].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[75].itemID" Type="Ref"></Property>
-				<Property Name="Source[75].type" Type="Str">VI</Property>
-				<Property Name="Source[76].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[76].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Type Defs/ECAT Channel Data Type.ctl</Property>
-				<Property Name="Source[76].type" Type="Str">VI</Property>
-				<Property Name="Source[77].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[77].itemID" Type="Ref">/My Computer/SEECD Shared.lvlib/Type Defs/FPGAScanInterfaceMode.ctl</Property>
-				<Property Name="Source[77].type" Type="Str">VI</Property>
-				<Property Name="Source[78].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[78].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Type Defs/NI ECAT Slaves.ctl</Property>
-				<Property Name="Source[78].type" Type="Str">VI</Property>
-				<Property Name="Source[79].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[79].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Type Defs/Slot Programming Mode.ctl</Property>
-				<Property Name="Source[79].type" Type="Str">VI</Property>
+				<Property Name="Source[72].itemID" Type="Ref">/My Computer/Scripting API</Property>
+				<Property Name="Source[72].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[72].type" Type="Str">Container</Property>
+				<Property Name="Source[73].destinationIndex" Type="Int">3</Property>
+				<Property Name="Source[73].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib</Property>
+				<Property Name="Source[73].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[73].type" Type="Str">Library</Property>
+				<Property Name="Source[74].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[74].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[74].destinationIndex" Type="Int">3</Property>
+				<Property Name="Source[74].itemID" Type="Ref">/My Computer/SEECD Shared.lvlib/Type Defs</Property>
+				<Property Name="Source[74].type" Type="Str">Container</Property>
+				<Property Name="Source[75].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[75].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[75].destinationIndex" Type="Int">3</Property>
+				<Property Name="Source[75].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility</Property>
+				<Property Name="Source[75].type" Type="Str">Container</Property>
 				<Property Name="Source[8].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[8].itemID" Type="Ref">/My Computer/Build VIs.lvlib</Property>
-				<Property Name="Source[8].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[8].itemID" Type="Ref">/My Computer/Scripting API/Scan Engine Scripting.lvlib/Modules/Module.lvclass</Property>
 				<Property Name="Source[8].type" Type="Str">Library</Property>
-				<Property Name="Source[80].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[80].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Type Defs/Slot - Configuration.ctl</Property>
-				<Property Name="Source[80].type" Type="Str">VI</Property>
-				<Property Name="Source[81].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[81].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[81].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[81].itemID" Type="Ref">/My Computer/Scripting API</Property>
-				<Property Name="Source[81].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[81].type" Type="Str">Container</Property>
 				<Property Name="Source[9].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Scripting API/Scan Engine Scripting.lvlib/Modules/Module.lvclass</Property>
+				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Scripting API/Scan Engine Scripting.lvlib/Modules/NI 9474.lvclass</Property>
 				<Property Name="Source[9].type" Type="Str">Library</Property>
-				<Property Name="SourceCount" Type="Int">82</Property>
+				<Property Name="SourceCount" Type="Int">76</Property>
 			</Item>
 		</Item>
 	</Item>
