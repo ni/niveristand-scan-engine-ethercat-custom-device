@@ -43,8 +43,8 @@
 				<Item Name="cRIO_5001Handler.bin" Type="Document" URL="../System Explorer/Utility/data/NI 9145/cRIO_5001Handler.bin"/>
 				<Item Name="ReloadFPGARevC.foe" Type="Document" URL="../System Explorer/Utility/data/NI 9145/ReloadFPGARevC.foe"/>
 			</Item>
-			<Item Name="FXP.llb" Type="Document" URL="../FXP.llb"/>
 			<Item Name="Scan Engine.chm" Type="Document" URL="../Scan Engine.chm"/>
+			<Item Name="FXP.llb" Type="Document" URL="../../Includes/FXP.llb"/>
 		</Item>
 		<Item Name="Tests" Type="Folder">
 			<Item Name="System" Type="Folder">
@@ -752,9 +752,6 @@
 			<Item Name="nNIBlueBus_nCrioFixed_nRefnum.dll" Type="Document" URL="nNIBlueBus_nCrioFixed_nRefnum.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="nisyscfg.dll" Type="Document" URL="nisyscfg.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
 			<Item Name="SEECD Engine.lvlib" Type="Library" URL="../Engine/SEECD Engine.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
@@ -908,7 +905,7 @@
 				<Property Name="Source[21].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[21].type" Type="Str">Container</Property>
 				<Property Name="Source[22].destinationIndex" Type="Int">4</Property>
-				<Property Name="Source[22].itemID" Type="Ref">/My Computer/data/FXP.llb</Property>
+				<Property Name="Source[22].itemID" Type="Ref"></Property>
 				<Property Name="Source[23].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[23].itemID" Type="Ref"></Property>
 				<Property Name="Source[3].Container.applyProperties" Type="Bool">true</Property>
@@ -1335,8 +1332,8 @@
 				<Item Name="cRIO_5001Handler.bin" Type="Document" URL="../System Explorer/Utility/data/NI 9145/cRIO_5001Handler.bin"/>
 				<Item Name="ReloadFPGARevC.foe" Type="Document" URL="../System Explorer/Utility/data/NI 9145/ReloadFPGARevC.foe"/>
 			</Item>
-			<Item Name="FXP.llb" Type="Document" URL="../FXP.llb"/>
 			<Item Name="Scan Engine.chm" Type="Document" URL="../Scan Engine.chm"/>
+			<Item Name="FXP.llb" Type="Document" URL="../../Includes/FXP.llb"/>
 		</Item>
 		<Item Name="SEECD Shared.lvlib" Type="Library" URL="../Shared/SEECD Shared.lvlib"/>
 		<Item Name="SEECD Engine.lvlib" Type="Library" URL="../Engine/SEECD Engine.lvlib"/>
@@ -1624,9 +1621,6 @@
 			<Item Name="nNIBlueBus_nCrioFixed_nRefnum.dll" Type="Document" URL="nNIBlueBus_nCrioFixed_nRefnum.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="nisyscfg.dll" Type="Document" URL="nisyscfg.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Engine Release" Type="Source Distribution">
@@ -1654,7 +1648,7 @@
 				<Property Name="Source[0].itemID" Type="Str">{FD7398E4-DBAF-426F-9676-88B26307E6F9}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/Linux x64/data/FXP.llb</Property>
+				<Property Name="Source[1].itemID" Type="Ref"></Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[10].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[10].Container.depDestIndex" Type="Int">0</Property>
