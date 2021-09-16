@@ -12,5 +12,5 @@ XB-UserVisible: yes
 Section: Add-Ons
 XB-DisplayVersion: {display_version}
 XB-DisplayName: NI Scan Engine and EtherCAT LabVIEW Support for VeriStand {veristand_version}
-Depends: {AUTOVERSION_ni-labview-{labview_version}-x86}, {ni-veristand-{labview_version}} (>= {labview_short_version}.0.0), ni-veristand-{veristand_version}-custom-device-labview-support-common
+Depends: ni-labview-{labview_version}{pkg_x86_bitness_suffix}, ni-veristand-{labview_version} (>= {labview_short_version}.0.0), ni-veristand-{veristand_version}-custom-device-labview-support-common
 

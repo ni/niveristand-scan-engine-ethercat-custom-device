@@ -53,7 +53,7 @@ package_output_dir = 'Built'
 
 [package.payload_map]
 'Built\\Scan Engine' = 'documents\National Instruments\NI VeriStand {veristand_version}\Custom Devices\Scan Engine'
-'Built\\Errors' = 'ni-paths-NISHAREDDIR\LabVIEW Run-Time\{veristand_version}\errors\English'
+'Built\\Errors' = 'ni-paths-NISHAREDDIR{nipaths_64_bitness_suffix}\LabVIEW Run-Time\{veristand_version}\errors\English'
 
 [[package]]
 type = 'nipkg'
@@ -61,7 +61,7 @@ control_file = 'control_scripting'
 package_output_dir = 'Built'
 
 [package.payload_map]
-'Built\\Scripting\\Scan Engine' = 'ni-paths-LV{veristand_version}DIR\vi.lib\addons\VeriStand Custom Device Scripting APIs\Scan Engine' 
+'Built\\Scripting\\Scan Engine' = 'ni-paths-LV{veristand_version}DIR{nipaths_64_bitness_suffix}\vi.lib\addons\VeriStand Custom Device Scripting APIs\Scan Engine'
 
 [[package]]
 type = 'nipkg'
@@ -69,7 +69,7 @@ control_file = 'control_examples'
 package_output_dir = 'Built'
 
 [package.payload_map]
-'Built\\Examples\\Scan Engine' = 'ni-paths-LV{veristand_version}DIR\examples\NI VeriStand Custom Devices\Scan Engine' 
+'Built\\Examples\\Scan Engine' = 'ni-paths-LV{veristand_version}DIR{nipaths_64_bitness_suffix}\examples\NI VeriStand Custom Devices\Scan Engine'
 
 [notification]
 type = 'teams'
