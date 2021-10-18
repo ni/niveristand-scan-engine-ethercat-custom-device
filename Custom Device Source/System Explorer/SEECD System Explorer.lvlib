@@ -6,17 +6,10 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="Action VIs" Type="Folder">
 		<Item Name="ActionVIOnDownload - Set Scan Rate.vi" Type="VI" URL="../Action VIs/ActionVIOnDownload - Set Scan Rate.vi"/>
-		<Item Name="FPGA - Clear.vi" Type="VI" URL="../Action VIs/FPGA - Clear.vi"/>
-		<Item Name="FPGA - Download (ECAT).vi" Type="VI" URL="../Action VIs/FPGA - Download (ECAT).vi"/>
 		<Item Name="FPGA - On Delete (Local).vi" Type="VI" URL="../Action VIs/FPGA - On Delete (Local).vi"/>
-		<Item Name="FPGA - Revert (ECAT).vi" Type="VI" URL="../Action VIs/FPGA - Revert (ECAT).vi"/>
-		<Item Name="FPGA - Select Bitfile (ECAT).vi" Type="VI" URL="../Action VIs/FPGA - Select Bitfile (ECAT).vi"/>
-		<Item Name="FPGA - Select Bitfile (Local).vi" Type="VI" URL="../Action VIs/FPGA - Select Bitfile (Local).vi"/>
 		<Item Name="Main - Add EtherCAT Master.vi" Type="VI" URL="../Action VIs/Main - Add EtherCAT Master.vi"/>
 		<Item Name="Main - Add Local Chassis.vi" Type="VI" URL="../Action VIs/Main - Add Local Chassis.vi"/>
-		<Item Name="Main - Auto Detect Modules.vi" Type="VI" URL="../Action VIs/Main - Auto Detect Modules.vi"/>
 		<Item Name="Main - Can Add Local Chassis.vi" Type="VI" URL="../Action VIs/Main - Can Add Local Chassis.vi"/>
-		<Item Name="Main - Manages 3rd Party Slaves.vi" Type="VI" URL="../Action VIs/Main - Manages 3rd Party Slaves.vi"/>
 		<Item Name="Main - On Delete.vi" Type="VI" URL="../Action VIs/Main - On Delete.vi"/>
 		<Item Name="Main - On Load.vi" Type="VI" URL="../Action VIs/Main - On Load.vi"/>
 		<Item Name="Master - Add EtherCAT Slave.vi" Type="VI" URL="../Action VIs/Master - Add EtherCAT Slave.vi"/>

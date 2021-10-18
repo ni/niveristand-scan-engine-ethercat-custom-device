@@ -23,6 +23,8 @@ project = '{cd}'
 target = 'My Computer'
 build_spec = 'Configuration Release'
 dependency_target = 'Windows'
+bitness = '64'
+bitness_versions = ['2021']
 
 [[build.steps]]
 name = 'Scripting API'
@@ -31,6 +33,8 @@ project = '{cd}'
 target = 'My Computer'
 build_spec = 'Scripting API'
 dependency_target = 'Windows'
+bitness = '64'
+bitness_versions = ['2021']
 
 [[build.steps]]
 name = 'Examples'
@@ -38,6 +42,8 @@ type = 'lvBuildSpec'
 project = '{examples}'
 target = 'My Computer'
 build_spec = 'Examples'
+bitness = '64'
+bitness_versions = ['2021']
 
 [[build.steps]]
 name = 'Linux x64 Engine Library'
@@ -46,6 +52,8 @@ project = '{cd}'
 target = 'Linux x64'
 build_spec = 'Engine Release'
 dependency_target = 'Linux_x64'
+bitness = '32'
+bitness_versions = ['2021']
 
 [[package]]
 type = 'nipkg'
