@@ -120,21 +120,11 @@
 			<Item Name="RSI Module Template" Type="Folder">
 				<Item Name="Module Template.lvclass" Type="LVClass" URL="../../Includes/Modules.lvlibp/Module Template/Module Template.lvclass"/>
 			</Item>
-			<Item Name="Specific RemIO Modules" Type="Folder">
-				<Item Name="11100.lvclass" Type="LVClass" URL="../../Includes/Modules.lvlibp/REM-11100/11100.lvclass"/>
-				<Item Name="11102.lvclass" Type="LVClass" URL="../../Includes/Modules.lvlibp/REM-11102/11102.lvclass"/>
-				<Item Name="11115.lvclass" Type="LVClass" URL="../../Includes/Modules.lvlibp/REM-11115/11115.lvclass"/>
-				<Item Name="11120.lvclass" Type="LVClass" URL="../../Includes/Modules.lvlibp/REM-11120/11120.lvclass"/>
-				<Item Name="11152.lvclass" Type="LVClass" URL="../../Includes/Modules.lvlibp/REM-11152/11152.lvclass"/>
-				<Item Name="11154.lvclass" Type="LVClass" URL="../../Includes/Modules.lvlibp/REM-11154/11154.lvclass"/>
-				<Item Name="11175.lvclass" Type="LVClass" URL="../../Includes/Modules.lvlibp/REM-11175/11175.lvclass"/>
-				<Item Name="11178.lvclass" Type="LVClass" URL="../../Includes/Modules.lvlibp/REM-11178/11178.lvclass"/>
-			</Item>
 			<Item Name="Specific RSI Modules" Type="Folder">
 				<Item Name="Specialty Digital" Type="Folder">
+					<Item Name="SD Module.lvclass" Type="LVClass" URL="../../Includes/Modules.lvlibp/SD Module/SD Module.lvclass"/>
 					<Item Name="9401.lvclass" Type="LVClass" URL="../../Includes/Modules.lvlibp/9401/9401.lvclass"/>
 					<Item Name="9402.lvclass" Type="LVClass" URL="../../Includes/Modules.lvlibp/9402/9402.lvclass"/>
-					<Item Name="SD Module.lvclass" Type="LVClass" URL="../../Includes/Modules.lvlibp/SD Module/SD Module.lvclass"/>
 				</Item>
 				<Item Name="9203.lvclass" Type="LVClass" URL="../../Includes/Modules.lvlibp/9203/9203.lvclass"/>
 				<Item Name="9205.lvclass" Type="LVClass" URL="../../Includes/Modules.lvlibp/9205/9205.lvclass"/>
@@ -163,45 +153,70 @@
 				<Item Name="9403.lvclass" Type="LVClass" URL="../../Includes/Modules.lvlibp/9403/9403.lvclass"/>
 				<Item Name="9478.lvclass" Type="LVClass" URL="../../Includes/Modules.lvlibp/9478/9478.lvclass"/>
 			</Item>
-			<Item Name="Check Special Tags.vi" Type="VI" URL="../../Includes/Modules.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Check Special Tags.vi"/>
-			<Item Name="Clear Errors.vi" Type="VI" URL="../../Includes/Modules.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Clear Errors.vi"/>
-			<Item Name="Close File+.vi" Type="VI" URL="../../Includes/Modules.lvlibp/1abvi3w/vi.lib/Utility/file.llb/Close File+.vi"/>
-			<Item Name="compatReadText.vi" Type="VI" URL="../../Includes/Modules.lvlibp/1abvi3w/vi.lib/_oldvers/_oldvers.llb/compatReadText.vi"/>
-			<Item Name="Current VIs Parent Directory__ogtk.vi" Type="VI" URL="../../Includes/Modules.lvlibp/1abvi3w/user.lib/_OpenG.lib/file/file.llb/Current VIs Parent Directory__ogtk.vi"/>
-			<Item Name="Current VIs Parents Ref__ogtk.vi" Type="VI" URL="../../Includes/Modules.lvlibp/1abvi3w/user.lib/_OpenG.lib/appcontrol/appcontrol.llb/Current VIs Parents Ref__ogtk.vi"/>
+			<Item Name="Specific RemIO Modules" Type="Folder">
+				<Item Name="11102.lvclass" Type="LVClass" URL="../../Includes/Modules.lvlibp/REM-11102/11102.lvclass"/>
+				<Item Name="11115.lvclass" Type="LVClass" URL="../../Includes/Modules.lvlibp/REM-11115/11115.lvclass"/>
+				<Item Name="11152.lvclass" Type="LVClass" URL="../../Includes/Modules.lvlibp/REM-11152/11152.lvclass"/>
+				<Item Name="11154.lvclass" Type="LVClass" URL="../../Includes/Modules.lvlibp/REM-11154/11154.lvclass"/>
+				<Item Name="11175.lvclass" Type="LVClass" URL="../../Includes/Modules.lvlibp/REM-11175/11175.lvclass"/>
+				<Item Name="11178.lvclass" Type="LVClass" URL="../../Includes/Modules.lvlibp/REM-11178/11178.lvclass"/>
+				<Item Name="11120.lvclass" Type="LVClass" URL="../../Includes/Modules.lvlibp/REM-11120/11120.lvclass"/>
+				<Item Name="11100.lvclass" Type="LVClass" URL="../../Includes/Modules.lvlibp/REM-11100/11100.lvclass"/>
+			</Item>
+			<Item Name="RSI Module.lvclass" Type="LVClass" URL="../../Includes/Modules.lvlibp/RSI Module/RSI Module.lvclass"/>
+			<Item Name="Init Module.vi" Type="VI" URL="../../Includes/Modules.lvlibp/Init Module.vi"/>
+			<Item Name="RemIO Module.lvclass" Type="LVClass" URL="../../Includes/Modules.lvlibp/RemIO Module/RemIO Module.lvclass"/>
+			<Item Name="Get RemIO VI Reference.vim" Type="VI" URL="../../Includes/Modules.lvlibp/RemIO Module/Get RemIO VI Reference.vim"/>
+			<Item Name="Get RemIO Library Path.vi" Type="VI" URL="../../Includes/Modules.lvlibp/RemIO Module/Get RemIO Library Path.vi"/>
+			<Item Name="NI ECAT Remote IO.lvlib" Type="Library" URL="../../Includes/Modules.lvlibp/1abvi3w/vi.lib/indcomecat/Remote IO/NI ECAT Remote IO.lvlib"/>
 			<Item Name="Custom Device API.lvlib" Type="Library" URL="../../Includes/Modules.lvlibp/1abvi3w/vi.lib/NI VeriStand/Custom Device API/Custom Device API.lvlib"/>
 			<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="../../Includes/Modules.lvlibp/1abvi3w/vi.lib/NI VeriStand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
-			<Item Name="DialogType.ctl" Type="VI" URL="../../Includes/Modules.lvlibp/1abvi3w/vi.lib/Utility/error.llb/DialogType.ctl"/>
-			<Item Name="DialogTypeEnum.ctl" Type="VI" URL="../../Includes/Modules.lvlibp/1abvi3w/vi.lib/Utility/error.llb/DialogTypeEnum.ctl"/>
 			<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../../Includes/Modules.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
-			<Item Name="Error Code Database.vi" Type="VI" URL="../../Includes/Modules.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Code Database.vi"/>
+			<Item Name="Clear Errors.vi" Type="VI" URL="../../Includes/Modules.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Clear Errors.vi"/>
+			<Item Name="negative confirmation.ctl" Type="VI" URL="../../Includes/Modules.lvlibp/1abvi3w/vi.lib/indcomecat/Remote IO/typedefs/negative confirmation.ctl"/>
+			<Item Name="Current VIs Parents Ref__ogtk.vi" Type="VI" URL="../../Includes/Modules.lvlibp/1abvi3w/user.lib/_OpenG.lib/appcontrol/appcontrol.llb/Current VIs Parents Ref__ogtk.vi"/>
+			<Item Name="Strip Path - Traditional__ogtk.vi" Type="VI" URL="../../Includes/Modules.lvlibp/1abvi3w/user.lib/_OpenG.lib/file/file.llb/Strip Path - Traditional__ogtk.vi"/>
+			<Item Name="Current VIs Parent Directory__ogtk.vi" Type="VI" URL="../../Includes/Modules.lvlibp/1abvi3w/user.lib/_OpenG.lib/file/file.llb/Current VIs Parent Directory__ogtk.vi"/>
+			<Item Name="Get Text Rect.vi" Type="VI" URL="../../Includes/Modules.lvlibp/1abvi3w/vi.lib/picture/picture.llb/Get Text Rect.vi"/>
+			<Item Name="LVRowAndColumnTypeDef.ctl" Type="VI" URL="../../Includes/Modules.lvlibp/1abvi3w/vi.lib/Utility/miscctls.llb/LVRowAndColumnTypeDef.ctl"/>
+			<Item Name="Open File+.vi" Type="VI" URL="../../Includes/Modules.lvlibp/1abvi3w/vi.lib/Utility/file.llb/Open File+.vi"/>
+			<Item Name="compatReadText.vi" Type="VI" URL="../../Includes/Modules.lvlibp/1abvi3w/vi.lib/_oldvers/_oldvers.llb/compatReadText.vi"/>
+			<Item Name="Read File+ (string).vi" Type="VI" URL="../../Includes/Modules.lvlibp/1abvi3w/vi.lib/Utility/file.llb/Read File+ (string).vi"/>
 			<Item Name="Find First Error.vi" Type="VI" URL="../../Includes/Modules.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Find First Error.vi"/>
+			<Item Name="Close File+.vi" Type="VI" URL="../../Includes/Modules.lvlibp/1abvi3w/vi.lib/Utility/file.llb/Close File+.vi"/>
+			<Item Name="DialogType.ctl" Type="VI" URL="../../Includes/Modules.lvlibp/1abvi3w/vi.lib/Utility/error.llb/DialogType.ctl"/>
+			<Item Name="Write Spreadsheet String.vi" Type="VI" URL="../../Includes/Modules.lvlibp/1abvi3w/vi.lib/Utility/file.llb/Write Spreadsheet String.vi"/>
+			<Item Name="LVRowAndColumnUnsignedTypeDef.ctl" Type="VI" URL="../../Includes/Modules.lvlibp/1abvi3w/vi.lib/Utility/miscctls.llb/LVRowAndColumnUnsignedTypeDef.ctl"/>
+			<Item Name="LVRectTypeDef.ctl" Type="VI" URL="../../Includes/Modules.lvlibp/1abvi3w/vi.lib/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
+			<Item Name="TagReturnType.ctl" Type="VI" URL="../../Includes/Modules.lvlibp/1abvi3w/vi.lib/Utility/error.llb/TagReturnType.ctl"/>
+			<Item Name="whitespace.ctl" Type="VI" URL="../../Includes/Modules.lvlibp/1abvi3w/vi.lib/Utility/error.llb/whitespace.ctl"/>
+			<Item Name="Search and Replace Pattern.vi" Type="VI" URL="../../Includes/Modules.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Search and Replace Pattern.vi"/>
+			<Item Name="ErrWarn.ctl" Type="VI" URL="../../Includes/Modules.lvlibp/1abvi3w/vi.lib/Utility/error.llb/ErrWarn.ctl"/>
+			<Item Name="eventvkey.ctl" Type="VI" URL="../../Includes/Modules.lvlibp/1abvi3w/vi.lib/event_ctls.llb/eventvkey.ctl"/>
+			<Item Name="Set Bold Text.vi" Type="VI" URL="../../Includes/Modules.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Set Bold Text.vi"/>
+			<Item Name="DialogTypeEnum.ctl" Type="VI" URL="../../Includes/Modules.lvlibp/1abvi3w/vi.lib/Utility/error.llb/DialogTypeEnum.ctl"/>
+			<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="../../Includes/Modules.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Convert property node font to graphics font.vi"/>
+			<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="../../Includes/Modules.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Longest Line Length in Pixels.vi"/>
+			<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="../../Includes/Modules.lvlibp/1abvi3w/vi.lib/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
+			<Item Name="Get String Text Bounds.vi" Type="VI" URL="../../Includes/Modules.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Get String Text Bounds.vi"/>
+			<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="../../Includes/Modules.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Three Button Dialog CORE.vi"/>
+			<Item Name="Three Button Dialog.vi" Type="VI" URL="../../Includes/Modules.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Three Button Dialog.vi"/>
+			<Item Name="GetHelpDir.vi" Type="VI" URL="../../Includes/Modules.lvlibp/1abvi3w/vi.lib/Utility/error.llb/GetHelpDir.vi"/>
+			<Item Name="BuildHelpPath.vi" Type="VI" URL="../../Includes/Modules.lvlibp/1abvi3w/vi.lib/Utility/error.llb/BuildHelpPath.vi"/>
+			<Item Name="Not Found Dialog.vi" Type="VI" URL="../../Includes/Modules.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Not Found Dialog.vi"/>
+			<Item Name="Details Display Dialog.vi" Type="VI" URL="../../Includes/Modules.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Details Display Dialog.vi"/>
 			<Item Name="Find Tag.vi" Type="VI" URL="../../Includes/Modules.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Find Tag.vi"/>
 			<Item Name="Format Message String.vi" Type="VI" URL="../../Includes/Modules.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Format Message String.vi"/>
+			<Item Name="Trim Whitespace.vi" Type="VI" URL="../../Includes/Modules.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Trim Whitespace.vi"/>
+			<Item Name="Error Code Database.vi" Type="VI" URL="../../Includes/Modules.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Code Database.vi"/>
+			<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="../../Includes/Modules.lvlibp/1abvi3w/vi.lib/Utility/error.llb/GetRTHostConnectedProp.vi"/>
+			<Item Name="Set String Value.vi" Type="VI" URL="../../Includes/Modules.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Set String Value.vi"/>
+			<Item Name="Check Special Tags.vi" Type="VI" URL="../../Includes/Modules.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Check Special Tags.vi"/>
 			<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="../../Includes/Modules.lvlibp/1abvi3w/vi.lib/Utility/error.llb/General Error Handler Core CORE.vi"/>
 			<Item Name="General Error Handler.vi" Type="VI" URL="../../Includes/Modules.lvlibp/1abvi3w/vi.lib/Utility/error.llb/General Error Handler.vi"/>
-			<Item Name="Get RemIO Library Path.vi" Type="VI" URL="../../Includes/Modules.lvlibp/RemIO Module/Get RemIO Library Path.vi"/>
-			<Item Name="Get RemIO VI Reference.vim" Type="VI" URL="../../Includes/Modules.lvlibp/RemIO Module/Get RemIO VI Reference.vim"/>
-			<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="../../Includes/Modules.lvlibp/1abvi3w/vi.lib/Utility/error.llb/GetRTHostConnectedProp.vi"/>
-			<Item Name="Init Module.vi" Type="VI" URL="../../Includes/Modules.lvlibp/Init Module.vi"/>
-			<Item Name="LVRectTypeDef.ctl" Type="VI" URL="../../Includes/Modules.lvlibp/1abvi3w/vi.lib/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
-			<Item Name="LVRowAndColumnTypeDef.ctl" Type="VI" URL="../../Includes/Modules.lvlibp/1abvi3w/vi.lib/Utility/miscctls.llb/LVRowAndColumnTypeDef.ctl"/>
-			<Item Name="LVRowAndColumnUnsignedTypeDef.ctl" Type="VI" URL="../../Includes/Modules.lvlibp/1abvi3w/vi.lib/Utility/miscctls.llb/LVRowAndColumnUnsignedTypeDef.ctl"/>
-			<Item Name="negative confirmation.ctl" Type="VI" URL="../../Includes/Modules.lvlibp/1abvi3w/vi.lib/indcomecat/Remote IO/typedefs/negative confirmation.ctl"/>
-			<Item Name="NI ECAT Remote IO.lvlib" Type="Library" URL="../../Includes/Modules.lvlibp/1abvi3w/vi.lib/indcomecat/Remote IO/NI ECAT Remote IO.lvlib"/>
-			<Item Name="Open File+.vi" Type="VI" URL="../../Includes/Modules.lvlibp/1abvi3w/vi.lib/Utility/file.llb/Open File+.vi"/>
-			<Item Name="Read File+ (string).vi" Type="VI" URL="../../Includes/Modules.lvlibp/1abvi3w/vi.lib/Utility/file.llb/Read File+ (string).vi"/>
-			<Item Name="Read From Spreadsheet File (DBL).vi" Type="VI" URL="../../Includes/Modules.lvlibp/1abvi3w/vi.lib/Utility/file.llb/Read From Spreadsheet File (DBL).vi"/>
-			<Item Name="Read Lines From File.vi" Type="VI" URL="../../Includes/Modules.lvlibp/1abvi3w/vi.lib/Utility/file.llb/Read Lines From File.vi"/>
-			<Item Name="RemIO Module.lvclass" Type="LVClass" URL="../../Includes/Modules.lvlibp/RemIO Module/RemIO Module.lvclass"/>
-			<Item Name="RSI Module.lvclass" Type="LVClass" URL="../../Includes/Modules.lvlibp/RSI Module/RSI Module.lvclass"/>
-			<Item Name="Search and Replace Pattern.vi" Type="VI" URL="../../Includes/Modules.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Search and Replace Pattern.vi"/>
 			<Item Name="Simple Error Handler.vi" Type="VI" URL="../../Includes/Modules.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Simple Error Handler.vi"/>
-			<Item Name="Strip Path - Traditional__ogtk.vi" Type="VI" URL="../../Includes/Modules.lvlibp/1abvi3w/user.lib/_OpenG.lib/file/file.llb/Strip Path - Traditional__ogtk.vi"/>
-			<Item Name="TagReturnType.ctl" Type="VI" URL="../../Includes/Modules.lvlibp/1abvi3w/vi.lib/Utility/error.llb/TagReturnType.ctl"/>
-			<Item Name="Trim Whitespace.vi" Type="VI" URL="../../Includes/Modules.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Trim Whitespace.vi"/>
-			<Item Name="whitespace.ctl" Type="VI" URL="../../Includes/Modules.lvlibp/1abvi3w/vi.lib/Utility/error.llb/whitespace.ctl"/>
-			<Item Name="Write Spreadsheet String.vi" Type="VI" URL="../../Includes/Modules.lvlibp/1abvi3w/vi.lib/Utility/file.llb/Write Spreadsheet String.vi"/>
+			<Item Name="Read Lines From File.vi" Type="VI" URL="../../Includes/Modules.lvlibp/1abvi3w/vi.lib/Utility/file.llb/Read Lines From File.vi"/>
+			<Item Name="Read From Spreadsheet File (DBL).vi" Type="VI" URL="../../Includes/Modules.lvlibp/1abvi3w/vi.lib/Utility/file.llb/Read From Spreadsheet File (DBL).vi"/>
 			<Item Name="Write To Spreadsheet File (DBL).vi" Type="VI" URL="../../Includes/Modules.lvlibp/1abvi3w/vi.lib/Utility/file.llb/Write To Spreadsheet File (DBL).vi"/>
 		</Item>
 		<Item Name="NI ECAT Remote IO.llb" Type="Document" URL="../../Includes/NI ECAT Remote IO.llb"/>
@@ -743,9 +758,6 @@
 			<Item Name="_defaultLogin.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/indcomecat/_InternalSubVIs/_defaultLogin.vi"/>
 			<Item Name="_targetLogin.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/indcomecat/_InternalSubVIs/_targetLogin.vi"/>
 			<Item Name="_recodeResult.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/indcomecat/_InternalSubVIs/_recodeResult.vi"/>
-			<Item Name="nNIBlueBus_nCrioFixed_nRefnum.dll" Type="Document" URL="nNIBlueBus_nCrioFixed_nRefnum.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Configuration Release" Type="Source Distribution">
@@ -782,7 +794,7 @@
 				<Property Name="DestinationCount" Type="Int">9</Property>
 				<Property Name="Source[0].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[0].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{24F95B97-4B3E-4196-93BB-9BF1218820C2}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{FF166B6F-3BED-4EFF-BE94-169C3C0120EF}</Property>
 				<Property Name="Source[0].properties[0].type" Type="Str">Allow debugging</Property>
 				<Property Name="Source[0].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[0].properties[1].type" Type="Str">Remove front panel</Property>
@@ -795,23 +807,19 @@
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/SEECD Shared.lvlib</Property>
 				<Property Name="Source[1].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[1].type" Type="Str">Library</Property>
-				<Property Name="Source[10].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[10].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[10].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[10].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[10].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Action VIs</Property>
+				<Property Name="Source[10].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility</Property>
 				<Property Name="Source[10].properties[0].type" Type="Str">Allow debugging</Property>
 				<Property Name="Source[10].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[10].properties[1].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[10].properties[1].value" Type="Bool">false</Property>
+				<Property Name="Source[10].properties[1].value" Type="Bool">true</Property>
 				<Property Name="Source[10].properties[2].type" Type="Str">Remove block diagram</Property>
 				<Property Name="Source[10].properties[2].value" Type="Bool">true</Property>
 				<Property Name="Source[10].propertiesCount" Type="Int">3</Property>
-				<Property Name="Source[10].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[10].type" Type="Str">Container</Property>
-				<Property Name="Source[11].Container.applyProperties" Type="Bool">true</Property>
-				<Property Name="Source[11].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[11].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility</Property>
+				<Property Name="Source[11].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[11].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Scan Engine Initialization VI.vi</Property>
 				<Property Name="Source[11].properties[0].type" Type="Str">Allow debugging</Property>
 				<Property Name="Source[11].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[11].properties[1].type" Type="Str">Remove front panel</Property>
@@ -819,28 +827,26 @@
 				<Property Name="Source[11].properties[2].type" Type="Str">Remove block diagram</Property>
 				<Property Name="Source[11].properties[2].value" Type="Bool">true</Property>
 				<Property Name="Source[11].propertiesCount" Type="Int">3</Property>
-				<Property Name="Source[11].type" Type="Str">Container</Property>
-				<Property Name="Source[12].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[12].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Scan Engine Initialization VI.vi</Property>
-				<Property Name="Source[12].properties[0].type" Type="Str">Allow debugging</Property>
+				<Property Name="Source[11].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[11].type" Type="Str">VI</Property>
+				<Property Name="Source[12].Container.applySaveSettings" Type="Bool">true</Property>
+				<Property Name="Source[12].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility/Target Communication</Property>
+				<Property Name="Source[12].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[12].properties[0].value" Type="Bool">false</Property>
-				<Property Name="Source[12].properties[1].type" Type="Str">Remove front panel</Property>
+				<Property Name="Source[12].properties[1].type" Type="Str">Remove block diagram</Property>
 				<Property Name="Source[12].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[12].properties[2].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[12].properties[2].value" Type="Bool">true</Property>
-				<Property Name="Source[12].propertiesCount" Type="Int">3</Property>
-				<Property Name="Source[12].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[12].type" Type="Str">VI</Property>
+				<Property Name="Source[12].propertiesCount" Type="Int">2</Property>
+				<Property Name="Source[12].type" Type="Str">Container</Property>
 				<Property Name="Source[13].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[13].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility/Target Communication</Property>
+				<Property Name="Source[13].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility/FPGA</Property>
 				<Property Name="Source[13].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[13].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[13].properties[0].value" Type="Bool">true</Property>
 				<Property Name="Source[13].properties[1].type" Type="Str">Remove block diagram</Property>
 				<Property Name="Source[13].properties[1].value" Type="Bool">true</Property>
 				<Property Name="Source[13].propertiesCount" Type="Int">2</Property>
 				<Property Name="Source[13].type" Type="Str">Container</Property>
 				<Property Name="Source[14].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[14].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility/FPGA</Property>
+				<Property Name="Source[14].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility/Module Slot</Property>
 				<Property Name="Source[14].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[14].properties[0].value" Type="Bool">true</Property>
 				<Property Name="Source[14].properties[1].type" Type="Str">Remove block diagram</Property>
@@ -848,7 +854,7 @@
 				<Property Name="Source[14].propertiesCount" Type="Int">2</Property>
 				<Property Name="Source[14].type" Type="Str">Container</Property>
 				<Property Name="Source[15].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[15].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility/Module Slot</Property>
+				<Property Name="Source[15].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility/ECAT</Property>
 				<Property Name="Source[15].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[15].properties[0].value" Type="Bool">true</Property>
 				<Property Name="Source[15].properties[1].type" Type="Str">Remove block diagram</Property>
@@ -856,28 +862,27 @@
 				<Property Name="Source[15].propertiesCount" Type="Int">2</Property>
 				<Property Name="Source[15].type" Type="Str">Container</Property>
 				<Property Name="Source[16].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[16].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility/ECAT</Property>
+				<Property Name="Source[16].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility/Other</Property>
 				<Property Name="Source[16].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[16].properties[0].value" Type="Bool">true</Property>
 				<Property Name="Source[16].properties[1].type" Type="Str">Remove block diagram</Property>
 				<Property Name="Source[16].properties[1].value" Type="Bool">true</Property>
 				<Property Name="Source[16].propertiesCount" Type="Int">2</Property>
 				<Property Name="Source[16].type" Type="Str">Container</Property>
-				<Property Name="Source[17].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[17].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility/Other</Property>
-				<Property Name="Source[17].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[17].properties[0].value" Type="Bool">true</Property>
-				<Property Name="Source[17].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[17].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[17].propertiesCount" Type="Int">2</Property>
-				<Property Name="Source[17].type" Type="Str">Container</Property>
-				<Property Name="Source[18].destinationIndex" Type="Int">8</Property>
-				<Property Name="Source[18].itemID" Type="Ref">/My Computer/Docs/scanengineveristand-errors.txt</Property>
+				<Property Name="Source[17].destinationIndex" Type="Int">8</Property>
+				<Property Name="Source[17].itemID" Type="Ref">/My Computer/Docs/scanengineveristand-errors.txt</Property>
+				<Property Name="Source[17].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[18].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[18].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[18].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[18].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/RTM</Property>
 				<Property Name="Source[18].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[18].type" Type="Str">Container</Property>
+				<Property Name="Source[19].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[19].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[19].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[19].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[19].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/RTM</Property>
+				<Property Name="Source[19].destinationIndex" Type="Int">6</Property>
+				<Property Name="Source[19].itemID" Type="Ref">/My Computer/data/NI 9144</Property>
 				<Property Name="Source[19].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[19].type" Type="Str">Container</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">2</Property>
@@ -886,21 +891,14 @@
 				<Property Name="Source[20].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[20].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[20].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[20].destinationIndex" Type="Int">6</Property>
-				<Property Name="Source[20].itemID" Type="Ref">/My Computer/data/NI 9144</Property>
+				<Property Name="Source[20].destinationIndex" Type="Int">7</Property>
+				<Property Name="Source[20].itemID" Type="Ref">/My Computer/data/NI 9145</Property>
 				<Property Name="Source[20].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[20].type" Type="Str">Container</Property>
-				<Property Name="Source[21].Container.applyDestination" Type="Bool">true</Property>
-				<Property Name="Source[21].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[21].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[21].destinationIndex" Type="Int">7</Property>
-				<Property Name="Source[21].itemID" Type="Ref">/My Computer/data/NI 9145</Property>
+				<Property Name="Source[21].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[21].itemID" Type="Ref">/My Computer/Modules.lvlibp</Property>
+				<Property Name="Source[21].preventRename" Type="Bool">true</Property>
 				<Property Name="Source[21].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[21].type" Type="Str">Container</Property>
-				<Property Name="Source[22].destinationIndex" Type="Int">4</Property>
-				<Property Name="Source[22].itemID" Type="Ref"></Property>
-				<Property Name="Source[23].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[23].itemID" Type="Ref"></Property>
 				<Property Name="Source[3].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[3].Container.applySaveSettings" Type="Bool">true</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
@@ -929,45 +927,55 @@
 				<Property Name="Source[4].properties[3].value" Type="Bool">false</Property>
 				<Property Name="Source[4].propertiesCount" Type="Int">4</Property>
 				<Property Name="Source[4].type" Type="Str">Container</Property>
-				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[5].itemID" Type="Ref"></Property>
-				<Property Name="Source[5].preventRename" Type="Bool">true</Property>
+				<Property Name="Source[5].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[5].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[5].destinationIndex" Type="Int">3</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Glyphs</Property>
 				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[6].Container.applyDestination" Type="Bool">true</Property>
-				<Property Name="Source[6].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[6].destinationIndex" Type="Int">3</Property>
-				<Property Name="Source[6].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Glyphs</Property>
+				<Property Name="Source[5].type" Type="Str">Container</Property>
+				<Property Name="Source[6].destinationIndex" Type="Int">4</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/data/Scan Engine.chm</Property>
 				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[6].type" Type="Str">Container</Property>
-				<Property Name="Source[7].destinationIndex" Type="Int">4</Property>
-				<Property Name="Source[7].itemID" Type="Ref">/My Computer/data/Scan Engine.chm</Property>
+				<Property Name="Source[7].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[7].Container.applyProperties" Type="Bool">true</Property>
+				<Property Name="Source[7].Container.applySaveSettings" Type="Bool">true</Property>
+				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Pages</Property>
+				<Property Name="Source[7].properties[0].type" Type="Str">Remove front panel</Property>
+				<Property Name="Source[7].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[7].properties[1].type" Type="Str">Remove block diagram</Property>
+				<Property Name="Source[7].properties[1].value" Type="Bool">true</Property>
+				<Property Name="Source[7].properties[2].type" Type="Str">Allow debugging</Property>
+				<Property Name="Source[7].properties[2].value" Type="Bool">false</Property>
+				<Property Name="Source[7].propertiesCount" Type="Int">3</Property>
 				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[8].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[7].type" Type="Str">Container</Property>
 				<Property Name="Source[8].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[8].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[8].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[8].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Pages</Property>
+				<Property Name="Source[8].itemID" Type="Ref">/My Computer/APIs</Property>
 				<Property Name="Source[8].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[8].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[8].properties[0].value" Type="Bool">true</Property>
 				<Property Name="Source[8].properties[1].type" Type="Str">Remove block diagram</Property>
 				<Property Name="Source[8].properties[1].value" Type="Bool">true</Property>
 				<Property Name="Source[8].properties[2].type" Type="Str">Allow debugging</Property>
 				<Property Name="Source[8].properties[2].value" Type="Bool">false</Property>
 				<Property Name="Source[8].propertiesCount" Type="Int">3</Property>
-				<Property Name="Source[8].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[8].type" Type="Str">Container</Property>
+				<Property Name="Source[9].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[9].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[9].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[9].itemID" Type="Ref">/My Computer/APIs</Property>
-				<Property Name="Source[9].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[9].properties[0].value" Type="Bool">true</Property>
-				<Property Name="Source[9].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[9].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[9].properties[2].type" Type="Str">Allow debugging</Property>
-				<Property Name="Source[9].properties[2].value" Type="Bool">false</Property>
+				<Property Name="Source[9].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[9].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Action VIs</Property>
+				<Property Name="Source[9].properties[0].type" Type="Str">Allow debugging</Property>
+				<Property Name="Source[9].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[9].properties[1].type" Type="Str">Remove front panel</Property>
+				<Property Name="Source[9].properties[1].value" Type="Bool">false</Property>
+				<Property Name="Source[9].properties[2].type" Type="Str">Remove block diagram</Property>
+				<Property Name="Source[9].properties[2].value" Type="Bool">true</Property>
 				<Property Name="Source[9].propertiesCount" Type="Int">3</Property>
+				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[9].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">24</Property>
+				<Property Name="SourceCount" Type="Int">22</Property>
 			</Item>
 			<Item Name="Scripting API" Type="Source Distribution">
 				<Property Name="Bld_buildCacheID" Type="Str">{1D405A5D-4017-4DD2-A11C-E9AF4B4798D7}</Property>
@@ -1002,258 +1010,253 @@
 				<Property Name="Destination[3].path" Type="Path">../Built/Scripting/NI_AB_PROJECTNAME/Scan Engine Dependencies.llb</Property>
 				<Property Name="Destination[3].type" Type="Str">LLB</Property>
 				<Property Name="DestinationCount" Type="Int">4</Property>
-				<Property Name="Source[0].itemID" Type="Str">{26F94849-3BBE-4912-9C4C-61ED7D45ED4A}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{FF166B6F-3BED-4EFF-BE94-169C3C0120EF}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">2</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Scripting API/Scan Engine Scripting.lvlib</Property>
 				<Property Name="Source[1].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[1].type" Type="Str">Library</Property>
-				<Property Name="Source[10].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[10].itemID" Type="Ref">/My Computer/Scripting API/Scan Engine Scripting.lvlib/Modules/NI 9475.lvclass</Property>
-				<Property Name="Source[10].type" Type="Str">Library</Property>
+				<Property Name="Source[10].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[10].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[10].destinationIndex" Type="Int">3</Property>
+				<Property Name="Source[10].itemID" Type="Ref">/My Computer/SEECD Shared.lvlib/Globals</Property>
+				<Property Name="Source[10].type" Type="Str">Container</Property>
+				<Property Name="Source[11].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[11].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[11].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[11].itemID" Type="Ref">/My Computer/Scripting API/Scan Engine Scripting.lvlib/Modules/Channels/Channel.lvclass</Property>
-				<Property Name="Source[11].type" Type="Str">Library</Property>
+				<Property Name="Source[11].itemID" Type="Ref">/My Computer/Scripting API/Palettes</Property>
+				<Property Name="Source[11].type" Type="Str">Container</Property>
 				<Property Name="Source[12].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[12].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[12].destinationIndex" Type="Int">3</Property>
-				<Property Name="Source[12].itemID" Type="Ref">/My Computer/SEECD Shared.lvlib/Globals</Property>
+				<Property Name="Source[12].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[12].itemID" Type="Ref">/My Computer/Scripting API/Scan Engine Scripting.lvlib/Main</Property>
 				<Property Name="Source[12].type" Type="Str">Container</Property>
 				<Property Name="Source[13].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[13].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[13].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[13].itemID" Type="Ref">/My Computer/Scripting API/Palettes</Property>
+				<Property Name="Source[13].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[13].itemID" Type="Ref">/My Computer/Scripting API/Scan Engine Scripting.lvlib/Modules</Property>
 				<Property Name="Source[13].type" Type="Str">Container</Property>
 				<Property Name="Source[14].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[14].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[14].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[14].itemID" Type="Ref">/My Computer/Scripting API/Scan Engine Scripting.lvlib/Main</Property>
+				<Property Name="Source[14].itemID" Type="Ref">/My Computer/Scripting API/Scan Engine Scripting.lvlib/Slots</Property>
 				<Property Name="Source[14].type" Type="Str">Container</Property>
 				<Property Name="Source[15].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[15].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[15].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[15].itemID" Type="Ref">/My Computer/Scripting API/Scan Engine Scripting.lvlib/Modules</Property>
+				<Property Name="Source[15].itemID" Type="Ref">/My Computer/Scripting API/Scan Engine Scripting.lvlib/Utility</Property>
 				<Property Name="Source[15].type" Type="Str">Container</Property>
-				<Property Name="Source[16].Container.applyDestination" Type="Bool">true</Property>
-				<Property Name="Source[16].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[16].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[16].itemID" Type="Ref">/My Computer/Scripting API/Scan Engine Scripting.lvlib/Slots</Property>
-				<Property Name="Source[16].type" Type="Str">Container</Property>
-				<Property Name="Source[17].Container.applyDestination" Type="Bool">true</Property>
-				<Property Name="Source[17].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[17].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[17].itemID" Type="Ref">/My Computer/Scripting API/Scan Engine Scripting.lvlib/Utility</Property>
-				<Property Name="Source[17].type" Type="Str">Container</Property>
-				<Property Name="Source[18].destinationIndex" Type="Int">3</Property>
-				<Property Name="Source[18].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Scan Engine Initialization VI.vi</Property>
+				<Property Name="Source[16].destinationIndex" Type="Int">3</Property>
+				<Property Name="Source[16].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Scan Engine Initialization VI.vi</Property>
+				<Property Name="Source[16].type" Type="Str">VI</Property>
+				<Property Name="Source[17].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[17].itemID" Type="Ref">/My Computer/SEECD Shared.lvlib/Utility/Scan Engine Convert Module Enum.vi</Property>
+				<Property Name="Source[17].type" Type="Str">VI</Property>
+				<Property Name="Source[18].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[18].itemID" Type="Ref">/My Computer/SEECD Shared.lvlib/Utility/Scan Engine Convert Module String.vi</Property>
 				<Property Name="Source[18].type" Type="Str">VI</Property>
 				<Property Name="Source[19].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[19].itemID" Type="Ref">/My Computer/SEECD Shared.lvlib/Utility/Scan Engine Convert Module Enum.vi</Property>
+				<Property Name="Source[19].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Action VIs/Main - Add Local Chassis.vi</Property>
 				<Property Name="Source[19].type" Type="Str">VI</Property>
-				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref"></Property>
-				<Property Name="Source[2].preventRename" Type="Bool">true</Property>
-				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">3</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/SEECD Shared.lvlib</Property>
+				<Property Name="Source[2].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[2].type" Type="Str">Library</Property>
 				<Property Name="Source[20].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[20].itemID" Type="Ref">/My Computer/SEECD Shared.lvlib/Utility/Scan Engine Convert Module String.vi</Property>
+				<Property Name="Source[20].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Action VIs/Main - Add EtherCAT Master.vi</Property>
 				<Property Name="Source[20].type" Type="Str">VI</Property>
 				<Property Name="Source[21].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[21].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Action VIs/Main - Add Local Chassis.vi</Property>
+				<Property Name="Source[21].itemID" Type="Ref">/My Computer/Broken VIs/Main - Auto Detect Modules.vi</Property>
 				<Property Name="Source[21].type" Type="Str">VI</Property>
 				<Property Name="Source[22].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[22].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Action VIs/Main - Add EtherCAT Master.vi</Property>
+				<Property Name="Source[22].itemID" Type="Ref">/My Computer/Broken VIs/Main - Manages 3rd Party Slaves.vi</Property>
 				<Property Name="Source[22].type" Type="Str">VI</Property>
 				<Property Name="Source[23].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[23].itemID" Type="Ref">/My Computer/Broken VIs/Main - Auto Detect Modules.vi</Property>
+				<Property Name="Source[23].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Action VIs/Main - On Load.vi</Property>
 				<Property Name="Source[23].type" Type="Str">VI</Property>
 				<Property Name="Source[24].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[24].itemID" Type="Ref">/My Computer/Broken VIs/Main - Manages 3rd Party Slaves.vi</Property>
+				<Property Name="Source[24].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Action VIs/Master - Add EtherCAT Slave.vi</Property>
 				<Property Name="Source[24].type" Type="Str">VI</Property>
 				<Property Name="Source[25].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[25].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Action VIs/Main - On Load.vi</Property>
+				<Property Name="Source[25].itemID" Type="Ref">/My Computer/Broken VIs/FPGA - Select Bitfile (ECAT).vi</Property>
 				<Property Name="Source[25].type" Type="Str">VI</Property>
 				<Property Name="Source[26].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[26].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Action VIs/Master - Add EtherCAT Slave.vi</Property>
+				<Property Name="Source[26].itemID" Type="Ref">/My Computer/Broken VIs/FPGA - Select Bitfile (Local).vi</Property>
 				<Property Name="Source[26].type" Type="Str">VI</Property>
 				<Property Name="Source[27].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[27].itemID" Type="Ref">/My Computer/Broken VIs/FPGA - Select Bitfile (ECAT).vi</Property>
+				<Property Name="Source[27].itemID" Type="Ref">/My Computer/Broken VIs/FPGA - Clear.vi</Property>
 				<Property Name="Source[27].type" Type="Str">VI</Property>
 				<Property Name="Source[28].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[28].itemID" Type="Ref">/My Computer/Broken VIs/FPGA - Select Bitfile (Local).vi</Property>
+				<Property Name="Source[28].itemID" Type="Ref">/My Computer/Broken VIs/FPGA - Download (ECAT).vi</Property>
 				<Property Name="Source[28].type" Type="Str">VI</Property>
 				<Property Name="Source[29].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[29].itemID" Type="Ref">/My Computer/Broken VIs/FPGA - Clear.vi</Property>
+				<Property Name="Source[29].itemID" Type="Ref">/My Computer/Broken VIs/FPGA - Revert (ECAT).vi</Property>
 				<Property Name="Source[29].type" Type="Str">VI</Property>
+				<Property Name="Source[3].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[3].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">3</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/SEECD Shared.lvlib</Property>
-				<Property Name="Source[3].Library.allowMissingMembers" Type="Bool">true</Property>
-				<Property Name="Source[3].type" Type="Str">Library</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/SEECD Shared.lvlib/Utility</Property>
+				<Property Name="Source[3].type" Type="Str">Container</Property>
 				<Property Name="Source[30].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[30].itemID" Type="Ref">/My Computer/Broken VIs/FPGA - Download (ECAT).vi</Property>
+				<Property Name="Source[30].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Action VIs/ActionVIOnDownload - Set Scan Rate.vi</Property>
 				<Property Name="Source[30].type" Type="Str">VI</Property>
 				<Property Name="Source[31].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[31].itemID" Type="Ref">/My Computer/Broken VIs/FPGA - Revert (ECAT).vi</Property>
+				<Property Name="Source[31].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Action VIs/FPGA - On Delete (Local).vi</Property>
 				<Property Name="Source[31].type" Type="Str">VI</Property>
 				<Property Name="Source[32].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[32].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Action VIs/ActionVIOnDownload - Set Scan Rate.vi</Property>
+				<Property Name="Source[32].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Action VIs/Main - Can Add Local Chassis.vi</Property>
 				<Property Name="Source[32].type" Type="Str">VI</Property>
 				<Property Name="Source[33].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[33].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Action VIs/FPGA - On Delete (Local).vi</Property>
+				<Property Name="Source[33].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility/Module Slot/Get Module Model.vi</Property>
 				<Property Name="Source[33].type" Type="Str">VI</Property>
 				<Property Name="Source[34].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[34].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Action VIs/Main - Can Add Local Chassis.vi</Property>
+				<Property Name="Source[34].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility/Module Slot/Scan Engine Init Slot.vi</Property>
 				<Property Name="Source[34].type" Type="Str">VI</Property>
 				<Property Name="Source[35].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[35].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility/Module Slot/Get Module Model.vi</Property>
+				<Property Name="Source[35].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility/Module Slot/Scan Engine Rename Slot.vi</Property>
 				<Property Name="Source[35].type" Type="Str">VI</Property>
 				<Property Name="Source[36].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[36].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility/Module Slot/Scan Engine Init Slot.vi</Property>
+				<Property Name="Source[36].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility/Module Slot/Scan Engine Change Module.vi</Property>
 				<Property Name="Source[36].type" Type="Str">VI</Property>
 				<Property Name="Source[37].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[37].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility/Module Slot/Scan Engine Rename Slot.vi</Property>
+				<Property Name="Source[37].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility/Module Slot/Handle Subpanel VI Run State.vi</Property>
 				<Property Name="Source[37].type" Type="Str">VI</Property>
 				<Property Name="Source[38].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[38].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility/Module Slot/Scan Engine Change Module.vi</Property>
+				<Property Name="Source[38].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility/Module Slot/Scan Engine Update Slot Subpanel.vi</Property>
 				<Property Name="Source[38].type" Type="Str">VI</Property>
 				<Property Name="Source[39].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[39].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility/Module Slot/Handle Subpanel VI Run State.vi</Property>
+				<Property Name="Source[39].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility/Module Slot/Update Slots.vi</Property>
 				<Property Name="Source[39].type" Type="Str">VI</Property>
-				<Property Name="Source[4].Container.applyDestination" Type="Bool">true</Property>
-				<Property Name="Source[4].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[4].destinationIndex" Type="Int">3</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/SEECD Shared.lvlib/Utility</Property>
-				<Property Name="Source[4].type" Type="Str">Container</Property>
+				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Custom Device Scan Engine.xml</Property>
 				<Property Name="Source[40].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[40].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility/Module Slot/Scan Engine Update Slot Subpanel.vi</Property>
+				<Property Name="Source[40].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility/Module Slot/Reset Slots.vi</Property>
 				<Property Name="Source[40].type" Type="Str">VI</Property>
 				<Property Name="Source[41].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[41].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility/Module Slot/Update Slots.vi</Property>
+				<Property Name="Source[41].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility/Module Slot/Update Slot GUID.vi</Property>
 				<Property Name="Source[41].type" Type="Str">VI</Property>
 				<Property Name="Source[42].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[42].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility/Module Slot/Reset Slots.vi</Property>
+				<Property Name="Source[42].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility/Module Slot/Update Slot Name.vi</Property>
 				<Property Name="Source[42].type" Type="Str">VI</Property>
 				<Property Name="Source[43].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[43].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility/Module Slot/Update Slot GUID.vi</Property>
+				<Property Name="Source[43].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility/Other/Get Target IP Address.vi</Property>
 				<Property Name="Source[43].type" Type="Str">VI</Property>
 				<Property Name="Source[44].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[44].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility/Module Slot/Update Slot Name.vi</Property>
+				<Property Name="Source[44].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility/Other/Data Type to Enum.vi</Property>
 				<Property Name="Source[44].type" Type="Str">VI</Property>
 				<Property Name="Source[45].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[45].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility/Other/Get Target IP Address.vi</Property>
+				<Property Name="Source[45].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility/Other/Update Dialog Box.vi</Property>
 				<Property Name="Source[45].type" Type="Str">VI</Property>
 				<Property Name="Source[46].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[46].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility/Other/Data Type to Enum.vi</Property>
+				<Property Name="Source[46].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility/FPGA/Set FPGA Mode.vi</Property>
 				<Property Name="Source[46].type" Type="Str">VI</Property>
 				<Property Name="Source[47].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[47].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility/Other/Update Dialog Box.vi</Property>
+				<Property Name="Source[47].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility/Other/Add Custom Device Channel - Offline.vi</Property>
 				<Property Name="Source[47].type" Type="Str">VI</Property>
 				<Property Name="Source[48].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[48].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility/FPGA/Set FPGA Mode.vi</Property>
+				<Property Name="Source[48].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility/Other/Add Custom Device Section - Offline.vi</Property>
 				<Property Name="Source[48].type" Type="Str">VI</Property>
 				<Property Name="Source[49].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[49].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility/Other/Add Custom Device Channel - Offline.vi</Property>
+				<Property Name="Source[49].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility/Other/NI VeriStand - Get Target Operating System.vi</Property>
 				<Property Name="Source[49].type" Type="Str">VI</Property>
 				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Custom Device Scan Engine.xml</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Build VIs.lvlib</Property>
+				<Property Name="Source[5].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[5].type" Type="Str">Library</Property>
 				<Property Name="Source[50].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[50].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility/Other/Add Custom Device Section - Offline.vi</Property>
+				<Property Name="Source[50].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility/Other/PathToLinuxPath.vi</Property>
 				<Property Name="Source[50].type" Type="Str">VI</Property>
 				<Property Name="Source[51].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[51].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility/Other/NI VeriStand - Get Target Operating System.vi</Property>
+				<Property Name="Source[51].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility/Other/Align cRIO Programming Mode.vi</Property>
 				<Property Name="Source[51].type" Type="Str">VI</Property>
 				<Property Name="Source[52].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[52].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility/Other/PathToLinuxPath.vi</Property>
+				<Property Name="Source[52].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility/FPGA/Set Main FPGA Chassis Slots Programming Mode.vi</Property>
 				<Property Name="Source[52].type" Type="Str">VI</Property>
 				<Property Name="Source[53].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[53].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility/Other/Align cRIO Programming Mode.vi</Property>
+				<Property Name="Source[53].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility/Other/List Local Chassis Modules.vi</Property>
 				<Property Name="Source[53].type" Type="Str">VI</Property>
 				<Property Name="Source[54].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[54].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility/FPGA/Set Main FPGA Chassis Slots Programming Mode.vi</Property>
+				<Property Name="Source[54].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility/Other/Add Channel Properties To String Array.vi</Property>
 				<Property Name="Source[54].type" Type="Str">VI</Property>
 				<Property Name="Source[55].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[55].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility/Other/List Local Chassis Modules.vi</Property>
+				<Property Name="Source[55].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility/Other/Channel Data and Properties to Table.vi</Property>
 				<Property Name="Source[55].type" Type="Str">VI</Property>
 				<Property Name="Source[56].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[56].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility/Other/Add Channel Properties To String Array.vi</Property>
+				<Property Name="Source[56].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility/Other/Get Modules Disabled Items.vi</Property>
 				<Property Name="Source[56].type" Type="Str">VI</Property>
 				<Property Name="Source[57].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[57].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility/Other/Channel Data and Properties to Table.vi</Property>
+				<Property Name="Source[57].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility/Other/Filter Out VxWorks Dependent Files.vi</Property>
 				<Property Name="Source[57].type" Type="Str">VI</Property>
 				<Property Name="Source[58].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[58].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility/Other/Get Modules Disabled Items.vi</Property>
+				<Property Name="Source[58].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility/Other/Get Dependent File Properties.vi</Property>
 				<Property Name="Source[58].type" Type="Str">VI</Property>
 				<Property Name="Source[59].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[59].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility/Other/Filter Out VxWorks Dependent Files.vi</Property>
+				<Property Name="Source[59].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility/Other/Get Dependent File Property Names.vi</Property>
 				<Property Name="Source[59].type" Type="Str">VI</Property>
 				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[6].itemID" Type="Ref"></Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Scripting API/Scan Engine Scripting.lvlib/Modules/Module.lvclass</Property>
+				<Property Name="Source[6].type" Type="Str">Library</Property>
 				<Property Name="Source[60].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[60].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility/Other/Get Dependent File Properties.vi</Property>
+				<Property Name="Source[60].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility/Other/Set Dependent File Properties.vi</Property>
 				<Property Name="Source[60].type" Type="Str">VI</Property>
 				<Property Name="Source[61].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[61].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility/Other/Get Dependent File Property Names.vi</Property>
+				<Property Name="Source[61].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility/Other/Remove Properties.vi</Property>
 				<Property Name="Source[61].type" Type="Str">VI</Property>
 				<Property Name="Source[62].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[62].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility/Other/Set Dependent File Properties.vi</Property>
+				<Property Name="Source[62].itemID" Type="Ref">/My Computer/SEECD Shared.lvlib/Globals/SubPanel Controls.vi</Property>
 				<Property Name="Source[62].type" Type="Str">VI</Property>
 				<Property Name="Source[63].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[63].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility/Other/Remove Properties.vi</Property>
+				<Property Name="Source[63].itemID" Type="Ref">/My Computer/SEECD Shared.lvlib/Globals/RT Globals.vi</Property>
 				<Property Name="Source[63].type" Type="Str">VI</Property>
 				<Property Name="Source[64].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[64].itemID" Type="Ref">/My Computer/SEECD Shared.lvlib/Globals/SubPanel Controls.vi</Property>
+				<Property Name="Source[64].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Type Defs/Bitfile Signature.ctl</Property>
 				<Property Name="Source[64].type" Type="Str">VI</Property>
 				<Property Name="Source[65].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[65].itemID" Type="Ref">/My Computer/SEECD Shared.lvlib/Globals/RT Globals.vi</Property>
+				<Property Name="Source[65].itemID" Type="Ref">/My Computer/SEECD Shared.lvlib/Type Defs/FPGAScanInterfaceMode.ctl</Property>
 				<Property Name="Source[65].type" Type="Str">VI</Property>
 				<Property Name="Source[66].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[66].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Type Defs/Bitfile Signature.ctl</Property>
+				<Property Name="Source[66].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Type Defs/NI ECAT Slaves.ctl</Property>
 				<Property Name="Source[66].type" Type="Str">VI</Property>
 				<Property Name="Source[67].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[67].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Type Defs/ECAT Channel Data Type.ctl</Property>
+				<Property Name="Source[67].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Type Defs/Slot Programming Mode.ctl</Property>
 				<Property Name="Source[67].type" Type="Str">VI</Property>
 				<Property Name="Source[68].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[68].itemID" Type="Ref">/My Computer/SEECD Shared.lvlib/Type Defs/FPGAScanInterfaceMode.ctl</Property>
+				<Property Name="Source[68].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Type Defs/Slot - Configuration.ctl</Property>
 				<Property Name="Source[68].type" Type="Str">VI</Property>
+				<Property Name="Source[69].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[69].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[69].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[69].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Type Defs/NI ECAT Slaves.ctl</Property>
-				<Property Name="Source[69].type" Type="Str">VI</Property>
+				<Property Name="Source[69].itemID" Type="Ref">/My Computer/Scripting API</Property>
+				<Property Name="Source[69].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[69].type" Type="Str">Container</Property>
 				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[7].itemID" Type="Ref">/My Computer/Build VIs.lvlib</Property>
-				<Property Name="Source[7].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/My Computer/Scripting API/Scan Engine Scripting.lvlib/Modules/NI 9474.lvclass</Property>
 				<Property Name="Source[7].type" Type="Str">Library</Property>
-				<Property Name="Source[70].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[70].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Type Defs/Slot Programming Mode.ctl</Property>
-				<Property Name="Source[70].type" Type="Str">VI</Property>
-				<Property Name="Source[71].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[71].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Type Defs/Slot - Configuration.ctl</Property>
-				<Property Name="Source[71].type" Type="Str">VI</Property>
-				<Property Name="Source[72].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[70].destinationIndex" Type="Int">3</Property>
+				<Property Name="Source[70].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib</Property>
+				<Property Name="Source[70].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[70].type" Type="Str">Library</Property>
+				<Property Name="Source[71].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[71].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[71].destinationIndex" Type="Int">3</Property>
+				<Property Name="Source[71].itemID" Type="Ref">/My Computer/SEECD Shared.lvlib/Type Defs</Property>
+				<Property Name="Source[71].type" Type="Str">Container</Property>
+				<Property Name="Source[72].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[72].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[72].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[72].itemID" Type="Ref">/My Computer/Scripting API</Property>
-				<Property Name="Source[72].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[72].destinationIndex" Type="Int">3</Property>
+				<Property Name="Source[72].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility</Property>
 				<Property Name="Source[72].type" Type="Str">Container</Property>
-				<Property Name="Source[73].destinationIndex" Type="Int">3</Property>
-				<Property Name="Source[73].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib</Property>
-				<Property Name="Source[73].Library.allowMissingMembers" Type="Bool">true</Property>
-				<Property Name="Source[73].type" Type="Str">Library</Property>
-				<Property Name="Source[74].Container.applyDestination" Type="Bool">true</Property>
-				<Property Name="Source[74].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[74].destinationIndex" Type="Int">3</Property>
-				<Property Name="Source[74].itemID" Type="Ref">/My Computer/SEECD Shared.lvlib/Type Defs</Property>
-				<Property Name="Source[74].type" Type="Str">Container</Property>
-				<Property Name="Source[75].Container.applyDestination" Type="Bool">true</Property>
-				<Property Name="Source[75].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[75].destinationIndex" Type="Int">3</Property>
-				<Property Name="Source[75].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility</Property>
-				<Property Name="Source[75].type" Type="Str">Container</Property>
+				<Property Name="Source[73].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[73].itemID" Type="Ref">/My Computer/Modules.lvlibp</Property>
+				<Property Name="Source[73].preventRename" Type="Bool">true</Property>
+				<Property Name="Source[73].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[8].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[8].itemID" Type="Ref">/My Computer/Scripting API/Scan Engine Scripting.lvlib/Modules/Module.lvclass</Property>
+				<Property Name="Source[8].itemID" Type="Ref">/My Computer/Scripting API/Scan Engine Scripting.lvlib/Modules/NI 9475.lvclass</Property>
 				<Property Name="Source[8].type" Type="Str">Library</Property>
 				<Property Name="Source[9].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Scripting API/Scan Engine Scripting.lvlib/Modules/NI 9474.lvclass</Property>
+				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Scripting API/Scan Engine Scripting.lvlib/Modules/Channels/Channel.lvclass</Property>
 				<Property Name="Source[9].type" Type="Str">Library</Property>
-				<Property Name="SourceCount" Type="Int">76</Property>
+				<Property Name="SourceCount" Type="Int">74</Property>
 			</Item>
 		</Item>
 	</Item>
@@ -1361,18 +1364,23 @@
 				<Item Name="9403.lvclass" Type="LVClass" URL="../../Includes/Modules.lvlibp/9403/9403.lvclass"/>
 				<Item Name="9478.lvclass" Type="LVClass" URL="../../Includes/Modules.lvlibp/9478/9478.lvclass"/>
 			</Item>
+			<Item Name="BuildHelpPath.vi" Type="VI" URL="../../Includes/Modules.lvlibp/1abvi3w/vi.lib/Utility/error.llb/BuildHelpPath.vi"/>
 			<Item Name="Check Special Tags.vi" Type="VI" URL="../../Includes/Modules.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Check Special Tags.vi"/>
 			<Item Name="Clear Errors.vi" Type="VI" URL="../../Includes/Modules.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Clear Errors.vi"/>
 			<Item Name="Close File+.vi" Type="VI" URL="../../Includes/Modules.lvlibp/1abvi3w/vi.lib/Utility/file.llb/Close File+.vi"/>
 			<Item Name="compatReadText.vi" Type="VI" URL="../../Includes/Modules.lvlibp/1abvi3w/vi.lib/_oldvers/_oldvers.llb/compatReadText.vi"/>
+			<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="../../Includes/Modules.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Convert property node font to graphics font.vi"/>
 			<Item Name="Current VIs Parent Directory__ogtk.vi" Type="VI" URL="../../Includes/Modules.lvlibp/1abvi3w/user.lib/_OpenG.lib/file/file.llb/Current VIs Parent Directory__ogtk.vi"/>
 			<Item Name="Current VIs Parents Ref__ogtk.vi" Type="VI" URL="../../Includes/Modules.lvlibp/1abvi3w/user.lib/_OpenG.lib/appcontrol/appcontrol.llb/Current VIs Parents Ref__ogtk.vi"/>
 			<Item Name="Custom Device API.lvlib" Type="Library" URL="../../Includes/Modules.lvlibp/1abvi3w/vi.lib/NI VeriStand/Custom Device API/Custom Device API.lvlib"/>
 			<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="../../Includes/Modules.lvlibp/1abvi3w/vi.lib/NI VeriStand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
+			<Item Name="Details Display Dialog.vi" Type="VI" URL="../../Includes/Modules.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Details Display Dialog.vi"/>
 			<Item Name="DialogType.ctl" Type="VI" URL="../../Includes/Modules.lvlibp/1abvi3w/vi.lib/Utility/error.llb/DialogType.ctl"/>
 			<Item Name="DialogTypeEnum.ctl" Type="VI" URL="../../Includes/Modules.lvlibp/1abvi3w/vi.lib/Utility/error.llb/DialogTypeEnum.ctl"/>
 			<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../../Includes/Modules.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
 			<Item Name="Error Code Database.vi" Type="VI" URL="../../Includes/Modules.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Code Database.vi"/>
+			<Item Name="ErrWarn.ctl" Type="VI" URL="../../Includes/Modules.lvlibp/1abvi3w/vi.lib/Utility/error.llb/ErrWarn.ctl"/>
+			<Item Name="eventvkey.ctl" Type="VI" URL="../../Includes/Modules.lvlibp/1abvi3w/vi.lib/event_ctls.llb/eventvkey.ctl"/>
 			<Item Name="Find First Error.vi" Type="VI" URL="../../Includes/Modules.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Find First Error.vi"/>
 			<Item Name="Find Tag.vi" Type="VI" URL="../../Includes/Modules.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Find Tag.vi"/>
 			<Item Name="Format Message String.vi" Type="VI" URL="../../Includes/Modules.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Format Message String.vi"/>
@@ -1380,13 +1388,19 @@
 			<Item Name="General Error Handler.vi" Type="VI" URL="../../Includes/Modules.lvlibp/1abvi3w/vi.lib/Utility/error.llb/General Error Handler.vi"/>
 			<Item Name="Get RemIO Library Path.vi" Type="VI" URL="../../Includes/Modules.lvlibp/RemIO Module/Get RemIO Library Path.vi"/>
 			<Item Name="Get RemIO VI Reference.vim" Type="VI" URL="../../Includes/Modules.lvlibp/RemIO Module/Get RemIO VI Reference.vim"/>
+			<Item Name="Get String Text Bounds.vi" Type="VI" URL="../../Includes/Modules.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Get String Text Bounds.vi"/>
+			<Item Name="Get Text Rect.vi" Type="VI" URL="../../Includes/Modules.lvlibp/1abvi3w/vi.lib/picture/picture.llb/Get Text Rect.vi"/>
+			<Item Name="GetHelpDir.vi" Type="VI" URL="../../Includes/Modules.lvlibp/1abvi3w/vi.lib/Utility/error.llb/GetHelpDir.vi"/>
 			<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="../../Includes/Modules.lvlibp/1abvi3w/vi.lib/Utility/error.llb/GetRTHostConnectedProp.vi"/>
 			<Item Name="Init Module.vi" Type="VI" URL="../../Includes/Modules.lvlibp/Init Module.vi"/>
+			<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="../../Includes/Modules.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Longest Line Length in Pixels.vi"/>
+			<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="../../Includes/Modules.lvlibp/1abvi3w/vi.lib/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 			<Item Name="LVRectTypeDef.ctl" Type="VI" URL="../../Includes/Modules.lvlibp/1abvi3w/vi.lib/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 			<Item Name="LVRowAndColumnTypeDef.ctl" Type="VI" URL="../../Includes/Modules.lvlibp/1abvi3w/vi.lib/Utility/miscctls.llb/LVRowAndColumnTypeDef.ctl"/>
 			<Item Name="LVRowAndColumnUnsignedTypeDef.ctl" Type="VI" URL="../../Includes/Modules.lvlibp/1abvi3w/vi.lib/Utility/miscctls.llb/LVRowAndColumnUnsignedTypeDef.ctl"/>
 			<Item Name="negative confirmation.ctl" Type="VI" URL="../../Includes/Modules.lvlibp/1abvi3w/vi.lib/indcomecat/Remote IO/typedefs/negative confirmation.ctl"/>
 			<Item Name="NI ECAT Remote IO.lvlib" Type="Library" URL="../../Includes/Modules.lvlibp/1abvi3w/vi.lib/indcomecat/Remote IO/NI ECAT Remote IO.lvlib"/>
+			<Item Name="Not Found Dialog.vi" Type="VI" URL="../../Includes/Modules.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Not Found Dialog.vi"/>
 			<Item Name="Open File+.vi" Type="VI" URL="../../Includes/Modules.lvlibp/1abvi3w/vi.lib/Utility/file.llb/Open File+.vi"/>
 			<Item Name="Read File+ (string).vi" Type="VI" URL="../../Includes/Modules.lvlibp/1abvi3w/vi.lib/Utility/file.llb/Read File+ (string).vi"/>
 			<Item Name="Read From Spreadsheet File (DBL).vi" Type="VI" URL="../../Includes/Modules.lvlibp/1abvi3w/vi.lib/Utility/file.llb/Read From Spreadsheet File (DBL).vi"/>
@@ -1394,9 +1408,13 @@
 			<Item Name="RemIO Module.lvclass" Type="LVClass" URL="../../Includes/Modules.lvlibp/RemIO Module/RemIO Module.lvclass"/>
 			<Item Name="RSI Module.lvclass" Type="LVClass" URL="../../Includes/Modules.lvlibp/RSI Module/RSI Module.lvclass"/>
 			<Item Name="Search and Replace Pattern.vi" Type="VI" URL="../../Includes/Modules.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Search and Replace Pattern.vi"/>
+			<Item Name="Set Bold Text.vi" Type="VI" URL="../../Includes/Modules.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Set Bold Text.vi"/>
+			<Item Name="Set String Value.vi" Type="VI" URL="../../Includes/Modules.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Set String Value.vi"/>
 			<Item Name="Simple Error Handler.vi" Type="VI" URL="../../Includes/Modules.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Simple Error Handler.vi"/>
 			<Item Name="Strip Path - Traditional__ogtk.vi" Type="VI" URL="../../Includes/Modules.lvlibp/1abvi3w/user.lib/_OpenG.lib/file/file.llb/Strip Path - Traditional__ogtk.vi"/>
 			<Item Name="TagReturnType.ctl" Type="VI" URL="../../Includes/Modules.lvlibp/1abvi3w/vi.lib/Utility/error.llb/TagReturnType.ctl"/>
+			<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="../../Includes/Modules.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Three Button Dialog CORE.vi"/>
+			<Item Name="Three Button Dialog.vi" Type="VI" URL="../../Includes/Modules.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Three Button Dialog.vi"/>
 			<Item Name="Trim Whitespace.vi" Type="VI" URL="../../Includes/Modules.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Trim Whitespace.vi"/>
 			<Item Name="whitespace.ctl" Type="VI" URL="../../Includes/Modules.lvlibp/1abvi3w/vi.lib/Utility/error.llb/whitespace.ctl"/>
 			<Item Name="Write Spreadsheet String.vi" Type="VI" URL="../../Includes/Modules.lvlibp/1abvi3w/vi.lib/Utility/file.llb/Write Spreadsheet String.vi"/>
