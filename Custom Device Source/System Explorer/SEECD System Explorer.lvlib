@@ -61,7 +61,6 @@
 	</Item>
 	<Item Name="Type Defs" Type="Folder">
 		<Item Name="Bitfile Signature.ctl" Type="VI" URL="../Type Defs/Bitfile Signature.ctl"/>
-		<Item Name="ECAT Channel Data Type.ctl" Type="VI" URL="../Type Defs/ECAT Channel Data Type.ctl"/>
 		<Item Name="FPGA Target.ctl" Type="VI" URL="../Type Defs/FPGA Target.ctl"/>
 		<Item Name="Host - HW Config.ctl" Type="VI" URL="../Type Defs/Host - HW Config.ctl"/>
 		<Item Name="Host - Local Chassis.ctl" Type="VI" URL="../Type Defs/Host - Local Chassis.ctl"/>
@@ -109,7 +108,6 @@
 				<Item Name="Get Slave Info.vi" Type="VI" URL="../Utility/ECAT/Slave/Get Slave Info.vi"/>
 				<Item Name="Prompt Import 3rd Party ECAT Slaves Will Reboot.vi" Type="VI" URL="../Utility/ECAT/Slave/Prompt Import 3rd Party ECAT Slaves Will Reboot.vi"/>
 				<Item Name="Set Slave Info.vi" Type="VI" URL="../Utility/ECAT/Slave/Set Slave Info.vi"/>
-				<Item Name="TypeCodeToEnum.vi" Type="VI" URL="../Utility/ECAT/Slave/TypeCodeToEnum.vi"/>
 			</Item>
 		</Item>
 		<Item Name="FPGA" Type="Folder">

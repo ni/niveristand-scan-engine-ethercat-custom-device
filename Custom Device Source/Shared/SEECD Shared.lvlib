@@ -48,6 +48,7 @@
 		<Item Name="Scan Engine Convert Module Enum.vi" Type="VI" URL="../Utility/Scan Engine Convert Module Enum.vi"/>
 		<Item Name="Scan Engine Convert Module String.vi" Type="VI" URL="../Utility/Scan Engine Convert Module String.vi"/>
 		<Item Name="Set Error.vi" Type="VI" URL="../Utility/Set Error.vi"/>
+		<Item Name="TypeCodeToEnum.vi" Type="VI" URL="../Utility/TypeCodeToEnum.vi"/>
 	</Item>
 	<Item Name="Type Defs" Type="Folder">
 		<Item Name="FPGAScanInterfaceMode.ctl" Type="VI" URL="../Type Defs/FPGAScanInterfaceMode.ctl"/>
@@ -56,5 +57,6 @@
 		<Item Name="FXP Config.ctl" Type="VI" URL="../Type Defs/FXP Config.ctl"/>
 		<Item Name="UDV Data Type.ctl" Type="VI" URL="../Type Defs/UDV Data Type.ctl"/>
 		<Item Name="Host - FPGAScanInterfaceMode.ctl" Type="VI" URL="../Type Defs/Host - FPGAScanInterfaceMode.ctl"/>
+		<Item Name="ECAT Channel Data Type.ctl" Type="VI" URL="../Type Defs/ECAT Channel Data Type.ctl"/>
 	</Item>
 </Library>
