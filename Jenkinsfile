@@ -9,5 +9,5 @@ def lvVersions = [
 
 List<String> dependencies = ['niveristand-scan-engine-fxp-libraries', 'niveristand-scan-engine-module-libraries']
 
-diffPipeline(lvVersions[0])
+diffPipeline(lvVersions)
 ni.vsbuild.PipelineExecutor.execute(this, 'vs_cd_build', lvVersions, dependencies)
