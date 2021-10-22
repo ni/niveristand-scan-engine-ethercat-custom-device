@@ -17,6 +17,7 @@
 	</Item>
 	<Item Name="Applications" Type="Folder">
 		<Item Name="Check and Download Bitfile.vi" Type="VI" URL="../Applications/Check and Download Bitfile.vi"/>
+		<Item Name="Revert to Scan Mode.vi" Type="VI" URL="../Applications/Revert to Scan Mode.vi"/>
 	</Item>
 	<Item Name="Glyphs" Type="Folder">
 		<Item Name="add fpga.png" Type="Document" URL="../Glyphs/add fpga.png"/>
