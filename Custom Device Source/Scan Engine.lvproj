@@ -107,7 +107,6 @@
 		<Item Name="Broken VIs" Type="Folder">
 			<Item Name="FPGA - Download (ECAT).vi" Type="VI" URL="../System Explorer/Action VIs/FPGA - Download (ECAT).vi"/>
 			<Item Name="FPGA - Select Bitfile (ECAT).vi" Type="VI" URL="../System Explorer/Action VIs/FPGA - Select Bitfile (ECAT).vi"/>
-			<Item Name="FPGA - Select Bitfile (Local).vi" Type="VI" URL="../System Explorer/Action VIs/FPGA - Select Bitfile (Local).vi"/>
 			<Item Name="Main - Auto Detect Modules.vi" Type="VI" URL="../System Explorer/Action VIs/Main - Auto Detect Modules.vi"/>
 			<Item Name="Main - Manages 3rd Party Slaves.vi" Type="VI" URL="../System Explorer/Action VIs/Main - Manages 3rd Party Slaves.vi"/>
 			<Item Name="FPGA - Clear.vi" Type="VI" URL="../System Explorer/Action VIs/FPGA - Clear.vi"/>
@@ -1084,7 +1083,7 @@
 				<Property Name="Source[25].itemID" Type="Ref">/My Computer/Broken VIs/FPGA - Select Bitfile (ECAT).vi</Property>
 				<Property Name="Source[25].type" Type="Str">VI</Property>
 				<Property Name="Source[26].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[26].itemID" Type="Ref">/My Computer/Broken VIs/FPGA - Select Bitfile (Local).vi</Property>
+				<Property Name="Source[26].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Action VIs/FPGA - Select Bitfile (Local).vi</Property>
 				<Property Name="Source[26].type" Type="Str">VI</Property>
 				<Property Name="Source[27].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[27].itemID" Type="Ref">/My Computer/Broken VIs/FPGA - Clear.vi</Property>

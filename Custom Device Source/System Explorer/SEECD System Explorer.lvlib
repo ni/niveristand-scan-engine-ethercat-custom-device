@@ -7,6 +7,7 @@
 	<Item Name="Action VIs" Type="Folder">
 		<Item Name="ActionVIOnDownload - Set Scan Rate.vi" Type="VI" URL="../Action VIs/ActionVIOnDownload - Set Scan Rate.vi"/>
 		<Item Name="FPGA - On Delete (Local).vi" Type="VI" URL="../Action VIs/FPGA - On Delete (Local).vi"/>
+		<Item Name="FPGA - Select Bitfile (Local).vi" Type="VI" URL="../Action VIs/FPGA - Select Bitfile (Local).vi"/>
 		<Item Name="Main - Add EtherCAT Master.vi" Type="VI" URL="../Action VIs/Main - Add EtherCAT Master.vi"/>
 		<Item Name="Main - Add Local Chassis.vi" Type="VI" URL="../Action VIs/Main - Add Local Chassis.vi"/>
 		<Item Name="Main - Can Add Local Chassis.vi" Type="VI" URL="../Action VIs/Main - Can Add Local Chassis.vi"/>
