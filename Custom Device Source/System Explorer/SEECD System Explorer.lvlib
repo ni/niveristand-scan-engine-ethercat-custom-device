@@ -7,12 +7,17 @@
 	<Item Name="Action VIs" Type="Folder">
 		<Item Name="ActionVIOnDownload - Set Scan Rate.vi" Type="VI" URL="../Action VIs/ActionVIOnDownload - Set Scan Rate.vi"/>
 		<Item Name="FPGA - On Delete (Local).vi" Type="VI" URL="../Action VIs/FPGA - On Delete (Local).vi"/>
+		<Item Name="FPGA - Select Bitfile (Local).vi" Type="VI" URL="../Action VIs/FPGA - Select Bitfile (Local).vi"/>
 		<Item Name="Main - Add EtherCAT Master.vi" Type="VI" URL="../Action VIs/Main - Add EtherCAT Master.vi"/>
 		<Item Name="Main - Add Local Chassis.vi" Type="VI" URL="../Action VIs/Main - Add Local Chassis.vi"/>
 		<Item Name="Main - Can Add Local Chassis.vi" Type="VI" URL="../Action VIs/Main - Can Add Local Chassis.vi"/>
 		<Item Name="Main - On Delete.vi" Type="VI" URL="../Action VIs/Main - On Delete.vi"/>
 		<Item Name="Main - On Load.vi" Type="VI" URL="../Action VIs/Main - On Load.vi"/>
 		<Item Name="Master - Add EtherCAT Slave.vi" Type="VI" URL="../Action VIs/Master - Add EtherCAT Slave.vi"/>
+	</Item>
+	<Item Name="Applications" Type="Folder">
+		<Item Name="Check and Download Bitfile.vi" Type="VI" URL="../Applications/Check and Download Bitfile.vi"/>
+		<Item Name="Revert to Scan Mode.vi" Type="VI" URL="../Applications/Revert to Scan Mode.vi"/>
 	</Item>
 	<Item Name="Glyphs" Type="Folder">
 		<Item Name="add fpga.png" Type="Document" URL="../Glyphs/add fpga.png"/>
