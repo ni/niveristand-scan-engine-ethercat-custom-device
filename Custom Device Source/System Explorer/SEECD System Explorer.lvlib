@@ -14,6 +14,9 @@
 		<Item Name="Main - On Load.vi" Type="VI" URL="../Action VIs/Main - On Load.vi"/>
 		<Item Name="Master - Add EtherCAT Slave.vi" Type="VI" URL="../Action VIs/Master - Add EtherCAT Slave.vi"/>
 	</Item>
+	<Item Name="Applications" Type="Folder">
+		<Item Name="Check and Download Bitfile.vi" Type="VI" URL="../Applications/Check and Download Bitfile.vi"/>
+	</Item>
 	<Item Name="Glyphs" Type="Folder">
 		<Item Name="add fpga.png" Type="Document" URL="../Glyphs/add fpga.png"/>
 		<Item Name="clear fpga.png" Type="Document" URL="../Glyphs/clear fpga.png"/>
