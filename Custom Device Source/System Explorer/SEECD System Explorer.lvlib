@@ -78,6 +78,8 @@
 	</Item>
 	<Item Name="Utility" Type="Folder">
 		<Item Name="Auto Detect" Type="Folder">
+			<Item Name="Add ECAT Slave from Config.vi" Type="VI" URL="../Utility/Auto Detect/Add ECAT Slave from Config.vi"/>
+			<Item Name="Add Local Chassis from Config.vi" Type="VI" URL="../Utility/Auto Detect/Add Local Chassis from Config.vi"/>
 			<Item Name="Check Existing Configuration.vi" Type="VI" URL="../Utility/Auto Detect/Check Existing Configuration.vi"/>
 			<Item Name="Initialize UI Elements.vi" Type="VI" URL="../Utility/Auto Detect/Initialize UI Elements.vi"/>
 			<Item Name="List Slots.vi" Type="VI" URL="../Utility/Auto Detect/List Slots.vi"/>
