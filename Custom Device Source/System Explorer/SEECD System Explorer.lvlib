@@ -82,8 +82,6 @@
 			<Item Name="Add ECAT Slave from Config.vi" Type="VI" URL="../Utility/Auto Detect/Add ECAT Slave from Config.vi"/>
 			<Item Name="Add Local Chassis from Config.vi" Type="VI" URL="../Utility/Auto Detect/Add Local Chassis from Config.vi"/>
 			<Item Name="Check Existing Configuration.vi" Type="VI" URL="../Utility/Auto Detect/Check Existing Configuration.vi"/>
-			<Item Name="Get ECAT Variable Contents.vi" Type="VI" URL="../Utility/Auto Detect/Get ECAT Variable Contents.vi"/>
-			<Item Name="Get IO Variable Contents.vi" Type="VI" URL="../Utility/Auto Detect/Get IO Variable Contents.vi"/>
 			<Item Name="Initialize UI Elements.vi" Type="VI" URL="../Utility/Auto Detect/Initialize UI Elements.vi"/>
 			<Item Name="List Slots.vi" Type="VI" URL="../Utility/Auto Detect/List Slots.vi"/>
 			<Item Name="Programming Mode.vi" Type="VI" URL="../Utility/Auto Detect/Programming Mode.vi"/>
@@ -183,6 +181,8 @@
 				<Item Name="ECAT Generate OD For FPGA IOV.vi" Type="VI" URL="../Utility/Target Communication/Support/ECAT Generate OD For FPGA IOV.vi"/>
 				<Item Name="ECAT Start FoE Write.vi" Type="VI" URL="../Utility/Target Communication/Support/ECAT Start FoE Write.vi"/>
 				<Item Name="ECAT Wipeback FoE.vi" Type="VI" URL="../Utility/Target Communication/Support/ECAT Wipeback FoE.vi"/>
+				<Item Name="Get ECAT Variable Contents.vi" Type="VI" URL="../Utility/Target Communication/Support/Get ECAT Variable Contents.vi"/>
+				<Item Name="Get IO Variable Contents.vi" Type="VI" URL="../Utility/Target Communication/Support/Get IO Variable Contents.vi"/>
 				<Item Name="Host - ECAT Compatible Firmware.vi" Type="VI" URL="../Utility/Target Communication/Support/Host - ECAT Compatible Firmware.vi"/>
 				<Item Name="Host - ECAT Slaves write to XML-Log-File.vi" Type="VI" URL="../Utility/Target Communication/Support/Host - ECAT Slaves write to XML-Log-File.vi"/>
 				<Item Name="Host - Find Path.vi" Type="VI" URL="../Utility/Target Communication/Support/Host - Find Path.vi"/>
