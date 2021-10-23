@@ -72,6 +72,7 @@
 		<Item Name="Host - Master.ctl" Type="VI" URL="../Type Defs/Host - Master.ctl"/>
 		<Item Name="Host - Module.ctl" Type="VI" URL="../Type Defs/Host - Module.ctl"/>
 		<Item Name="Host - Slave.ctl" Type="VI" URL="../Type Defs/Host - Slave.ctl"/>
+		<Item Name="IOV Container Contents.ctl" Type="VI" URL="../Type Defs/IOV Container Contents.ctl"/>
 		<Item Name="NI ECAT Slaves.ctl" Type="VI" URL="../Type Defs/NI ECAT Slaves.ctl"/>
 		<Item Name="Slot - Configuration.ctl" Type="VI" URL="../Type Defs/Slot - Configuration.ctl"/>
 		<Item Name="Slot Programming Mode.ctl" Type="VI" URL="../Type Defs/Slot Programming Mode.ctl"/>
@@ -81,6 +82,8 @@
 			<Item Name="Add ECAT Slave from Config.vi" Type="VI" URL="../Utility/Auto Detect/Add ECAT Slave from Config.vi"/>
 			<Item Name="Add Local Chassis from Config.vi" Type="VI" URL="../Utility/Auto Detect/Add Local Chassis from Config.vi"/>
 			<Item Name="Check Existing Configuration.vi" Type="VI" URL="../Utility/Auto Detect/Check Existing Configuration.vi"/>
+			<Item Name="Get ECAT Variable Contents.vi" Type="VI" URL="../Utility/Auto Detect/Get ECAT Variable Contents.vi"/>
+			<Item Name="Get IO Variable Contents.vi" Type="VI" URL="../Utility/Auto Detect/Get IO Variable Contents.vi"/>
 			<Item Name="Initialize UI Elements.vi" Type="VI" URL="../Utility/Auto Detect/Initialize UI Elements.vi"/>
 			<Item Name="List Slots.vi" Type="VI" URL="../Utility/Auto Detect/List Slots.vi"/>
 			<Item Name="Programming Mode.vi" Type="VI" URL="../Utility/Auto Detect/Programming Mode.vi"/>
@@ -188,7 +191,7 @@
 				<Item Name="Host - Get ECAT IOVs.vi" Type="VI" URL="../Utility/Target Communication/Support/Host - Get ECAT IOVs.vi"/>
 				<Item Name="Host - Get Local and ECAT Masters With Retries.vi" Type="VI" URL="../Utility/Target Communication/Support/Host - Get Local and ECAT Masters With Retries.vi"/>
 				<Item Name="Host - Get Local and ECAT Masters.vi" Type="VI" URL="../Utility/Target Communication/Support/Host - Get Local and ECAT Masters.vi"/>
-				<Item Name="Host - Get Masters.vi" Type="VI" URL="../Utility/Target Communication/Support/Host - Get Masters.vi"/>
+				<Item Name="Host - Get Masters and Slaves.vi" Type="VI" URL="../Utility/Target Communication/Support/Host - Get Masters and Slaves.vi"/>
 				<Item Name="Host - Get Module Data.vi" Type="VI" URL="../Utility/Target Communication/Support/Host - Get Module Data.vi"/>
 				<Item Name="Host - Get Remote IO IOVs.vi" Type="VI" URL="../Utility/Target Communication/Support/Host - Get Remote IO IOVs.vi"/>
 				<Item Name="Host - Get Remote IO Module Data.vi" Type="VI" URL="../Utility/Target Communication/Support/Host - Get Remote IO Module Data.vi"/>
