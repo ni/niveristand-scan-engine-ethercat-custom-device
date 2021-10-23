@@ -105,12 +105,7 @@
 			<Item Name="Scan Engine Scripting.lvlib" Type="Library" URL="../Scripting/Scan Engine Scripting.lvlib"/>
 		</Item>
 		<Item Name="Broken VIs" Type="Folder">
-			<Item Name="FPGA - Download (ECAT).vi" Type="VI" URL="../System Explorer/Action VIs/FPGA - Download (ECAT).vi"/>
-			<Item Name="FPGA - Select Bitfile (ECAT).vi" Type="VI" URL="../System Explorer/Action VIs/FPGA - Select Bitfile (ECAT).vi"/>
-			<Item Name="Main - Auto Detect Modules.vi" Type="VI" URL="../System Explorer/Action VIs/Main - Auto Detect Modules.vi"/>
 			<Item Name="Main - Manages 3rd Party Slaves.vi" Type="VI" URL="../System Explorer/Action VIs/Main - Manages 3rd Party Slaves.vi"/>
-			<Item Name="FPGA - Clear.vi" Type="VI" URL="../System Explorer/Action VIs/FPGA - Clear.vi"/>
-			<Item Name="FPGA - Revert (ECAT).vi" Type="VI" URL="../System Explorer/Action VIs/FPGA - Revert (ECAT).vi"/>
 		</Item>
 		<Item Name="SEECD Shared.lvlib" Type="Library" URL="../Shared/SEECD Shared.lvlib"/>
 		<Item Name="SEECD System Explorer.lvlib" Type="Library" URL="../System Explorer/SEECD System Explorer.lvlib"/>
@@ -1074,7 +1069,7 @@
 				<Property Name="Source[20].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Action VIs/Main - Add EtherCAT Master.vi</Property>
 				<Property Name="Source[20].type" Type="Str">VI</Property>
 				<Property Name="Source[21].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[21].itemID" Type="Ref">/My Computer/Broken VIs/Main - Auto Detect Modules.vi</Property>
+				<Property Name="Source[21].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Action VIs/Main - Auto Detect Modules.vi</Property>
 				<Property Name="Source[21].type" Type="Str">VI</Property>
 				<Property Name="Source[22].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[22].itemID" Type="Ref">/My Computer/Broken VIs/Main - Manages 3rd Party Slaves.vi</Property>
@@ -1086,19 +1081,19 @@
 				<Property Name="Source[24].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Action VIs/Master - Add EtherCAT Slave.vi</Property>
 				<Property Name="Source[24].type" Type="Str">VI</Property>
 				<Property Name="Source[25].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[25].itemID" Type="Ref">/My Computer/Broken VIs/FPGA - Select Bitfile (ECAT).vi</Property>
+				<Property Name="Source[25].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Action VIs/FPGA - Select Bitfile (ECAT).vi</Property>
 				<Property Name="Source[25].type" Type="Str">VI</Property>
 				<Property Name="Source[26].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[26].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Action VIs/FPGA - Select Bitfile (Local).vi</Property>
 				<Property Name="Source[26].type" Type="Str">VI</Property>
 				<Property Name="Source[27].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[27].itemID" Type="Ref">/My Computer/Broken VIs/FPGA - Clear.vi</Property>
+				<Property Name="Source[27].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Action VIs/FPGA - Clear.vi</Property>
 				<Property Name="Source[27].type" Type="Str">VI</Property>
 				<Property Name="Source[28].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[28].itemID" Type="Ref">/My Computer/Broken VIs/FPGA - Download (ECAT).vi</Property>
+				<Property Name="Source[28].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Action VIs/FPGA - Download (ECAT).vi</Property>
 				<Property Name="Source[28].type" Type="Str">VI</Property>
 				<Property Name="Source[29].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[29].itemID" Type="Ref">/My Computer/Broken VIs/FPGA - Revert (ECAT).vi</Property>
+				<Property Name="Source[29].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Action VIs/FPGA - Revert (ECAT).vi</Property>
 				<Property Name="Source[29].type" Type="Str">VI</Property>
 				<Property Name="Source[3].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[3].Container.depDestIndex" Type="Int">0</Property>
