@@ -102,9 +102,9 @@
 				<Item Name="Get Selected Profile from List.vi" Type="VI" URL="../Utility/ECAT/ECAT_InternalSubVIs/Get Selected Profile from List.vi"/>
 				<Item Name="Get Webdav.vi" Type="VI" URL="../Utility/ECAT/ECAT_InternalSubVIs/Get Webdav.vi"/>
 				<Item Name="Get_Profile_pathess.vi" Type="VI" URL="../Utility/ECAT/ECAT_InternalSubVIs/Get_Profile_pathess.vi"/>
-				<Item Name="niECATCreateIOVStructureFromBitfile.vi" Type="VI" URL="../Utility/ECAT/ECAT_InternalSubVIs/niECATCreateIOVStructureFromBitfile.vi"/>
-				<Item Name="niECATGetCustomIOVNodeArrayFrom2009Bitfile.vi" Type="VI" URL="../Utility/ECAT/ECAT_InternalSubVIs/niECATGetCustomIOVNodeArrayFrom2009Bitfile.vi"/>
-				<Item Name="niECATGetCustomIOVNodeArrayFrom2010Bitfile.vi" Type="VI" URL="../Utility/ECAT/ECAT_InternalSubVIs/niECATGetCustomIOVNodeArrayFrom2010Bitfile.vi"/>
+				<Item Name="Local_niECATCreateIOVStructureFromBitfile.vi" Type="VI" URL="../Utility/ECAT/ECAT_InternalSubVIs/Local_niECATCreateIOVStructureFromBitfile.vi"/>
+				<Item Name="Local_niECATGetCustomIOVNodeArrayFrom2009Bitfile.vi" Type="VI" URL="../Utility/ECAT/ECAT_InternalSubVIs/Local_niECATGetCustomIOVNodeArrayFrom2009Bitfile.vi"/>
+				<Item Name="Local_niECATGetCustomIOVNodeArrayFrom2010Bitfile.vi" Type="VI" URL="../Utility/ECAT/ECAT_InternalSubVIs/Local_niECATGetCustomIOVNodeArrayFrom2010Bitfile.vi"/>
 				<Item Name="Read imported Profiles.vi" Type="VI" URL="../Utility/ECAT/ECAT_InternalSubVIs/Read imported Profiles.vi"/>
 				<Item Name="Read Profiles from Target.vi" Type="VI" URL="../Utility/ECAT/ECAT_InternalSubVIs/Read Profiles from Target.vi"/>
 				<Item Name="Read Target XML-Files.vi" Type="VI" URL="../Utility/ECAT/ECAT_InternalSubVIs/Read Target XML-Files.vi"/>
