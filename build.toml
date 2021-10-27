@@ -17,6 +17,11 @@ path = 'Custom Device Source\Scan Engine.lvproj'
 path = 'Scripting Examples\Scan Engine Scripting Examples.lvproj'
 
 [[codegen.steps]]
+name = 'Delete Scripting API'
+type = 'lvRunVi'
+vi = 'Custom Device Source\Build VIs\Delete Scripting API.vi'
+
+[[codegen.steps]]
 name = 'Set Conditional Symbol'
 type = 'lvSetConditionalSymbol'
 project = '{cd}'
@@ -63,6 +68,11 @@ target = 'My Computer'
 build_spec = 'Examples'
 bitness = '64'
 bitness_versions = ['2021']
+
+[[build.steps]]
+name = 'Delete Scripting API'
+type = 'lvRunVi'
+vi = 'Custom Device Source\Build VIs\Delete Scripting API.vi'
 
 [[package]]
 type = 'nipkg'
