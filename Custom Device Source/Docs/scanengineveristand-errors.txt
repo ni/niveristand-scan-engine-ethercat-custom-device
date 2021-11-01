@@ -54,4 +54,7 @@ An insufficient number of channels was provided for module creation.
 <nierror code="-732155">
 This module and/or mode is not currently supported by the API.
 </nierror>
+<nierror code="-732156">
+Unable to launch process to perform hardware configuration.
+</nierror>
 </nidocument>

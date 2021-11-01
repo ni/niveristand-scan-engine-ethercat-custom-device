@@ -21,15 +21,6 @@ name = 'Delete Scripting API'
 type = 'lvRunVi'
 vi = 'Custom Device Source\Build VIs\Delete Scripting API.vi'
 
-[[codegen.steps]]
-name = 'Set Conditional Symbol'
-type = 'lvSetConditionalSymbol'
-project = '{cd}'
-symbol = 'Driver_Support'
-true_value = 'True'
-false_value = 'False'
-condition = 'lvVersion != 2021 (64-bit)'
-
 [[build.steps]]
 name = 'Configuration Library'
 type = 'lvBuildSpec'
@@ -38,6 +29,33 @@ target = 'My Computer'
 build_spec = 'Configuration Release'
 dependency_target = 'Windows'
 bitness = '64'
+bitness_versions = ['2021']
+
+[[build.steps]]
+name = 'Application - Revert to Scan Mode'
+type = 'lvBuildSpec'
+project = '{cd}'
+target = 'My Computer'
+build_spec = 'Revert to Scan Mode'
+bitness = '32'
+bitness_versions = ['2021']
+
+[[build.steps]]
+name = 'Application - Get HW Config'
+type = 'lvBuildSpec'
+project = '{cd}'
+target = 'My Computer'
+build_spec = 'Get HW Config'
+bitness = '32'
+bitness_versions = ['2021']
+
+[[build.steps]]
+name = 'Application - Check and Download Bitfile'
+type = 'lvBuildSpec'
+project = '{cd}'
+target = 'My Computer'
+build_spec = 'Check and Download Bitfile'
+bitness = '32'
 bitness_versions = ['2021']
 
 [[build.steps]]

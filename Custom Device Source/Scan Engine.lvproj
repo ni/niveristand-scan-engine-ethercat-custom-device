@@ -1,6 +1,6 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="19008000">
-	<Property Name="CCSymbols" Type="Str">Debugging,False;Driver_Support,True;</Property>
+	<Property Name="CCSymbols" Type="Str">Debugging,False;</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Property Name="SMProvider.SMVersion" Type="Int">201310</Property>
@@ -1261,6 +1261,132 @@
 				<Property Name="Source[9].type" Type="Str">Library</Property>
 				<Property Name="SourceCount" Type="Int">74</Property>
 			</Item>
+			<Item Name="Get HW Config" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{42DF3895-D084-4A48-B5B9-D447807B239D}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{34C4A14D-63B1-4A65-A04F-7605FE9EA82B}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{FB25B304-214F-4DC4-91F8-FA13F045F07F}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Get HW Config</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Built/NI_AB_PROJECTNAME/Applications</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{5F918325-16D0-468C-AE69-2F3091353BA4}</Property>
+				<Property Name="Bld_version.build" Type="Int">26</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">Get HW Config.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../Built/NI_AB_PROJECTNAME/Applications/Get HW Config.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../Built/NI_AB_PROJECTNAME/Applications/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Exe_cmdLineArgs" Type="Bool">true</Property>
+				<Property Name="Source[0].itemID" Type="Str">{86F2546C-5649-4D12-B028-45BC46EACB78}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Applications/Call Check and Download Bitfile.vi</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Utility/Target Communication/Host - Get HW Config.vi</Property>
+				<Property Name="Source[2].type" Type="Str">VI</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Applications/Get HW Config.vi</Property>
+				<Property Name="Source[3].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[3].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">4</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Get HW Config</Property>
+				<Property Name="TgtF_internalName" Type="Str">Get HW Config</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2021 </Property>
+				<Property Name="TgtF_productName" Type="Str">Get HW Config</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{6FA1B1EF-49C9-4A5A-9541-8D74861B089D}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Get HW Config.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
+			<Item Name="Check and Download Bitfile" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{8173F034-0F8B-4FB5-85CB-334CCB7DBE00}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{6125E437-500D-4887-BCD0-B70551478AE5}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{6E951880-116C-4C52-9095-2937BA9444AC}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Check and Download Bitfile</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Built/NI_AB_PROJECTNAME/Applications</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{C3B6A2D1-EAB0-4AC0-96E7-7DE81E6B7FFE}</Property>
+				<Property Name="Bld_version.build" Type="Int">3</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">Check and Download Bitfile.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../Built/NI_AB_PROJECTNAME/Applications/Check and Download Bitfile.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../Built/NI_AB_PROJECTNAME/Applications/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Exe_cmdLineArgs" Type="Bool">true</Property>
+				<Property Name="Source[0].itemID" Type="Str">{6F5F0BE2-C542-4D77-BF24-914DE0B1413A}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Applications/Check and Download Bitfile.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Check and Download Bitfile</Property>
+				<Property Name="TgtF_internalName" Type="Str">Check and Download Bitfile</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2021 </Property>
+				<Property Name="TgtF_productName" Type="Str">Check and Download Bitfile</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{FB1B58F9-492F-4360-AC80-1B3F757EFB8B}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Check and Download Bitfile.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
+			<Item Name="Revert to Scan Mode" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{826DF7DE-1BD5-4F9C-9168-E0FC72A9C19F}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{EEA06A20-30A0-4F44-9987-8FB4E37499D8}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{CA4BE735-4774-42C3-AB02-68C594E7FB92}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Revert to Scan Mode</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Built/NI_AB_PROJECTNAME/Applications</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{E37E58E0-726B-4AAD-879A-0ADF068FAA33}</Property>
+				<Property Name="Bld_version.build" Type="Int">7</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">Revert to Scan Mode.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../Built/NI_AB_PROJECTNAME/Applications/Revert to Scan Mode.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../Built/NI_AB_PROJECTNAME/Applications/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Exe_cmdLineArgs" Type="Bool">true</Property>
+				<Property Name="Source[0].itemID" Type="Str">{6F5F0BE2-C542-4D77-BF24-914DE0B1413A}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Applications/Revert to Scan Mode.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Revert to Scan Mode</Property>
+				<Property Name="TgtF_internalName" Type="Str">Revert to Scan Mode</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2021 </Property>
+				<Property Name="TgtF_productName" Type="Str">Revert to Scan Mode</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{D92FA3BE-C330-45BD-AE2A-C44646082C01}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Revert to Scan Mode.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
 		</Item>
 	</Item>
 	<Item Name="Linux x64" Type="RT PXI Chassis">
@@ -1483,6 +1609,9 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="nNIBlueBus_nCrioFixed_nRefnum.dll" Type="Document" URL="nNIBlueBus_nCrioFixed_nRefnum.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="niecatviapi.dll" Type="Document" URL="niecatviapi.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 		</Item>
