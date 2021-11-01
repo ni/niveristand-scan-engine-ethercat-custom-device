@@ -16,6 +16,20 @@ path = 'Custom Device Source\Scan Engine.lvproj'
 [projects.examples]
 path = 'Scripting Examples\Scan Engine Scripting Examples.lvproj'
 
+[[codegen.steps]]
+name = 'Delete Scripting API'
+type = 'lvRunVi'
+vi = 'Custom Device Source\Build VIs\Delete Scripting API.vi'
+
+[[codegen.steps]]
+name = 'Set Conditional Symbol'
+type = 'lvSetConditionalSymbol'
+project = '{cd}'
+symbol = 'Driver_Support'
+true_value = 'True'
+false_value = 'False'
+condition = 'lvVersion != 2021 (64-bit)'
+
 [[build.steps]]
 name = 'Configuration Library'
 type = 'lvBuildSpec'
@@ -24,6 +38,16 @@ target = 'My Computer'
 build_spec = 'Configuration Release'
 dependency_target = 'Windows'
 bitness = '64'
+bitness_versions = ['2021']
+
+[[build.steps]]
+name = 'Linux x64 Engine Library'
+type = 'lvBuildSpec'
+project = '{cd}'
+target = 'Linux x64'
+build_spec = 'Engine Release'
+dependency_target = 'Linux_x64'
+bitness = '32'
 bitness_versions = ['2021']
 
 [[build.steps]]
@@ -46,14 +70,9 @@ bitness = '64'
 bitness_versions = ['2021']
 
 [[build.steps]]
-name = 'Linux x64 Engine Library'
-type = 'lvBuildSpec'
-project = '{cd}'
-target = 'Linux x64'
-build_spec = 'Engine Release'
-dependency_target = 'Linux_x64'
-bitness = '32'
-bitness_versions = ['2021']
+name = 'Delete Scripting API'
+type = 'lvRunVi'
+vi = 'Custom Device Source\Build VIs\Delete Scripting API.vi'
 
 [[package]]
 type = 'nipkg'

@@ -6,10 +6,15 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="Action VIs" Type="Folder">
 		<Item Name="ActionVIOnDownload - Set Scan Rate.vi" Type="VI" URL="../Action VIs/ActionVIOnDownload - Set Scan Rate.vi"/>
+		<Item Name="FPGA - Clear.vi" Type="VI" URL="../Action VIs/FPGA - Clear.vi"/>
+		<Item Name="FPGA - Download (ECAT).vi" Type="VI" URL="../Action VIs/FPGA - Download (ECAT).vi"/>
 		<Item Name="FPGA - On Delete (Local).vi" Type="VI" URL="../Action VIs/FPGA - On Delete (Local).vi"/>
+		<Item Name="FPGA - Revert (ECAT).vi" Type="VI" URL="../Action VIs/FPGA - Revert (ECAT).vi"/>
+		<Item Name="FPGA - Select Bitfile (ECAT).vi" Type="VI" URL="../Action VIs/FPGA - Select Bitfile (ECAT).vi"/>
 		<Item Name="FPGA - Select Bitfile (Local).vi" Type="VI" URL="../Action VIs/FPGA - Select Bitfile (Local).vi"/>
 		<Item Name="Main - Add EtherCAT Master.vi" Type="VI" URL="../Action VIs/Main - Add EtherCAT Master.vi"/>
 		<Item Name="Main - Add Local Chassis.vi" Type="VI" URL="../Action VIs/Main - Add Local Chassis.vi"/>
+		<Item Name="Main - Auto Detect Modules.vi" Type="VI" URL="../Action VIs/Main - Auto Detect Modules.vi"/>
 		<Item Name="Main - Can Add Local Chassis.vi" Type="VI" URL="../Action VIs/Main - Can Add Local Chassis.vi"/>
 		<Item Name="Main - On Delete.vi" Type="VI" URL="../Action VIs/Main - On Delete.vi"/>
 		<Item Name="Main - On Load.vi" Type="VI" URL="../Action VIs/Main - On Load.vi"/>
@@ -17,6 +22,7 @@
 	</Item>
 	<Item Name="Applications" Type="Folder">
 		<Item Name="Check and Download Bitfile.vi" Type="VI" URL="../Applications/Check and Download Bitfile.vi"/>
+		<Item Name="Get HW Config.vi" Type="VI" URL="../Applications/Get HW Config.vi"/>
 		<Item Name="Revert to Scan Mode.vi" Type="VI" URL="../Applications/Revert to Scan Mode.vi"/>
 	</Item>
 	<Item Name="Glyphs" Type="Folder">
@@ -72,6 +78,7 @@
 		<Item Name="Host - Master.ctl" Type="VI" URL="../Type Defs/Host - Master.ctl"/>
 		<Item Name="Host - Module.ctl" Type="VI" URL="../Type Defs/Host - Module.ctl"/>
 		<Item Name="Host - Slave.ctl" Type="VI" URL="../Type Defs/Host - Slave.ctl"/>
+		<Item Name="IOV Container Contents.ctl" Type="VI" URL="../Type Defs/IOV Container Contents.ctl"/>
 		<Item Name="NI ECAT Slaves.ctl" Type="VI" URL="../Type Defs/NI ECAT Slaves.ctl"/>
 		<Item Name="Slot - Configuration.ctl" Type="VI" URL="../Type Defs/Slot - Configuration.ctl"/>
 		<Item Name="Slot Programming Mode.ctl" Type="VI" URL="../Type Defs/Slot Programming Mode.ctl"/>
@@ -95,9 +102,9 @@
 				<Item Name="Get Selected Profile from List.vi" Type="VI" URL="../Utility/ECAT/ECAT_InternalSubVIs/Get Selected Profile from List.vi"/>
 				<Item Name="Get Webdav.vi" Type="VI" URL="../Utility/ECAT/ECAT_InternalSubVIs/Get Webdav.vi"/>
 				<Item Name="Get_Profile_pathess.vi" Type="VI" URL="../Utility/ECAT/ECAT_InternalSubVIs/Get_Profile_pathess.vi"/>
-				<Item Name="niECATCreateIOVStructureFromBitfile.vi" Type="VI" URL="../Utility/ECAT/ECAT_InternalSubVIs/niECATCreateIOVStructureFromBitfile.vi"/>
-				<Item Name="niECATGetCustomIOVNodeArrayFrom2009Bitfile.vi" Type="VI" URL="../Utility/ECAT/ECAT_InternalSubVIs/niECATGetCustomIOVNodeArrayFrom2009Bitfile.vi"/>
-				<Item Name="niECATGetCustomIOVNodeArrayFrom2010Bitfile.vi" Type="VI" URL="../Utility/ECAT/ECAT_InternalSubVIs/niECATGetCustomIOVNodeArrayFrom2010Bitfile.vi"/>
+				<Item Name="Local_niECATCreateIOVStructureFromBitfile.vi" Type="VI" URL="../Utility/ECAT/ECAT_InternalSubVIs/Local_niECATCreateIOVStructureFromBitfile.vi"/>
+				<Item Name="Local_niECATGetCustomIOVNodeArrayFrom2009Bitfile.vi" Type="VI" URL="../Utility/ECAT/ECAT_InternalSubVIs/Local_niECATGetCustomIOVNodeArrayFrom2009Bitfile.vi"/>
+				<Item Name="Local_niECATGetCustomIOVNodeArrayFrom2010Bitfile.vi" Type="VI" URL="../Utility/ECAT/ECAT_InternalSubVIs/Local_niECATGetCustomIOVNodeArrayFrom2010Bitfile.vi"/>
 				<Item Name="Read imported Profiles.vi" Type="VI" URL="../Utility/ECAT/ECAT_InternalSubVIs/Read imported Profiles.vi"/>
 				<Item Name="Read Profiles from Target.vi" Type="VI" URL="../Utility/ECAT/ECAT_InternalSubVIs/Read Profiles from Target.vi"/>
 				<Item Name="Read Target XML-Files.vi" Type="VI" URL="../Utility/ECAT/ECAT_InternalSubVIs/Read Target XML-Files.vi"/>
@@ -180,6 +187,8 @@
 				<Item Name="ECAT Generate OD For FPGA IOV.vi" Type="VI" URL="../Utility/Target Communication/Support/ECAT Generate OD For FPGA IOV.vi"/>
 				<Item Name="ECAT Start FoE Write.vi" Type="VI" URL="../Utility/Target Communication/Support/ECAT Start FoE Write.vi"/>
 				<Item Name="ECAT Wipeback FoE.vi" Type="VI" URL="../Utility/Target Communication/Support/ECAT Wipeback FoE.vi"/>
+				<Item Name="Get ECAT Variable Contents.vi" Type="VI" URL="../Utility/Target Communication/Support/Get ECAT Variable Contents.vi"/>
+				<Item Name="Get IO Variable Contents.vi" Type="VI" URL="../Utility/Target Communication/Support/Get IO Variable Contents.vi"/>
 				<Item Name="Host - ECAT Compatible Firmware.vi" Type="VI" URL="../Utility/Target Communication/Support/Host - ECAT Compatible Firmware.vi"/>
 				<Item Name="Host - ECAT Slaves write to XML-Log-File.vi" Type="VI" URL="../Utility/Target Communication/Support/Host - ECAT Slaves write to XML-Log-File.vi"/>
 				<Item Name="Host - Find Path.vi" Type="VI" URL="../Utility/Target Communication/Support/Host - Find Path.vi"/>
@@ -188,7 +197,7 @@
 				<Item Name="Host - Get ECAT IOVs.vi" Type="VI" URL="../Utility/Target Communication/Support/Host - Get ECAT IOVs.vi"/>
 				<Item Name="Host - Get Local and ECAT Masters With Retries.vi" Type="VI" URL="../Utility/Target Communication/Support/Host - Get Local and ECAT Masters With Retries.vi"/>
 				<Item Name="Host - Get Local and ECAT Masters.vi" Type="VI" URL="../Utility/Target Communication/Support/Host - Get Local and ECAT Masters.vi"/>
-				<Item Name="Host - Get Masters.vi" Type="VI" URL="../Utility/Target Communication/Support/Host - Get Masters.vi"/>
+				<Item Name="Host - Get Masters and Slaves.vi" Type="VI" URL="../Utility/Target Communication/Support/Host - Get Masters and Slaves.vi"/>
 				<Item Name="Host - Get Module Data.vi" Type="VI" URL="../Utility/Target Communication/Support/Host - Get Module Data.vi"/>
 				<Item Name="Host - Get Remote IO IOVs.vi" Type="VI" URL="../Utility/Target Communication/Support/Host - Get Remote IO IOVs.vi"/>
 				<Item Name="Host - Get Remote IO Module Data.vi" Type="VI" URL="../Utility/Target Communication/Support/Host - Get Remote IO Module Data.vi"/>
