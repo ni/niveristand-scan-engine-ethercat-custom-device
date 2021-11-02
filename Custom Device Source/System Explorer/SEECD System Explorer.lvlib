@@ -22,6 +22,7 @@
 	</Item>
 	<Item Name="Applications" Type="Folder">
 		<Item Name="Build Command Line Arguments.vi" Type="VI" URL="../Applications/Build Command Line Arguments.vi"/>
+		<Item Name="Build Data Folder File Path.vi" Type="VI" URL="../Applications/Build Data Folder File Path.vi"/>
 		<Item Name="Call Check and Download Bitfile.vi" Type="VI" URL="../Applications/Call Check and Download Bitfile.vi"/>
 		<Item Name="Call Get HW Config.vi" Type="VI" URL="../Applications/Call Get HW Config.vi"/>
 		<Item Name="Call Revert to Scan Mode.vi" Type="VI" URL="../Applications/Call Revert to Scan Mode.vi"/>

@@ -1286,7 +1286,7 @@
 				<Property Name="Destination[1].path" Type="Path">../Built/NI_AB_PROJECTNAME/Applications/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_cmdLineArgs" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{86F2546C-5649-4D12-B028-45BC46EACB78}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{77C93923-6230-46A4-89E9-7B0F08EB262C}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Applications/Call Check and Download Bitfile.vi</Property>
@@ -1305,7 +1305,6 @@
 				<Property Name="TgtF_productName" Type="Str">Get HW Config</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{6FA1B1EF-49C9-4A5A-9541-8D74861B089D}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">Get HW Config.exe</Property>
-				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Check and Download Bitfile" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
@@ -1322,7 +1321,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{C3B6A2D1-EAB0-4AC0-96E7-7DE81E6B7FFE}</Property>
-				<Property Name="Bld_version.build" Type="Int">3</Property>
+				<Property Name="Bld_version.build" Type="Int">8</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Check and Download Bitfile.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../Built/NI_AB_PROJECTNAME/Applications/Check and Download Bitfile.exe</Property>
@@ -1332,7 +1331,7 @@
 				<Property Name="Destination[1].path" Type="Path">../Built/NI_AB_PROJECTNAME/Applications/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_cmdLineArgs" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{6F5F0BE2-C542-4D77-BF24-914DE0B1413A}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{2804F0F4-8D2D-4E6C-8706-27DA0A1796A8}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Applications/Check and Download Bitfile.vi</Property>
@@ -1345,7 +1344,6 @@
 				<Property Name="TgtF_productName" Type="Str">Check and Download Bitfile</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{FB1B58F9-492F-4360-AC80-1B3F757EFB8B}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">Check and Download Bitfile.exe</Property>
-				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Revert to Scan Mode" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
@@ -1362,7 +1360,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{E37E58E0-726B-4AAD-879A-0ADF068FAA33}</Property>
-				<Property Name="Bld_version.build" Type="Int">7</Property>
+				<Property Name="Bld_version.build" Type="Int">10</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Revert to Scan Mode.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../Built/NI_AB_PROJECTNAME/Applications/Revert to Scan Mode.exe</Property>
@@ -1372,7 +1370,7 @@
 				<Property Name="Destination[1].path" Type="Path">../Built/NI_AB_PROJECTNAME/Applications/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_cmdLineArgs" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{6F5F0BE2-C542-4D77-BF24-914DE0B1413A}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{2804F0F4-8D2D-4E6C-8706-27DA0A1796A8}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Applications/Revert to Scan Mode.vi</Property>
@@ -1385,7 +1383,6 @@
 				<Property Name="TgtF_productName" Type="Str">Revert to Scan Mode</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{D92FA3BE-C330-45BD-AE2A-C44646082C01}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">Revert to Scan Mode.exe</Property>
-				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
 	</Item>
