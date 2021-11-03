@@ -27,6 +27,7 @@
 		<Item Name="Call Get HW Config.vi" Type="VI" URL="../Applications/Call Get HW Config.vi"/>
 		<Item Name="Call Revert to Scan Mode.vi" Type="VI" URL="../Applications/Call Revert to Scan Mode.vi"/>
 		<Item Name="Check and Download Bitfile.vi" Type="VI" URL="../Applications/Check and Download Bitfile.vi"/>
+		<Item Name="Generate Application Call Error.vi" Type="VI" URL="../Applications/Generate Application Call Error.vi"/>
 		<Item Name="Get HW Config.vi" Type="VI" URL="../Applications/Get HW Config.vi"/>
 		<Item Name="Revert to Scan Mode.vi" Type="VI" URL="../Applications/Revert to Scan Mode.vi"/>
 	</Item>
