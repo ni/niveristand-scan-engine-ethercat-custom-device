@@ -199,7 +199,6 @@
 				<Item Name="Get ECAT Variable Contents.vi" Type="VI" URL="../Utility/Target Communication/Support/Get ECAT Variable Contents.vi"/>
 				<Item Name="Get IO Variable Contents.vi" Type="VI" URL="../Utility/Target Communication/Support/Get IO Variable Contents.vi"/>
 				<Item Name="Host - ECAT Compatible Firmware.vi" Type="VI" URL="../Utility/Target Communication/Support/Host - ECAT Compatible Firmware.vi"/>
-				<Item Name="Host - ECAT Slaves write to XML-Log-File.vi" Type="VI" URL="../Utility/Target Communication/Support/Host - ECAT Slaves write to XML-Log-File.vi"/>
 				<Item Name="Host - Find Path.vi" Type="VI" URL="../Utility/Target Communication/Support/Host - Find Path.vi"/>
 				<Item Name="Host - Firmware Download.vi" Type="VI" URL="../Utility/Target Communication/Support/Host - Firmware Download.vi"/>
 				<Item Name="Host - FoE From Bitfile.vi" Type="VI" URL="../Utility/Target Communication/Support/Host - FoE From Bitfile.vi"/>
