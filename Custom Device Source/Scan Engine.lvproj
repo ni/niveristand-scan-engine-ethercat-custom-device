@@ -1276,7 +1276,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{5F918325-16D0-468C-AE69-2F3091353BA4}</Property>
-				<Property Name="Bld_version.build" Type="Int">26</Property>
+				<Property Name="Bld_version.build" Type="Int">27</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Get HW Config.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../Built/NI_AB_PROJECTNAME/Applications/Get HW Config.exe</Property>
@@ -1286,7 +1286,7 @@
 				<Property Name="Destination[1].path" Type="Path">../Built/NI_AB_PROJECTNAME/Applications/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_cmdLineArgs" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{77C93923-6230-46A4-89E9-7B0F08EB262C}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{219CD43D-12C0-4EA1-91F5-8482BD4CFDE5}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Applications/Call Check and Download Bitfile.vi</Property>
@@ -1296,6 +1296,13 @@
 				<Property Name="Source[2].type" Type="Str">VI</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[3].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Applications/Get HW Config.vi</Property>
+				<Property Name="Source[3].properties[0].type" Type="Str">Show fp when called</Property>
+				<Property Name="Source[3].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[3].properties[1].type" Type="Str">Allow user to close window</Property>
+				<Property Name="Source[3].properties[1].value" Type="Bool">false</Property>
+				<Property Name="Source[3].properties[2].type" Type="Str">Window run-time position</Property>
+				<Property Name="Source[3].properties[2].value" Type="Str">Minimized</Property>
+				<Property Name="Source[3].propertiesCount" Type="Int">3</Property>
 				<Property Name="Source[3].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[3].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">4</Property>
@@ -1331,10 +1338,17 @@
 				<Property Name="Destination[1].path" Type="Path">../Built/NI_AB_PROJECTNAME/Applications/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_cmdLineArgs" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{2804F0F4-8D2D-4E6C-8706-27DA0A1796A8}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{219CD43D-12C0-4EA1-91F5-8482BD4CFDE5}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Applications/Check and Download Bitfile.vi</Property>
+				<Property Name="Source[1].properties[0].type" Type="Str">Show fp when called</Property>
+				<Property Name="Source[1].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[1].properties[1].type" Type="Str">Allow user to close window</Property>
+				<Property Name="Source[1].properties[1].value" Type="Bool">false</Property>
+				<Property Name="Source[1].properties[2].type" Type="Str">Window run-time position</Property>
+				<Property Name="Source[1].properties[2].value" Type="Str">Minimized</Property>
+				<Property Name="Source[1].propertiesCount" Type="Int">3</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
@@ -1370,10 +1384,17 @@
 				<Property Name="Destination[1].path" Type="Path">../Built/NI_AB_PROJECTNAME/Applications/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_cmdLineArgs" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{2804F0F4-8D2D-4E6C-8706-27DA0A1796A8}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{219CD43D-12C0-4EA1-91F5-8482BD4CFDE5}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Applications/Revert to Scan Mode.vi</Property>
+				<Property Name="Source[1].properties[0].type" Type="Str">Show fp when called</Property>
+				<Property Name="Source[1].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[1].properties[1].type" Type="Str">Allow user to close window</Property>
+				<Property Name="Source[1].properties[1].value" Type="Bool">false</Property>
+				<Property Name="Source[1].properties[2].type" Type="Str">Window run-time position</Property>
+				<Property Name="Source[1].properties[2].value" Type="Str">Minimized</Property>
+				<Property Name="Source[1].propertiesCount" Type="Int">3</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
