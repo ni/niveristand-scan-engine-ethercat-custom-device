@@ -21,13 +21,16 @@
 		<Item Name="Master - Add EtherCAT Slave.vi" Type="VI" URL="../Action VIs/Master - Add EtherCAT Slave.vi"/>
 	</Item>
 	<Item Name="Applications" Type="Folder">
-		<Item Name="Build Command Line Arguments.vi" Type="VI" URL="../Applications/Build Command Line Arguments.vi"/>
-		<Item Name="Build Installed Folder Paths.vi" Type="VI" URL="../Applications/Build Installed Folder Paths.vi"/>
+		<Item Name="Utilities" Type="Folder">
+			<Item Name="Build Command Line Arguments.vi" Type="VI" URL="../Applications/Utilities/Build Command Line Arguments.vi"/>
+			<Item Name="Build Installed Folder Paths.vi" Type="VI" URL="../Applications/Utilities/Build Installed Folder Paths.vi"/>
+			<Item Name="Display Message Dialog.vi" Type="VI" URL="../Applications/Utilities/Display Message Dialog.vi"/>
+			<Item Name="Generate Application Call Error.vi" Type="VI" URL="../Applications/Utilities/Generate Application Call Error.vi"/>
+		</Item>
 		<Item Name="Call Check and Download Bitfile.vi" Type="VI" URL="../Applications/Call Check and Download Bitfile.vi"/>
 		<Item Name="Call Get HW Config.vi" Type="VI" URL="../Applications/Call Get HW Config.vi"/>
 		<Item Name="Call Revert to Scan Mode.vi" Type="VI" URL="../Applications/Call Revert to Scan Mode.vi"/>
 		<Item Name="Check and Download Bitfile.vi" Type="VI" URL="../Applications/Check and Download Bitfile.vi"/>
-		<Item Name="Generate Application Call Error.vi" Type="VI" URL="../Applications/Generate Application Call Error.vi"/>
 		<Item Name="Get HW Config.vi" Type="VI" URL="../Applications/Get HW Config.vi"/>
 		<Item Name="Revert to Scan Mode.vi" Type="VI" URL="../Applications/Revert to Scan Mode.vi"/>
 	</Item>
@@ -196,7 +199,6 @@
 				<Item Name="Get ECAT Variable Contents.vi" Type="VI" URL="../Utility/Target Communication/Support/Get ECAT Variable Contents.vi"/>
 				<Item Name="Get IO Variable Contents.vi" Type="VI" URL="../Utility/Target Communication/Support/Get IO Variable Contents.vi"/>
 				<Item Name="Host - ECAT Compatible Firmware.vi" Type="VI" URL="../Utility/Target Communication/Support/Host - ECAT Compatible Firmware.vi"/>
-				<Item Name="Host - ECAT Slaves write to XML-Log-File.vi" Type="VI" URL="../Utility/Target Communication/Support/Host - ECAT Slaves write to XML-Log-File.vi"/>
 				<Item Name="Host - Find Path.vi" Type="VI" URL="../Utility/Target Communication/Support/Host - Find Path.vi"/>
 				<Item Name="Host - Firmware Download.vi" Type="VI" URL="../Utility/Target Communication/Support/Host - Firmware Download.vi"/>
 				<Item Name="Host - FoE From Bitfile.vi" Type="VI" URL="../Utility/Target Communication/Support/Host - FoE From Bitfile.vi"/>
