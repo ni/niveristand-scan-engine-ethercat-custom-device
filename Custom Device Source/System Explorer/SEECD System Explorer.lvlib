@@ -117,9 +117,9 @@
 				<Item Name="Local_niECATCreateIOVStructureFromBitfile.vi" Type="VI" URL="../Utility/ECAT/ECAT_InternalSubVIs/Local_niECATCreateIOVStructureFromBitfile.vi"/>
 				<Item Name="Local_niECATGetCustomIOVNodeArrayFrom2009Bitfile.vi" Type="VI" URL="../Utility/ECAT/ECAT_InternalSubVIs/Local_niECATGetCustomIOVNodeArrayFrom2009Bitfile.vi"/>
 				<Item Name="Local_niECATGetCustomIOVNodeArrayFrom2010Bitfile.vi" Type="VI" URL="../Utility/ECAT/ECAT_InternalSubVIs/Local_niECATGetCustomIOVNodeArrayFrom2010Bitfile.vi"/>
-				<Item Name="Read imported Profiles.vi" Type="VI" URL="../Utility/ECAT/ECAT_InternalSubVIs/Read imported Profiles.vi"/>
+				<Item Name="Read ESI Files on Host PC.vi" Type="VI" URL="../Utility/ECAT/ECAT_InternalSubVIs/Read ESI Files on Host PC.vi"/>
+				<Item Name="Read ESI Files on RT Target.vi" Type="VI" URL="../Utility/ECAT/ECAT_InternalSubVIs/Read ESI Files on RT Target.vi"/>
 				<Item Name="Read Profiles from Target.vi" Type="VI" URL="../Utility/ECAT/ECAT_InternalSubVIs/Read Profiles from Target.vi"/>
-				<Item Name="Read Target XML-Files.vi" Type="VI" URL="../Utility/ECAT/ECAT_InternalSubVIs/Read Target XML-Files.vi"/>
 			</Item>
 			<Item Name="Master" Type="Folder">
 				<Item Name="Add ECAT Master.vi" Type="VI" URL="../Utility/ECAT/Master/Add ECAT Master.vi"/>
