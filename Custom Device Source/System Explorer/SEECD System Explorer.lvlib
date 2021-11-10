@@ -109,6 +109,7 @@
 		</Item>
 		<Item Name="ECAT" Type="Folder">
 			<Item Name="ECAT_InternalSubVIs" Type="Folder">
+				<Item Name="_getFiles.vi" Type="VI" URL="../Utility/ECAT/ECAT_InternalSubVIs/_getFiles.vi"/>
 				<Item Name="_importProcessBar.vi" Type="VI" URL="../Utility/ECAT/ECAT_InternalSubVIs/_importProcessBar.vi"/>
 				<Item Name="_ValidateDeviceProfiles.vi" Type="VI" URL="../Utility/ECAT/ECAT_InternalSubVIs/_ValidateDeviceProfiles.vi"/>
 				<Item Name="Get Selected Profile from List.vi" Type="VI" URL="../Utility/ECAT/ECAT_InternalSubVIs/Get Selected Profile from List.vi"/>
@@ -119,7 +120,6 @@
 				<Item Name="Local_niECATGetCustomIOVNodeArrayFrom2010Bitfile.vi" Type="VI" URL="../Utility/ECAT/ECAT_InternalSubVIs/Local_niECATGetCustomIOVNodeArrayFrom2010Bitfile.vi"/>
 				<Item Name="Read ESI Files on Host PC.vi" Type="VI" URL="../Utility/ECAT/ECAT_InternalSubVIs/Read ESI Files on Host PC.vi"/>
 				<Item Name="Read ESI Files on RT Target.vi" Type="VI" URL="../Utility/ECAT/ECAT_InternalSubVIs/Read ESI Files on RT Target.vi"/>
-				<Item Name="Read Profiles from Target.vi" Type="VI" URL="../Utility/ECAT/ECAT_InternalSubVIs/Read Profiles from Target.vi"/>
 			</Item>
 			<Item Name="Master" Type="Folder">
 				<Item Name="Add ECAT Master.vi" Type="VI" URL="../Utility/ECAT/Master/Add ECAT Master.vi"/>
