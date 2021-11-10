@@ -1425,7 +1425,8 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../Built/NI_AB_PROJECTNAME/Applications/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{F24ECFBA-12A7-460E-8660-9265BA6115FA}</Property>
+				<Property Name="Exe_cmdLineArgs" Type="Bool">true</Property>
+				<Property Name="Source[0].itemID" Type="Str">{090B7972-364C-4D32-9CD4-AF271F33CB60}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Applications/Import ESI File.vi</Property>
@@ -1445,7 +1446,51 @@
 				<Property Name="TgtF_productName" Type="Str">Import ESI File</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{F2BBD057-4675-4489-9105-B6C993656E7B}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">Import ESI File.exe</Property>
-				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
+			<Item Name="Read RT ESI Files" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{600439FD-3FF4-4E2D-9324-2D4E5EFE2930}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{74D3467C-7901-49C1-AE4C-83A982D5278F}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{A6148D94-78E5-4C83-A14A-CF4CC2B024F5}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Read RT ESI Files</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Built/NI_AB_PROJECTNAME/Applications</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{E16D48CE-BCAE-42BB-BD23-8FB9590C713D}</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">Read RT ESI Files.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../Built/NI_AB_PROJECTNAME/Applications/Read RT ESI Files.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../Built/NI_AB_PROJECTNAME/Applications/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Exe_cmdLineArgs" Type="Bool">true</Property>
+				<Property Name="Source[0].itemID" Type="Str">{090B7972-364C-4D32-9CD4-AF271F33CB60}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Applications/Read Target ESI Files.vi</Property>
+				<Property Name="Source[1].properties[0].type" Type="Str">Window run-time position</Property>
+				<Property Name="Source[1].properties[0].value" Type="Str">Minimized</Property>
+				<Property Name="Source[1].properties[1].type" Type="Str">Show fp when called</Property>
+				<Property Name="Source[1].properties[1].value" Type="Bool">false</Property>
+				<Property Name="Source[1].properties[2].type" Type="Str">Allow user to close window</Property>
+				<Property Name="Source[1].properties[2].value" Type="Bool">false</Property>
+				<Property Name="Source[1].propertiesCount" Type="Int">3</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Read RT ESI Files</Property>
+				<Property Name="TgtF_internalName" Type="Str">Read RT ESI Files</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2021 </Property>
+				<Property Name="TgtF_productName" Type="Str">Read RT ESI Files</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{A23D85D5-E34F-4844-A58C-DD5CDAC5E9D3}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Read RT ESI Files.exe</Property>
 			</Item>
 		</Item>
 	</Item>
