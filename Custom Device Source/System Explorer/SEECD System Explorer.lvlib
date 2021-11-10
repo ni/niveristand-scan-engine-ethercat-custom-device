@@ -129,6 +129,7 @@
 				<Item Name="Check Slave ID.vi" Type="VI" URL="../Utility/ECAT/Slave/Check Slave ID.vi"/>
 				<Item Name="Check Slave Name.vi" Type="VI" URL="../Utility/ECAT/Slave/Check Slave Name.vi"/>
 				<Item Name="Get Slave Info.vi" Type="VI" URL="../Utility/ECAT/Slave/Get Slave Info.vi"/>
+				<Item Name="Import ESI File.vi" Type="VI" URL="../Utility/ECAT/Slave/Import ESI File.vi"/>
 				<Item Name="Prompt Import 3rd Party ECAT Slaves Will Reboot.vi" Type="VI" URL="../Utility/ECAT/Slave/Prompt Import 3rd Party ECAT Slaves Will Reboot.vi"/>
 				<Item Name="Set Slave Info.vi" Type="VI" URL="../Utility/ECAT/Slave/Set Slave Info.vi"/>
 			</Item>
