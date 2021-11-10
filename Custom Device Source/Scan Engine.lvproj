@@ -104,9 +104,6 @@
 			</Item>
 			<Item Name="Scan Engine Scripting.lvlib" Type="Library" URL="../Scripting/Scan Engine Scripting.lvlib"/>
 		</Item>
-		<Item Name="Broken VIs" Type="Folder">
-			<Item Name="Main - Manages 3rd Party Slaves.vi" Type="VI" URL="../System Explorer/Action VIs/Main - Manages 3rd Party Slaves.vi"/>
-		</Item>
 		<Item Name="SEECD Shared.lvlib" Type="Library" URL="../Shared/SEECD Shared.lvlib"/>
 		<Item Name="SEECD System Explorer.lvlib" Type="Library" URL="../System Explorer/SEECD System Explorer.lvlib"/>
 		<Item Name="Build VIs.lvlib" Type="Library" URL="../Build VIs/Build VIs.lvlib"/>
@@ -1072,7 +1069,7 @@
 				<Property Name="Source[21].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Action VIs/Main - Auto Detect Modules.vi</Property>
 				<Property Name="Source[21].type" Type="Str">VI</Property>
 				<Property Name="Source[22].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[22].itemID" Type="Ref">/My Computer/Broken VIs/Main - Manages 3rd Party Slaves.vi</Property>
+				<Property Name="Source[22].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Action VIs/Main - Manages 3rd Party Slaves.vi</Property>
 				<Property Name="Source[22].type" Type="Str">VI</Property>
 				<Property Name="Source[23].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[23].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Action VIs/Main - On Load.vi</Property>
@@ -1404,6 +1401,52 @@
 				<Property Name="TgtF_productName" Type="Str">Revert to Scan Mode</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{D92FA3BE-C330-45BD-AE2A-C44646082C01}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">Revert to Scan Mode.exe</Property>
+			</Item>
+			<Item Name="Import ESI File" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{80B65B8F-41EA-4891-AB04-9F9883DF634D}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{44E62A77-9133-4C5B-8E6C-629E227AF151}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{EDBDD4C5-D805-411F-8D57-A72BD7184A24}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Import ESI File</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Built/NI_AB_PROJECTNAME/Applications</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{F4F8C446-53AD-48C5-8F10-E502468F2992}</Property>
+				<Property Name="Bld_version.build" Type="Int">2</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">Import ESI File.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../Built/NI_AB_PROJECTNAME/Applications/Import ESI File.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../Built/NI_AB_PROJECTNAME/Applications/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{F24ECFBA-12A7-460E-8660-9265BA6115FA}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Applications/Import ESI File.vi</Property>
+				<Property Name="Source[1].properties[0].type" Type="Str">Window run-time position</Property>
+				<Property Name="Source[1].properties[0].value" Type="Str">Minimized</Property>
+				<Property Name="Source[1].properties[1].type" Type="Str">Show fp when called</Property>
+				<Property Name="Source[1].properties[1].value" Type="Bool">false</Property>
+				<Property Name="Source[1].properties[2].type" Type="Str">Allow user to close window</Property>
+				<Property Name="Source[1].properties[2].value" Type="Bool">false</Property>
+				<Property Name="Source[1].propertiesCount" Type="Int">3</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Import ESI File</Property>
+				<Property Name="TgtF_internalName" Type="Str">Import ESI File</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2021 </Property>
+				<Property Name="TgtF_productName" Type="Str">Import ESI File</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{F2BBD057-4675-4489-9105-B6C993656E7B}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Import ESI File.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
 	</Item>

@@ -16,6 +16,7 @@
 		<Item Name="Main - Add Local Chassis.vi" Type="VI" URL="../Action VIs/Main - Add Local Chassis.vi"/>
 		<Item Name="Main - Auto Detect Modules.vi" Type="VI" URL="../Action VIs/Main - Auto Detect Modules.vi"/>
 		<Item Name="Main - Can Add Local Chassis.vi" Type="VI" URL="../Action VIs/Main - Can Add Local Chassis.vi"/>
+		<Item Name="Main - Manages 3rd Party Slaves.vi" Type="VI" URL="../Action VIs/Main - Manages 3rd Party Slaves.vi"/>
 		<Item Name="Main - On Delete.vi" Type="VI" URL="../Action VIs/Main - On Delete.vi"/>
 		<Item Name="Main - On Load.vi" Type="VI" URL="../Action VIs/Main - On Load.vi"/>
 		<Item Name="Master - Add EtherCAT Slave.vi" Type="VI" URL="../Action VIs/Master - Add EtherCAT Slave.vi"/>
@@ -29,9 +30,11 @@
 		</Item>
 		<Item Name="Call Check and Download Bitfile.vi" Type="VI" URL="../Applications/Call Check and Download Bitfile.vi"/>
 		<Item Name="Call Get HW Config.vi" Type="VI" URL="../Applications/Call Get HW Config.vi"/>
+		<Item Name="Call Import ESI File.vi" Type="VI" URL="../Applications/Call Import ESI File.vi"/>
 		<Item Name="Call Revert to Scan Mode.vi" Type="VI" URL="../Applications/Call Revert to Scan Mode.vi"/>
 		<Item Name="Check and Download Bitfile.vi" Type="VI" URL="../Applications/Check and Download Bitfile.vi"/>
 		<Item Name="Get HW Config.vi" Type="VI" URL="../Applications/Get HW Config.vi"/>
+		<Item Name="Import ESI File.vi" Type="VI" URL="../Applications/Import ESI File.vi"/>
 		<Item Name="Revert to Scan Mode.vi" Type="VI" URL="../Applications/Revert to Scan Mode.vi"/>
 	</Item>
 	<Item Name="Glyphs" Type="Folder">
@@ -129,7 +132,7 @@
 				<Item Name="Check Slave ID.vi" Type="VI" URL="../Utility/ECAT/Slave/Check Slave ID.vi"/>
 				<Item Name="Check Slave Name.vi" Type="VI" URL="../Utility/ECAT/Slave/Check Slave Name.vi"/>
 				<Item Name="Get Slave Info.vi" Type="VI" URL="../Utility/ECAT/Slave/Get Slave Info.vi"/>
-				<Item Name="Import ESI File.vi" Type="VI" URL="../Utility/ECAT/Slave/Import ESI File.vi"/>
+				<Item Name="Host - Import ESI File.vi" Type="VI" URL="../Utility/ECAT/Slave/Host - Import ESI File.vi"/>
 				<Item Name="Prompt Import 3rd Party ECAT Slaves Will Reboot.vi" Type="VI" URL="../Utility/ECAT/Slave/Prompt Import 3rd Party ECAT Slaves Will Reboot.vi"/>
 				<Item Name="Set Slave Info.vi" Type="VI" URL="../Utility/ECAT/Slave/Set Slave Info.vi"/>
 			</Item>
