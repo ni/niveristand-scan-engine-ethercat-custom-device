@@ -654,6 +654,22 @@
 				<Item Name="Set Cursor (Icon Pict).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor (Icon Pict).vi"/>
 				<Item Name="Unset Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Unset Busy.vi"/>
 				<Item Name="TestCase.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/TestCase.llb/TestCase.lvclass"/>
+				<Item Name="Registry WinErr-LVErr.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry WinErr-LVErr.vi"/>
+				<Item Name="Registry refnum.ctl" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry refnum.ctl"/>
+				<Item Name="Registry Handle Master.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry Handle Master.vi"/>
+				<Item Name="Close Registry Key.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Close Registry Key.vi"/>
+				<Item Name="Registry Simplify Data Type.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry Simplify Data Type.vi"/>
+				<Item Name="Read Registry Value STR.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Read Registry Value STR.vi"/>
+				<Item Name="Read Registry Value DWORD.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Read Registry Value DWORD.vi"/>
+				<Item Name="Read Registry Value.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Read Registry Value.vi"/>
+				<Item Name="Read Registry Value Simple STR.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Read Registry Value Simple STR.vi"/>
+				<Item Name="Read Registry Value Simple U32.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Read Registry Value Simple U32.vi"/>
+				<Item Name="Read Registry Value Simple.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Read Registry Value Simple.vi"/>
+				<Item Name="STR_ASCII-Unicode.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/STR_ASCII-Unicode.vi"/>
+				<Item Name="Registry View.ctl" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry View.ctl"/>
+				<Item Name="Registry RtKey.ctl" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry RtKey.ctl"/>
+				<Item Name="Registry SAM.ctl" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry SAM.ctl"/>
+				<Item Name="Open Registry Key.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Open Registry Key.vi"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Current VIs Parents Ref__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/appcontrol/appcontrol.llb/Current VIs Parents Ref__ogtk.vi"/>
@@ -755,6 +771,12 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="nisyscfg.dll" Type="Document" URL="nisyscfg.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="Advapi32.dll" Type="Document" URL="Advapi32.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 		</Item>
@@ -1416,7 +1438,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{F4F8C446-53AD-48C5-8F10-E502468F2992}</Property>
-				<Property Name="Bld_version.build" Type="Int">2</Property>
+				<Property Name="Bld_version.build" Type="Int">3</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Import ESI File.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../Built/NI_AB_PROJECTNAME/Applications/Import ESI File.exe</Property>
@@ -1447,14 +1469,14 @@
 				<Property Name="TgtF_targetfileGUID" Type="Str">{F2BBD057-4675-4489-9105-B6C993656E7B}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">Import ESI File.exe</Property>
 			</Item>
-			<Item Name="Read RT ESI Files" Type="EXE">
+			<Item Name="Read Target ESI Files" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{600439FD-3FF4-4E2D-9324-2D4E5EFE2930}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{74D3467C-7901-49C1-AE4C-83A982D5278F}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{A6148D94-78E5-4C83-A14A-CF4CC2B024F5}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">Read RT ESI Files</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Read Target ESI Files</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
@@ -1462,16 +1484,17 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{E16D48CE-BCAE-42BB-BD23-8FB9590C713D}</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">Read RT ESI Files.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../Built/NI_AB_PROJECTNAME/Applications/Read RT ESI Files.exe</Property>
+				<Property Name="Destination[0].destName" Type="Str">Read Target ESI Files.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../Built/NI_AB_PROJECTNAME/Applications/Read Target ESI Files.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../Built/NI_AB_PROJECTNAME/Applications/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_cmdLineArgs" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{090B7972-364C-4D32-9CD4-AF271F33CB60}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{33C60133-4B97-40E9-9527-B0001ACCC5CB}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Applications/Read Target ESI Files.vi</Property>
@@ -1485,12 +1508,12 @@
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">Read RT ESI Files</Property>
-				<Property Name="TgtF_internalName" Type="Str">Read RT ESI Files</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Read Target ESI Files</Property>
+				<Property Name="TgtF_internalName" Type="Str">Read Target ESI Files</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2021 </Property>
-				<Property Name="TgtF_productName" Type="Str">Read RT ESI Files</Property>
+				<Property Name="TgtF_productName" Type="Str">Read Target ESI Files</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{A23D85D5-E34F-4844-A58C-DD5CDAC5E9D3}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">Read RT ESI Files.exe</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Read Target ESI Files.exe</Property>
 			</Item>
 		</Item>
 	</Item>

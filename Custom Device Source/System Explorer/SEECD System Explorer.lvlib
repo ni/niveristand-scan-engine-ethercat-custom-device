@@ -27,6 +27,7 @@
 			<Item Name="Build Installed Folder Paths.vi" Type="VI" URL="../Applications/Utilities/Build Installed Folder Paths.vi"/>
 			<Item Name="Display Message Dialog.vi" Type="VI" URL="../Applications/Utilities/Display Message Dialog.vi"/>
 			<Item Name="Generate Application Call Error.vi" Type="VI" URL="../Applications/Utilities/Generate Application Call Error.vi"/>
+			<Item Name="Get LabVIEW Directory.vi" Type="VI" URL="../Applications/Utilities/Get LabVIEW Directory.vi"/>
 		</Item>
 		<Item Name="Call Check and Download Bitfile.vi" Type="VI" URL="../Applications/Call Check and Download Bitfile.vi"/>
 		<Item Name="Call Get HW Config.vi" Type="VI" URL="../Applications/Call Get HW Config.vi"/>
