@@ -112,12 +112,14 @@
 		</Item>
 		<Item Name="ECAT" Type="Folder">
 			<Item Name="ECAT_InternalSubVIs" Type="Folder">
+				<Item Name="_generateProfilePath.vi" Type="VI" URL="../Utility/ECAT/ECAT_InternalSubVIs/_generateProfilePath.vi"/>
 				<Item Name="_getFiles.vi" Type="VI" URL="../Utility/ECAT/ECAT_InternalSubVIs/_getFiles.vi"/>
 				<Item Name="_importProcessBar.vi" Type="VI" URL="../Utility/ECAT/ECAT_InternalSubVIs/_importProcessBar.vi"/>
+				<Item Name="_importProfileToHost.vi" Type="VI" URL="../Utility/ECAT/ECAT_InternalSubVIs/_importProfileToHost.vi"/>
 				<Item Name="_ValidateDeviceProfiles.vi" Type="VI" URL="../Utility/ECAT/ECAT_InternalSubVIs/_ValidateDeviceProfiles.vi"/>
 				<Item Name="Get Selected Profile from List.vi" Type="VI" URL="../Utility/ECAT/ECAT_InternalSubVIs/Get Selected Profile from List.vi"/>
 				<Item Name="Get Webdav.vi" Type="VI" URL="../Utility/ECAT/ECAT_InternalSubVIs/Get Webdav.vi"/>
-				<Item Name="Get_Profile_pathess.vi" Type="VI" URL="../Utility/ECAT/ECAT_InternalSubVIs/Get_Profile_pathess.vi"/>
+				<Item Name="Get_Profile_paths.vi" Type="VI" URL="../Utility/ECAT/ECAT_InternalSubVIs/Get_Profile_paths.vi"/>
 				<Item Name="Local_niECATCreateIOVStructureFromBitfile.vi" Type="VI" URL="../Utility/ECAT/ECAT_InternalSubVIs/Local_niECATCreateIOVStructureFromBitfile.vi"/>
 				<Item Name="Local_niECATGetCustomIOVNodeArrayFrom2009Bitfile.vi" Type="VI" URL="../Utility/ECAT/ECAT_InternalSubVIs/Local_niECATGetCustomIOVNodeArrayFrom2009Bitfile.vi"/>
 				<Item Name="Local_niECATGetCustomIOVNodeArrayFrom2010Bitfile.vi" Type="VI" URL="../Utility/ECAT/ECAT_InternalSubVIs/Local_niECATGetCustomIOVNodeArrayFrom2010Bitfile.vi"/>
