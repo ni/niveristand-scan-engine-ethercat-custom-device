@@ -57,4 +57,7 @@ This module and/or mode is not currently supported by the API.
 <nierror code="-732156">
 Unable to launch process to perform hardware configuration.
 </nierror>
+<nierror code="-732157">
+Failed to read EtherCAT Profiles from RT Target.
+</nierror>
 </nidocument>
