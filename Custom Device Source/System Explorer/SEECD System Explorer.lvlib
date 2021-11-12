@@ -25,6 +25,7 @@
 		<Item Name="Utilities" Type="Folder">
 			<Item Name="Build Command Line Arguments.vi" Type="VI" URL="../Applications/Utilities/Build Command Line Arguments.vi"/>
 			<Item Name="Build Installed Folder Paths.vi" Type="VI" URL="../Applications/Utilities/Build Installed Folder Paths.vi"/>
+			<Item Name="Display EtherCAT Provider Error.vi" Type="VI" URL="../Applications/Utilities/Display EtherCAT Provider Error.vi"/>
 			<Item Name="Display Message Dialog.vi" Type="VI" URL="../Applications/Utilities/Display Message Dialog.vi"/>
 			<Item Name="Generate Application Call Error.vi" Type="VI" URL="../Applications/Utilities/Generate Application Call Error.vi"/>
 			<Item Name="Get LabVIEW Directory.vi" Type="VI" URL="../Applications/Utilities/Get LabVIEW Directory.vi"/>
