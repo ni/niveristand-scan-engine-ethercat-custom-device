@@ -59,6 +59,24 @@ bitness = '32'
 bitness_versions = ['2021']
 
 [[build.steps]]
+name = 'Application - Import ESI File'
+type = 'lvBuildSpec'
+project = '{cd}'
+target = 'My Computer'
+build_spec = 'Import ESI File'
+bitness = '32'
+bitness_versions = ['2021']
+
+[[build.steps]]
+name = 'Application - Read Target ESI Files'
+type = 'lvBuildSpec'
+project = '{cd}'
+target = 'My Computer'
+build_spec = 'Read Target ESI Files'
+bitness = '32'
+bitness_versions = ['2021']
+
+[[build.steps]]
 name = 'Linux x64 Engine Library'
 type = 'lvBuildSpec'
 project = '{cd}'

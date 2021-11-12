@@ -16,6 +16,7 @@
 		<Item Name="Main - Add Local Chassis.vi" Type="VI" URL="../Action VIs/Main - Add Local Chassis.vi"/>
 		<Item Name="Main - Auto Detect Modules.vi" Type="VI" URL="../Action VIs/Main - Auto Detect Modules.vi"/>
 		<Item Name="Main - Can Add Local Chassis.vi" Type="VI" URL="../Action VIs/Main - Can Add Local Chassis.vi"/>
+		<Item Name="Main - Manages 3rd Party Slaves.vi" Type="VI" URL="../Action VIs/Main - Manages 3rd Party Slaves.vi"/>
 		<Item Name="Main - On Delete.vi" Type="VI" URL="../Action VIs/Main - On Delete.vi"/>
 		<Item Name="Main - On Load.vi" Type="VI" URL="../Action VIs/Main - On Load.vi"/>
 		<Item Name="Master - Add EtherCAT Slave.vi" Type="VI" URL="../Action VIs/Master - Add EtherCAT Slave.vi"/>
@@ -24,14 +25,20 @@
 		<Item Name="Utilities" Type="Folder">
 			<Item Name="Build Command Line Arguments.vi" Type="VI" URL="../Applications/Utilities/Build Command Line Arguments.vi"/>
 			<Item Name="Build Installed Folder Paths.vi" Type="VI" URL="../Applications/Utilities/Build Installed Folder Paths.vi"/>
+			<Item Name="Display EtherCAT Provider Error.vi" Type="VI" URL="../Applications/Utilities/Display EtherCAT Provider Error.vi"/>
 			<Item Name="Display Message Dialog.vi" Type="VI" URL="../Applications/Utilities/Display Message Dialog.vi"/>
 			<Item Name="Generate Application Call Error.vi" Type="VI" URL="../Applications/Utilities/Generate Application Call Error.vi"/>
+			<Item Name="Get LabVIEW Directory.vi" Type="VI" URL="../Applications/Utilities/Get LabVIEW Directory.vi"/>
 		</Item>
 		<Item Name="Call Check and Download Bitfile.vi" Type="VI" URL="../Applications/Call Check and Download Bitfile.vi"/>
 		<Item Name="Call Get HW Config.vi" Type="VI" URL="../Applications/Call Get HW Config.vi"/>
+		<Item Name="Call Import ESI File.vi" Type="VI" URL="../Applications/Call Import ESI File.vi"/>
+		<Item Name="Call Read Target ESI Files.vi" Type="VI" URL="../Applications/Call Read Target ESI Files.vi"/>
 		<Item Name="Call Revert to Scan Mode.vi" Type="VI" URL="../Applications/Call Revert to Scan Mode.vi"/>
 		<Item Name="Check and Download Bitfile.vi" Type="VI" URL="../Applications/Check and Download Bitfile.vi"/>
 		<Item Name="Get HW Config.vi" Type="VI" URL="../Applications/Get HW Config.vi"/>
+		<Item Name="Import ESI File.vi" Type="VI" URL="../Applications/Import ESI File.vi"/>
+		<Item Name="Read Target ESI Files.vi" Type="VI" URL="../Applications/Read Target ESI Files.vi"/>
 		<Item Name="Revert to Scan Mode.vi" Type="VI" URL="../Applications/Revert to Scan Mode.vi"/>
 	</Item>
 	<Item Name="Glyphs" Type="Folder">
@@ -106,17 +113,19 @@
 		</Item>
 		<Item Name="ECAT" Type="Folder">
 			<Item Name="ECAT_InternalSubVIs" Type="Folder">
+				<Item Name="_generateProfilePath.vi" Type="VI" URL="../Utility/ECAT/ECAT_InternalSubVIs/_generateProfilePath.vi"/>
+				<Item Name="_getFiles.vi" Type="VI" URL="../Utility/ECAT/ECAT_InternalSubVIs/_getFiles.vi"/>
 				<Item Name="_importProcessBar.vi" Type="VI" URL="../Utility/ECAT/ECAT_InternalSubVIs/_importProcessBar.vi"/>
+				<Item Name="_importProfileToHost.vi" Type="VI" URL="../Utility/ECAT/ECAT_InternalSubVIs/_importProfileToHost.vi"/>
 				<Item Name="_ValidateDeviceProfiles.vi" Type="VI" URL="../Utility/ECAT/ECAT_InternalSubVIs/_ValidateDeviceProfiles.vi"/>
 				<Item Name="Get Selected Profile from List.vi" Type="VI" URL="../Utility/ECAT/ECAT_InternalSubVIs/Get Selected Profile from List.vi"/>
 				<Item Name="Get Webdav.vi" Type="VI" URL="../Utility/ECAT/ECAT_InternalSubVIs/Get Webdav.vi"/>
-				<Item Name="Get_Profile_pathess.vi" Type="VI" URL="../Utility/ECAT/ECAT_InternalSubVIs/Get_Profile_pathess.vi"/>
+				<Item Name="Get_Profile_paths.vi" Type="VI" URL="../Utility/ECAT/ECAT_InternalSubVIs/Get_Profile_paths.vi"/>
 				<Item Name="Local_niECATCreateIOVStructureFromBitfile.vi" Type="VI" URL="../Utility/ECAT/ECAT_InternalSubVIs/Local_niECATCreateIOVStructureFromBitfile.vi"/>
 				<Item Name="Local_niECATGetCustomIOVNodeArrayFrom2009Bitfile.vi" Type="VI" URL="../Utility/ECAT/ECAT_InternalSubVIs/Local_niECATGetCustomIOVNodeArrayFrom2009Bitfile.vi"/>
 				<Item Name="Local_niECATGetCustomIOVNodeArrayFrom2010Bitfile.vi" Type="VI" URL="../Utility/ECAT/ECAT_InternalSubVIs/Local_niECATGetCustomIOVNodeArrayFrom2010Bitfile.vi"/>
-				<Item Name="Read imported Profiles.vi" Type="VI" URL="../Utility/ECAT/ECAT_InternalSubVIs/Read imported Profiles.vi"/>
-				<Item Name="Read Profiles from Target.vi" Type="VI" URL="../Utility/ECAT/ECAT_InternalSubVIs/Read Profiles from Target.vi"/>
-				<Item Name="Read Target XML-Files.vi" Type="VI" URL="../Utility/ECAT/ECAT_InternalSubVIs/Read Target XML-Files.vi"/>
+				<Item Name="Read ESI Files on Host PC.vi" Type="VI" URL="../Utility/ECAT/ECAT_InternalSubVIs/Read ESI Files on Host PC.vi"/>
+				<Item Name="Read ESI Files on RT Target.vi" Type="VI" URL="../Utility/ECAT/ECAT_InternalSubVIs/Read ESI Files on RT Target.vi"/>
 			</Item>
 			<Item Name="Master" Type="Folder">
 				<Item Name="Add ECAT Master.vi" Type="VI" URL="../Utility/ECAT/Master/Add ECAT Master.vi"/>
@@ -129,6 +138,7 @@
 				<Item Name="Check Slave ID.vi" Type="VI" URL="../Utility/ECAT/Slave/Check Slave ID.vi"/>
 				<Item Name="Check Slave Name.vi" Type="VI" URL="../Utility/ECAT/Slave/Check Slave Name.vi"/>
 				<Item Name="Get Slave Info.vi" Type="VI" URL="../Utility/ECAT/Slave/Get Slave Info.vi"/>
+				<Item Name="Host - Import ESI File.vi" Type="VI" URL="../Utility/ECAT/Slave/Host - Import ESI File.vi"/>
 				<Item Name="Prompt Import 3rd Party ECAT Slaves Will Reboot.vi" Type="VI" URL="../Utility/ECAT/Slave/Prompt Import 3rd Party ECAT Slaves Will Reboot.vi"/>
 				<Item Name="Set Slave Info.vi" Type="VI" URL="../Utility/ECAT/Slave/Set Slave Info.vi"/>
 			</Item>
