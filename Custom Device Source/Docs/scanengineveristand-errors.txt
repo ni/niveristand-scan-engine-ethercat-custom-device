@@ -60,4 +60,7 @@ Unable to launch process to perform hardware configuration.
 <nierror code="-732157">
 Failed to read EtherCAT Profiles from RT Target.
 </nierror>
+<nierror code="-732158">
+Unable to locate DLL to parse EtherCAT Profile. Ensure LabVIEW 32-bit EtherCAT support is installed on the host PC.
+</nierror>
 </nidocument>
