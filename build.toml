@@ -124,6 +124,8 @@ multi_bitness_versions = ['2021']
 type = 'nipkg'
 control_file = 'control_scripting'
 package_output_dir = 'Built'
+multi_bitness = 'true'
+multi_bitness_versions = ['2021']
 
 [package.payload_map]
 'Built\\Scripting\\Scan Engine' = 'ni-paths-LV{veristand_version}DIR{nipaths_64_bitness_suffix}\vi.lib\addons\VeriStand Custom Device Scripting APIs\Scan Engine'
@@ -132,6 +134,8 @@ package_output_dir = 'Built'
 type = 'nipkg'
 control_file = 'control_examples'
 package_output_dir = 'Built'
+multi_bitness = 'true'
+multi_bitness_versions = ['2021']
 
 [package.payload_map]
 'Built\\Examples\\Scan Engine' = 'ni-paths-LV{veristand_version}DIR{nipaths_64_bitness_suffix}\examples\NI VeriStand Custom Devices\Scan Engine'
