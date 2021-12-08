@@ -63,4 +63,8 @@ Failed to read EtherCAT Profiles from RT Target.
 <nierror code="-732158">
 Unable to locate DLL to parse EtherCAT Profile. Ensure LabVIEW 32-bit EtherCAT support is installed on the host PC.
 </nierror>
+</nierror>
+<nierror code="-732159">
+No hardware was found during auto-detect. Ensure that all modules and targets are connected, and that the necessary RT components are installed.
+</nierror>
 </nidocument>
