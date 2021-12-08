@@ -65,6 +65,6 @@ Unable to locate DLL to parse EtherCAT Profile. Ensure LabVIEW 32-bit EtherCAT s
 </nierror>
 </nierror>
 <nierror code="-732159">
-No hardware was found during auto-detect. Ensure that all modules and targets are connected, and that the necessary RT components are installed.
+No hardware was found during auto-detect. Ensure that all modules and targets are connected and that the necessary RT components are installed.
 </nierror>
 </nidocument>
