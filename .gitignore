@@ -16,6 +16,11 @@
 *.lvlps
 *.lvproj.config
 
+# Intermediate Help Files
+*.log
+*.hhp
+*.chm
+
 # =========================
 # Operating System Files
 # =========================
