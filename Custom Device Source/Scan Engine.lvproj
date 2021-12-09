@@ -803,7 +803,7 @@
 				<Property Name="DestinationCount" Type="Int">9</Property>
 				<Property Name="Source[0].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[0].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{53FD9AE7-DF8A-427B-BD19-05BAF10D34D2}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{9A228D53-AC48-41F9-B302-933138C371E7}</Property>
 				<Property Name="Source[0].properties[0].type" Type="Str">Allow debugging</Property>
 				<Property Name="Source[0].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[0].properties[1].type" Type="Str">Remove front panel</Property>
@@ -896,6 +896,7 @@
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[20].destinationIndex" Type="Int">8</Property>
 				<Property Name="Source[20].itemID" Type="Ref">/My Computer/Errors/scanengineveristand-errors.txt</Property>
+				<Property Name="Source[20].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[3].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[3].Container.applySaveSettings" Type="Bool">true</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
