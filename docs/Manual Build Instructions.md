@@ -22,11 +22,9 @@ Glossary of Terms:
 1. Build the `FXP LLB` build specification for each target
 
 The final file structure of the `Built` directory should be as follows:
-- Linux_32_ARM
+- Windows
     - FXP.llb
 - Linux_x64
-    - FXP.llb
-- Pharlap
     - FXP.llb
 
 ### 2. [Scan Engine Module Libraries](https://github.com/ni/niveristand-scan-engine-module-libraries)
@@ -35,21 +33,15 @@ The final file structure of the `Built` directory should be as follows:
 1. Build the `NI ECAT Remote IO` build specification for each target
 
 The final file structure of the `Built` directory should be as follows:
-- Linux_32_ARM
+- Windows
     - Modules.lvlibp
     - NI ECAT Remote IO.llb
 - Linux_x64
     - Modules.lvlibp
     - NI ECAT Remote IO.llb
-- Pharlap
-    - Modules.lvlibp
-    - NI ECAT Remote IO.llb
 
 ### 3. [Scan Engine Custom Device](https://github.com/ni/niveristand-scan-engine-ethercat-custom-device)
-
-For each target type (Linux_32_ARM, Linux_x64, and Pharlap):
-
-1. Copy dependencies built from previous repositories' `Built` directory into the `Custom Device Source` directory
+1. Copy Linux_x64 dependencies from previous repositories' `Built` directory into the `Includes` directory
     - FXP.llb
     - Modules.lvlibp
     - NI ECAT Remote IO.llb
@@ -57,21 +49,31 @@ For each target type (Linux_32_ARM, Linux_x64, and Pharlap):
     - Depending on the versions of VeriStand and LabVIEW installed on the development PC, the version of the VeriStand .NET assemblies may mismatch with the project. Use .lvproj.config files to lock the version of the assemblies used by the project, or manually navigate to the assemblies on disk at `C:\Windows\Microsoft.NET\assembly\GAC_MSIL\`.
     - You may see dialogs concerning a mismatch of target versions when loading LLBs and PPLs for other operating systems. These are safe to ignore.
 1. Build the `Engine Release` build specification
-1. Close LabVIEW completely and repeat for the next target type
-
-For Windows using Pharlap dependencies:
-
+1. Close LabVIEW completely
+1. Copy Windows dependencies from previous repositories' `Built` directory into the `Includes` directory:
+    - FXP.llb
+    - Modules.lvlibp
+    - NI ECAT Remote IO.llb
 1. Open `Scan Engine.lvproj`
+1. Build all `Application (EXE)' build specifications:
+    - Get HW Config
+    - Check and Download Bitfile
+    - Revert to Scan Mode
+    - Import ESI File
+    - Read Target ESI File
 1. Build the `Configuration Release` build specification
 
 The final file structure of the `Built` directory should be as follows (only two directory levels are shown):
 - Scan Engine
+    - Applications\
     - data\
     - Glyphs\
     - Linux_32_ARM\
     - Linux_x64\
     - Pharlap\
+    - VxWorks\
     - Custom Device Scan Engine.xml
+    - Modules.lvlibp
     - Scan Engine - Configuration.llb
 - Errors
     - scanengineveristand-errors.txt
