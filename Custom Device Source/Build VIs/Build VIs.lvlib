@@ -4,6 +4,7 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">419463168</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
+	<Item Name="Call Build CHM.vi" Type="VI" URL="../Call Build CHM.vi"/>
 	<Item Name="Copy Scripting API to Installed Location.vi" Type="VI" URL="../Copy Scripting API to Installed Location.vi"/>
 	<Item Name="Create Stub Files.vi" Type="VI" URL="../Create Stub Files.vi"/>
 	<Item Name="Delete Scripting API.vi" Type="VI" URL="../Delete Scripting API.vi"/>
