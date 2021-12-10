@@ -184,6 +184,7 @@
 			<Item Name="Get Target IP Address.vi" Type="VI" URL="../Utility/Other/Get Target IP Address.vi"/>
 			<Item Name="Is Synced to Scan.vi" Type="VI" URL="../Utility/Other/Is Synced to Scan.vi"/>
 			<Item Name="List Local Chassis Modules.vi" Type="VI" URL="../Utility/Other/List Local Chassis Modules.vi"/>
+			<Item Name="Load Help Page.vi" Type="VI" URL="../Utility/Other/Load Help Page.vi"/>
 			<Item Name="NI VeriStand - Get Target Operating System.vi" Type="VI" URL="../Utility/Other/NI VeriStand - Get Target Operating System.vi"/>
 			<Item Name="PathToLinuxPath.vi" Type="VI" URL="../Utility/Other/PathToLinuxPath.vi"/>
 			<Item Name="Remove Properties.vi" Type="VI" URL="../Utility/Other/Remove Properties.vi"/>
