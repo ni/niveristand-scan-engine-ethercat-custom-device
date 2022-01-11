@@ -1,17 +1,38 @@
-# Scan Engine Custom Device
+# Scan Engine and EtherCAT Custom Device
 
-**Scan Engine Custom Device**  allows users to easily read scanned I/O from C series modules located in a CompactRIO or NI 914x EtherCAT chassis. The add-on also supports custom FPGA personalities to be used with a 914x chassis. From version 4.3, there is support for generic EtherCAT slaves (PDO only). From version 4.4.1, there is support for NI Remote I/O modules as well.
+The **Scan Engine and EtherCAT Custom Device** allows users to integrate I/O from several hardware platforms that are not natively supported by VeriStand:
 
-## LabVIEW Version
+- CompactRIO Chassis with [supported C Series Modules](docs/Supported%20Modules.md)
+- NI-9145 EtherCAT Chassis with [supported C Series Modules](docs/Supported%20Modules.md)
+- User-Defined Variables on CompactRIO and NI-914x FPGAs
+- Generic EtherCAT Slaves (beta support with PDO access only)
+- NI Remote I/O Modules
+
+Note that C Series Module support can be difficult to determine, as it depends on how the module is being used. See the list of [supported C Series Modules](docs/Supported%20Modules.md) and the NI documentation for the supported software modes for each module to determine whether the specific module is available in `cRIO Scan Interface mode` or `EtherCAT (Scan Interface) mode`. The best determination of support is whether the module can be added to a chassis in VeriStand's System Explorer.
+
+## LabVIEW Source Code Version
 
 LabVIEW 2019
 
 ## Dependencies
 
-- The packed library build from [Scan Engine Custom Device Module Libraries](https://github.com/ni/niveristand-scan-engine-module-libraries).
-- The FXP build from [Scan Engine Custom Device FXP Libraries](https://github.com/ni/niveristand-scan-engine-fxp-libraries).
-- NI CompactRIO
-- NI-Industrial Communications for EtherCAT 17.6+
+### Running the custom device
+
+- [VeriStand 2019 or later](https://www.ni.com/en-us/support/downloads/software-products/download.veristand.html)
+- [NI CompactRIO](https://www.ni.com/en-us/support/downloads/drivers/download.ni-compactrio.html)
+- [NI-Industrial Communications for EtherCAT](https://www.ni.com/en-us/support/downloads/drivers/download.ni-industrial-communications-for-ethercat.html)
+
+### Developing or building from source
+
+The additional software listed below is required to develop or build this custom device from source. Manual build instructions are located [here](docs/Manual%20Build%20Instructions.md).
+
+- [LabVIEW 2019 or later](https://www.ni.com/en-us/support/downloads/software-products/download.labview.html)
+- [LabVIEW FPGA Module](https://www.ni.com/en-us/support/downloads/software-products/download.labview-fpga-module.html)
+- [LabVIEW Real-Time Module](https://www.ni.com/en-us/support/downloads/software-products/download.labview-real-time-module.html)
+- [VeriStand Custom Device Development Tools](https://github.com/ni/niveristand-custom-device-development-tools)
+- [VeriStand Custom Device Testing Tools](https://github.com/ni/niveristand-custom-device-testing-tools)
+- The packed library build from [Scan Engine Custom Device Module Libraries](https://github.com/ni/niveristand-scan-engine-module-libraries)
+- The FXP build from [Scan Engine Custom Device FXP Libraries](https://github.com/ni/niveristand-scan-engine-fxp-libraries)
 
 ## Git History & Rebasing Policy
 Branch rebasing and other history modifications will be listed here, with several notable exceptions:
