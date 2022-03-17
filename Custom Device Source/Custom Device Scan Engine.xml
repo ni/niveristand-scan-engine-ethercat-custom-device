@@ -20,26 +20,10 @@
     </Paths>
     <SourceDistribution>
       <Source>
-        <SupportedTarget>PharlapWindows</SupportedTarget>
-        <Location>
-          <Type>To Common Doc Dir</Type>
-          <Path>Custom Devices\Scan Engine\PharLap\Scan Engine Timing Source.vi</Path>
-        </Location>
-        <RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\Scan Engine Timing Source.vi</RealTimeSystemDestination>
-      </Source>
-      <Source>
         <SupportedTarget>Linux_x64</SupportedTarget>
         <Location>
           <Type>To Common Doc Dir</Type>
           <Path>Custom Devices\Scan Engine\Linux_x64\Scan Engine Timing Source.vi</Path>
-        </Location>
-        <RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\Scan Engine Timing Source.vi</RealTimeSystemDestination>
-      </Source>
-      <Source>
-        <SupportedTarget>Linux_32_ARM</SupportedTarget>
-        <Location>
-          <Type>To Common Doc Dir</Type>
-          <Path>Custom Devices\Scan Engine\Linux_32_ARM\Scan Engine Timing Source.vi</Path>
         </Location>
         <RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\Scan Engine Timing Source.vi</RealTimeSystemDestination>
       </Source>
@@ -55,14 +39,6 @@
   <CustomDeviceVI>
     <SourceDistribution>
       <Source>
-        <SupportedTarget>PharlapWindows</SupportedTarget>
-        <Source>
-          <Type>To Common Doc Dir</Type>
-          <Path>Custom Devices\Scan Engine\PharLap\Scan Engine RT Driver.vi</Path>
-        </Source>
-        <RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\Scan Engine RT Driver.vi</RealTimeSystemDestination>
-      </Source>
-      <Source>
         <SupportedTarget>Linux_x64</SupportedTarget>
         <Source>
           <Type>To Common Doc Dir</Type>
@@ -70,25 +46,9 @@
         </Source>
         <RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\Scan Engine RT Driver.vi</RealTimeSystemDestination>
       </Source>
-      <Source>
-        <SupportedTarget>Linux_32_ARM</SupportedTarget>
-        <Source>
-          <Type>To Common Doc Dir</Type>
-          <Path>Custom Devices\Scan Engine\Linux_32_ARM\Scan Engine RT Driver.vi</Path>
-        </Source>
-        <RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\Scan Engine RT Driver.vi</RealTimeSystemDestination>
-      </Source>
     </SourceDistribution>
   </CustomDeviceVI>
   <Dependencies>
-    <Dependency>
-      <SupportedTarget>PharlapWindows</SupportedTarget>
-      <Source>
-        <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Scan Engine\PharLap\Scan Engine - RT.llb</Path>
-      </Source>
-      <RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\Scan Engine - RT.llb</RealTimeSystemDestination>
-    </Dependency>
     <Dependency>
       <SupportedTarget>Linux_x64</SupportedTarget>
       <Source>
@@ -96,22 +56,6 @@
         <Path>Custom Devices\Scan Engine\Linux_x64\Scan Engine - RT.llb</Path>
       </Source>
       <RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\Scan Engine - RT.llb</RealTimeSystemDestination>
-    </Dependency>
-    <Dependency>
-      <SupportedTarget>Linux_32_ARM</SupportedTarget>
-      <Source>
-        <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Scan Engine\Linux_32_ARM\Scan Engine - RT.llb</Path>
-      </Source>
-      <RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\Scan Engine - RT.llb</RealTimeSystemDestination>
-    </Dependency>
-    <Dependency>
-      <SupportedTarget>PharlapWindows</SupportedTarget>
-      <Source>
-        <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Scan Engine\PharLap\Modules.lvlibp</Path>
-      </Source>
-      <RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\Modules.lvlibp</RealTimeSystemDestination>
     </Dependency>
     <Dependency>
       <SupportedTarget>Linux_x64</SupportedTarget>
@@ -122,22 +66,6 @@
       <RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\Modules.lvlibp</RealTimeSystemDestination>
     </Dependency>
     <Dependency>
-      <SupportedTarget>Linux_32_ARM</SupportedTarget>
-      <Source>
-        <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Scan Engine\Linux_32_ARM\Modules.lvlibp</Path>
-      </Source>
-      <RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\Modules.lvlibp</RealTimeSystemDestination>
-    </Dependency>
-    <Dependency>
-      <SupportedTarget>PharlapWindows</SupportedTarget>
-      <Source>
-        <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Scan Engine\PharLap\NI ECAT Remote IO.llb</Path>
-      </Source>
-      <RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\NI ECAT Remote IO.llb</RealTimeSystemDestination>
-    </Dependency>
-    <Dependency>
       <SupportedTarget>Linux_x64</SupportedTarget>
       <Source>
         <Type>To Common Doc Dir</Type>
@@ -146,34 +74,10 @@
       <RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\NI ECAT Remote IO.llb</RealTimeSystemDestination>
     </Dependency>
     <Dependency>
-      <SupportedTarget>Linux_32_ARM</SupportedTarget>
-      <Source>
-        <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Scan Engine\Linux_32_ARM\NI ECAT Remote IO.llb</Path>
-      </Source>
-      <RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\NI ECAT Remote IO.llb</RealTimeSystemDestination>
-    </Dependency>
-    <Dependency>
-      <SupportedTarget>PharlapWindows</SupportedTarget>
-      <Source>
-        <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Scan Engine\PharLap\FXP.llb</Path>
-      </Source>
-      <RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\FXP.llb</RealTimeSystemDestination>
-    </Dependency>
-    <Dependency>
       <SupportedTarget>Linux_x64</SupportedTarget>
       <Source>
         <Type>To Common Doc Dir</Type>
         <Path>Custom Devices\Scan Engine\Linux_x64\FXP.llb</Path>
-      </Source>
-      <RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\FXP.llb</RealTimeSystemDestination>
-    </Dependency>
-    <Dependency>
-      <SupportedTarget>Linux_32_ARM</SupportedTarget>
-      <Source>
-        <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Scan Engine\Linux_32_ARM\FXP.llb</Path>
       </Source>
       <RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\FXP.llb</RealTimeSystemDestination>
     </Dependency>
@@ -219,7 +123,7 @@
             <Path>.</Path>
           </Item2Launch>
         </MenuItem>
-		<MenuItem>
+        <MenuItem>
           <GUID>AE2AB208-9A9A-4DC7-6A99-2CA165DA3962</GUID>
           <Type>Action</Type>
           <Name>
@@ -446,7 +350,7 @@
             <Path>.</Path>
           </Item2Launch>
         </MenuItem>
-		<MenuItem>
+        <MenuItem>
           <GUID>AE2AB208-9A9A-4DC7-6A99-2CA165DA3962</GUID>
           <Type>Action</Type>
           <Name>
@@ -703,7 +607,7 @@
         <Path>Custom Devices\Scan Engine\Scan Engine - Configuration.llb\Scan Engine Slot Page.vi</Path>
       </Item2Launch>
     </Page>
-	<Page>
+    <Page>
       <Name>
         <eng>Scan Engine Generic IOV Channel</eng>
         <loc>Scan Engine Generic IOV Channel</loc>
@@ -862,7 +766,7 @@
         <Path>Custom Devices\Scan Engine\Scan Engine - Configuration.llb\Scan Engine EtherCAT Slave.vi</Path>
       </Item2Launch>
     </Page>
-	<Page>
+    <Page>
       <Name>
         <eng>Scan Engine EtherCAT NI 9144 Slave</eng>
         <loc>Scan Engine EtherCAT NI 9144 Slave</loc>
@@ -877,7 +781,7 @@
         <Path>Custom Devices\Scan Engine\Scan Engine - Configuration.llb\Scan Engine EtherCAT Slave.vi</Path>
       </Item2Launch>
     </Page>
-	<Page>
+    <Page>
       <Name>
         <eng>Scan Engine EtherCAT NI 9145 Slave</eng>
         <loc>Scan Engine EtherCAT NI 9145 Slave</loc>
@@ -892,7 +796,7 @@
         <Path>Custom Devices\Scan Engine\Scan Engine - Configuration.llb\Scan Engine EtherCAT Slave.vi</Path>
       </Item2Launch>
     </Page>
-	<Page>
+    <Page>
       <Name>
         <eng>Scan Engine EtherCAT Remote I/O Slave</eng>
         <loc>Scan Engine EtherCAT Remote I/O Slave</loc>
