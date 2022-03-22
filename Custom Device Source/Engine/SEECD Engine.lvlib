@@ -58,6 +58,7 @@
 			<Item Name="Configure All.vi" Type="VI" URL="../Initialize/Configure All.vi"/>
 			<Item Name="Configure Master Wrapper.vi" Type="VI" URL="../Initialize/Configure Master Wrapper.vi"/>
 			<Item Name="Convert Path.vi" Type="VI" URL="../Initialize/Convert Path.vi"/>
+			<Item Name="Data Ref FGV.vi" Type="VI" URL="../Initialize/Data Ref FGV.vi"/>
 			<Item Name="Get Device Channels.vi" Type="VI" URL="../Initialize/Get Device Channels.vi"/>
 			<Item Name="Get ECAT Config Wrapper.vi" Type="VI" URL="../Initialize/Get ECAT Config Wrapper.vi"/>
 			<Item Name="Get ECAT IOVar Data.vi" Type="VI" URL="../Initialize/Get ECAT IOVar Data.vi"/>
@@ -148,12 +149,8 @@
 			<Item Name="Write UDVs.vi" Type="VI" URL="../Read-Write/Write UDVs.vi"/>
 		</Item>
 		<Item Name="Utility" Type="Folder">
-			<Item Name="Clear Specific Error.vi" Type="VI" URL="../Utility/Clear Specific Error.vi"/>
-			<Item Name="Data Ref FGV.vi" Type="VI" URL="../Initialize/Data Ref FGV.vi"/>
 			<Item Name="Debugging RT Channels.vi" Type="VI" URL="../Utility/Debugging RT Channels.vi"/>
 			<Item Name="Get Child Channels.vi" Type="VI" URL="../Utility/Get Child Channels.vi"/>
-			<Item Name="Ignore Warnings.vi" Type="VI" URL="../Utility/Ignore Warnings.vi"/>
-			<Item Name="Print Debug String.vi" Type="VI" URL="../Utility/Print Debug String.vi"/>
 			<Item Name="Print Error.vi" Type="VI" URL="../Utility/Print Error.vi"/>
 		</Item>
 	</Item>
