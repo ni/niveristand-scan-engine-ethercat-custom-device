@@ -176,14 +176,15 @@
 			<Item Name="Channel Data and Properties to Table.vi" Type="VI" URL="../Utility/Other/Channel Data and Properties to Table.vi"/>
 			<Item Name="Data Type to Enum.vi" Type="VI" URL="../Utility/Other/Data Type to Enum.vi"/>
 			<Item Name="Filter Out VxWorks Dependent Files.vi" Type="VI" URL="../Utility/Other/Filter Out VxWorks Dependent Files.vi"/>
+			<Item Name="Get Apply Module Mode.vi" Type="VI" URL="../Utility/Other/Get Apply Module Mode.vi"/>
 			<Item Name="Get Dependent File Properties.vi" Type="VI" URL="../Utility/Other/Get Dependent File Properties.vi"/>
 			<Item Name="Get Dependent File Property Names.vi" Type="VI" URL="../Utility/Other/Get Dependent File Property Names.vi"/>
 			<Item Name="Get Local Chassis Active Slots References.vi" Type="VI" URL="../Utility/Other/Get Local Chassis Active Slots References.vi"/>
 			<Item Name="Get Local Chassis All Slots References.vi" Type="VI" URL="../Utility/Other/Get Local Chassis All Slots References.vi"/>
+			<Item Name="Get Local Chassis Slots Configuration.vi" Type="VI" URL="../Utility/Other/Get Local Chassis Slots Configuration.vi"/>
 			<Item Name="Get Modules Disabled Items.vi" Type="VI" URL="../Utility/Other/Get Modules Disabled Items.vi"/>
 			<Item Name="Get Target IP Address.vi" Type="VI" URL="../Utility/Other/Get Target IP Address.vi"/>
 			<Item Name="Is Synced to Scan.vi" Type="VI" URL="../Utility/Other/Is Synced to Scan.vi"/>
-			<Item Name="List Local Chassis Modules.vi" Type="VI" URL="../Utility/Other/List Local Chassis Modules.vi"/>
 			<Item Name="Load Help Page.vi" Type="VI" URL="../Utility/Other/Load Help Page.vi"/>
 			<Item Name="NI VeriStand - Get Target Operating System.vi" Type="VI" URL="../Utility/Other/NI VeriStand - Get Target Operating System.vi"/>
 			<Item Name="PathToLinuxPath.vi" Type="VI" URL="../Utility/Other/PathToLinuxPath.vi"/>
