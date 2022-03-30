@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="System definition.xsd">
 	<MD5Checksum />
-	<Version Major="2017" Minor="0" Fix="0" Build="0" />
+	<Version Major="2017" Minor="0" Fix="1" Build="0" />
 	<Content>Definition</Content>
 	<Root Name="Counter-Driven Output" TypeGUID="03D3BA22-1485-13A6-56BD17DA950CCD00">
 		<Description />
@@ -10,7 +10,7 @@
 				<String>Counter-Driven Output</String>
 			</Property>
 			<Property Name="Version">
-				<String>1.0.0.10</String>
+				<String>1.0.0.11</String>
 			</Property>
 			<Property Name="Creator">
 				<String />
@@ -195,13 +195,19 @@
 							<Property Name="Driver VI Exec Mode">
 								<U32>1</U32>
 							</Property>
+							<Property Name="Version">
+								<String>5.0.0</String>
+							</Property>
+							<Property Name="user.CD.Async Decimation">
+								<U16>1</U16>
+							</Property>
 							<Property Name="Driver VI Path_0">
 								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Scan Engine\Linux_32_ARM\Scan Engine RT Driver.vi">
 									<Version>4.4.1</Version>
 									<ForceDownload>false</ForceDownload>
 									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\Scan Engine RT Driver.vi</RTDestination>
 									<SupportedTarget>Linux_32_ARM</SupportedTarget>
-									<MD5 />
+									<MD5>d41d8cd98f00b204e9800998ecf8427e</MD5>
 								</DependentFile>
 							</Property>
 							<Property Name="Driver VI Path_1">
@@ -210,29 +216,17 @@
 									<ForceDownload>false</ForceDownload>
 									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\Scan Engine RT Driver.vi</RTDestination>
 									<SupportedTarget>Linux_x64</SupportedTarget>
-									<MD5>17ab725f018e2f2de5249d4558cfff9b</MD5>
+									<MD5>72bce60f361187f25832dd1f8f99ffff</MD5>
 								</DependentFile>
 							</Property>
 							<Property Name="Driver VI Path_2">
-								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Scan Engine\VxWorks\Scan Engine RT Driver.vi">
-									<Version>4.4.1</Version>
-									<ForceDownload>false</ForceDownload>
-									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\Scan Engine RT Driver.vi</RTDestination>
-									<SupportedTarget>VxWorks</SupportedTarget>
-									<MD5 />
-								</DependentFile>
-							</Property>
-							<Property Name="Driver VI Path_3">
 								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Scan Engine\PharLap\Scan Engine RT Driver.vi">
 									<Version>4.4.1</Version>
 									<ForceDownload>false</ForceDownload>
 									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\Scan Engine RT Driver.vi</RTDestination>
 									<SupportedTarget>PharLap &amp; Windows</SupportedTarget>
-									<MD5>52409d9a5d845038cc6c10dfa02e2ecd</MD5>
+									<MD5>d41d8cd98f00b204e9800998ecf8427e</MD5>
 								</DependentFile>
-							</Property>
-							<Property Name="Version">
-								<String>4.7.0</String>
 							</Property>
 							<Property Name="Timing Source Init VI_0">
 								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Scan Engine\Linux_32_ARM\Scan Engine Timing Source.vi">
@@ -240,7 +234,7 @@
 									<ForceDownload>false</ForceDownload>
 									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\Scan Engine Timing Source.vi</RTDestination>
 									<SupportedTarget>Linux_32_ARM</SupportedTarget>
-									<MD5 />
+									<MD5>d41d8cd98f00b204e9800998ecf8427e</MD5>
 								</DependentFile>
 							</Property>
 							<Property Name="Timing Source Init VI_1">
@@ -249,34 +243,25 @@
 									<ForceDownload>false</ForceDownload>
 									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\Scan Engine Timing Source.vi</RTDestination>
 									<SupportedTarget>Linux_x64</SupportedTarget>
-									<MD5>cd8c925fbfcc915c0f30989ce41cde1e</MD5>
+									<MD5>3b8ec42a99b8ba5810cbcf47b2e9d342</MD5>
 								</DependentFile>
 							</Property>
 							<Property Name="Timing Source Init VI_2">
-								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Scan Engine\VxWorks\Scan Engine Timing Source.vi">
+								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Scan Engine\PharLap\Scan Engine Timing Source.vi">
 									<Version />
 									<ForceDownload>false</ForceDownload>
 									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\Scan Engine Timing Source.vi</RTDestination>
-									<SupportedTarget>VxWorks</SupportedTarget>
-									<MD5 />
+									<SupportedTarget>PharLap &amp; Windows</SupportedTarget>
+									<MD5>d41d8cd98f00b204e9800998ecf8427e</MD5>
 								</DependentFile>
 							</Property>
 							<Property Name="Timing Source Init VI_3">
 								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Scan Engine\PharLap\Scan Engine Timing Source.vi">
 									<Version />
-									<ForceDownload>false</ForceDownload>
-									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\Scan Engine Timing Source.vi</RTDestination>
-									<SupportedTarget>PharLap &amp; Windows</SupportedTarget>
-									<MD5>e2d25bc49414f87275f11f8b0c1eda70</MD5>
-								</DependentFile>
-							</Property>
-							<Property Name="Timing Source Init VI_4">
-								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Scan Engine\PharLap\Scan Engine Timing Source.vi">
-									<Version />
 									<ForceDownload>true</ForceDownload>
 									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\Scan Engine Timing Source.vi</RTDestination>
 									<SupportedTarget>PharLap &amp; Windows</SupportedTarget>
-									<MD5>e2d25bc49414f87275f11f8b0c1eda70</MD5>
+									<MD5>d41d8cd98f00b204e9800998ecf8427e</MD5>
 								</DependentFile>
 							</Property>
 							<Property Name="Dependency_1">
@@ -285,110 +270,80 @@
 									<ForceDownload>false</ForceDownload>
 									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\Scan Engine - RT.llb</RTDestination>
 									<SupportedTarget>PharLap &amp; Windows</SupportedTarget>
-									<MD5>984b39f406ca58225453c24d8ca16959</MD5>
+									<MD5>d41d8cd98f00b204e9800998ecf8427e</MD5>
 								</DependentFile>
 							</Property>
 							<Property Name="Dependency_2">
-								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Scan Engine\VxWorks\Scan Engine - RT.llb">
-									<Version />
-									<ForceDownload>false</ForceDownload>
-									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\Scan Engine - RT.llb</RTDestination>
-									<SupportedTarget>VxWorks</SupportedTarget>
-									<MD5 />
-								</DependentFile>
-							</Property>
-							<Property Name="Dependency_3">
 								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Scan Engine\Linux_x64\Scan Engine - RT.llb">
 									<Version />
 									<ForceDownload>false</ForceDownload>
 									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\Scan Engine - RT.llb</RTDestination>
 									<SupportedTarget>Linux_x64</SupportedTarget>
-									<MD5>582da348b48daebb503397282d464076</MD5>
+									<MD5>a36b703aa513f344de868e1fc3c68186</MD5>
 								</DependentFile>
 							</Property>
-							<Property Name="Dependency_4">
+							<Property Name="Dependency_3">
 								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Scan Engine\Linux_32_ARM\Scan Engine - RT.llb">
 									<Version />
 									<ForceDownload>false</ForceDownload>
 									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\Scan Engine - RT.llb</RTDestination>
 									<SupportedTarget>Linux_32_ARM</SupportedTarget>
-									<MD5 />
+									<MD5>d41d8cd98f00b204e9800998ecf8427e</MD5>
 								</DependentFile>
 							</Property>
-							<Property Name="Dependency_5">
+							<Property Name="Dependency_4">
 								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Scan Engine\PharLap\Modules.lvlibp">
 									<Version />
 									<ForceDownload>false</ForceDownload>
 									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\Modules.lvlibp</RTDestination>
 									<SupportedTarget>PharLap &amp; Windows</SupportedTarget>
-									<MD5>47b1747d0d40705e1c515e18a764c338</MD5>
+									<MD5>d41d8cd98f00b204e9800998ecf8427e</MD5>
 								</DependentFile>
 							</Property>
-							<Property Name="Dependency_6">
-								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Scan Engine\VxWorks\Modules.lvlibp">
-									<Version />
-									<ForceDownload>false</ForceDownload>
-									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\Modules.lvlibp</RTDestination>
-									<SupportedTarget>VxWorks</SupportedTarget>
-									<MD5 />
-								</DependentFile>
-							</Property>
-							<Property Name="Dependency_7">
+							<Property Name="Dependency_5">
 								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Scan Engine\Linux_x64\Modules.lvlibp">
 									<Version />
 									<ForceDownload>false</ForceDownload>
 									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\Modules.lvlibp</RTDestination>
 									<SupportedTarget>Linux_x64</SupportedTarget>
-									<MD5>99e40748710ee7b99e56feb11b106c32</MD5>
+									<MD5>fed4c383aa7735ba5c02c553ddcc3108</MD5>
 								</DependentFile>
 							</Property>
-							<Property Name="Dependency_8">
+							<Property Name="Dependency_6">
 								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Scan Engine\Linux_32_ARM\Modules.lvlibp">
 									<Version />
 									<ForceDownload>false</ForceDownload>
 									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\Modules.lvlibp</RTDestination>
 									<SupportedTarget>Linux_32_ARM</SupportedTarget>
-									<MD5 />
+									<MD5>d41d8cd98f00b204e9800998ecf8427e</MD5>
 								</DependentFile>
 							</Property>
-							<Property Name="Dependency_9">
+							<Property Name="Dependency_7">
 								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Scan Engine\PharLap\FXP.llb">
 									<Version />
 									<ForceDownload>false</ForceDownload>
 									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\FXP.llb</RTDestination>
 									<SupportedTarget>PharLap &amp; Windows</SupportedTarget>
-									<MD5>e309dac0478ef7e2cdbb8a621f79356b</MD5>
+									<MD5>d41d8cd98f00b204e9800998ecf8427e</MD5>
 								</DependentFile>
 							</Property>
-							<Property Name="Dependency_10">
-								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Scan Engine\VxWorks\FXP.llb">
-									<Version />
-									<ForceDownload>false</ForceDownload>
-									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\FXP.llb</RTDestination>
-									<SupportedTarget>VxWorks</SupportedTarget>
-									<MD5 />
-								</DependentFile>
-							</Property>
-							<Property Name="Dependency_11">
+							<Property Name="Dependency_8">
 								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Scan Engine\Linux_x64\FXP.llb">
 									<Version />
 									<ForceDownload>false</ForceDownload>
 									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\FXP.llb</RTDestination>
 									<SupportedTarget>Linux_x64</SupportedTarget>
-									<MD5>9b72f88ce671c1cbc5e7d44df7c7acf8</MD5>
+									<MD5>ab43a76cc9682b0aac5c27881e4a7517</MD5>
 								</DependentFile>
 							</Property>
-							<Property Name="Dependency_12">
+							<Property Name="Dependency_9">
 								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Scan Engine\Linux_32_ARM\FXP.llb">
 									<Version />
 									<ForceDownload>false</ForceDownload>
 									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\FXP.llb</RTDestination>
 									<SupportedTarget>Linux_32_ARM</SupportedTarget>
-									<MD5 />
+									<MD5>d41d8cd98f00b204e9800998ecf8427e</MD5>
 								</DependentFile>
-							</Property>
-							<Property Name="user.CD.Async Decimation">
-								<U16>1</U16>
 							</Property>
 						</Properties>
 						<Errors />
@@ -448,6 +403,9 @@
 								<Property Name="user.CD.# Slots">
 									<I32>8</I32>
 								</Property>
+								<Property Name="user.CD.Apply Module Mode">
+									<Boolean>true</Boolean>
+								</Property>
 							</Properties>
 							<Errors />
 							<Section Name="Slot1 (Empty)" TypeGUID="41F294B5-009B-733F-41B9-7972E3D57FD3">
@@ -500,6 +458,9 @@
 								<Properties>
 									<Property Name="user.CD.Module Class">
 										<BinaryString>AAAAAx0OTW9kdWxlcy5sdmxpYnAMOTQwMS5sdmNsYXNzAAAAAAEAAAAAAAIAAQAAAAAAAwABAAAAAAAbAAAAFQAsAAAABgAAAAAIAAAAAAAAAAAAAAAAAboAAAAIAAIAAAABAAAAgAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAACgAAAAAAAAADAAAAAAAAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/////AAAAAAAAAAMAAAAAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP////8AAAAAAAAAAwAAAAAAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/////wAAAAAAAAADAAAAAAAAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/////AAAAAAAAAAMAAAAAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP////8AAAAAAAAAAwAAAAAAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/////wAAAAAAAAADAAAAAAAAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/////AAAAAAAAAAMAAAAAAAAAAwAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryString>
+									</Property>
+									<Property Name="user.CD.Slot Programming Mode">
+										<U16>1</U16>
 									</Property>
 								</Properties>
 								<Errors />
@@ -606,6 +567,9 @@
 									<Property Name="user.CD.Module Class">
 										<BinaryString>AAAAAx0OTW9kdWxlcy5sdmxpYnAMOTQwMS5sdmNsYXNzAAAAAAEAAAAAAAIAAQAAAAAAAwABAAAAAAAbAAAAFQAsAAAABwAAAAAEAAAABAABAAAAAAAAAboAAAAIAAIAAAAAAAAAgAAAAAgAAAAAAAAAAAAAAAAAAAAA/////wAAAAAAAAADAAAAAAAAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/////AAAAAAAAAAMAAAAAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP////8AAAAAAAAAAwAAAAAAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/////wAAAAAAAAADAAAAAAAAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/////AAAAAAAAAAMAAAAAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP////8AAAAAAAAAAwAAAAAAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/////wAAAAAAAAADAAAAAAAAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/////AAAAAAAAAAMAAAAAAAAAAwAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAEAAAAA</BinaryString>
 									</Property>
+									<Property Name="user.CD.Slot Programming Mode">
+										<U16>1</U16>
+									</Property>
 								</Properties>
 								<Errors />
 								<Channel Name="DIO 0" TypeGUID="F43DA51B-9C6C-5797-56DC-ED47295D1D2E" RowDim="1" ColDim="1" Units="" BitFields="15">
@@ -710,6 +674,9 @@
 								<Properties>
 									<Property Name="user.CD.Module Class">
 										<BinaryString>AAAAAx0OTW9kdWxlcy5sdmxpYnAMOTQwMS5sdmNsYXNzAAAAAAEAAAAAAAIAAQAAAAAAAwABAAAAAAAbAAAAFQAsAAAACAAAAAAAAAAACAABAAAAAAAAAboAAAAIAAIAAAACAAAAgAAAAAgAAAAAAAAAAAAAAAAAAAAA/////wAAAAAAAAADAAAAAAAAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/////AAAAAAAAAAMAAAAAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP////8AAAAAAAAAAwAAAAAAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/////wAAAAAAAAADAAAAAAAAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/////AAAAAAAAAAMAAAAAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP////8AAAAAAAAAAwAAAAAAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/////wAAAAAAAAADAAAAAAAAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/////AAAAAAAAAAMAAAAAAAAAAwAAAAAAAAAAAAAABQAAAAgBAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryString>
+									</Property>
+									<Property Name="user.CD.Slot Programming Mode">
+										<U16>1</U16>
 									</Property>
 								</Properties>
 								<Errors />
@@ -1303,16 +1270,16 @@ Note: The only supported FXP UDVs are those  with word lengths up to 32 bits, an
 							<Elem>0</Elem>
 						</DefaultValue>
 					</Channel>
-					<Channel Name="System Reserved 41" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
-						<Description>Deprecated</Description>
+					<Channel Name="ASAM XIL EESPort Trigger" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="3">
+						<Description>Trigger the next EES Error Set from the EES Error Configuration.</Description>
 						<Properties />
 						<Errors />
 						<DefaultValue>
 							<Elem>0</Elem>
 						</DefaultValue>
 					</Channel>
-					<Channel Name="System Reserved 42" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
-						<Description>Deprecated</Description>
+					<Channel Name="ASAM XIL EESPort Trigger Count" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="3">
+						<Description>Count the number of EESPort Triggers.</Description>
 						<Properties />
 						<Errors />
 						<DefaultValue>
