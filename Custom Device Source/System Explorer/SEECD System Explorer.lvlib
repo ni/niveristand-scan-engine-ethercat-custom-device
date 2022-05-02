@@ -136,6 +136,7 @@
 			</Item>
 			<Item Name="Slave" Type="Folder">
 				<Item Name="Add ECAT Slave.vi" Type="VI" URL="../Utility/ECAT/Slave/Add ECAT Slave.vi"/>
+				<Item Name="Check Host Software Installed.vi" Type="VI" URL="../Utility/ECAT/Slave/Check Host Software Installed.vi"/>
 				<Item Name="Check Slave ID.vi" Type="VI" URL="../Utility/ECAT/Slave/Check Slave ID.vi"/>
 				<Item Name="Check Slave Name.vi" Type="VI" URL="../Utility/ECAT/Slave/Check Slave Name.vi"/>
 				<Item Name="Get Slave Info.vi" Type="VI" URL="../Utility/ECAT/Slave/Get Slave Info.vi"/>
