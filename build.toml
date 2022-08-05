@@ -22,7 +22,7 @@ type = 'lvRunVi'
 vi = 'Custom Device Source\Build VIs\Delete Scripting API.vi'
 
 [[build.steps]]
-name = 'Configuration Library'
+name = 'Configuration Libraries'
 type = 'lvBuildSpec'
 project = '{cd}'
 target = 'My Computer'
