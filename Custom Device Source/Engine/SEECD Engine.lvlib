@@ -188,4 +188,6 @@
 		<Item Name="RW Case.ctl" Type="VI" URL="../Type Defs/RW Case.ctl"/>
 		<Item Name="UDV Data.ctl" Type="VI" URL="../Type Defs/UDV Data.ctl"/>
 	</Item>
+	<Item Name="Configure ECAT Generic Slave Wrapper.vi" Type="VI" URL="../Initialize/Configure ECAT Generic Slave Wrapper.vi"/>
+	<Item Name="Configure ECAT Generic Slave.vi" Type="VI" URL="../Initialize/Configure ECAT Generic Slave.vi"/>
 </Library>
