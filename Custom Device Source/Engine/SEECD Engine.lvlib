@@ -56,6 +56,8 @@
 			<Item Name="Config Module.vi" Type="VI" URL="../Initialize/Config Module.vi"/>
 			<Item Name="Config REM IO Mods.vi" Type="VI" URL="../Initialize/Config REM IO Mods.vi"/>
 			<Item Name="Configure All.vi" Type="VI" URL="../Initialize/Configure All.vi"/>
+			<Item Name="Configure ECAT Generic Slave Wrapper.vi" Type="VI" URL="../Initialize/Configure ECAT Generic Slave Wrapper.vi"/>
+			<Item Name="Configure ECAT Generic Slave.vi" Type="VI" URL="../Initialize/Configure ECAT Generic Slave.vi"/>
 			<Item Name="Configure Master Wrapper.vi" Type="VI" URL="../Initialize/Configure Master Wrapper.vi"/>
 			<Item Name="Convert Path.vi" Type="VI" URL="../Initialize/Convert Path.vi"/>
 			<Item Name="Data Ref FGV.vi" Type="VI" URL="../Initialize/Data Ref FGV.vi"/>
@@ -188,6 +190,4 @@
 		<Item Name="RW Case.ctl" Type="VI" URL="../Type Defs/RW Case.ctl"/>
 		<Item Name="UDV Data.ctl" Type="VI" URL="../Type Defs/UDV Data.ctl"/>
 	</Item>
-	<Item Name="Configure ECAT Generic Slave Wrapper.vi" Type="VI" URL="../Initialize/Configure ECAT Generic Slave Wrapper.vi"/>
-	<Item Name="Configure ECAT Generic Slave.vi" Type="VI" URL="../Initialize/Configure ECAT Generic Slave.vi"/>
 </Library>
