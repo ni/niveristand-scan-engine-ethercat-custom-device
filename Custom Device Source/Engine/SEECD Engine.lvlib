@@ -7,6 +7,7 @@
 	<Item Name="Dynamically Referenced" Type="Folder">
 		<Item Name="Inside LLB" Type="Folder">
 			<Item Name="Compare ECAT FPGA.vi" Type="VI" URL="../Initialize/Compare ECAT FPGA.vi"/>
+			<Item Name="Configure ECAT Generic Slave.vi" Type="VI" URL="../Initialize/Configure ECAT Generic Slave.vi"/>
 			<Item Name="Configure Master.vi" Type="VI" URL="../Initialize/Configure Master.vi"/>
 			<Item Name="Get ECAT Config.vi" Type="VI" URL="../Initialize/Get ECAT Config.vi"/>
 		</Item>
@@ -56,6 +57,7 @@
 			<Item Name="Config Module.vi" Type="VI" URL="../Initialize/Config Module.vi"/>
 			<Item Name="Config REM IO Mods.vi" Type="VI" URL="../Initialize/Config REM IO Mods.vi"/>
 			<Item Name="Configure All.vi" Type="VI" URL="../Initialize/Configure All.vi"/>
+			<Item Name="Configure ECAT Generic Slave Wrapper.vi" Type="VI" URL="../Initialize/Configure ECAT Generic Slave Wrapper.vi"/>
 			<Item Name="Configure Master Wrapper.vi" Type="VI" URL="../Initialize/Configure Master Wrapper.vi"/>
 			<Item Name="Convert Path.vi" Type="VI" URL="../Initialize/Convert Path.vi"/>
 			<Item Name="Data Ref FGV.vi" Type="VI" URL="../Initialize/Data Ref FGV.vi"/>
