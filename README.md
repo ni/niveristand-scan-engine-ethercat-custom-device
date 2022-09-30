@@ -38,7 +38,7 @@ The additional software listed below is required to develop or build this custom
 - [VeriStand Custom Device Development Tools](https://github.com/ni/niveristand-custom-device-development-tools)
   - Install the latest package from the [release page](https://github.com/ni/niveristand-custom-device-development-tools/releases)
 - [VeriStand Custom Device Testing Tools](https://github.com/ni/niveristand-custom-device-testing-tools)
-  - To link correctly, this repository should be cloned as source to the same directory level as this repository
+  - Install the latest package from the [release page](https://github.com/ni/niveristand-custom-device-testing-tools/releases)
 - The packed library build from [Scan Engine Custom Device Module Libraries](https://github.com/ni/niveristand-scan-engine-module-libraries)
 - The FXP build from [Scan Engine Custom Device FXP Libraries](https://github.com/ni/niveristand-scan-engine-fxp-libraries)
 
