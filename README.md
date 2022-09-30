@@ -10,6 +10,10 @@ The **Scan Engine and EtherCAT Custom Device** allows users to integrate I/O fro
 
 Note that C Series Module support can be difficult to determine, as it depends on how the module is being used. See the list of [supported C Series Modules](docs/Supported%20Modules.md) and the NI documentation for the supported software modes for each module to determine whether the specific module is available in `cRIO Scan Interface mode` or `EtherCAT (Scan Interface) mode`. The best determination of support is whether the module can be added to a chassis in VeriStand's System Explorer.
 
+## Using the Custom Device
+
+Download the latest release of the VeriStand Custom Devices on [ni.com](https://www.ni.com/en-us/support/downloads/software-products/download.veristand-custom-devices.html) or manually from the [GitHub Releases page](https://github.com/ni/niveristand-scan-engine-ethercat-custom-device/releases/)
+
 ## LabVIEW Source Code Version
 
 LabVIEW 2019
