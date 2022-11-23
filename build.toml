@@ -29,7 +29,7 @@ target = 'My Computer'
 build_spec = 'Configuration Release'
 dependency_target = 'Windows'
 bitness = '64'
-bitness_versions = ['2021']
+bitness_versions = ['2021', '2023']
 
 [[build.steps]]
 name = 'Application - Revert to Scan Mode'
@@ -38,7 +38,7 @@ project = '{cd}'
 target = 'My Computer'
 build_spec = 'Revert to Scan Mode'
 bitness = '32'
-bitness_versions = ['2021']
+bitness_versions = ['2021', '2023']
 
 [[build.steps]]
 name = 'Application - Get HW Config'
@@ -47,7 +47,7 @@ project = '{cd}'
 target = 'My Computer'
 build_spec = 'Get HW Config'
 bitness = '32'
-bitness_versions = ['2021']
+bitness_versions = ['2021', '2023']
 
 [[build.steps]]
 name = 'Application - Check and Download Bitfile'
@@ -56,7 +56,7 @@ project = '{cd}'
 target = 'My Computer'
 build_spec = 'Check and Download Bitfile'
 bitness = '32'
-bitness_versions = ['2021']
+bitness_versions = ['2021', '2023']
 
 [[build.steps]]
 name = 'Application - Import ESI File'
@@ -65,7 +65,7 @@ project = '{cd}'
 target = 'My Computer'
 build_spec = 'Import ESI File'
 bitness = '32'
-bitness_versions = ['2021']
+bitness_versions = ['2021', '2023']
 
 [[build.steps]]
 name = 'Application - Read Target ESI Files'
@@ -74,7 +74,7 @@ project = '{cd}'
 target = 'My Computer'
 build_spec = 'Read Target ESI Files'
 bitness = '32'
-bitness_versions = ['2021']
+bitness_versions = ['2021', '2023']
 
 [[build.steps]]
 name = 'Linux x64 Engine Library'
@@ -84,7 +84,7 @@ target = 'Linux x64'
 build_spec = 'Engine Release'
 dependency_target = 'Linux_x64'
 bitness = '32'
-bitness_versions = ['2021']
+bitness_versions = ['2021', '2023']
 
 [[build.steps]]
 name = 'Scripting API'
@@ -94,7 +94,7 @@ target = 'My Computer'
 build_spec = 'Scripting API'
 dependency_target = 'Windows'
 bitness = '64'
-bitness_versions = ['2021']
+bitness_versions = ['2021', '2023']
 
 [[build.steps]]
 name = 'Examples'
@@ -103,7 +103,7 @@ project = '{examples}'
 target = 'My Computer'
 build_spec = 'Examples'
 bitness = '64'
-bitness_versions = ['2021']
+bitness_versions = ['2021', '2023']
 
 [[build.steps]]
 name = 'Delete Scripting API'
@@ -114,7 +114,7 @@ vi = 'Custom Device Source\Build VIs\Delete Scripting API.vi'
 type = 'nipkg'
 package_output_dir = 'Built'
 multi_bitness = 'true'
-multi_bitness_versions = ['2021']
+multi_bitness_versions = ['2021', '2023']
 
 [package.payload_map]
 'Built\\Scan Engine' = 'documents\National Instruments\NI VeriStand {veristand_version}\Custom Devices\Scan Engine'
@@ -125,7 +125,7 @@ type = 'nipkg'
 control_file = 'control_scripting'
 package_output_dir = 'Built'
 multi_bitness = 'true'
-multi_bitness_versions = ['2021']
+multi_bitness_versions = ['2021', '2023']
 
 [package.payload_map]
 'Built\\Scripting\\Scan Engine' = 'ni-paths-LV{veristand_version}DIR{nipaths_64_bitness_suffix}\vi.lib\addons\VeriStand Custom Device Scripting APIs\Scan Engine'
@@ -135,7 +135,7 @@ type = 'nipkg'
 control_file = 'control_examples'
 package_output_dir = 'Built'
 multi_bitness = 'true'
-multi_bitness_versions = ['2021']
+multi_bitness_versions = ['2021', '2023']
 
 [package.payload_map]
 'Built\\Examples\\Scan Engine' = 'ni-paths-LV{veristand_version}DIR{nipaths_64_bitness_suffix}\examples\NI VeriStand Custom Devices\Scan Engine'
