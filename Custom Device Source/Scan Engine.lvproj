@@ -28,12 +28,6 @@
 			<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
 		</Item>
 		<Item Name="data" Type="Folder">
-			<Item Name="NI 9144" Type="Folder">
-				<Item Name="_loadSP3user.foe" Type="Document" URL="../data/NI 9144/_loadSP3user.foe"/>
-				<Item Name="_wipeback.foe" Type="Document" URL="../data/NI 9144/_wipeback.foe"/>
-				<Item Name="cRIO_5001HandlerBody.bin" Type="Document" URL="../data/NI 9144/cRIO_5001HandlerBody.bin"/>
-				<Item Name="ReloadFPGARevC.foe" Type="Document" URL="../data/NI 9144/ReloadFPGARevC.foe"/>
-			</Item>
 			<Item Name="NI 9145" Type="Folder">
 				<Item Name="_loadSP3user.foe" Type="Document" URL="../data/NI 9145/_loadSP3user.foe"/>
 				<Item Name="_wipeback.foe" Type="Document" URL="../data/NI 9145/_wipeback.foe"/>
@@ -745,16 +739,14 @@
 				<Property Name="Destination[4].path" Type="Path">../Built/NI_AB_PROJECTNAME/data</Property>
 				<Property Name="Destination[5].destName" Type="Str">Built Directory</Property>
 				<Property Name="Destination[5].path" Type="Path">../Built</Property>
-				<Property Name="Destination[6].destName" Type="Str">NI 9144</Property>
-				<Property Name="Destination[6].path" Type="Path">../Built/NI_AB_PROJECTNAME/data/NI 9144</Property>
-				<Property Name="Destination[7].destName" Type="Str">NI 9145</Property>
-				<Property Name="Destination[7].path" Type="Path">../Built/NI_AB_PROJECTNAME/data/NI 9145</Property>
-				<Property Name="Destination[8].destName" Type="Str">Errors</Property>
-				<Property Name="Destination[8].path" Type="Path">../Built/Errors</Property>
-				<Property Name="DestinationCount" Type="Int">9</Property>
+				<Property Name="Destination[6].destName" Type="Str">NI 9145</Property>
+				<Property Name="Destination[6].path" Type="Path">../Built/NI_AB_PROJECTNAME/data/NI 9145</Property>
+				<Property Name="Destination[7].destName" Type="Str">Errors</Property>
+				<Property Name="Destination[7].path" Type="Path">../Built/Errors</Property>
+				<Property Name="DestinationCount" Type="Int">8</Property>
 				<Property Name="Source[0].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[0].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{9A228D53-AC48-41F9-B302-933138C371E7}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{84D05D0E-CAE0-4E5D-9E1D-5D40ACF04542}</Property>
 				<Property Name="Source[0].properties[0].type" Type="Str">Allow debugging</Property>
 				<Property Name="Source[0].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[0].properties[1].type" Type="Str">Remove front panel</Property>
@@ -828,26 +820,19 @@
 				<Property Name="Source[17].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[17].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[17].destinationIndex" Type="Int">6</Property>
-				<Property Name="Source[17].itemID" Type="Ref">/My Computer/data/NI 9144</Property>
+				<Property Name="Source[17].itemID" Type="Ref">/My Computer/data/NI 9145</Property>
 				<Property Name="Source[17].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[17].type" Type="Str">Container</Property>
-				<Property Name="Source[18].Container.applyDestination" Type="Bool">true</Property>
-				<Property Name="Source[18].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[18].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[18].destinationIndex" Type="Int">7</Property>
-				<Property Name="Source[18].itemID" Type="Ref">/My Computer/data/NI 9145</Property>
+				<Property Name="Source[18].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[18].itemID" Type="Ref">/My Computer/Modules.lvlibp</Property>
+				<Property Name="Source[18].preventRename" Type="Bool">true</Property>
 				<Property Name="Source[18].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[18].type" Type="Str">Container</Property>
-				<Property Name="Source[19].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[19].itemID" Type="Ref">/My Computer/Modules.lvlibp</Property>
-				<Property Name="Source[19].preventRename" Type="Bool">true</Property>
+				<Property Name="Source[19].destinationIndex" Type="Int">7</Property>
+				<Property Name="Source[19].itemID" Type="Ref">/My Computer/Errors/scanengineveristand-errors.txt</Property>
 				<Property Name="Source[19].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">2</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Custom Device Scan Engine.xml</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[20].destinationIndex" Type="Int">8</Property>
-				<Property Name="Source[20].itemID" Type="Ref">/My Computer/Errors/scanengineveristand-errors.txt</Property>
-				<Property Name="Source[20].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[3].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[3].Container.applySaveSettings" Type="Bool">true</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
@@ -932,7 +917,7 @@
 				<Property Name="Source[9].properties[2].value" Type="Bool">true</Property>
 				<Property Name="Source[9].propertiesCount" Type="Int">3</Property>
 				<Property Name="Source[9].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">21</Property>
+				<Property Name="SourceCount" Type="Int">20</Property>
 			</Item>
 			<Item Name="Scripting API" Type="Source Distribution">
 				<Property Name="Bld_buildCacheID" Type="Str">{1D405A5D-4017-4DD2-A11C-E9AF4B4798D7}</Property>
