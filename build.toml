@@ -13,6 +13,9 @@ copy_location = 'Includes'
 [projects.cd]
 path = 'Custom Device Source\Scan Engine.lvproj'
 
+[projects.cd_linux]
+path = 'Custom Device Source\Scan Engine Linux x64.lvproj'
+
 [projects.examples]
 path = 'Scripting Examples\Scan Engine Scripting Examples.lvproj'
 
@@ -79,7 +82,7 @@ bitness_versions = ['2021']
 [[build.steps]]
 name = 'Linux x64 Engine Library'
 type = 'lvBuildSpec'
-project = '{cd}'
+project = '{cd_linux}'
 target = 'Linux x64'
 build_spec = 'Engine Release'
 dependency_target = 'Linux_x64'
