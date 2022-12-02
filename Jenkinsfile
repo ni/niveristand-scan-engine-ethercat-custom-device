@@ -3,8 +3,8 @@
 @Library('vs-build-tools') _
 
 def lvVersions = [
-  32 : ['2019', '2020', '2021'],
-  64 : ['2021']
+  32 : ['2020', '2021', '2023'],
+  64 : ['2021', '2023']
 ]
 
 List<String> dependencies = ['niveristand-scan-engine-fxp-libraries', 'niveristand-scan-engine-module-libraries']
