@@ -1,0 +1,170 @@
+trigger:
+  batch: true
+  branches:
+    include:
+      - main
+      - release/*
+
+resources:
+  repositories:
+    - repository: niveristand-custom-device-build-tools
+      type:       github
+      ref:        main
+      endpoint:   ni (2)
+      name:       ni/niveristand-custom-device-build-tools
+  pipelines:
+    - pipeline: FxpLibraries
+      source:   ni.niveristand-scan-engine-fxp-libraries
+      trigger:  true
+    - pipeline: ModuleLibraries
+      source:   ni.niveristand-scan-engine-module-libraries
+      trigger:  true
+
+stages:
+  - template: azure-templates/stages.yml
+    parameters:
+
+# Test Versions - At least 1 of each supported LabVIEW version and 1 of each bitness
+      lvVersionsToBuild:
+        - version: '2020'
+          bitness: '32bit'
+        - version: '2021'
+          bitness: '32bit'
+        - version: '2021'
+          bitness: '64bit'
+        - version: '2023'
+          bitness: '32bit'
+        - version: '2023'
+          bitness: '64bit'
+
+# Test Dependencies - multiple dependencies that are expected in the build steps below this
+      dependencies:
+        - source: '\\nirvana\Measurements\VeriStandAddons\prototype\scan_engine_fxp'
+          file: 'FXP.llb'
+          destination: 'Includes'
+        - source: '\\nirvana\Measurements\VeriStandAddons\prototype\scan_engine_modules'
+          file: 'Modules.lvlibp'
+          destination: 'Includes'
+        - source: '\\nirvana\Measurements\VeriStandAddons\prototype\scan_engine_modules'
+          file: 'NI ECAT Remote IO.llb'
+          destination: 'Includes'
+
+# Test Codegen Steps
+      codegenVis:
+        - 'Custom Device Source\Build VIs\Delete Scripting API.vi'
+
+# Test Individual Build Specs using standard build operations in LabVIEW, and exclusion rules
+      buildSteps:
+        - projectLocation: 'Custom Device Source\Scan Engine.lvproj'
+          buildOperation: 'ExecuteBuildSpec'
+          target: 'My Computer'
+          buildSpec: 'Configuration Release'
+          exclusions:
+            - version: '2021'
+              bitness: '32bit'
+            - version: '2023'
+              bitness: '32bit'
+
+        - projectLocation: 'Custom Device Source\Scan Engine.lvproj'
+          buildOperation: 'ExecuteBuildSpec'
+          target: 'My Computer'
+          buildSpec: 'Revert to Scan Mode'
+          exclusions:
+            - version: '2021'
+              bitness: '64bit'
+            - version: '2023'
+              bitness: '64bit'
+
+        - projectLocation: 'Custom Device Source\Scan Engine.lvproj'
+          buildOperation: 'ExecuteBuildSpec'
+          target: 'My Computer'
+          buildSpec: 'Get HW Config'
+          exclusions:
+            - version: '2021'
+              bitness: '64bit'
+            - version: '2023'
+              bitness: '64bit'
+
+        - projectLocation: 'Custom Device Source\Scan Engine.lvproj'
+          buildOperation: 'ExecuteBuildSpec'
+          target: 'My Computer'
+          buildSpec: 'Check and Download Bitfile'
+          exclusions:
+            - version: '2021'
+              bitness: '64bit'
+            - version: '2023'
+              bitness: '64bit'
+
+        - projectLocation: 'Custom Device Source\Scan Engine.lvproj'
+          buildOperation: 'ExecuteBuildSpec'
+          target: 'My Computer'
+          buildSpec: 'Import ESI File'
+          exclusions:
+            - version: '2021'
+              bitness: '64bit'
+            - version: '2023'
+              bitness: '64bit'
+
+        - projectLocation: 'Custom Device Source\Scan Engine.lvproj'
+          buildOperation: 'ExecuteBuildSpec'
+          target: 'My Computer'
+          buildSpec: 'Read Target ESI Files'
+          exclusions:
+            - version: '2021'
+              bitness: '64bit'
+            - version: '2023'
+              bitness: '64bit'
+
+        - projectLocation: 'Custom Device Source\Scan Engine Linux x64.lvproj'
+          buildOperation: 'ExecuteBuildSpec'
+          target: 'Linux x64'
+          buildSpec: 'Engine Release'
+          exclusions:
+            - version: '2021'
+              bitness: '64bit'
+            - version: '2023'
+              bitness: '64bit'
+
+        - projectLocation: 'Custom Device Source\Scan Engine.lvproj'
+          buildOperation: 'ExecuteBuildSpec'
+          target: 'My Computer'
+          buildSpec: 'Scripting API'
+          exclusions:
+            - version: '2021'
+              bitness: '32bit'
+            - version: '2023'
+              bitness: '32bit'
+
+        - projectLocation: 'Scripting Examples\Scan Engine Scripting Examples.lvproj'
+          buildOperation: 'ExecuteBuildSpec'
+          target: 'My Computer'
+          buildSpec: 'Examples'
+          exclusions:
+            - version: '2021'
+              bitness: '32bit'
+            - version: '2023'
+              bitness: '32bit'
+
+      releaseVersion: '23.0.0'
+      quarterlyReleaseVersion: '2023 Q1'
+      buildOutputLocation: 'Built'
+      archiveLocation: '\\nirvana\Measurements\VeriStandAddons\prototype\scan_engine_custom_device'
+
+# Test Building multiple packages with multiple payload maps
+      packages:
+        - controlFileName: 'control'
+          payloadMaps:
+            - payloadLocation: 'Built\Scan Engine'
+              installLocation: 'documents\National Instruments\NI VeriStand $(lvVersion)\Custom Devices\Scan Engine'
+            - payloadLocation: 'Built\Errors'
+              installLocation: 'ni-paths-NISHAREDDIR$(nipkgx64suffix)\LabVIEW Run-Time\$(lvVersion)\errors\English'
+
+        - controlFileName: 'control_scripting'
+          payloadMaps:
+            - payloadLocation: 'Built\Scripting\Scan Engine'
+              installLocation: 'ni-paths-LV$(lvVersion)DIR$(nipkgx64suffix)\vi.lib\addons\VeriStand Custom Device Scripting APIs\Scan Engine'
+
+        - controlFileName: 'control_examples'
+          payloadMaps:
+            - payloadLocation: 'Built\Examples\Scan Engine'
+              installLocation: 'ni-paths-LV$(lvVersion)DIR$(nipkgx64suffix)\examples\NI VeriStand Custom Devices\Scan Engine'
