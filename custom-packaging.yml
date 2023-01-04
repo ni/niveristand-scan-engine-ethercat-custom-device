@@ -20,9 +20,6 @@ steps:
       inputs:
         targetType: 'inline'
         script: |
-          $customDeviceRepoName = '$(Build.Repository.Name)' -replace '.+\/', ''
-          Write-Host "##vso[task.setvariable variable=customDeviceRepoName]$customDeviceRepoName"
-          Write-Host "##vso[task.setvariable variable=nipkgPath]$customDeviceRepoName\nipkg"
           Write-Output 'Configuring release version to "${{ parameters.releaseVersion }}" and quarterlyReleaseVersion to "${{ parameters.quarterlyReleaseVersion }}"...'
           Write-Host '##vso[task.setvariable variable=releaseVersion]${{ parameters.releaseVersion }}'
           Write-Host '##vso[task.setvariable variable=quarterlyReleaseVersion]${{ parameters.quarterlyReleaseVersion }}'
@@ -64,21 +61,21 @@ steps:
             targetType: 'inline'
             script: |
               Write-Output "setting up nipkg directory..."
-              If (Test-Path '$(nipkgPath)')
+              If (Test-Path 'nipkg')
               {
-                Remove-Item -Path '$(nipkgPath)' -Recurse -Force
+                Remove-Item -Path 'nipkg' -Recurse -Force
               }
-              New-Item -Path '$(nipkgPath)' -ItemType 'Directory'
-              New-Item -Path '$(nipkgPath)' -Name 'control' -ItemType 'Directory'
-              New-Item -Path '$(nipkgPath)' -Name 'data' -ItemType 'Directory'
-              New-Item -Path '$(nipkgPath)' -Name 'debian-binary' -ItemType 'File'
-              Set-Content '$(nipkgPath)\debian-binary' '2.0\n'
+              New-Item -Path 'nipkg' -ItemType 'Directory'
+              New-Item -Path 'nipkg' -Name 'control' -ItemType 'Directory'
+              New-Item -Path 'nipkg' -Name 'data' -ItemType 'Directory'
+              New-Item -Path 'nipkg' -Name 'debian-binary' -ItemType 'File'
+              Set-Content 'nipkg\debian-binary' '2.0\n'
               Copy-Item `
-                -Path '$(customDeviceRepoName)\${{ package.controlFileName }}' `
-                -Destination '$(nipkgPath)\control\control'
+                -Path '${{ package.controlFileName }}' `
+                -Destination 'nipkg\control\control'
               `
               Write-Output "updating nipkg control version parameters..."
-              $contents = (Get-Content -Path '$(nipkgPath)\control\control')`
+              $contents = (Get-Content -Path 'nipkg\control\control')`
                 -replace '{veristand_version}', '$(lvVersion)'`
                 -replace '{labview_version}', '$(lvVersion)'`
                 -replace '{nipkg_version}', '$(releaseVersion)'`
@@ -86,7 +83,7 @@ steps:
                 -replace '{quarterly_display_version}', '$(quarterlyReleaseVersion)'`
                 -replace '{labview_short_version}', '$(shortLvVersion)'
               Write-Output $contents
-              Set-Content -Value $contents -Path '$(nipkgPath)\control\control'
+              Set-Content -Value $contents -Path 'nipkg\control\control'
 
         - ${{ each payloadMap in package.payloadMaps }}:
           - task: PowerShell@2
@@ -94,7 +91,7 @@ steps:
             inputs:
               targetType: 'inline'
               script: |
-                New-Item -Path '$(nipkgPath)\data\${{ payloadMap.installLocation }}' -ItemType 'Directory'
+                New-Item -Path 'nipkg\data\${{ payloadMap.installLocation }}' -ItemType 'Directory'
                 If (Test-Path "$(archivePath)\$(Build.BuildNumber)\$(lvVersion)\x86\${{ payloadMap.payloadLocation }}")
                 {
                   $payloadArchiveLocation = "$(archivePath)\$(Build.BuildNumber)\$(lvVersion)\x86\${{ payloadMap.payloadLocation }}"
@@ -109,12 +106,12 @@ steps:
                 }
                 Copy-Item `
                   -Path '$(archivePath)\$(Build.BuildNumber)\$(lvVersion)\x64\${{ payloadMap.payloadLocation }}\*' `
-                  -Destination '$(nipkgPath)\data\${{ payloadMap.installLocation }}'
+                  -Destination 'nipkg\data\${{ payloadMap.installLocation }}'
 
         - task: CmdLine@2
           displayName: Pack nipkg
           inputs:
-            script: '"%PROGRAMFILES%\National Instruments\NI Package Manager\nipkg.exe" pack "$(nipkgPath)" "$(nipkgPath)"'
+            script: '"%PROGRAMFILES%\National Instruments\NI Package Manager\nipkg.exe" pack "nipkg" "nipkg"'
 
         - task: PowerShell@2
           displayName: Copy installer to build output location
@@ -127,7 +124,7 @@ steps:
                 New-Item -Path $installerPath -ItemType 'Directory'
               }
               Copy-Item `
-                -Path '$(nipkgPath)\*' `
+                -Path 'nipkg\*' `
                 -Destination $installerPath `
                 -Include *.nipkg `
                 -Recurse
