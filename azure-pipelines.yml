@@ -150,21 +150,36 @@ stages:
       buildOutputLocation: 'Built'
       archiveLocation: '\\nirvana\Measurements\VeriStandAddons\prototype\scan_engine_custom_device'
 
-# Test Building multiple packages with multiple payload maps
-      packages:
-        - controlFileName: 'control'
-          payloadMaps:
-            - payloadLocation: 'Built\Scan Engine'
-              installLocation: 'documents\National Instruments\NI VeriStand $(lvVersion)\Custom Devices\Scan Engine'
-            - payloadLocation: 'Built\Errors'
-              installLocation: 'ni-paths-NISHAREDDIR$(nipkgx64suffix)\LabVIEW Run-Time\$(lvVersion)\errors\English'
+  - stage: Custom Package
+    displayName: Package
+    jobs:
+      - job: CustomPackageJob
+        displayName: Custom Package
+        steps:
+          - template: custom-packaging.yml
+            parameters:
+        # Parameters from above.  Scan Engine requires a custom package building stage after all items have been archived.  this custom packaging stage is derived from the template jobs in build-tools
+              releaseVersion: '23.0.0'
+              quarterlyReleaseVersion: '2023 Q1'
+              archiveLocation: '\\nirvana\Measurements\VeriStandAddons\prototype\scan_engine_custom_device'
+              lvVersions:
+                - '2020'
+                - '2021'
+                - '2023'
+              packages:
+                - controlFileName: 'control'
+                  payloadMaps:
+                    - payloadLocation: 'Scan Engine'
+                      installLocation: 'documents\National Instruments\NI VeriStand $(lvVersion)\Custom Devices\Scan Engine'
+                    - payloadLocation: 'Errors'
+                      installLocation: 'ni-paths-NISHAREDDIR$(nipkgx64suffix)\LabVIEW Run-Time\$(lvVersion)\errors\English'
 
-        - controlFileName: 'control_scripting'
-          payloadMaps:
-            - payloadLocation: 'Built\Scripting\Scan Engine'
-              installLocation: 'ni-paths-LV$(lvVersion)DIR$(nipkgx64suffix)\vi.lib\addons\VeriStand Custom Device Scripting APIs\Scan Engine'
+                - controlFileName: 'control_scripting'
+                  payloadMaps:
+                    - payloadLocation: 'Scripting\Scan Engine'
+                      installLocation: 'ni-paths-LV$(lvVersion)DIR$(nipkgx64suffix)\vi.lib\addons\VeriStand Custom Device Scripting APIs\Scan Engine'
 
-        - controlFileName: 'control_examples'
-          payloadMaps:
-            - payloadLocation: 'Built\Examples\Scan Engine'
-              installLocation: 'ni-paths-LV$(lvVersion)DIR$(nipkgx64suffix)\examples\NI VeriStand Custom Devices\Scan Engine'
+                - controlFileName: 'control_examples'
+                  payloadMaps:
+                    - payloadLocation: 'Examples\Scan Engine'
+                      installLocation: 'ni-paths-LV$(lvVersion)DIR$(nipkgx64suffix)\examples\NI VeriStand Custom Devices\Scan Engine'
