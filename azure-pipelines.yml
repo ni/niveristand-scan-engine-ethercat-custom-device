@@ -150,7 +150,7 @@ stages:
       buildOutputLocation: 'Built'
       archiveLocation: '\\nirvana\Measurements\VeriStandAddons\prototype\scan_engine_custom_device'
 
-  - stage: Custom Package
+  - stage: CustomPackaging
     displayName: Package
     jobs:
       - job: CustomPackageJob
