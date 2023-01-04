@@ -152,6 +152,7 @@ stages:
 
   - stage: CustomPackaging
     displayName: Package
+    dependsOn: Build
     jobs:
       - job: CustomPackageJob
         displayName: Custom Package
