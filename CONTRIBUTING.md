@@ -1,3 +1,4 @@
+DONT SUBMIT THIS CHANGE
 # Contributing to niveristand-scan-engine-ethercat-custom-device
 
 Contributions to niveristand-scan-engine-ethercat-custom-device are welcome from all!
