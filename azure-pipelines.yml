@@ -163,7 +163,7 @@ stages:
         steps:
           - template: custom-packaging.yml
             parameters:
-        # Parameters from above.  Scan Engine requires a custom package building stage after all items have been archived.  this custom packaging stage is derived from the template jobs in build-tools
+        # Scan Engine requires a custom package building stage after all items have been archived.  this custom packaging stage is derived from the template jobs in build-tools, so it uses the same parameters
               releaseVersion: '23.0.0'
               quarterlyReleaseVersion: '2023 Q1'
               archiveLocation: '\\nirvana\Measurements\VeriStandAddons\prototype\scan_engine_custom_device'
