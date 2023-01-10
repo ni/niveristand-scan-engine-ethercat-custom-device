@@ -10,6 +10,6 @@ Homepage: http://www.ni.com
 XB-LanguageSupport: en
 XB-UserVisible: yes
 Section: Add-Ons
-XB-DisplayVersion: {display_version}
+XB-DisplayVersion: {quarterly_display_version}
 XB-DisplayName: NI Scan Engine and EtherCAT LabVIEW Examples for VeriStand {veristand_version}
 Depends: ni-labview-{labview_version}{pkg_x86_bitness_suffix}, ni-veristand-{labview_version} (>= {labview_short_version}.0.0), ni-scan-engine-veristand-{veristand_version}-labview-support (>= {display_version})
