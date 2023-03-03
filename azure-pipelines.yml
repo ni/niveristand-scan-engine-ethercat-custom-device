@@ -154,7 +154,7 @@ stages:
     displayName: Package
     dependsOn: Build
     pool:
-      name: custom-device-temp # TEMPORARY, eventually use an official build pool of custom device agents!!
+      name: DevCentral-VeriStand-CustomDevices
       demands:
         - agent.os -equals Windows_NT
     jobs:
