@@ -105,6 +105,10 @@ steps:
                   Write-Error "Archived payload is not found for either bitness"
                 }
                 Copy-Item `
+                  -Path '$(archivePath)\$(Build.BuildNumber)\$(lvVersion)\x86\${{ payloadMap.payloadLocation }}\*' `
+                  -Destination 'nipkg\data\${{ payloadMap.installLocation }}' `
+                  -Recurse
+                Copy-Item `
                   -Path '$(archivePath)\$(Build.BuildNumber)\$(lvVersion)\x64\${{ payloadMap.payloadLocation }}\*' `
                   -Destination 'nipkg\data\${{ payloadMap.installLocation }}' `
                   -Recurse
