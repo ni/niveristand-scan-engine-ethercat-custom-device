@@ -10,7 +10,7 @@ resources:
     - repository: niveristand-custom-device-build-tools
       type:       github
       ref:        main
-      endpoint:   ni (2)
+      endpoint:   nivs-custom-devices
       name:       ni/niveristand-custom-device-build-tools
   pipelines:
     - pipeline: FxpLibraries
@@ -154,7 +154,7 @@ stages:
     displayName: Package
     dependsOn: Build
     pool:
-      name: custom-device-temp # TEMPORARY, eventually use an official build pool of custom device agents!!
+      name: DevCentral-VeriStand-CustomDevices
       demands:
         - agent.os -equals Windows_NT
     jobs:
