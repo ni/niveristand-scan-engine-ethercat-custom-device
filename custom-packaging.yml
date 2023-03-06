@@ -106,7 +106,8 @@ steps:
                 }
                 Copy-Item `
                   -Path '$(archivePath)\$(Build.BuildNumber)\$(lvVersion)\x64\${{ payloadMap.payloadLocation }}\*' `
-                  -Destination 'nipkg\data\${{ payloadMap.installLocation }}'
+                  -Destination 'nipkg\data\${{ payloadMap.installLocation }}' `
+                  -Recurse
 
         - task: CmdLine@2
           displayName: Pack nipkg
