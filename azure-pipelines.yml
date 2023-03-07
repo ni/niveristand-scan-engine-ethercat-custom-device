@@ -141,8 +141,7 @@ stages:
             - version: '2023'
               bitness: '32bit'
 
-      releaseVersion: '23.0.0'
-      quarterlyReleaseVersion: '2023 Q1'
+      releaseVersion: '23.3.0'
       buildOutputLocation: 'Built'
       archiveLocation: '\\nirvana\Measurements\VeriStandAddons\prototype\scan_engine_custom_device'
 
@@ -160,8 +159,7 @@ stages:
           - template: custom-packaging.yml
             parameters:
         # Scan Engine requires a custom package building stage after all items have been archived.  this custom packaging stage is derived from the template jobs in build-tools, so it uses the same parameters
-              releaseVersion: '23.0.0'
-              quarterlyReleaseVersion: '2023 Q1'
+              releaseVersion: '23.3.0'
               archiveLocation: '\\nirvana\Measurements\VeriStandAddons\prototype\scan_engine_custom_device'
               lvVersions:
                 - '2020'
