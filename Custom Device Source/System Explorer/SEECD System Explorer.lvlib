@@ -25,6 +25,8 @@
 		<Item Name="Utilities" Type="Folder">
 			<Item Name="Build Command Line Arguments.vi" Type="VI" URL="../Applications/Utilities/Build Command Line Arguments.vi"/>
 			<Item Name="Build Installed Folder Paths.vi" Type="VI" URL="../Applications/Utilities/Build Installed Folder Paths.vi"/>
+			<Item Name="Copy cRIO DLLs.vi" Type="VI" URL="../Applications/Utilities/Copy cRIO DLLs.vi"/>
+			<Item Name="Delete Application Data Directory.vi" Type="VI" URL="../Applications/Utilities/Delete Application Data Directory.vi"/>
 			<Item Name="Display EtherCAT Provider Error.vi" Type="VI" URL="../Applications/Utilities/Display EtherCAT Provider Error.vi"/>
 			<Item Name="Display Message Dialog.vi" Type="VI" URL="../Applications/Utilities/Display Message Dialog.vi"/>
 			<Item Name="Generate Application Call Error.vi" Type="VI" URL="../Applications/Utilities/Generate Application Call Error.vi"/>
