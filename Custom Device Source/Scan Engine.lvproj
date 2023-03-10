@@ -28,6 +28,11 @@
 			<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
 		</Item>
 		<Item Name="data" Type="Folder">
+			<Item Name="ECATLVProvider" Type="Folder">
+				<Item Name="indcomecat.chm" Type="Document" URL="../data/ECATLVProvider/indcomecat.chm"/>
+				<Item Name="niECATLVProvider.mxx" Type="Document" URL="../data/ECATLVProvider/niECATLVProvider.mxx"/>
+				<Item Name="niECATLVProvider.mxxlic" Type="Document" URL="../data/ECATLVProvider/niECATLVProvider.mxxlic"/>
+			</Item>
 			<Item Name="NI 9145" Type="Folder">
 				<Item Name="_loadSP3user.foe" Type="Document" URL="../data/NI 9145/_loadSP3user.foe"/>
 				<Item Name="_wipeback.foe" Type="Document" URL="../data/NI 9145/_wipeback.foe"/>
@@ -757,7 +762,7 @@
 				<Property Name="DestinationCount" Type="Int">8</Property>
 				<Property Name="Source[0].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[0].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{84D05D0E-CAE0-4E5D-9E1D-5D40ACF04542}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{3145C7E5-FC80-4F19-91EC-0A588A289FC0}</Property>
 				<Property Name="Source[0].properties[0].type" Type="Str">Allow debugging</Property>
 				<Property Name="Source[0].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[0].properties[1].type" Type="Str">Remove front panel</Property>
@@ -844,6 +849,13 @@
 				<Property Name="Source[2].destinationIndex" Type="Int">2</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Custom Device Scan Engine.xml</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[20].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[20].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[20].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[20].destinationIndex" Type="Int">4</Property>
+				<Property Name="Source[20].itemID" Type="Ref">/My Computer/data/ECATLVProvider</Property>
+				<Property Name="Source[20].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[20].type" Type="Str">Container</Property>
 				<Property Name="Source[3].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[3].Container.applySaveSettings" Type="Bool">true</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
@@ -928,7 +940,7 @@
 				<Property Name="Source[9].properties[2].value" Type="Bool">true</Property>
 				<Property Name="Source[9].propertiesCount" Type="Int">3</Property>
 				<Property Name="Source[9].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">20</Property>
+				<Property Name="SourceCount" Type="Int">21</Property>
 			</Item>
 			<Item Name="Scripting API" Type="Source Distribution">
 				<Property Name="Bld_buildCacheID" Type="Str">{1D405A5D-4017-4DD2-A11C-E9AF4B4798D7}</Property>
