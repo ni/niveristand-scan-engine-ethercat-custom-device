@@ -1231,6 +1231,7 @@
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{FB25B304-214F-4DC4-91F8-FA13F045F07F}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Get HW Config</Property>
+				<Property Name="Bld_excludeDependentDLLs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
@@ -1248,7 +1249,7 @@
 				<Property Name="Destination[1].path" Type="Path">../Built/NI_AB_PROJECTNAME/Applications/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_cmdLineArgs" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{219CD43D-12C0-4EA1-91F5-8482BD4CFDE5}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{D567B563-68FD-4E15-AEC3-FC3237B6DB6B}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Applications/Call Check and Download Bitfile.vi</Property>
