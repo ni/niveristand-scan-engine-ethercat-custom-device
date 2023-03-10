@@ -1231,15 +1231,15 @@
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{FB25B304-214F-4DC4-91F8-FA13F045F07F}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Get HW Config</Property>
-				<Property Name="Bld_excludeDependentDLLs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">../Built/NI_AB_PROJECTNAME/Applications</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Build VIs.lvlib/Delete Data Folder.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{5F918325-16D0-468C-AE69-2F3091353BA4}</Property>
-				<Property Name="Bld_version.build" Type="Int">28</Property>
+				<Property Name="Bld_version.build" Type="Int">30</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Get HW Config.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../Built/NI_AB_PROJECTNAME/Applications/Get HW Config.exe</Property>
@@ -1249,7 +1249,7 @@
 				<Property Name="Destination[1].path" Type="Path">../Built/NI_AB_PROJECTNAME/Applications/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_cmdLineArgs" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{D567B563-68FD-4E15-AEC3-FC3237B6DB6B}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{240FBC31-2C71-4636-8D11-C6ADD64BC518}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Applications/Call Check and Download Bitfile.vi</Property>
@@ -1291,7 +1291,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{C3B6A2D1-EAB0-4AC0-96E7-7DE81E6B7FFE}</Property>
-				<Property Name="Bld_version.build" Type="Int">8</Property>
+				<Property Name="Bld_version.build" Type="Int">9</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Check and Download Bitfile.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../Built/NI_AB_PROJECTNAME/Applications/Check and Download Bitfile.exe</Property>
@@ -1337,7 +1337,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{E37E58E0-726B-4AAD-879A-0ADF068FAA33}</Property>
-				<Property Name="Bld_version.build" Type="Int">10</Property>
+				<Property Name="Bld_version.build" Type="Int">11</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Revert to Scan Mode.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../Built/NI_AB_PROJECTNAME/Applications/Revert to Scan Mode.exe</Property>
@@ -1383,7 +1383,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{F4F8C446-53AD-48C5-8F10-E502468F2992}</Property>
-				<Property Name="Bld_version.build" Type="Int">4</Property>
+				<Property Name="Bld_version.build" Type="Int">6</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Import ESI File.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../Built/NI_AB_PROJECTNAME/Applications/Import ESI File.exe</Property>
@@ -1393,7 +1393,7 @@
 				<Property Name="Destination[1].path" Type="Path">../Built/NI_AB_PROJECTNAME/Applications/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_cmdLineArgs" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{090B7972-364C-4D32-9CD4-AF271F33CB60}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{240FBC31-2C71-4636-8D11-C6ADD64BC518}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/Applications/Import ESI File.vi</Property>
@@ -1429,7 +1429,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{E16D48CE-BCAE-42BB-BD23-8FB9590C713D}</Property>
-				<Property Name="Bld_version.build" Type="Int">2</Property>
+				<Property Name="Bld_version.build" Type="Int">3</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Read Target ESI Files.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../Built/NI_AB_PROJECTNAME/Applications/Read Target ESI Files.exe</Property>
