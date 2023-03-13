@@ -5,6 +5,7 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="Call Build CHM.vi" Type="VI" URL="../Call Build CHM.vi"/>
+	<Item Name="Copy ECATLVProvider32 Files.vi" Type="VI" URL="../Copy ECATLVProvider32 Files.vi"/>
 	<Item Name="Copy Scripting API to Installed Location.vi" Type="VI" URL="../Copy Scripting API to Installed Location.vi"/>
 	<Item Name="Create Stub Files.vi" Type="VI" URL="../Create Stub Files.vi"/>
 	<Item Name="Delete Data Folder.vi" Type="VI" URL="../Delete Data Folder.vi"/>
