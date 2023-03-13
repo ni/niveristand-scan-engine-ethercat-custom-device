@@ -18,6 +18,20 @@ steps:
       inputs:
         targetType: 'inline'
         script: |
+          If ('$(Build.Reason)' -eq 'PullRequest')
+          {
+            Write-Output "Setting variables for Pull Requests..."
+            $sourceBranch = "$(System.PullRequest.SourceBranch)"
+            Write-Output "Source branch $(System.PullRequest.SourceBranch)"
+          }
+          Else
+          {
+            Write-Output "Setting variables for general builds..."
+            $sourceBranch = "$(Build.SourceBranch)" -replace 'refs/heads/', ''
+            Write-Output "Source branch $(Build.SourceBranch), removed refs/heads/"
+          }
+          Write-Output "Using $sourceBranch in archive path..."
+          Write-Host "##vso[task.setvariable variable=sourceBranch]$sourceBranch"
           Write-Output 'Determining quarterlyReleaseVersion...'
           $releaseData = "${{ parameters.releaseVersion }}" -Split "\."
           If ($releaseData[1] -eq "0")
