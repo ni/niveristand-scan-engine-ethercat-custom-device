@@ -7,29 +7,29 @@ The file paths assume your install directory is on the C drive. Use the relative
 VeriStand installs multiple APIs for LabVIEW, and these all need duplicated to LabVIEW 32-bit.
 
 #### vi.lib\NI
-These are VeriStand's native APIs, including the Custom Device API. Copy from 64-bit to 32-bit:
+These are VeriStand's native APIs, including the Custom Device API. Copy from 64-bit to 32-bit for the required year-version of LabVIEW:
 
 ```
-C:\Program Files\National Instruments\LabVIEW ${labview_x64_version}\vi.lib\NI
+C:\Program Files\National Instruments\LabVIEW 20XX\vi.lib\NI
 ```
 
 to
 
 ```
-C:\Program Files (x86)\National Instruments\LabVIEW ${labview_x64_version}\vi.lib\NI
+C:\Program Files (x86)\National Instruments\LabVIEW 20XX\vi.lib\NI
 ```
 
 #### vi.lib\NI VeriStand
-This directory contains the addons from VeriStand's Custom Device Development Tools repository which are installed via NI Package. Copy from 64-bit to 32-bit:
+This directory contains the addons from VeriStand's Custom Device Development Tools repository which are installed via NI Package. Copy from 64-bit to 32-bit for the required year-version of LabVIEW:
 
 ```
-C:\Program Files\National Instruments\LabVIEW ${labview_x64_version}\vi.lib\NI VeriStand
+C:\Program Files\National Instruments\LabVIEW 20XX\vi.lib\NI VeriStand
 ```
 
 to
 
 ```
-C:\Program Files (x86)\National Instruments\LabVIEW ${labview_x64_version}\vi.lib\NI VeriStand
+C:\Program Files (x86)\National Instruments\LabVIEW 20XX\vi.lib\NI VeriStand
 ```
 
 ### EtherCAT Driver Dependencies
