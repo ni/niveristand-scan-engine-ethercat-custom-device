@@ -18,6 +18,20 @@ steps:
       inputs:
         targetType: 'inline'
         script: |
+          If ('$(Build.Reason)' -eq 'PullRequest')
+          {
+            Write-Output "Setting variables for Pull Requests..."
+            $sourceBranch = "$(System.PullRequest.SourceBranch)"
+            Write-Output "Source branch $(System.PullRequest.SourceBranch)"
+          }
+          Else
+          {
+            Write-Output "Setting variables for general builds..."
+            $sourceBranch = "$(Build.SourceBranch)" -replace 'refs/heads/', ''
+            Write-Output "Source branch $(Build.SourceBranch), removed refs/heads/"
+          }
+          Write-Output "Using $sourceBranch in archive path..."
+          Write-Host "##vso[task.setvariable variable=sourceBranch]$sourceBranch"
           Write-Output 'Determining quarterlyReleaseVersion...'
           $releaseData = "${{ parameters.releaseVersion }}" -Split "\."
           If ($releaseData[1] -eq "0")
@@ -59,14 +73,6 @@ steps:
           {
             Write-Error "Invalid LabVIEW version defined in pipeline: ${{ lvVersion }}.  Use either 2020, 2021, or 2023."
           }
-          If ('$(Build.Reason)' -eq 'PullRequest')
-          {
-            $sourceBranch = "$(System.PullRequest.SourceBranch)" -replace 'dev/', ''
-          }
-          Else
-          {
-            $sourceBranch = "$(Build.SourceBranchName)"
-          }
           Write-Host "##vso[task.setvariable variable=archivePath]${{ parameters.archiveLocation }}\NI\export\$sourceBranch\"
 
     - ${{ each package in parameters.packages }}:
@@ -91,13 +97,14 @@ steps:
                 -Destination 'nipkg\control\control'
               `
               Write-Output "updating nipkg control version parameters..."
-              $contents = (Get-Content -Path 'nipkg\control\control')`
-                -replace '{veristand_version}', '$(lvVersion)'`
-                -replace '{labview_version}', '$(lvVersion)'`
-                -replace '{nipkg_version}', '$(releaseVersion)'`
-                -replace '{display_version}', '$(releaseVersion)'`
-                -replace '{quarterly_display_version}', '$(quarterlyReleaseVersion)'`
-                -replace '{labview_short_version}', '$(shortLvVersion)'
+              $contents = (Get-Content -Path "nipkg\control\control") `
+                -replace "{veristand_version}", "$(lvVersion)" `
+                -replace "{labview_version}", "$(lvVersion)" `
+                -replace "{nipkg_version}", "$(releaseVersion).$env:BUILDCOUNTER" `
+                -replace "{display_version}", "$(releaseVersion)" `
+                -replace "{quarterly_display_version}", "$(quarterlyReleaseVersion)" `
+                -replace "{labview_short_version}", "$(shortLvVersion)" `
+                -replace "{nipkgx64suffix}", "$(nipkgx64suffix)"
               Write-Output $contents
               Set-Content -Value $contents -Path 'nipkg\control\control'
 
@@ -108,18 +115,6 @@ steps:
               targetType: 'inline'
               script: |
                 New-Item -Path 'nipkg\data\${{ payloadMap.installLocation }}' -ItemType 'Directory'
-                If (Test-Path "$(archivePath)\$(Build.BuildNumber)\$(lvVersion)\x86\${{ payloadMap.payloadLocation }}")
-                {
-                  $payloadArchiveLocation = "$(archivePath)\$(Build.BuildNumber)\$(lvVersion)\x86\${{ payloadMap.payloadLocation }}"
-                }
-                Elseif (Test-Path "$(archivePath)\$(Build.BuildNumber)\$(lvVersion)\x64\${{ payloadMap.payloadLocation }}")
-                {
-                  $payloadArchiveLocation = "$(archivePath)\$(Build.BuildNumber)\$(lvVersion)\x64\${{ payloadMap.payloadLocation }}"
-                }
-                Else
-                {
-                  Write-Error "Archived payload is not found for either bitness"
-                }
                 Copy-Item `
                   -Path '$(archivePath)\$(Build.BuildNumber)\$(lvVersion)\x86\${{ payloadMap.payloadLocation }}\*' `
                   -Destination 'nipkg\data\${{ payloadMap.installLocation }}' `
@@ -149,3 +144,23 @@ steps:
                 -Destination $installerPath `
                 -Include *.nipkg `
                 -Recurse
+
+  - task: PowerShell@2
+    displayName: Rename nipkg files to match branch type
+    inputs:
+      targetType: 'inline'
+      script: |
+        If (-not("$(sourceBranch)" -match "release"))
+        {
+          $cleanedSourceBranch = "$(sourceBranch)" -replace "\/", "_"
+          Write-Output "Not a release branch, so appending branch name $cleanedSourceBranch to nipkg files..."
+          $packages = Get-ChildItem `
+            -Path "$(archivePath)\$(Build.BuildNumber)\*\installer\*.nipkg"
+          Foreach ($package in $packages)
+          {
+            If (-not("$package" -match "$cleanedSourceBranch.nipkg"))
+            {
+              Rename-Item -Path "$package" -NewName ("$package" -replace ".nipkg", "_$cleanedSourceBranch.nipkg")
+            }
+          }
+        }
