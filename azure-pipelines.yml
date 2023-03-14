@@ -37,13 +37,13 @@ stages:
           bitness: '64bit'
 
       dependencies:
-        - source: '\\nirvana\Measurements\VeriStandAddons\prototype\scan_engine_fxp'
+        - source: '\\nirvana\Measurements\VeriStandAddons\scan_engine_fxp'
           file: 'FXP.llb'
           destination: 'Includes'
-        - source: '\\nirvana\Measurements\VeriStandAddons\prototype\scan_engine_modules'
+        - source: '\\nirvana\Measurements\VeriStandAddons\scan_engine_modules'
           file: 'Modules.lvlibp'
           destination: 'Includes'
-        - source: '\\nirvana\Measurements\VeriStandAddons\prototype\scan_engine_modules'
+        - source: '\\nirvana\Measurements\VeriStandAddons\scan_engine_modules'
           file: 'NI ECAT Remote IO.llb'
           destination: 'Includes'
 
@@ -143,7 +143,7 @@ stages:
 
       releaseVersion: '23.3.0'
       buildOutputLocation: 'Built'
-      archiveLocation: '\\nirvana\Measurements\VeriStandAddons\prototype\scan_engine_custom_device'
+      archiveLocation: '\\nirvana\Measurements\VeriStandAddons\scan_engine_custom_device'
 
   - stage: CustomPackaging
     displayName: Package
@@ -165,7 +165,7 @@ stages:
             parameters:
         # Scan Engine requires a custom package building stage after all items have been archived.  this custom packaging stage is derived from the template jobs in build-tools, so it uses the same parameters
               releaseVersion: '23.3.0'
-              archiveLocation: '\\nirvana\Measurements\VeriStandAddons\prototype\scan_engine_custom_device'
+              archiveLocation: '\\nirvana\Measurements\VeriStandAddons\scan_engine_custom_device'
               lvVersions:
                 - '2020'
                 - '2021'
