@@ -152,6 +152,11 @@ stages:
       name: DevCentral-VeriStand-CustomDevices
       demands:
         - agent.os -equals Windows_NT
+    variables:
+      ${{ if ne(variables['Build.Reason'], 'PullRequest')}}:
+        buildCounter: $[counter("variables['Build.SourceBranch']custom", 1)]
+      ${{ if eq(variables['Build.Reason'], 'PullRequest')}}:
+        buildCounter: "9999"
     jobs:
       - job: CustomPackageJob
         displayName: Custom Package
