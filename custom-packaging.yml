@@ -155,7 +155,7 @@ steps:
           $cleanedSourceBranch = "$(sourceBranch)" -replace "\/", "_"
           Write-Output "Not a release branch, so appending branch name $cleanedSourceBranch to nipkg files..."
           $packages = Get-ChildItem `
-            -Path "$(archivePath)\$(Build.BuildNumber)\$(lvVersion)\installer\*.nipkg"
+            -Path "$(archivePath)\$(Build.BuildNumber)\*\installer\*.nipkg"
           Foreach ($package in $packages)
           {
             If (-not("$package" -match "$cleanedSourceBranch.nipkg"))
