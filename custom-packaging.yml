@@ -73,14 +73,6 @@ steps:
           {
             Write-Error "Invalid LabVIEW version defined in pipeline: ${{ lvVersion }}.  Use either 2020, 2021, or 2023."
           }
-          If ('$(Build.Reason)' -eq 'PullRequest')
-          {
-            $sourceBranch = "$(System.PullRequest.SourceBranch)" -replace 'dev/', ''
-          }
-          Else
-          {
-            $sourceBranch = "$(Build.SourceBranchName)"
-          }
           Write-Host "##vso[task.setvariable variable=archivePath]${{ parameters.archiveLocation }}\NI\export\$sourceBranch\"
 
     - ${{ each package in parameters.packages }}:
