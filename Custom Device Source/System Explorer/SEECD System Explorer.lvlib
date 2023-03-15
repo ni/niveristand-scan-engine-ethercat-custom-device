@@ -25,10 +25,13 @@
 		<Item Name="Utilities" Type="Folder">
 			<Item Name="Build Command Line Arguments.vi" Type="VI" URL="../Applications/Utilities/Build Command Line Arguments.vi"/>
 			<Item Name="Build Installed Folder Paths.vi" Type="VI" URL="../Applications/Utilities/Build Installed Folder Paths.vi"/>
+			<Item Name="Copy cRIO DLLs.vi" Type="VI" URL="../Applications/Utilities/Copy cRIO DLLs.vi"/>
+			<Item Name="Delete Application Data Directory.vi" Type="VI" URL="../Applications/Utilities/Delete Application Data Directory.vi"/>
 			<Item Name="Display EtherCAT Provider Error.vi" Type="VI" URL="../Applications/Utilities/Display EtherCAT Provider Error.vi"/>
 			<Item Name="Display Message Dialog.vi" Type="VI" URL="../Applications/Utilities/Display Message Dialog.vi"/>
 			<Item Name="Generate Application Call Error.vi" Type="VI" URL="../Applications/Utilities/Generate Application Call Error.vi"/>
-			<Item Name="Get LabVIEW Directory.vi" Type="VI" URL="../Applications/Utilities/Get LabVIEW Directory.vi"/>
+			<Item Name="Get ECAT File Paths.vi" Type="VI" URL="../Applications/Utilities/Get ECAT File Paths.vi"/>
+			<Item Name="Get LVRTE Directory.vi" Type="VI" URL="../Applications/Utilities/Get LVRTE Directory.vi"/>
 		</Item>
 		<Item Name="Call Check and Download Bitfile.vi" Type="VI" URL="../Applications/Call Check and Download Bitfile.vi"/>
 		<Item Name="Call Get HW Config.vi" Type="VI" URL="../Applications/Call Get HW Config.vi"/>
@@ -88,6 +91,7 @@
 	</Item>
 	<Item Name="Type Defs" Type="Folder">
 		<Item Name="Bitfile Signature.ctl" Type="VI" URL="../Type Defs/Bitfile Signature.ctl"/>
+		<Item Name="ECAT Files.ctl" Type="VI" URL="../Applications/Utilities/ECAT Files.ctl"/>
 		<Item Name="FPGA Target.ctl" Type="VI" URL="../Type Defs/FPGA Target.ctl"/>
 		<Item Name="Host - HW Config.ctl" Type="VI" URL="../Type Defs/Host - HW Config.ctl"/>
 		<Item Name="Host - Local Chassis.ctl" Type="VI" URL="../Type Defs/Host - Local Chassis.ctl"/>
