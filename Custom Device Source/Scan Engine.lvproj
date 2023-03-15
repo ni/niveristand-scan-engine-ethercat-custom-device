@@ -39,6 +39,8 @@
 				<Item Name="ReloadFPGARevC.foe" Type="Document" URL="../data/NI 9145/ReloadFPGARevC.foe"/>
 			</Item>
 			<Item Name="indcomecat.chm" Type="Document" URL="../data/indcomecat.chm"/>
+			<Item Name="target6devicehelp.chm" Type="Document" URL="../data/target6devicehelp.chm"/>
+			<Item Name="criodevicehelp.chm" Type="Document" URL="../data/criodevicehelp.chm"/>
 		</Item>
 		<Item Name="Errors" Type="Folder">
 			<Item Name="scanengineveristand-errors.txt" Type="Document" URL="../Errors/scanengineveristand-errors.txt"/>
@@ -947,7 +949,7 @@
 				<Property Name="DestinationCount" Type="Int">8</Property>
 				<Property Name="Source[0].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[0].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{BF89816C-A9EA-4041-9940-74CDD980C614}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{E74CF132-BAE1-4BFD-9958-4611201BF56B}</Property>
 				<Property Name="Source[0].properties[0].type" Type="Str">Allow debugging</Property>
 				<Property Name="Source[0].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[0].properties[1].type" Type="Str">Remove front panel</Property>
@@ -1042,6 +1044,12 @@
 				<Property Name="Source[21].destinationIndex" Type="Int">2</Property>
 				<Property Name="Source[21].itemID" Type="Ref">/My Computer/data/indcomecat.chm</Property>
 				<Property Name="Source[21].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[22].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[22].itemID" Type="Ref">/My Computer/data/target6devicehelp.chm</Property>
+				<Property Name="Source[22].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[23].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[23].itemID" Type="Ref">/My Computer/data/criodevicehelp.chm</Property>
+				<Property Name="Source[23].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[3].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[3].Container.applySaveSettings" Type="Bool">true</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
@@ -1126,7 +1134,7 @@
 				<Property Name="Source[9].properties[2].value" Type="Bool">true</Property>
 				<Property Name="Source[9].propertiesCount" Type="Int">3</Property>
 				<Property Name="Source[9].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">22</Property>
+				<Property Name="SourceCount" Type="Int">24</Property>
 			</Item>
 			<Item Name="Scripting API" Type="Source Distribution">
 				<Property Name="Bld_buildCacheID" Type="Str">{1D405A5D-4017-4DD2-A11C-E9AF4B4798D7}</Property>
