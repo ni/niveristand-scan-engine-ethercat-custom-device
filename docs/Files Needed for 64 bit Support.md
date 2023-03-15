@@ -1,10 +1,10 @@
 ## Files Needed to Build with LabVIEW 64-bit
-Because VeriStand 2021 and later only support LabVIEW 64-bit, several directories of VeriStand LabVIEW support files need duplicated to the LabVIEW 32-bit directory to build this custom device for those versions. This document details which directories to copy, as well as which driver support files need exposed to LabVIEW 64-bit.
+Because VeriStand 2021 and later only support LabVIEW 64-bit, several directories of VeriStand LabVIEW support files need to be duplicated to the LabVIEW 32-bit directory to build this custom device for those versions. This document details which directories to copy, as well as which driver support files need to be exposed to LabVIEW 64-bit.
 
 The file paths assume your install directory is on the C drive. Use the relative paths to `Program Files` and `Program Files (x86)` that match your Windows installation.
 
 ### vi.lib
-VeriStand installs multiple APIs for LabVIEW, and these all need duplicated to LabVIEW 32-bit.
+VeriStand installs multiple APIs for LabVIEW, and these all need to be duplicated to LabVIEW 32-bit.
 
 #### vi.lib\NI
 These are VeriStand's native APIs, including the Custom Device API. Copy from 64-bit to 32-bit for the required year-version of LabVIEW:
