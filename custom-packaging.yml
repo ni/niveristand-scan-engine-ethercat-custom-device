@@ -58,16 +58,19 @@ steps:
           {
             Write-Host '##vso[task.setvariable variable=shortLvVersion]20'
             Write-Host '##vso[task.setvariable variable=nipkgx64suffix]'
+            Write-Host '##vso[task.setvariable variable=nipkgx86suffix]-x86'
           }
           Elseif ('${{ lvVersion }}' -eq '2021')
           {
             Write-Host '##vso[task.setvariable variable=shortLvVersion]21'
             Write-Host '##vso[task.setvariable variable=nipkgx64suffix]64'
+            Write-Host '##vso[task.setvariable variable=nipkgx86suffix]'
           }
           Elseif ('${{ lvVersion }}' -eq '2023')
           {
             Write-Host '##vso[task.setvariable variable=shortLvVersion]23'
             Write-Host '##vso[task.setvariable variable=nipkgx64suffix]64'
+            Write-Host '##vso[task.setvariable variable=nipkgx86suffix]'
           }
           Else
           {
@@ -104,6 +107,7 @@ steps:
                 -replace "{display_version}", "$(releaseVersion)" `
                 -replace "{quarterly_display_version}", "$(quarterlyReleaseVersion)" `
                 -replace "{labview_short_version}", "$(shortLvVersion)" `
+                -replace "{pkg_x86_bitness_suffix}", "$(nipkgx86suffix)" `
                 -replace "{nipkgx64suffix}", "$(nipkgx64suffix)"
               Write-Output $contents
               Set-Content -Value $contents -Path 'nipkg\control\control'
@@ -144,6 +148,32 @@ steps:
                 -Destination $installerPath `
                 -Include *.nipkg `
                 -Recurse
+
+    - task: PowerShell@2
+      displayName: Create manifest file
+      inputs:
+        targetType: 'inline'
+        script: |
+          $installerPath = '$(archivePath)\$(Build.BuildNumber)\$(lvVersion)\installer'
+          If ( ("$(sourceBranch)" -match "release") -and (Test-Path $installerPath) )
+          {
+            Write-Output "Adding manifest file to release branch installer directory"
+            $jsonFilePath = Join-Path $installerPath "manifest.json"
+            $scmObject = [PSCustomObject]@{
+              GIT_BRANCH = "$(sourceBranch)"
+              GIT_COMMIT = "$(Build.SourceVersion)"
+              GIT_URL = "$(Build.Repository.Uri)"
+            }
+            $outputObject = [PSCustomObject]@{
+              scm = $scmObject
+            }
+            $jsonString = $outputObject | ConvertTo-Json
+            Set-Content -Path $jsonFilePath -Value $jsonString
+          }
+          Else
+          {
+            Write-Output "No release branch packages built; skipping manifest file"
+          }
 
   - task: PowerShell@2
     displayName: Rename nipkg files to match branch type
