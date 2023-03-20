@@ -73,6 +73,6 @@ Importing EtherCAT profiles requires LabVIEW 32-bit, LabVIEW Real-Time, and the 
 Using auto-detect requires CompactRIO drivers be installed on the host PC. The necessary libraries were not found.
 </nierror>
 <nierror code="-732162">
-Importing EtherCAT profiles requires that the EtherCAT driver be installed on the host PC.
+This action requires that the EtherCAT driver be installed on the host PC.
 </nierror>
 </nidocument>
