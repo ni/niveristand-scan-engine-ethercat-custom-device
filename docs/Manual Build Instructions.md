@@ -15,22 +15,34 @@ Glossary of Terms:
 - PPL = Packed Project Library designated by the file extension .lvlibp
 - LLB = LabVIEW Library that is a build artifact designated by the file extension .llb
 
+### LabVIEW 64-bit support for VeriStand 2021 and later
+Beginning with the 2021 release, VeriStand's LabVIEW-built components are built entirely using LabVIEW 64-bit. For most custom devices, this means LabVIEW 64-bit must be used to build all build specifications.
+
+However, this custom device uses two drivers that as of the 2023 Q1 releases lack LabVIEW 64-bit support: CompactRIO and EtherCAT. To work around this limitation, LabVIEW 32-bit is used to build:
+1. Applications to be called out-of-process that contain driver calls for Windows
+1. The RT engine LLB for LinuxRT targets
+
+See [Files Needed for 64 bit Support](Files%20Needed%20for%2064%20bit%20Support.md) for a list of modifications to allow this build to succeed. The instructions below will call out the LabVIEW bitness to use for each build step when building for VeriStand 2021 and later. If building for VeriStand 2020, ignore the bitness and use only LabVIEW 32-bit for all steps.
+
 ### 1. [Scan Engine FXP Libraries](https://github.com/ni/niveristand-scan-engine-fxp-libraries)
-1. Open `FXP LLB.lvproj`
+1. Open `FXP LLB.lvproj` in LabVIEW 32-bit
 1. Execute `Script FXP Write.vi`
 1. Execute `Script FXP Read.vi`
-1. Build the `FXP LLB` build specification for each target
+1. Build the `FXP LLB` build specification for the Linux x64 target
+1. Close LabVIEW 32-bit
 
 The final file structure of the `Built` directory should be as follows:
-- Windows
-    - FXP.llb
 - Linux_x64
     - FXP.llb
 
 ### 2. [Scan Engine Module Libraries](https://github.com/ni/niveristand-scan-engine-module-libraries)
-1. Open `Modules.lvproj`
-1. Build the `Modules` build specification for each target
-1. Build the `NI ECAT Remote IO` build specification for each target
+1. Open `Modules.lvproj` in LabVIEW 32-bit
+1. Build the `Modules` build specification for the Linux x64 target
+1. Build the `NI ECAT Remote IO` build specification for the Linux x64 target
+1. Close LabVIEW 32-bit
+1. Open `Modules.lvproj` in LabVIEW 64-bit
+1. Build the `Modules` build specification for the Windows target
+1. Build the `NI ECAT Remote IO` build specification for the Windows target
 
 The final file structure of the `Built` directory should be as follows:
 - Windows
@@ -45,22 +57,23 @@ The final file structure of the `Built` directory should be as follows:
     - FXP.llb
     - Modules.lvlibp
     - NI ECAT Remote IO.llb
-1. Open `Scan Engine.lvproj`
+1. Open `Scan Engine Linux x64.lvproj` in LabVIEW 32-bit
     - Depending on the versions of VeriStand and LabVIEW installed on the development PC, the version of the VeriStand .NET assemblies may mismatch with the project. Use .lvproj.config files to lock the version of the assemblies used by the project, or manually navigate to the assemblies on disk at `C:\Windows\Microsoft.NET\assembly\GAC_MSIL\`.
     - You may see dialogs concerning a mismatch of target versions when loading LLBs and PPLs for other operating systems. These are safe to ignore.
 1. Build the `Engine Release` build specification
-1. Close LabVIEW completely
+1. Close LabVIEW 32-bit completely
 1. Copy Windows dependencies from previous repositories' `Built` directory into the `Includes` directory:
-    - FXP.llb
     - Modules.lvlibp
     - NI ECAT Remote IO.llb
-1. Open `Scan Engine.lvproj`
+1. Open `Scan Engine.lvproj` in LabVIEW 32-bit
 1. Build all `Application (EXE)' build specifications:
     - Get HW Config
     - Check and Download Bitfile
     - Revert to Scan Mode
     - Import ESI File
     - Read Target ESI File
+1. Close LabVIEW 32-bit completely
+1. Open `Scan Engine.lvproj` in LabVIEW 64-bit
 1. Build the `Configuration Release` build specification
 
 The final file structure of the `Built` directory should be as follows (only two directory levels are shown):
