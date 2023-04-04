@@ -38,14 +38,14 @@ stages:
 
       dependencies:
         - source: '\\nirvana\Measurements\VeriStandAddons\scan_engine_fxp'
-          file: 'FXP.llb'
-          destination: '$targetDirectory\Includes'
+          file: '$target\FXP.llb'
+          destination: 'Includes'
         - source: '\\nirvana\Measurements\VeriStandAddons\scan_engine_modules'
-          file: 'Modules.lvlibp'
-          destination: '$targetDirectory\Includes'
+          file: '$target\Modules.lvlibp'
+          destination: 'Includes'
         - source: '\\nirvana\Measurements\VeriStandAddons\scan_engine_modules'
-          file: 'NI ECAT Remote IO.llb'
-          destination: '$targetDirectory\Includes'
+          file: '$target\NI ECAT Remote IO.llb'
+          destination: 'Includes'
 
       codegenVis:
         - 'Custom Device Source\Build VIs\Delete Scripting API.vi'
