@@ -38,13 +38,13 @@ stages:
 
       dependencies:
         - source: '\\nirvana\Measurements\VeriStandAddons\scan_engine_fxp'
-          file: 'FXP.llb'
+          file: '$target\FXP.llb'
           destination: 'Includes'
         - source: '\\nirvana\Measurements\VeriStandAddons\scan_engine_modules'
-          file: 'Modules.lvlibp'
+          file: '$target\Modules.lvlibp'
           destination: 'Includes'
         - source: '\\nirvana\Measurements\VeriStandAddons\scan_engine_modules'
-          file: 'NI ECAT Remote IO.llb'
+          file: '$target\NI ECAT Remote IO.llb'
           destination: 'Includes'
 
       codegenVis:
