@@ -179,6 +179,7 @@
 			<Item Name="Add Custom Device Section - Offline.vi" Type="VI" URL="../Utility/Other/Add Custom Device Section - Offline.vi"/>
 			<Item Name="Align cRIO Programming Mode.vi" Type="VI" URL="../Utility/Other/Align cRIO Programming Mode.vi"/>
 			<Item Name="Channel Data and Properties to Table.vi" Type="VI" URL="../Utility/Other/Channel Data and Properties to Table.vi"/>
+			<Item Name="Check ECAT Installed.vi" Type="VI" URL="../Utility/Other/Check ECAT Installed.vi"/>
 			<Item Name="Data Type to Enum.vi" Type="VI" URL="../Utility/Other/Data Type to Enum.vi"/>
 			<Item Name="Filter Out VxWorks Dependent Files.vi" Type="VI" URL="../Utility/Other/Filter Out VxWorks Dependent Files.vi"/>
 			<Item Name="Get Apply Module Mode.vi" Type="VI" URL="../Utility/Other/Get Apply Module Mode.vi"/>
