@@ -162,11 +162,7 @@ steps:
             $scmObject = [PSCustomObject]@{
               GIT_BRANCH = "$(sourceBranch)"
               GIT_COMMIT = "$(Build.SourceVersion)"
-<<<<<<< HEAD
-              GIT_URL = "$(Build.Repository.Uri)"
-=======
               GIT_URL = "$(Build.Repository.Uri).git"
->>>>>>> main
             }
             $outputObject = [PSCustomObject]@{
               scm = $scmObject
