@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="19008000">
+<Project Type="Project" LVVersion="20008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Property Name="varPersistentID:{02DFAF0C-3BB3-4087-AB38-7948A6032536}" Type="Ref">/RT CompactRIO Target/Chassis/Real-Time Scan Resources/User-Defined Variables/Int32 In 2</Property>
@@ -114,7 +114,7 @@
 						<Property Name="NI.LV.FPGA.CompileConfigString" Type="Str">/name=Boolean In 1/datatype=0/direction=0/index=0</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
-						<Property Name="typeDesc" Type="Bin">(1!!!"E!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!</Property>
+						<Property Name="typeDesc" Type="Bin">(1!!!#!!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!</Property>
 					</Item>
 					<Item Name="Boolean In 2" Type="Variable">
 						<Property Name="featurePacks" Type="Str">Industrial</Property>
@@ -132,7 +132,7 @@
 						<Property Name="NI.LV.FPGA.CompileConfigString" Type="Str">/name=Boolean In 2/datatype=0/direction=0/index=1</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
-						<Property Name="typeDesc" Type="Bin">(1!!!"E!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!</Property>
+						<Property Name="typeDesc" Type="Bin">(1!!!#!!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!</Property>
 					</Item>
 					<Item Name="Boolean In 3" Type="Variable">
 						<Property Name="featurePacks" Type="Str">Industrial</Property>
@@ -150,7 +150,7 @@
 						<Property Name="NI.LV.FPGA.CompileConfigString" Type="Str">/name=Boolean In 3/datatype=0/direction=0/index=2</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
-						<Property Name="typeDesc" Type="Bin">(1!!!"E!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!</Property>
+						<Property Name="typeDesc" Type="Bin">(1!!!#!!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!</Property>
 					</Item>
 					<Item Name="Boolean In 4" Type="Variable">
 						<Property Name="featurePacks" Type="Str">Industrial</Property>
@@ -168,7 +168,7 @@
 						<Property Name="NI.LV.FPGA.CompileConfigString" Type="Str">/name=Boolean In 4/datatype=0/direction=0/index=3</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
-						<Property Name="typeDesc" Type="Bin">(1!!!"E!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!</Property>
+						<Property Name="typeDesc" Type="Bin">(1!!!#!!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!</Property>
 					</Item>
 					<Item Name="Boolean Out 1" Type="Variable">
 						<Property Name="featurePacks" Type="Str">Industrial</Property>
@@ -186,7 +186,7 @@
 						<Property Name="NI.LV.FPGA.CompileConfigString" Type="Str">/name=Boolean Out 1/datatype=0/direction=1/index=0</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
-						<Property Name="typeDesc" Type="Bin">(1!!!"E!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!</Property>
+						<Property Name="typeDesc" Type="Bin">(1!!!#!!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!</Property>
 					</Item>
 					<Item Name="Boolean Out 2" Type="Variable">
 						<Property Name="featurePacks" Type="Str">Industrial</Property>
@@ -204,7 +204,7 @@
 						<Property Name="NI.LV.FPGA.CompileConfigString" Type="Str">/name=Boolean Out 2/datatype=0/direction=1/index=1</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
-						<Property Name="typeDesc" Type="Bin">(1!!!"E!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!</Property>
+						<Property Name="typeDesc" Type="Bin">(1!!!#!!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!</Property>
 					</Item>
 					<Item Name="Boolean Out 3" Type="Variable">
 						<Property Name="featurePacks" Type="Str">Industrial</Property>
@@ -222,7 +222,7 @@
 						<Property Name="NI.LV.FPGA.CompileConfigString" Type="Str">/name=Boolean Out 3/datatype=0/direction=1/index=3</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
-						<Property Name="typeDesc" Type="Bin">(1!!!"E!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!</Property>
+						<Property Name="typeDesc" Type="Bin">(1!!!#!!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!</Property>
 					</Item>
 					<Item Name="Boolean Out 4" Type="Variable">
 						<Property Name="featurePacks" Type="Str">Industrial</Property>
@@ -240,7 +240,7 @@
 						<Property Name="NI.LV.FPGA.CompileConfigString" Type="Str">/name=Boolean Out 4/datatype=0/direction=1/index=2</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
-						<Property Name="typeDesc" Type="Bin">(1!!!"E!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!</Property>
+						<Property Name="typeDesc" Type="Bin">(1!!!#!!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!</Property>
 					</Item>
 					<Item Name="Int32 In 1" Type="Variable">
 						<Property Name="featurePacks" Type="Str">Industrial</Property>
@@ -258,7 +258,7 @@
 						<Property Name="NI.LV.FPGA.CompileConfigString" Type="Str">/name=Int32 In 1/datatype=2/direction=0/index=4</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
-						<Property Name="typeDesc" Type="Bin">(Q!!!"E!A!!!!!!"!!N!!Q!&amp;37ZU-T)!!1!!!!!!!!!!!!!</Property>
+						<Property Name="typeDesc" Type="Bin">(Q!!!#!!A!!!!!!"!!N!!Q!&amp;37ZU-T)!!1!!!!!!!!!!!!!</Property>
 					</Item>
 					<Item Name="Int32 In 2" Type="Variable">
 						<Property Name="featurePacks" Type="Str">Industrial</Property>
@@ -276,7 +276,7 @@
 						<Property Name="NI.LV.FPGA.CompileConfigString" Type="Str">/name=Int32 In 2/datatype=2/direction=0/index=5</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
-						<Property Name="typeDesc" Type="Bin">(Q!!!"E!A!!!!!!"!!N!!Q!&amp;37ZU-T)!!1!!!!!!!!!!!!!</Property>
+						<Property Name="typeDesc" Type="Bin">(Q!!!#!!A!!!!!!"!!N!!Q!&amp;37ZU-T)!!1!!!!!!!!!!!!!</Property>
 					</Item>
 					<Item Name="Int32 In 3" Type="Variable">
 						<Property Name="featurePacks" Type="Str">Industrial</Property>
@@ -294,7 +294,7 @@
 						<Property Name="NI.LV.FPGA.CompileConfigString" Type="Str">/name=Int32 In 3/datatype=2/direction=0/index=6</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
-						<Property Name="typeDesc" Type="Bin">(Q!!!"E!A!!!!!!"!!N!!Q!&amp;37ZU-T)!!1!!!!!!!!!!!!!</Property>
+						<Property Name="typeDesc" Type="Bin">(Q!!!#!!A!!!!!!"!!N!!Q!&amp;37ZU-T)!!1!!!!!!!!!!!!!</Property>
 					</Item>
 					<Item Name="Int32 In 4" Type="Variable">
 						<Property Name="featurePacks" Type="Str">Industrial</Property>
@@ -312,7 +312,7 @@
 						<Property Name="NI.LV.FPGA.CompileConfigString" Type="Str">/name=Int32 In 4/datatype=2/direction=0/index=7</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
-						<Property Name="typeDesc" Type="Bin">(Q!!!"E!A!!!!!!"!!N!!Q!&amp;37ZU-T)!!1!!!!!!!!!!!!!</Property>
+						<Property Name="typeDesc" Type="Bin">(Q!!!#!!A!!!!!!"!!N!!Q!&amp;37ZU-T)!!1!!!!!!!!!!!!!</Property>
 					</Item>
 					<Item Name="Int32 Out 1" Type="Variable">
 						<Property Name="featurePacks" Type="Str">Industrial</Property>
@@ -330,7 +330,7 @@
 						<Property Name="NI.LV.FPGA.CompileConfigString" Type="Str">/name=Int32 Out 1/datatype=2/direction=1/index=4</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
-						<Property Name="typeDesc" Type="Bin">(Q!!!"E!A!!!!!!"!!N!!Q!&amp;37ZU-T)!!1!!!!!!!!!!!!!</Property>
+						<Property Name="typeDesc" Type="Bin">(Q!!!#!!A!!!!!!"!!N!!Q!&amp;37ZU-T)!!1!!!!!!!!!!!!!</Property>
 					</Item>
 					<Item Name="Int32 Out 2" Type="Variable">
 						<Property Name="featurePacks" Type="Str">Industrial</Property>
@@ -348,7 +348,7 @@
 						<Property Name="NI.LV.FPGA.CompileConfigString" Type="Str">/name=Int32 Out 2/datatype=2/direction=1/index=5</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
-						<Property Name="typeDesc" Type="Bin">(Q!!!"E!A!!!!!!"!!N!!Q!&amp;37ZU-T)!!1!!!!!!!!!!!!!</Property>
+						<Property Name="typeDesc" Type="Bin">(Q!!!#!!A!!!!!!"!!N!!Q!&amp;37ZU-T)!!1!!!!!!!!!!!!!</Property>
 					</Item>
 					<Item Name="Int32 Out 3" Type="Variable">
 						<Property Name="featurePacks" Type="Str">Industrial</Property>
@@ -366,7 +366,7 @@
 						<Property Name="NI.LV.FPGA.CompileConfigString" Type="Str">/name=Int32 Out 3/datatype=2/direction=1/index=6</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
-						<Property Name="typeDesc" Type="Bin">(Q!!!"E!A!!!!!!"!!N!!Q!&amp;37ZU-T)!!1!!!!!!!!!!!!!</Property>
+						<Property Name="typeDesc" Type="Bin">(Q!!!#!!A!!!!!!"!!N!!Q!&amp;37ZU-T)!!1!!!!!!!!!!!!!</Property>
 					</Item>
 					<Item Name="Int32 Out 4" Type="Variable">
 						<Property Name="featurePacks" Type="Str">Industrial</Property>
@@ -384,7 +384,7 @@
 						<Property Name="NI.LV.FPGA.CompileConfigString" Type="Str">/name=Int32 Out 4/datatype=2/direction=1/index=7</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
-						<Property Name="typeDesc" Type="Bin">(Q!!!"E!A!!!!!!"!!N!!Q!&amp;37ZU-T)!!1!!!!!!!!!!!!!</Property>
+						<Property Name="typeDesc" Type="Bin">(Q!!!#!!A!!!!!!"!!N!!Q!&amp;37ZU-T)!!1!!!!!!!!!!!!!</Property>
 					</Item>
 					<Item Name="UInt32 In 1" Type="Variable">
 						<Property Name="featurePacks" Type="Str">Industrial</Property>
@@ -402,7 +402,7 @@
 						<Property Name="NI.LV.FPGA.CompileConfigString" Type="Str">/name=UInt32 In 1/datatype=6/direction=0/index=8</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
-						<Property Name="typeDesc" Type="Bin">)1!!!"E!A!!!!!!"!!V!"Q!'65FO&gt;$-S!!!"!!!!!!!!!!!!!!</Property>
+						<Property Name="typeDesc" Type="Bin">)1!!!#!!A!!!!!!"!!V!"Q!'65FO&gt;$-S!!!"!!!!!!!!!!!!!!</Property>
 					</Item>
 					<Item Name="UInt32 In 2" Type="Variable">
 						<Property Name="featurePacks" Type="Str">Industrial</Property>
@@ -420,7 +420,7 @@
 						<Property Name="NI.LV.FPGA.CompileConfigString" Type="Str">/name=UInt32 In 2/datatype=6/direction=0/index=9</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
-						<Property Name="typeDesc" Type="Bin">)1!!!"E!A!!!!!!"!!V!"Q!'65FO&gt;$-S!!!"!!!!!!!!!!!!!!</Property>
+						<Property Name="typeDesc" Type="Bin">)1!!!#!!A!!!!!!"!!V!"Q!'65FO&gt;$-S!!!"!!!!!!!!!!!!!!</Property>
 					</Item>
 					<Item Name="UInt32 In 3" Type="Variable">
 						<Property Name="featurePacks" Type="Str">Industrial</Property>
@@ -438,7 +438,7 @@
 						<Property Name="NI.LV.FPGA.CompileConfigString" Type="Str">/name=UInt32 In 3/datatype=6/direction=0/index=10</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
-						<Property Name="typeDesc" Type="Bin">)1!!!"E!A!!!!!!"!!V!"Q!'65FO&gt;$-S!!!"!!!!!!!!!!!!!!</Property>
+						<Property Name="typeDesc" Type="Bin">)1!!!#!!A!!!!!!"!!V!"Q!'65FO&gt;$-S!!!"!!!!!!!!!!!!!!</Property>
 					</Item>
 					<Item Name="UInt32 In 4" Type="Variable">
 						<Property Name="featurePacks" Type="Str">Industrial</Property>
@@ -456,7 +456,7 @@
 						<Property Name="NI.LV.FPGA.CompileConfigString" Type="Str">/name=UInt32 In 4/datatype=6/direction=0/index=11</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
-						<Property Name="typeDesc" Type="Bin">)1!!!"E!A!!!!!!"!!V!"Q!'65FO&gt;$-S!!!"!!!!!!!!!!!!!!</Property>
+						<Property Name="typeDesc" Type="Bin">)1!!!#!!A!!!!!!"!!V!"Q!'65FO&gt;$-S!!!"!!!!!!!!!!!!!!</Property>
 					</Item>
 					<Item Name="UInt32 Out 1" Type="Variable">
 						<Property Name="featurePacks" Type="Str">Industrial</Property>
@@ -474,7 +474,7 @@
 						<Property Name="NI.LV.FPGA.CompileConfigString" Type="Str">/name=UInt32 Out 1/datatype=6/direction=1/index=8</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
-						<Property Name="typeDesc" Type="Bin">)1!!!"E!A!!!!!!"!!V!"Q!'65FO&gt;$-S!!!"!!!!!!!!!!!!!!</Property>
+						<Property Name="typeDesc" Type="Bin">)1!!!#!!A!!!!!!"!!V!"Q!'65FO&gt;$-S!!!"!!!!!!!!!!!!!!</Property>
 					</Item>
 					<Item Name="UInt32 Out 2" Type="Variable">
 						<Property Name="featurePacks" Type="Str">Industrial</Property>
@@ -492,7 +492,7 @@
 						<Property Name="NI.LV.FPGA.CompileConfigString" Type="Str">/name=UInt32 Out 2/datatype=6/direction=1/index=9</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
-						<Property Name="typeDesc" Type="Bin">)1!!!"E!A!!!!!!"!!V!"Q!'65FO&gt;$-S!!!"!!!!!!!!!!!!!!</Property>
+						<Property Name="typeDesc" Type="Bin">)1!!!#!!A!!!!!!"!!V!"Q!'65FO&gt;$-S!!!"!!!!!!!!!!!!!!</Property>
 					</Item>
 					<Item Name="UInt32 Out 3" Type="Variable">
 						<Property Name="featurePacks" Type="Str">Industrial</Property>
@@ -510,7 +510,7 @@
 						<Property Name="NI.LV.FPGA.CompileConfigString" Type="Str">/name=UInt32 Out 3/datatype=6/direction=1/index=10</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
-						<Property Name="typeDesc" Type="Bin">)1!!!"E!A!!!!!!"!!V!"Q!'65FO&gt;$-S!!!"!!!!!!!!!!!!!!</Property>
+						<Property Name="typeDesc" Type="Bin">)1!!!#!!A!!!!!!"!!V!"Q!'65FO&gt;$-S!!!"!!!!!!!!!!!!!!</Property>
 					</Item>
 					<Item Name="UInt32 Out 4" Type="Variable">
 						<Property Name="featurePacks" Type="Str">Industrial</Property>
@@ -528,7 +528,7 @@
 						<Property Name="NI.LV.FPGA.CompileConfigString" Type="Str">/name=UInt32 Out 4/datatype=6/direction=1/index=11</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
-						<Property Name="typeDesc" Type="Bin">)1!!!"E!A!!!!!!"!!V!"Q!'65FO&gt;$-S!!!"!!!!!!!!!!!!!!</Property>
+						<Property Name="typeDesc" Type="Bin">)1!!!#!!A!!!!!!"!!V!"Q!'65FO&gt;$-S!!!"!!!!!!!!!!!!!!</Property>
 					</Item>
 				</Item>
 			</Item>

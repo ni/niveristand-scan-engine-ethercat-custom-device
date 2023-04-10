@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="19008000">
+<Project Type="Project" LVVersion="20008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Property Name="varPersistentID:{18735CFB-558B-451E-84A0-664E0E9D7C97}" Type="Ref">/RT CompactRIO Target/Chassis/Real-Time Scan Resources/User-Defined Variables/Mod7 DIO3</Property>
@@ -110,7 +110,7 @@
 						<Property Name="NI.LV.FPGA.CompileConfigString" Type="Str">/name=Mod6 DIO0/datatype=0/direction=0/index=0</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
-						<Property Name="typeDesc" Type="Bin">(1!!!"E!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!</Property>
+						<Property Name="typeDesc" Type="Bin">(1!!!#!!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!</Property>
 					</Item>
 					<Item Name="Mod6 DIO1" Type="Variable">
 						<Property Name="featurePacks" Type="Str">Industrial</Property>
@@ -128,7 +128,7 @@
 						<Property Name="NI.LV.FPGA.CompileConfigString" Type="Str">/name=Mod6 DIO1/datatype=0/direction=0/index=1</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
-						<Property Name="typeDesc" Type="Bin">(1!!!"E!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!</Property>
+						<Property Name="typeDesc" Type="Bin">(1!!!#!!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!</Property>
 					</Item>
 					<Item Name="Mod6 DIO2" Type="Variable">
 						<Property Name="featurePacks" Type="Str">Industrial</Property>
@@ -146,7 +146,7 @@
 						<Property Name="NI.LV.FPGA.CompileConfigString" Type="Str">/name=Mod6 DIO2/datatype=0/direction=0/index=2</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
-						<Property Name="typeDesc" Type="Bin">(1!!!"E!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!</Property>
+						<Property Name="typeDesc" Type="Bin">(1!!!#!!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!</Property>
 					</Item>
 					<Item Name="Mod6 DIO3" Type="Variable">
 						<Property Name="featurePacks" Type="Str">Industrial</Property>
@@ -164,7 +164,7 @@
 						<Property Name="NI.LV.FPGA.CompileConfigString" Type="Str">/name=Mod6 DIO3/datatype=0/direction=0/index=3</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
-						<Property Name="typeDesc" Type="Bin">(1!!!"E!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!</Property>
+						<Property Name="typeDesc" Type="Bin">(1!!!#!!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!</Property>
 					</Item>
 					<Item Name="Mod7 DIO0" Type="Variable">
 						<Property Name="featurePacks" Type="Str">Industrial</Property>
@@ -182,7 +182,7 @@
 						<Property Name="NI.LV.FPGA.CompileConfigString" Type="Str">/name=Mod7 DIO0/datatype=0/direction=1/index=0</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
-						<Property Name="typeDesc" Type="Bin">(1!!!"E!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!</Property>
+						<Property Name="typeDesc" Type="Bin">(1!!!#!!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!</Property>
 					</Item>
 					<Item Name="Mod7 DIO1" Type="Variable">
 						<Property Name="featurePacks" Type="Str">Industrial</Property>
@@ -200,7 +200,7 @@
 						<Property Name="NI.LV.FPGA.CompileConfigString" Type="Str">/name=Mod7 DIO1/datatype=0/direction=1/index=1</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
-						<Property Name="typeDesc" Type="Bin">(1!!!"E!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!</Property>
+						<Property Name="typeDesc" Type="Bin">(1!!!#!!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!</Property>
 					</Item>
 					<Item Name="Mod7 DIO2" Type="Variable">
 						<Property Name="featurePacks" Type="Str">Industrial</Property>
@@ -218,7 +218,7 @@
 						<Property Name="NI.LV.FPGA.CompileConfigString" Type="Str">/name=Mod7 DIO2/datatype=0/direction=1/index=3</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
-						<Property Name="typeDesc" Type="Bin">(1!!!"E!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!</Property>
+						<Property Name="typeDesc" Type="Bin">(1!!!#!!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!</Property>
 					</Item>
 					<Item Name="Mod7 DIO3" Type="Variable">
 						<Property Name="featurePacks" Type="Str">Industrial</Property>
@@ -236,7 +236,7 @@
 						<Property Name="NI.LV.FPGA.CompileConfigString" Type="Str">/name=Mod7 DIO3/datatype=0/direction=1/index=2</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
-						<Property Name="typeDesc" Type="Bin">(1!!!"E!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!</Property>
+						<Property Name="typeDesc" Type="Bin">(1!!!#!!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!</Property>
 					</Item>
 					<Item Name="Mod7 DIO4" Type="Variable">
 						<Property Name="featurePacks" Type="Str">Industrial</Property>
@@ -254,7 +254,7 @@
 						<Property Name="NI.LV.FPGA.CompileConfigString" Type="Str">/name=Mod7 DIO4/datatype=0/direction=1/index=4</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
-						<Property Name="typeDesc" Type="Bin">(1!!!"E!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!</Property>
+						<Property Name="typeDesc" Type="Bin">(1!!!#!!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!</Property>
 					</Item>
 					<Item Name="Mod7 DIO5" Type="Variable">
 						<Property Name="featurePacks" Type="Str">Industrial</Property>
@@ -272,7 +272,7 @@
 						<Property Name="NI.LV.FPGA.CompileConfigString" Type="Str">/name=Mod7 DIO5/datatype=0/direction=1/index=5</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
-						<Property Name="typeDesc" Type="Bin">(1!!!"E!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!</Property>
+						<Property Name="typeDesc" Type="Bin">(1!!!#!!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!</Property>
 					</Item>
 					<Item Name="Mod7 DIO6" Type="Variable">
 						<Property Name="featurePacks" Type="Str">Industrial</Property>
@@ -290,7 +290,7 @@
 						<Property Name="NI.LV.FPGA.CompileConfigString" Type="Str">/name=Mod7 DIO6/datatype=0/direction=1/index=6</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
-						<Property Name="typeDesc" Type="Bin">(1!!!"E!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!</Property>
+						<Property Name="typeDesc" Type="Bin">(1!!!#!!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!</Property>
 					</Item>
 					<Item Name="Mod7 DIO7" Type="Variable">
 						<Property Name="featurePacks" Type="Str">Industrial</Property>
@@ -308,7 +308,7 @@
 						<Property Name="NI.LV.FPGA.CompileConfigString" Type="Str">/name=Mod7 DIO7/datatype=0/direction=1/index=7</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
-						<Property Name="typeDesc" Type="Bin">(1!!!"E!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!</Property>
+						<Property Name="typeDesc" Type="Bin">(1!!!#!!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!</Property>
 					</Item>
 				</Item>
 				<Item Name="Mod8" Type="RIO C Series Module">
@@ -534,7 +534,7 @@
 						<Property Name="Network:UseBuffering" Type="Str">False</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
-						<Property Name="typeDesc" Type="Bin">&amp;1!!!"E!A!!!!!!"!!1!)1!"!!!!!!!!!!</Property>
+						<Property Name="typeDesc" Type="Bin">&amp;1!!!#!!A!!!!!!"!!1!)1!"!!!!!!!!!!</Property>
 					</Item>
 					<Item Name="DIO1" Type="Variable">
 						<Property Name="featurePacks" Type="Str">Industrial</Property>
@@ -548,7 +548,7 @@
 						<Property Name="Network:UseBuffering" Type="Str">False</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
-						<Property Name="typeDesc" Type="Bin">&amp;1!!!"E!A!!!!!!"!!1!)1!"!!!!!!!!!!</Property>
+						<Property Name="typeDesc" Type="Bin">&amp;1!!!#!!A!!!!!!"!!1!)1!"!!!!!!!!!!</Property>
 					</Item>
 					<Item Name="DIO2" Type="Variable">
 						<Property Name="featurePacks" Type="Str">Industrial</Property>
@@ -562,7 +562,7 @@
 						<Property Name="Network:UseBuffering" Type="Str">False</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
-						<Property Name="typeDesc" Type="Bin">&amp;1!!!"E!A!!!!!!"!!1!)1!"!!!!!!!!!!</Property>
+						<Property Name="typeDesc" Type="Bin">&amp;1!!!#!!A!!!!!!"!!1!)1!"!!!!!!!!!!</Property>
 					</Item>
 					<Item Name="DIO3" Type="Variable">
 						<Property Name="featurePacks" Type="Str">Industrial</Property>
@@ -576,7 +576,7 @@
 						<Property Name="Network:UseBuffering" Type="Str">False</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
-						<Property Name="typeDesc" Type="Bin">&amp;1!!!"E!A!!!!!!"!!1!)1!"!!!!!!!!!!</Property>
+						<Property Name="typeDesc" Type="Bin">&amp;1!!!#!!A!!!!!!"!!1!)1!"!!!!!!!!!!</Property>
 					</Item>
 					<Item Name="DIO4" Type="Variable">
 						<Property Name="featurePacks" Type="Str">Industrial</Property>
@@ -590,7 +590,7 @@
 						<Property Name="Network:UseBuffering" Type="Str">False</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
-						<Property Name="typeDesc" Type="Bin">&amp;1!!!"E!A!!!!!!"!!1!)1!"!!!!!!!!!!</Property>
+						<Property Name="typeDesc" Type="Bin">&amp;1!!!#!!A!!!!!!"!!1!)1!"!!!!!!!!!!</Property>
 					</Item>
 					<Item Name="DIO5" Type="Variable">
 						<Property Name="featurePacks" Type="Str">Industrial</Property>
@@ -604,7 +604,7 @@
 						<Property Name="Network:UseBuffering" Type="Str">False</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
-						<Property Name="typeDesc" Type="Bin">&amp;1!!!"E!A!!!!!!"!!1!)1!"!!!!!!!!!!</Property>
+						<Property Name="typeDesc" Type="Bin">&amp;1!!!#!!A!!!!!!"!!1!)1!"!!!!!!!!!!</Property>
 					</Item>
 					<Item Name="DIO6" Type="Variable">
 						<Property Name="featurePacks" Type="Str">Industrial</Property>
@@ -618,7 +618,7 @@
 						<Property Name="Network:UseBuffering" Type="Str">False</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
-						<Property Name="typeDesc" Type="Bin">&amp;1!!!"E!A!!!!!!"!!1!)1!"!!!!!!!!!!</Property>
+						<Property Name="typeDesc" Type="Bin">&amp;1!!!#!!A!!!!!!"!!1!)1!"!!!!!!!!!!</Property>
 					</Item>
 					<Item Name="DIO7" Type="Variable">
 						<Property Name="featurePacks" Type="Str">Industrial</Property>
@@ -632,7 +632,7 @@
 						<Property Name="Network:UseBuffering" Type="Str">False</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
-						<Property Name="typeDesc" Type="Bin">&amp;1!!!"E!A!!!!!!"!!1!)1!"!!!!!!!!!!</Property>
+						<Property Name="typeDesc" Type="Bin">&amp;1!!!#!!A!!!!!!"!!1!)1!"!!!!!!!!!!</Property>
 					</Item>
 				</Item>
 			</Item>
