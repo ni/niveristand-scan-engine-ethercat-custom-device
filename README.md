@@ -16,13 +16,13 @@ Download the latest release of the VeriStand Custom Devices on [ni.com](https://
 
 ## LabVIEW Source Code Version
 
-LabVIEW 2019
+LabVIEW 2020
 
 ## Dependencies
 
 ### Running the custom device
 
-- [VeriStand 2019 or later](https://www.ni.com/en-us/support/downloads/software-products/download.veristand.html)
+- [VeriStand 2020 or later](https://www.ni.com/en-us/support/downloads/software-products/download.veristand.html)
 - [NI CompactRIO](https://www.ni.com/en-us/support/downloads/drivers/download.ni-compactrio.html)
 - [NI-Industrial Communications for EtherCAT](https://www.ni.com/en-us/support/downloads/drivers/download.ni-industrial-communications-for-ethercat.html)
 
@@ -36,7 +36,7 @@ LabVIEW 2019
 
 The additional software listed below is required to develop or build this custom device from source. Manual build instructions are located [here](docs/Manual%20Build%20Instructions.md).
 
-- [LabVIEW 2019 or later](https://www.ni.com/en-us/support/downloads/software-products/download.labview.html)
+- [LabVIEW 2020 or later](https://www.ni.com/en-us/support/downloads/software-products/download.labview.html)
 - [LabVIEW FPGA Module](https://www.ni.com/en-us/support/downloads/software-products/download.labview-fpga-module.html)
 - [LabVIEW Real-Time Module](https://www.ni.com/en-us/support/downloads/software-products/download.labview-real-time-module.html)
 - [VeriStand Custom Device Development Tools](https://github.com/ni/niveristand-custom-device-development-tools)

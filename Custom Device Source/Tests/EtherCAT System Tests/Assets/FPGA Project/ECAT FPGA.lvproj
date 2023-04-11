@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="19008000">
+<Project Type="Project" LVVersion="20008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="varPersistentID:{6A1685B3-6FAA-464A-AAF1-11F8EB83E2AF}" Type="Ref">/RT PXI Target/EtherCAT Master/Device/User-Defined Variables/DI4</Property>
 	<Property Name="varPersistentID:{D2A83FB4-69E3-472F-9DBF-94CFB888A986}" Type="Ref">/RT PXI Target/EtherCAT Master/Device/User-Defined Variables/DO0</Property>
@@ -130,7 +130,7 @@
 						<Property Name="NI.LV.FPGA.CompileConfigString" Type="Str">/name=DI4/datatype=0/direction=0/index=0</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
-						<Property Name="typeDesc" Type="Bin">(1!!!"E!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!</Property>
+						<Property Name="typeDesc" Type="Bin">(1!!!#!!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!</Property>
 					</Item>
 					<Item Name="DO0" Type="Variable">
 						<Property Name="featurePacks" Type="Str">Industrial</Property>
@@ -148,7 +148,7 @@
 						<Property Name="NI.LV.FPGA.CompileConfigString" Type="Str">/name=DO0/datatype=0/direction=1/index=0</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
-						<Property Name="typeDesc" Type="Bin">(1!!!"E!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!</Property>
+						<Property Name="typeDesc" Type="Bin">(1!!!#!!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!</Property>
 					</Item>
 				</Item>
 				<Item Name="FPGA Target" Type="FPGA Target">

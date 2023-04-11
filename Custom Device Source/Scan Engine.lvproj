@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="19008000">
+<Project Type="Project" LVVersion="20008000">
 	<Property Name="CCSymbols" Type="Str">Debugging,False;</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
@@ -213,7 +213,6 @@
 			<Item Name="Read From Spreadsheet File (DBL).vi" Type="VI" URL="../../Includes/Modules.lvlibp/1abvi3w/vi.lib/Utility/file.llb/Read From Spreadsheet File (DBL).vi"/>
 			<Item Name="Write To Spreadsheet File (DBL).vi" Type="VI" URL="../../Includes/Modules.lvlibp/1abvi3w/vi.lib/Utility/file.llb/Write To Spreadsheet File (DBL).vi"/>
 		</Item>
-		<Item Name="NI ECAT Remote IO.llb" Type="Document" URL="../../Includes/NI ECAT Remote IO.llb"/>
 		<Item Name="Custom Device Scan Engine.xml" Type="Document" URL="../Custom Device Scan Engine.xml"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -1422,6 +1421,7 @@
 				<Property Name="App_INI_aliasGUID" Type="Str">{42DF3895-D084-4A48-B5B9-D447807B239D}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{34C4A14D-63B1-4A65-A04F-7605FE9EA82B}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{FB25B304-214F-4DC4-91F8-FA13F045F07F}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Get HW Config</Property>
@@ -1475,6 +1475,7 @@
 				<Property Name="App_INI_aliasGUID" Type="Str">{8173F034-0F8B-4FB5-85CB-334CCB7DBE00}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{6125E437-500D-4887-BCD0-B70551478AE5}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{6E951880-116C-4C52-9095-2937BA9444AC}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Check and Download Bitfile</Property>
@@ -1521,6 +1522,7 @@
 				<Property Name="App_INI_aliasGUID" Type="Str">{826DF7DE-1BD5-4F9C-9168-E0FC72A9C19F}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{EEA06A20-30A0-4F44-9987-8FB4E37499D8}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{CA4BE735-4774-42C3-AB02-68C594E7FB92}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Revert to Scan Mode</Property>
@@ -1567,6 +1569,7 @@
 				<Property Name="App_INI_aliasGUID" Type="Str">{80B65B8F-41EA-4891-AB04-9F9883DF634D}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{44E62A77-9133-4C5B-8E6C-629E227AF151}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{EDBDD4C5-D805-411F-8D57-A72BD7184A24}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Import ESI File</Property>
@@ -1613,6 +1616,7 @@
 				<Property Name="App_INI_aliasGUID" Type="Str">{600439FD-3FF4-4E2D-9324-2D4E5EFE2930}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{74D3467C-7901-49C1-AE4C-83A982D5278F}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{A6148D94-78E5-4C83-A14A-CF4CC2B024F5}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Read Target ESI Files</Property>
