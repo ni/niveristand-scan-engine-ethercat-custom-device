@@ -106,6 +106,7 @@
 	<Item Name="Utility" Type="Folder">
 		<Item Name="Auto Detect" Type="Folder">
 			<Item Name="Add ECAT Slave from Config.vi" Type="VI" URL="../Utility/Auto Detect/Add ECAT Slave from Config.vi"/>
+			<Item Name="Add ECAT Variable Contents.vi" Type="VI" URL="../Utility/Auto Detect/Add ECAT Variable Contents.vi"/>
 			<Item Name="Add Local Chassis from Config.vi" Type="VI" URL="../Utility/Auto Detect/Add Local Chassis from Config.vi"/>
 			<Item Name="Check Existing Configuration.vi" Type="VI" URL="../Utility/Auto Detect/Check Existing Configuration.vi"/>
 			<Item Name="Confirm Hardware Found.vi" Type="VI" URL="../Utility/Auto Detect/Confirm Hardware Found.vi"/>
@@ -222,6 +223,7 @@
 				<Item Name="Host - Firmware Download.vi" Type="VI" URL="../Utility/Target Communication/Support/Host - Firmware Download.vi"/>
 				<Item Name="Host - FoE From Bitfile.vi" Type="VI" URL="../Utility/Target Communication/Support/Host - FoE From Bitfile.vi"/>
 				<Item Name="Host - Get ECAT IOVs.vi" Type="VI" URL="../Utility/Target Communication/Support/Host - Get ECAT IOVs.vi"/>
+				<Item Name="Host - Get ECAT Module Data.vi" Type="VI" URL="../Utility/Target Communication/Support/Host - Get ECAT Module Data.vi"/>
 				<Item Name="Host - Get Local and ECAT Masters With Retries.vi" Type="VI" URL="../Utility/Target Communication/Support/Host - Get Local and ECAT Masters With Retries.vi"/>
 				<Item Name="Host - Get Local and ECAT Masters.vi" Type="VI" URL="../Utility/Target Communication/Support/Host - Get Local and ECAT Masters.vi"/>
 				<Item Name="Host - Get Masters and Slaves.vi" Type="VI" URL="../Utility/Target Communication/Support/Host - Get Masters and Slaves.vi"/>
@@ -230,6 +232,7 @@
 				<Item Name="Host - Get Remote IO Module Data.vi" Type="VI" URL="../Utility/Target Communication/Support/Host - Get Remote IO Module Data.vi"/>
 				<Item Name="Host - Get Slave IOVs.vi" Type="VI" URL="../Utility/Target Communication/Support/Host - Get Slave IOVs.vi"/>
 				<Item Name="Host - Get Slaves.vi" Type="VI" URL="../Utility/Target Communication/Support/Host - Get Slaves.vi"/>
+				<Item Name="Host - Get Third Party ECAT IOVs.vi" Type="VI" URL="../Utility/Target Communication/Support/Host - Get Third Party ECAT IOVs.vi"/>
 				<Item Name="Host - Is FoE New.vi" Type="VI" URL="../Utility/Target Communication/Support/Host - Is FoE New.vi"/>
 				<Item Name="Host - Set Slave State.vi" Type="VI" URL="../Utility/Target Communication/Support/Host - Set Slave State.vi"/>
 			</Item>
