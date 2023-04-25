@@ -47,6 +47,8 @@ stages:
           file: '$target\NI ECAT Remote IO.llb'
           destination: 'Includes'
 
+      silenceDependencyFailures: true
+
       codegenVis:
         - 'Custom Device Source\Build VIs\Delete Scripting API.vi'
 

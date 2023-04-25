@@ -72,6 +72,7 @@
 			<Item Name="Get FXP VI Ref.vi" Type="VI" URL="../Initialize/Get FXP VI Ref.vi"/>
 			<Item Name="Get Generic Slave Data.vi" Type="VI" URL="../Initialize/Get Generic Slave Data.vi"/>
 			<Item Name="Get Generic Slave IOVars.vi" Type="VI" URL="../Initialize/Get Generic Slave IOVars.vi"/>
+			<Item Name="Get Generic Slave Module IOVars.vi" Type="VI" URL="../Initialize/Get Generic Slave Module IOVars.vi"/>
 			<Item Name="Get Item IO.vi" Type="VI" URL="../Initialize/Get Item IO.vi"/>
 			<Item Name="Get Local and ECAT Config.vi" Type="VI" URL="../Initialize/Get Local and ECAT Config.vi"/>
 			<Item Name="Get Local and ECAT Refs.vi" Type="VI" URL="../Initialize/Get Local and ECAT Refs.vi"/>
