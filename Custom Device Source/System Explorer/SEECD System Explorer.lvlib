@@ -189,6 +189,7 @@
 			<Item Name="Get Local Chassis All Slots References.vi" Type="VI" URL="../Utility/Other/Get Local Chassis All Slots References.vi"/>
 			<Item Name="Get Local Chassis Slots Configuration.vi" Type="VI" URL="../Utility/Other/Get Local Chassis Slots Configuration.vi"/>
 			<Item Name="Get Modules Disabled Items.vi" Type="VI" URL="../Utility/Other/Get Modules Disabled Items.vi"/>
+			<Item Name="Get Scan Engine CD from Target.vi" Type="VI" URL="../Utility/Other/Get Scan Engine CD from Target.vi"/>
 			<Item Name="Get Target IP Address.vi" Type="VI" URL="../Utility/Other/Get Target IP Address.vi"/>
 			<Item Name="Is Synced to Scan.vi" Type="VI" URL="../Utility/Other/Is Synced to Scan.vi"/>
 			<Item Name="Load CHM.vi" Type="VI" URL="../Utility/Other/Load CHM.vi"/>
