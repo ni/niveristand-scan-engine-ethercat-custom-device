@@ -15,10 +15,16 @@ resources:
   pipelines:
     - pipeline: FxpLibraries
       source:   ni.niveristand-scan-engine-fxp-libraries
-      trigger:  true
+      trigger:  
+        branches: 
+          include:
+            - main
     - pipeline: ModuleLibraries
       source:   ni.niveristand-scan-engine-module-libraries
-      trigger:  true
+      trigger:  
+        branches: 
+          include:
+            - main
 
 stages:
   - template: azure-templates/stages.yml@niveristand-custom-device-build-tools
