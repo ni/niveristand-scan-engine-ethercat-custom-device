@@ -13,6 +13,7 @@
 		<Item Name="Find Local Chassis.vi" Type="VI" URL="../Main/Find Local Chassis.vi"/>
 		<Item Name="Find Scan Engine Custom Device.vi" Type="VI" URL="../Main/Find Scan Engine Custom Device.vi"/>
 		<Item Name="Get Delay After FPGA Load.vi" Type="VI" URL="../Main/Get Delay After FPGA Load.vi"/>
+		<Item Name="Get Disable Refresh Modules.vi" Type="VI" URL="../Main/Get Disable Refresh Modules.vi"/>
 		<Item Name="Get Local Chassis Apply Module Mode.vi" Type="VI" URL="../Main/Get Local Chassis Apply Module Mode.vi"/>
 		<Item Name="Get Local Chassis Name.vi" Type="VI" URL="../Main/Get Local Chassis Name.vi"/>
 		<Item Name="Get Number of Slots.vi" Type="VI" URL="../Main/Get Number of Slots.vi"/>
@@ -21,6 +22,7 @@
 		<Item Name="Remove Local Chassis.vi" Type="VI" URL="../Main/Remove Local Chassis.vi"/>
 		<Item Name="Remove Scan Engine Custom Device.vi" Type="VI" URL="../Main/Remove Scan Engine Custom Device.vi"/>
 		<Item Name="Set Delay After FPGA Load.vi" Type="VI" URL="../Main/Set Delay After FPGA Load.vi"/>
+		<Item Name="Set Disable Refresh Modules.vi" Type="VI" URL="../Main/Set Disable Refresh Modules.vi"/>
 		<Item Name="Set Local Chassis Apply Module Mode.vi" Type="VI" URL="../Main/Set Local Chassis Apply Module Mode.vi"/>
 		<Item Name="Set Local Chassis Name.vi" Type="VI" URL="../Main/Set Local Chassis Name.vi"/>
 		<Item Name="Set Number of Slots.vi" Type="VI" URL="../Main/Set Number of Slots.vi"/>
