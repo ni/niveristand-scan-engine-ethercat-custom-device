@@ -31,8 +31,6 @@ stages:
     parameters:
 
       lvVersionsToBuild:
-        - version: '2020'
-          bitness: '32bit'
         - version: '2021'
           bitness: '64bit'
         - version: '2021'
@@ -149,7 +147,7 @@ stages:
             - version: '2023'
               bitness: '32bit'
 
-      releaseVersion: '23.8.0'
+      releaseVersion: '24.0.0'
       buildOutputLocation: 'Built'
       archiveLocation: '\\nirvana\Measurements\VeriStandAddons\scan_engine_custom_device'
       packages:
