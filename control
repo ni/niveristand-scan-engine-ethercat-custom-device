@@ -13,3 +13,13 @@ Section: Add-Ons
 XB-DisplayVersion: {quarterly_display_version}
 XB-DisplayName: NI Scan Engine and EtherCAT for VeriStand {veristand_version}
 Depends: ni-veristand-{labview_version} (>= {labview_short_version}.0.0)
+Description-zh-CN: 为NI VeriStand的NI扫描引擎和EtherCAT自定义设备的支持
+XB-DisplayName-zh-CN: NI Scan Engine and EtherCAT for VeriStand {veristand_version}
+Description-de: Stellt Unterstützung für NI Scan Engine und benutzerdefinierte EtherCAT-Geräte für NI VeriStand {veristand_version} bereit.
+XB-DisplayName-de: NI-Scan-Engine und EtherCAT für VeriStand {veristand_version}
+Description-fr: Fournit le support pour le périphérique personnalisé NI Scan Engine and EtherCAT pour NI VeriStand {veristand_version}
+XB-DisplayName-fr: NI Scan Engine and EtherCAT for VeriStand {veristand_version}
+Description-ja: NI VeriStand {veristand_version}用のNI スキャンエンジンおよびEtherCATカスタムデバイスのサポートを提供します。
+XB-DisplayName-ja: NI Scan Engine and EtherCAT - VeriStand {veristand_version}用
+Description-ko: NI VeriStand {veristand_version}을(를) 위한 NI Scan Engine and EtherCAT Custom Device의 지원을 제공합니다.
+XB-DisplayName-ko: NI Scan Engine and EtherCAT - VeriStand {veristand_version} 지원
