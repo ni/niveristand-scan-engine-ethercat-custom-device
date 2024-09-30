@@ -31,10 +31,6 @@ stages:
     parameters:
 
       lvVersionsToBuild:
-        - version: '2021'
-          bitness: '64bit'
-        - version: '2021'
-          bitness: '32bit'
         - version: '2023'
           bitness: '64bit'
         - version: '2023'
@@ -42,6 +38,10 @@ stages:
         - version: '2024'
           bitness: '64bit'
         - version: '2024'
+          bitness: '32bit'
+        - version: '2025'
+          bitness: '64bit'
+        - version: '2025'
           bitness: '32bit'
 
       dependencies:
@@ -66,11 +66,11 @@ stages:
           target: 'My Computer'
           buildSpec: 'Configuration Release'
           exclusions:
-            - version: '2021'
-              bitness: '32bit'
             - version: '2023'
               bitness: '32bit'
             - version: '2024'
+              bitness: '32bit'
+            - version: '2025'
               bitness: '32bit'
 
         - projectLocation: 'Custom Device Source\Scan Engine.lvproj'
@@ -78,11 +78,11 @@ stages:
           target: 'My Computer'
           buildSpec: 'Revert to Scan Mode'
           exclusions:
-            - version: '2021'
-              bitness: '64bit'
             - version: '2023'
               bitness: '64bit'
             - version: '2024'
+              bitness: '64bit'
+            - version: '2025'
               bitness: '64bit'
 
         - projectLocation: 'Custom Device Source\Scan Engine.lvproj'
@@ -90,11 +90,11 @@ stages:
           target: 'My Computer'
           buildSpec: 'Get HW Config'
           exclusions:
-            - version: '2021'
-              bitness: '64bit'
             - version: '2023'
               bitness: '64bit'
             - version: '2024'
+              bitness: '64bit'
+            - version: '2025'
               bitness: '64bit'
 
         - projectLocation: 'Custom Device Source\Scan Engine.lvproj'
@@ -102,11 +102,11 @@ stages:
           target: 'My Computer'
           buildSpec: 'Check and Download Bitfile'
           exclusions:
-            - version: '2021'
-              bitness: '64bit'
             - version: '2023'
               bitness: '64bit'
             - version: '2024'
+              bitness: '64bit'
+            - version: '2025'
               bitness: '64bit'
 
         - projectLocation: 'Custom Device Source\Scan Engine.lvproj'
@@ -114,11 +114,11 @@ stages:
           target: 'My Computer'
           buildSpec: 'Import ESI File'
           exclusions:
-            - version: '2021'
-              bitness: '64bit'
             - version: '2023'
               bitness: '64bit'
             - version: '2024'
+              bitness: '64bit'
+            - version: '2025'
               bitness: '64bit'
 
         - projectLocation: 'Custom Device Source\Scan Engine.lvproj'
@@ -126,11 +126,11 @@ stages:
           target: 'My Computer'
           buildSpec: 'Read Target ESI Files'
           exclusions:
-            - version: '2021'
-              bitness: '64bit'
             - version: '2023'
               bitness: '64bit'
             - version: '2024'
+              bitness: '64bit'
+            - version: '2025'
               bitness: '64bit'
 
         - projectLocation: 'Custom Device Source\Scan Engine Linux x64.lvproj'
@@ -138,11 +138,11 @@ stages:
           target: 'Linux x64'
           buildSpec: 'Engine Release'
           exclusions:
-            - version: '2021'
-              bitness: '64bit'
             - version: '2023'
               bitness: '64bit'
             - version: '2024'
+              bitness: '64bit'
+            - version: '2025'
               bitness: '64bit'
 
         - projectLocation: 'Custom Device Source\Scan Engine.lvproj'
@@ -150,11 +150,11 @@ stages:
           target: 'My Computer'
           buildSpec: 'Scripting API'
           exclusions:
-            - version: '2021'
-              bitness: '32bit'
             - version: '2023'
               bitness: '32bit'
             - version: '2024'
+              bitness: '32bit'
+            - version: '2025'
               bitness: '32bit'
 
         - projectLocation: 'Scripting Examples\Scan Engine Scripting Examples.lvproj'
@@ -162,14 +162,14 @@ stages:
           target: 'My Computer'
           buildSpec: 'Examples'
           exclusions:
-            - version: '2021'
-              bitness: '32bit'
             - version: '2023'
               bitness: '32bit'
             - version: '2024'
               bitness: '32bit'
+            - version: '2025'
+              bitness: '32bit'
 
-      releaseVersion: '24.5.0'
+      releaseVersion: '25.0.0'
       buildOutputLocation: 'Built'
       archiveLocation: '\\nirvana\Measurements\VeriStandAddons\scan_engine_custom_device'
       packages:
