@@ -33,10 +33,16 @@ stages:
       lvVersionsToBuild:
         - version: '2023'
           bitness: '64bit'
+        - version: '2023'
+          bitness: '32bit'
         - version: '2024'
           bitness: '64bit'
+        - version: '2024'
+          bitness: '32bit'
         - version: '2025'
           bitness: '64bit'
+        - version: '2025'
+          bitness: '32bit'
 
       dependencies:
         - source: '\\nirvana\Measurements\VeriStandAddons\scan_engine_fxp'
@@ -59,6 +65,13 @@ stages:
           buildOperation: 'ExecuteBuildSpec'
           target: 'My Computer'
           buildSpec: 'Configuration Release'
+          exclusions:
+            - version: '2023'
+              bitness: '32bit'
+            - version: '2024'
+              bitness: '32bit'
+            - version: '2025'
+              bitness: '32bit'
 
         - projectLocation: 'Custom Device Source\Scan Engine.lvproj'
           buildOperation: 'ExecuteBuildSpec'
@@ -136,11 +149,25 @@ stages:
           buildOperation: 'ExecuteBuildSpec'
           target: 'My Computer'
           buildSpec: 'Scripting API'
+          exclusions:
+            - version: '2023'
+              bitness: '32bit'
+            - version: '2024'
+              bitness: '32bit'
+            - version: '2025'
+              bitness: '32bit'
 
         - projectLocation: 'Scripting Examples\Scan Engine Scripting Examples.lvproj'
           buildOperation: 'ExecuteBuildSpec'
           target: 'My Computer'
           buildSpec: 'Examples'
+          exclusions:
+            - version: '2023'
+              bitness: '32bit'
+            - version: '2024'
+              bitness: '32bit'
+            - version: '2025'
+              bitness: '32bit'
 
       releaseVersion: '25.0.0'
       buildOutputLocation: 'Built'
