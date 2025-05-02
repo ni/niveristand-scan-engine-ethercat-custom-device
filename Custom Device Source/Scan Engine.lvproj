@@ -1167,7 +1167,7 @@
 				<Property Name="Source[8].properties[1].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[8].properties[1].value" Type="Bool">false</Property>
 				<Property Name="Source[8].properties[2].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[8].properties[2].value" Type="Bool">true</Property>
+				<Property Name="Source[8].properties[2].value" Type="Bool">false</Property>
 				<Property Name="Source[8].propertiesCount" Type="Int">3</Property>
 				<Property Name="Source[8].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[8].type" Type="Str">Container</Property>
