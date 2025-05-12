@@ -1510,7 +1510,11 @@
 				<Property Name="Source[3].propertiesCount" Type="Int">3</Property>
 				<Property Name="Source[3].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[3].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">4</Property>
+				<Property Name="Source[4].destinationIndex" Type="Int">1</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/nNIBlueBus_nCrioFixed.dll</Property>
+				<Property Name="Source[5].destinationIndex" Type="Int">1</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/SEECD System Explorer.lvlib/nNIBlueBus_nCrioFixed_nRefnum.dll</Property>
+				<Property Name="SourceCount" Type="Int">6</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">Get HW Config</Property>
 				<Property Name="TgtF_internalName" Type="Str">Get HW Config</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2021 </Property>
