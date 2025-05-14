@@ -30,14 +30,14 @@ stages:
   - stage: Copy_cRIO_DLLs
     jobs:
       - job: CopyCrioDll
+        timeoutInMinutes: 300
         steps:
           - task: CopyFiles@2
             displayName: Copy windows.zip to include
             inputs:
-              OverWrite: true
               SourceFolder: '\\nirvana.amer.corp.natinst.com\perforceExports\build\exports\ni\bb_l\bb_lib\official\export\25.3\25.3.0f114\.archives'
-              contents: 'windows.zip'
-              targetFolder: 'Includes\temp_extract'
+              Contents: 'windows.zip'
+              TargetFolder: 'Includes\temp_extract'
           - task: PowerShell@2
             displayName: Copy CRIO DLLs to Includes/cRIO folder
             inputs:
