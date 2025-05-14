@@ -38,7 +38,7 @@ stages:
                 #!/bin/bash
 
                 # Define paths
-                SOURCE="//nirvana/perforceExports/build/exports/ni/bb_l/bb_lib/official/export/25.3/25.3.0f114/.archives/windows.zip"
+                SOURCE="\\\\nirvana\\perforceExports\\build\\exports\\ni\\bb_l\\bb_lib\\official\\export\\25.3\\25.3.0f114\\.archives\\windows.zip"
                 TEMP_DIR="./temp_extract"
                 INCLUDE_DIR="./Includes/cRIO"
                 
