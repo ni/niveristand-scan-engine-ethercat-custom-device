@@ -28,6 +28,9 @@ resources:
 
 stages:
   - stage: Copy_cRIO_DLLs
+    pool:
+      name: DevCentral-VeriStand-CustomDevices
+      demands: VeriStand2023 -equals True
     jobs:
       - job: CopyCrioDll
         timeoutInMinutes: 300
