@@ -217,8 +217,8 @@
 			<Item Name="Write To Spreadsheet File (DBL).vi" Type="VI" URL="../../Includes/Modules.lvlibp/1abvi3w/vi.lib/Utility/file.llb/Write To Spreadsheet File (DBL).vi"/>
 		</Item>
 		<Item Name="Custom Device Scan Engine.xml" Type="Document" URL="../Custom Device Scan Engine.xml"/>
-		<Item Name="nNIBlueBus_nCrioFixed_nRefnum.dll" Type="Document" URL="/&lt;resource&gt;/nNIBlueBus_nCrioFixed_nRefnum.dll"/>
-		<Item Name="nNIBlueBus_nCrioFixed.dll" Type="Document" URL="/C/Windows/syswow64/nNIBlueBus_nCrioFixed.dll"/>
+		<Item Name="nNIBlueBus_nCrioFixed_nRefnum.dll" Type="Document" URL="../../Includes/cRIO/nNIBlueBus_nCrioFixed_nRefnum.dll"/>
+		<Item Name="nNIBlueBus_nCrioFixed.dll" Type="Document" URL="../../Includes/cRIO/nNIBlueBus_nCrioFixed.dll"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
