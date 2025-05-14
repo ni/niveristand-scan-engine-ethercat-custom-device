@@ -26,52 +26,54 @@ resources:
           include:
             - main
 
-steps:
-  - task: CmdLine@2
-    displayName: Copy CRIO DLLs to Includes/cRIO folder
-    inputs:
-      script: |
-        setlocal
-        @echo off
-  
-        :: Define paths
-        set "SOURCE=\\nirvana\perforceExports\build\exports\ni\bb_l\bb_lib\official\export\25.3\25.3.0f114\.archives\windows.zip"
-        set "TEMP_DIR=%~dp0temp_extract"
-        set "INCLUDE_DIR=%~dp0Includes\cRIO"
-  
-        :: Create necessary directories
-        if not exist "%TEMP_DIR%" mkdir "%TEMP_DIR%"
-        if not exist "%INCLUDE_DIR%" mkdir "%INCLUDE_DIR%"
-  
-        :: Copy the zip file
-        echo Copying windows.zip...
-        copy "%SOURCE%" "%TEMP_DIR%\windows.zip"
-        if errorlevel 1 (
-           echo Failed to copy the zip file.
-           exit /b 1
-        )
-  
-        :: Extract the zip file
-        echo Extracting windows.zip...
-        powershell -Command "Expand-Archive -Path '%TEMP_DIR%\windows.zip' -DestinationPath '%TEMP_DIR%' -Force"
-        if errorlevel 1 (
-           echo Failed to extract the zip file.
-           exit /b 1
-        )
-  
-        :: Copy the DLLs
-        echo Copying DLLs...
-        copy "%TEMP_DIR%\dist\win32U\RIOCommonFiles\LabVIEW\resource\Framework\Providers\nNIBlueBus_nCrioFixed.dll" "%INCLUDE_DIR%"
-        copy "%TEMP_DIR%\dist\win32U\RIOCommonFiles\LabVIEW\resource\nNIBlueBus_nCrioFixed_nRefnum.dll" "%INCLUDE_DIR%"
-       
-        :: Delete the temporary extraction folder
-        echo Cleaning up temporary files...
-        rmdir /s /q "%TEMP_DIR%"
-  
-        echo Done.
-        endlocal
-
 stages:
+  - stage: Copy cRIO DLLs
+    jobs:
+      - job: CopyCrioDll
+        steps:
+          - task: CmdLine@2
+            displayName: Copy CRIO DLLs to Includes/cRIO folder
+            inputs:
+              script: |
+                setlocal
+                @echo off
+          
+                :: Define paths
+                set "SOURCE=\\nirvana\perforceExports\build\exports\ni\bb_l\bb_lib\official\export\25.3\25.3.0f114\.archives\windows.zip"
+                set "TEMP_DIR=%~dp0temp_extract"
+                set "INCLUDE_DIR=%~dp0Includes\cRIO"
+          
+                :: Create necessary directories
+                if not exist "%TEMP_DIR%" mkdir "%TEMP_DIR%"
+                if not exist "%INCLUDE_DIR%" mkdir "%INCLUDE_DIR%"
+          
+                :: Copy the zip file
+                echo Copying windows.zip...
+                copy "%SOURCE%" "%TEMP_DIR%\windows.zip"
+                if errorlevel 1 (
+                   echo Failed to copy the zip file.
+                   exit /b 1
+                )
+          
+                :: Extract the zip file
+                echo Extracting windows.zip...
+                powershell -Command "Expand-Archive -Path '%TEMP_DIR%\windows.zip' -DestinationPath '%TEMP_DIR%' -Force"
+                if errorlevel 1 (
+                   echo Failed to extract the zip file.
+                   exit /b 1
+                )
+          
+                :: Copy the DLLs
+                echo Copying DLLs...
+                copy "%TEMP_DIR%\dist\win32U\RIOCommonFiles\LabVIEW\resource\Framework\Providers\nNIBlueBus_nCrioFixed.dll" "%INCLUDE_DIR%"
+                copy "%TEMP_DIR%\dist\win32U\RIOCommonFiles\LabVIEW\resource\nNIBlueBus_nCrioFixed_nRefnum.dll" "%INCLUDE_DIR%"
+               
+                :: Delete the temporary extraction folder
+                echo Cleaning up temporary files...
+                rmdir /s /q "%TEMP_DIR%"
+          
+                echo Done.
+                endlocal
   - template: azure-templates/stages.yml@niveristand-custom-device-build-tools
     parameters:
 
