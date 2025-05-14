@@ -28,9 +28,9 @@ resources:
 
 steps:
 # Run Simulator as background task (simulator automatically shuts down in stage clean up)
-- task: Bash@3
+- task: CmdLine@2
+  displayName: Copy CRIO DLLs to Includes/cRIO folder
   inputs:
-    targetType: 'inline'
     script: |
       setlocal
       @echo off
@@ -71,7 +71,6 @@ steps:
 
       echo Done.
       endlocal
-      displayName: Copy CRIO DLLs to Includes/cRIO folder
             
   - template: azure-templates/stages.yml@niveristand-custom-device-build-tools
     parameters:
