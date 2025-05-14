@@ -31,47 +31,49 @@ stages:
     jobs:
       - job: CopyCrioDll
         steps:
-          - task: CmdLine@2
+          - task: PowerShell@2
             displayName: Copy CRIO DLLs to Includes/cRIO folder
             inputs:
               script: |
-                #!/bin/bash
-
+                # Set strict mode and stop on errors
+                Set-StrictMode -Version Latest
+                $ErrorActionPreference = "Stop"
+                
                 # Define paths
-                SOURCE="\\\\nirvana\\perforceExports\\build\\exports\\ni\\bb_l\\bb_lib\\official\\export\\25.3\\25.3.0f114\\.archives\\windows.zip"
-                TEMP_DIR="./temp_extract"
-                INCLUDE_DIR="./Includes/cRIO"
+                $sourceZip = "\\nirvana\perforceExports\build\exports\ni\bb_l\bb_lib\official\export\25.3\25.3.0f114\.archives\windows.zip"
+                $tempDir = "$PSScriptRoot\temp_extract"
+                $includeDir = "$PSScriptRoot\Includes\cRIO"
                 
-                # Create necessary directories
-                mkdir -p "$TEMP_DIR"
-                mkdir -p "$INCLUDE_DIR"
+                # Ensure directories exist
+                if (!(Test-Path -Path $tempDir)) {
+                    New-Item -ItemType Directory -Path $tempDir | Out-Null
+                }
+                if (!(Test-Path -Path $includeDir)) {
+                    New-Item -ItemType Directory -Path $includeDir -Force | Out-Null
+                }
                 
-                # Copy the zip file
-                echo "Copying windows.zip..."
-                cp "$SOURCE" "$TEMP_DIR/windows.zip"
-                if [ $? -ne 0 ]; then
-                    echo "Failed to copy the zip file."
-                    exit 1
-                fi
+                # Copy the ZIP file to the temp directory
+                Write-Host "Copying windows.zip..."
+                Copy-Item -Path $sourceZip -Destination "$tempDir\windows.zip" -Force
                 
                 # Extract the zip file
-                echo "Extracting windows.zip..."
-                unzip -q "$TEMP_DIR/windows.zip" -d "$TEMP_DIR"
-                if [ $? -ne 0 ]; then
-                    echo "Failed to extract the zip file."
-                    exit 1
-                fi
+                Write-Host "Extracting windows.zip..."
+                Expand-Archive -Path "$tempDir\windows.zip" -DestinationPath $tempDir -Force
                 
-                # Copy the DLLs
-                echo "Copying DLLs..."
-                cp "$TEMP_DIR/dist/win32U/RIOCommonFiles/LabVIEW/resource/Framework/Providers/nNIBlueBus_nCrioFixed.dll" "$INCLUDE_DIR/"
-                cp "$TEMP_DIR/dist/win32U/RIOCommonFiles/LabVIEW/resource/nNIBlueBus_nCrioFixed_nRefnum.dll" "$INCLUDE_DIR/"
+                # Define DLL source paths inside the extracted content
+                $dll1 = Join-Path $tempDir "dist\win32U\RIOCommonFiles\LabVIEW\resource\Framework\Providers\nNIBlueBus_nCrioFixed.dll"
+                $dll2 = Join-Path $tempDir "dist\win32U\RIOCommonFiles\LabVIEW\resource\nNIBlueBus_nCrioFixed_nRefnum.dll"
                 
-                # Clean up
-                echo "Cleaning up..."
-                rm -rf "$TEMP_DIR"
+                # Copy DLLs to Includes/cRIO
+                Write-Host "Copying DLLs..."
+                Copy-Item -Path $dll1 -Destination $includeDir -Force
+                Copy-Item -Path $dll2 -Destination $includeDir -Force
                 
-                echo "Done."
+                # Clean up temporary files
+                Write-Host "Cleaning up temporary files..."
+                Remove-Item -Path $tempDir -Recurse -Force
+                
+                Write-Host "Done."
 
   - template: azure-templates/stages.yml@niveristand-custom-device-build-tools
     parameters:
