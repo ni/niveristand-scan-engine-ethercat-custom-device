@@ -31,43 +31,21 @@ stages:
     jobs:
       - job: CopyCrioDll
         steps:
+          - task: CopyFiles@2
+            displayName: Copy windows.zip to include
+            inputs:
+              OverWrite: true
+              SourceFolder: "\\nirvana\perforceExports\build\exports\ni\bb_l\bb_lib\official\export\25.3\25.3.0f114\.archives"
+              Contents: "windows.zip"
+              TargetFolder: "Includes\temp_extract"
           - task: PowerShell@2
             displayName: Copy CRIO DLLs to Includes/cRIO folder
             inputs:
               targetType: 'inline'
-              script: |
-                # Define credentials
-                $username = "amer\nitestsuite"
-                $password = ConvertTo-SecureString "n1testsuite" -AsPlainText -Force
-                $cred = New-Object System.Management.Automation.PSCredential ($username, $password)
-                
+              script: |               
                 # Define paths
-                $networkPath = "\\nirvana\perforceExports\build\exports\ni\bb_l\bb_lib\official\export\25.3\25.3.0f114\.archives"
-                $zipFile = "windows.zip"
-                $fullSourcePath = Join-Path $networkPath $zipFile
                 $tempDir = "$PSScriptRoot\temp_extract"
                 $includeDir = "$PSScriptRoot\Includes\cRIO"
-                
-                # Map network drive temporarily
-                $driveLetter = "Z:"
-                New-PSDrive -Name "Z" -PSProvider FileSystem -Root $networkPath -Credential $cred -Persist
-                
-                # Create necessary directories
-                if (-Not (Test-Path -Path $tempDir)) {
-                    New-Item -ItemType Directory -Path $tempDir | Out-Null
-                }
-                if (-Not (Test-Path -Path $includeDir)) {
-                    New-Item -ItemType Directory -Path $includeDir | Out-Null
-                }
-                
-                # Copy the zip file
-                Write-Output "Copying windows.zip..."
-                Copy-Item -Path "$driveLetter\$zipFile" -Destination "$tempDir\windows.zip"
-                if (-Not (Test-Path -Path "$tempDir\windows.zip")) {
-                    Write-Output "Failed to copy the zip file."
-                    Remove-PSDrive -Name "Z"
-                    exit 1
-                }
                 
                 # Extract the zip file
                 Write-Output "Extracting windows.zip..."
@@ -86,8 +64,6 @@ stages:
                 # Clean up
                 Write-Output "Cleaning up temporary files..."
                 Remove-Item -Path $tempDir -Recurse -Force
-                # Remove the mapped drive
-                Remove-PSDrive -Name "Z"
                 
                 Write-Output "Done."
 
