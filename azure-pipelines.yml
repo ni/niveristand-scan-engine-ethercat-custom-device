@@ -36,45 +36,60 @@ stages:
             inputs:
               targetType: 'inline'
               script: |
-                # Set strict mode and stop on errors
-                Set-StrictMode -Version Latest
-                $ErrorActionPreference = "Stop"
+                # Define credentials
+                $username = "amer\nitestsuite"
+                $password = ConvertTo-SecureString "n1testsuite" -AsPlainText -Force
+                $cred = New-Object System.Management.Automation.PSCredential ($username, $password)
                 
                 # Define paths
-                $sourceZip = "\\nirvana\perforceExports\build\exports\ni\bb_l\bb_lib\official\export\25.3\25.3.0f114\.archives\windows.zip"
+                $networkPath = "\\nirvana\perforceExports\build\exports\ni\bb_l\bb_lib\official\export\25.3\25.3.0f114\.archives"
+                $zipFile = "windows.zip"
+                $fullSourcePath = Join-Path $networkPath $zipFile
                 $tempDir = "$PSScriptRoot\temp_extract"
                 $includeDir = "$PSScriptRoot\Includes\cRIO"
                 
-                # Ensure directories exist
-                if (!(Test-Path -Path $tempDir)) {
+                # Map network drive temporarily
+                $driveLetter = "Z:"
+                New-PSDrive -Name "Z" -PSProvider FileSystem -Root $networkPath -Credential $cred -Persist
+                
+                # Create necessary directories
+                if (-Not (Test-Path -Path $tempDir)) {
                     New-Item -ItemType Directory -Path $tempDir | Out-Null
                 }
-                if (!(Test-Path -Path $includeDir)) {
-                    New-Item -ItemType Directory -Path $includeDir -Force | Out-Null
+                if (-Not (Test-Path -Path $includeDir)) {
+                    New-Item -ItemType Directory -Path $includeDir | Out-Null
                 }
                 
-                # Copy the ZIP file to the temp directory
-                Write-Host "Copying windows.zip..."
-                Copy-Item -Path $sourceZip -Destination "$tempDir\windows.zip" -Force
+                # Copy the zip file
+                Write-Output "Copying windows.zip..."
+                Copy-Item -Path "$driveLetter\$zipFile" -Destination "$tempDir\windows.zip"
+                if (-Not (Test-Path -Path "$tempDir\windows.zip")) {
+                    Write-Output "Failed to copy the zip file."
+                    Remove-PSDrive -Name "Z"
+                    exit 1
+                }
                 
                 # Extract the zip file
-                Write-Host "Extracting windows.zip..."
+                Write-Output "Extracting windows.zip..."
                 Expand-Archive -Path "$tempDir\windows.zip" -DestinationPath $tempDir -Force
+                if (-Not (Test-Path -Path "$tempDir\dist")) {
+                    Write-Output "Failed to extract the zip file."
+                    Remove-PSDrive -Name "Z"
+                    exit 1
+                }
                 
-                # Define DLL source paths inside the extracted content
-                $dll1 = Join-Path $tempDir "dist\win32U\RIOCommonFiles\LabVIEW\resource\Framework\Providers\nNIBlueBus_nCrioFixed.dll"
-                $dll2 = Join-Path $tempDir "dist\win32U\RIOCommonFiles\LabVIEW\resource\nNIBlueBus_nCrioFixed_nRefnum.dll"
+                # Copy the DLLs
+                Write-Output "Copying DLLs..."
+                Copy-Item -Path "$tempDir\dist\win32U\RIOCommonFiles\LabVIEW\resource\Framework\Providers\nNIBlueBus_nCrioFixed.dll" -Destination $includeDir
+                Copy-Item -Path "$tempDir\dist\win32U\RIOCommonFiles\LabVIEW\resource\nNIBlueBus_nCrioFixed_nRefnum.dll" -Destination $includeDir
                 
-                # Copy DLLs to Includes/cRIO
-                Write-Host "Copying DLLs..."
-                Copy-Item -Path $dll1 -Destination $includeDir -Force
-                Copy-Item -Path $dll2 -Destination $includeDir -Force
-                
-                # Clean up temporary files
-                Write-Host "Cleaning up temporary files..."
+                # Clean up
+                Write-Output "Cleaning up temporary files..."
                 Remove-Item -Path $tempDir -Recurse -Force
+                # Remove the mapped drive
+                Remove-PSDrive -Name "Z"
                 
-                Write-Host "Done."
+                Write-Output "Done."
 
   - template: azure-templates/stages.yml@niveristand-custom-device-build-tools
     parameters:
