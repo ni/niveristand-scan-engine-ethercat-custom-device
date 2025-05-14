@@ -71,7 +71,8 @@ steps:
 
       echo Done.
       endlocal
-            
+
+stages:
   - template: azure-templates/stages.yml@niveristand-custom-device-build-tools
     parameters:
 
