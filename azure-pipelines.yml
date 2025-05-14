@@ -27,7 +27,7 @@ resources:
             - main
 
 stages:
-  - stage: Copy cRIO DLLs
+  - stage: Copy_cRIO_DLLs
     jobs:
       - job: CopyCrioDll
         steps:
