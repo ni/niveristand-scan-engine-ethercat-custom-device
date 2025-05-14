@@ -31,7 +31,7 @@ stages:
     jobs:
       - job: CopyCrioDll
         steps:
-          - task: CmdLine@2
+          - task: BatchScript@1
             displayName: Copy CRIO DLLs to Includes/cRIO folder
             inputs:
               script: |
