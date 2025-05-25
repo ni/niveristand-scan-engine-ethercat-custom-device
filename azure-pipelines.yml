@@ -157,6 +157,18 @@ stages:
             - version: '2025'
               bitness: '32bit'
 
+        - projectLocation: 'Scripting Examples\Scan Engine Scripting Examples.lvproj'
+          buildOperation: 'ExecuteBuildSpec'
+          target: 'My Computer'
+          buildSpec: 'Examples'
+          exclusions:
+            - version: '2023'
+              bitness: '32bit'
+            - version: '2024'
+              bitness: '32bit'
+            - version: '2025'
+              bitness: '32bit'
+
       releaseVersion: '25.0.0'
       buildOutputLocation: 'Built'
       archiveLocation: '\\nirvana\Measurements\VeriStandAddons\scan_engine_custom_device'
