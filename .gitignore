@@ -69,3 +69,7 @@ $RECYCLE.BIN/
 *.msm
 *.msp
 Built/
+
+#Exclude following dlls
+!nNIBlueBus_nCrioFixed.dll
+!nNIBlueBus_nCrioFixed_nRefnum.dll
