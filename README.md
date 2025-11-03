@@ -16,7 +16,7 @@ Download the latest release of the VeriStand Custom Devices on [ni.com](https://
 
 ## LabVIEW Source Code Version
 
-LabVIEW 2020
+LabVIEW 2024
 
 ## Dependencies
 
