@@ -147,7 +147,7 @@
 				<Item Name="Get Slave Info.vi" Type="VI" URL="../Utility/ECAT/Slave/Get Slave Info.vi"/>
 				<Item Name="Host - Import ESI File.vi" Type="VI" URL="../Utility/ECAT/Slave/Host - Import ESI File.vi"/>
 				<Item Name="Prompt Import 3rd Party ECAT Slaves Will Reboot.vi" Type="VI" URL="../Utility/ECAT/Slave/Prompt Import 3rd Party ECAT Slaves Will Reboot.vi"/>
-				<Item Name="Set Slave Info.vi" Type="VI" URL="../Utility/ECAT/Slave/Set Slave Info.vi"/>
+				<Item Name="Rename Slave Node.vi" Type="VI" URL="../Utility/ECAT/Slave/Rename Slave Node.vi"/>
 			</Item>
 		</Item>
 		<Item Name="FPGA" Type="Folder">
