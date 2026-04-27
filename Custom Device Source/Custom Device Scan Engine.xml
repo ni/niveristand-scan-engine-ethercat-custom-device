@@ -305,10 +305,6 @@
         <Type>To Common Doc Dir</Type>
         <Path>Custom Devices\Scan Engine\Scan Engine - Configuration.llb\Main - On Load.vi</Path>
       </ActionVIOnLoad>
-      <ActionVIOnDownload>
-        <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Scan Engine\Scan Engine - Configuration.llb\ActionVIOnDownload - Set Scan Rate.vi</Path>
-      </ActionVIOnDownload>
     </Page>
     <Page> <!-- disabled main page -->
       <Name>
