@@ -172,6 +172,8 @@ stages:
       releaseVersion: '26.5.0'
       buildOutputLocation: 'Built'
       archiveLocation: '\\nirvana\Measurements\VeriStandAddons\scan_engine_custom_device'
+      repoName: 'niveristand-scan-engine-ethercat-custom-device'
+      createNetCoreRepo: true
       packages:
         - controlFileName: 'control'
           payloadMaps:
