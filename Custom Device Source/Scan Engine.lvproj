@@ -519,9 +519,6 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Module Models.ctl" Type="VI" URL="../../Includes/Modules.lvlibp/RSI Module/Module Models.ctl"/>
-			<Item Name="nisyscfg.dll" Type="Document" URL="nisyscfg.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
 			<Item Name="Read Module Page Property.vi" Type="VI" URL="../../Includes/Modules.lvlibp/RSI Module/Read Module Page Property.vi"/>
 			<Item Name="Read Slot.vi" Type="VI" URL="../../Includes/Modules.lvlibp/RSI Module/Read Slot.vi"/>
 			<Item Name="RSI Module_Initialize.vi" Type="VI" URL="../../Includes/Modules.lvlibp/RSI Module/RSI Module_Initialize.vi"/>
@@ -563,6 +560,9 @@
 			<Item Name="Write Model.vi" Type="VI" URL="../../Includes/Modules.lvlibp/RSI Module/Write Model.vi"/>
 			<Item Name="SubPanel Command.ctl" Type="VI" URL="../../Includes/Modules.lvlibp/RSI Module/SubPanel Command.ctl"/>
 			<Item Name="Read RemIO Module Page Property.vi" Type="VI" URL="../../Includes/Modules.lvlibp/RemIO Module/Read RemIO Module Page Property.vi"/>
+			<Item Name="niecatviapi.dll" Type="Document" URL="niecatviapi.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Configuration Release" Type="Source Distribution">
