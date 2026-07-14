@@ -5,6 +5,10 @@ trigger:
       - main
       - release/*
 
+variables:
+  - name: ConvertNetCore
+    value: false
+
 resources:
   repositories:
     - repository: niveristand-custom-device-build-tools
@@ -173,7 +177,6 @@ stages:
       buildOutputLocation: 'Built'
       archiveLocation: '\\nirvana\Measurements\VeriStandAddons\scan_engine_custom_device'
       repoName: 'niveristand-scan-engine-ethercat-custom-device'
-      createNetCoreRepo: true
       packages:
         - controlFileName: 'control'
           payloadMaps:
