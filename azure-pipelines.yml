@@ -194,3 +194,23 @@ stages:
           payloadMaps:
             - payloadLocation: 'Examples\Scan Engine'
               installLocation: 'ni-paths-LV$(lvVersion)DIR$(nipkgx64suffix)\examples\NI VeriStand Custom Devices\Scan Engine'
+
+  - template: azure-templates/linux-stage.yml@niveristand-custom-device-build-tools
+    parameters:
+      lvVersionsToBuild:
+        - version: '2026'
+          bitness: '64bit'
+
+      buildSteps:
+        - id: 'scan_engine_configuration'
+          projectLocation: 'Custom Device Source/Scan Engine.lvproj'
+          buildOperation: 'ExecuteBuildSpec'
+          target: 'My Computer'
+          buildSpec: 'Configuration(Linux) Release'
+
+      releaseVersion: '26.5.0'
+      branch: 'main'
+      debugBuild: 'no'
+      buildOutputLocation: 'Built'
+      archiveLocation: '\\nirvana\Measurements\VeriStandAddons\scan_engine_custom_device'
+      repoName: 'niveristand-scan-engine-ethercat-custom-device'
