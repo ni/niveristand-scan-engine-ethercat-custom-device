@@ -47,6 +47,10 @@ stages:
           bitness: '64bit'
         - version: '2026'
           bitness: '32bit'
+        - version: '2027'
+          bitness: '64bit'
+        - version: '2027'
+          bitness: '32bit'
 
       dependencies:
         - source: '\\nirvana\Measurements\VeriStandAddons\scan_engine_fxp'
@@ -76,6 +80,8 @@ stages:
               bitness: '32bit'
             - version: '2026'
               bitness: '32bit'
+            - version: '2027'
+              bitness: '32bit'
 
         - projectLocation: 'Custom Device Source\Scan Engine.lvproj'
           buildOperation: 'ExecuteBuildSpec'
@@ -88,6 +94,8 @@ stages:
               bitness: '64bit'
             - version: '2026'
               bitness: '64bit'
+            - version: '2027'
+              bitness: '64bit'
 
         - projectLocation: 'Custom Device Source\Scan Engine.lvproj'
           buildOperation: 'ExecuteBuildSpec'
@@ -99,6 +107,8 @@ stages:
             - version: '2025'
               bitness: '64bit'
             - version: '2026'
+              bitness: '64bit' 
+            - version: '2027'
               bitness: '64bit'
 
         - projectLocation: 'Custom Device Source\Scan Engine.lvproj'
@@ -112,6 +122,8 @@ stages:
               bitness: '64bit'
             - version: '2026'
               bitness: '64bit'
+            - version: '2027'
+              bitness: '64bit'
 
         - projectLocation: 'Custom Device Source\Scan Engine.lvproj'
           buildOperation: 'ExecuteBuildSpec'
@@ -123,6 +135,8 @@ stages:
             - version: '2025'
               bitness: '64bit'
             - version: '2026'
+              bitness: '64bit'
+            - version: '2027'
               bitness: '64bit'
 
         - projectLocation: 'Custom Device Source\Scan Engine.lvproj'
@@ -136,6 +150,8 @@ stages:
               bitness: '64bit'
             - version: '2026'
               bitness: '64bit'
+            - version: '2027'
+              bitness: '64bit'
 
         - projectLocation: 'Custom Device Source\Scan Engine Linux x64.lvproj'
           buildOperation: 'ExecuteBuildSpec'
@@ -147,6 +163,8 @@ stages:
             - version: '2025'
               bitness: '64bit'
             - version: '2026'
+              bitness: '64bit'
+            - version: '2027'
               bitness: '64bit'
 
         - projectLocation: 'Custom Device Source\Scan Engine.lvproj'
@@ -160,6 +178,8 @@ stages:
               bitness: '32bit'
             - version: '2026'
               bitness: '32bit'
+            - version: '2027'
+              bitness: '32bit'
 
         - projectLocation: 'Scripting Examples\Scan Engine Scripting Examples.lvproj'
           buildOperation: 'ExecuteBuildSpec'
@@ -172,8 +192,10 @@ stages:
               bitness: '32bit'
             - version: '2026'
               bitness: '32bit'
+            - version: '2027'
+              bitness: '32bit'
 
-      releaseVersion: '26.5.0'
+      releaseVersion: '26.8.0'
       buildOutputLocation: 'Built'
       archiveLocation: '\\nirvana\Measurements\VeriStandAddons\scan_engine_custom_device'
       repoName: 'niveristand-scan-engine-ethercat-custom-device'
