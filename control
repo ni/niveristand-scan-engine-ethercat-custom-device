@@ -12,7 +12,6 @@ XB-UserVisible: yes
 Section: Add-Ons
 XB-DisplayVersion: {quarterly_display_version}
 XB-DisplayName: NI Scan Engine and EtherCAT for VeriStand {veristand_version}
-Depends: ni-veristand-{labview_version} (>= {labview_short_version}.0.0)
 Description-zh-CN: 为NI VeriStand的NI扫描引擎和EtherCAT自定义设备的支持
 XB-DisplayName-zh-CN: NI Scan Engine and EtherCAT for VeriStand {veristand_version}
 Description-de: Stellt Unterstützung für NI Scan Engine und benutzerdefinierte EtherCAT-Geräte für NI VeriStand {veristand_version} bereit.
