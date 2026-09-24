@@ -203,7 +203,7 @@ stages:
         - controlFileName: 'control'
           payloadMaps:
             - payloadLocation: 'Scan Engine'
-              installLocation: 'documents\National Instruments\NI VeriStand $(lvVersion)\Custom Devices\Scan Engine'
+              installLocation: 'programdata\National Instruments\NI VeriStand $(lvVersion)\Plugins\Custom Devices\Scan Engine'
             - payloadLocation: 'Errors'
               installLocation: 'ni-paths-NISHAREDDIR$(nipkgx64suffix)\LabVIEW Run-Time\$(lvVersion)\errors\English'
 
