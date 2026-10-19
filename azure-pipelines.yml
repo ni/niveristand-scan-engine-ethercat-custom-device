@@ -12,21 +12,23 @@ variables:
 resources:
   repositories:
     - repository: niveristand-custom-device-build-tools
-      type:       github
-      ref:        main
-      endpoint:   nivs-custom-devices
-      name:       ni/niveristand-custom-device-build-tools
+      type: github
+      ref: main
+      endpoint: nivs-custom-devices
+      name: ni/niveristand-custom-device-build-tools
+
   pipelines:
     - pipeline: FxpLibraries
-      source:   ni.niveristand-scan-engine-fxp-libraries
-      trigger:  
-        branches: 
+      source: ni.niveristand-scan-engine-fxp-libraries
+      trigger:
+        branches:
           include:
             - main
+
     - pipeline: ModuleLibraries
-      source:   ni.niveristand-scan-engine-module-libraries
-      trigger:  
-        branches: 
+      source: ni.niveristand-scan-engine-module-libraries
+      trigger:
+        branches:
           include:
             - main
 
@@ -44,9 +46,11 @@ stages:
         - source: '\\nirvana\Measurements\VeriStandAddons\netcore\scan_engine_fxp'
           file: '$target\FXP.llb'
           destination: 'Includes'
+
         - source: '\\nirvana\Measurements\VeriStandAddons\netcore\scan_engine_modules'
           file: '$target\Modules.lvlibp'
           destination: 'Includes'
+
         - source: '\\nirvana\Measurements\VeriStandAddons\netcore\scan_engine_modules'
           file: '$target\NI ECAT Remote IO.llb'
           destination: 'Includes'
@@ -77,7 +81,7 @@ stages:
           buildOperation: 'ExecuteBuildSpec'
           target: 'My Computer'
           buildSpec: 'Get HW Config'
-          exclusions: 
+          exclusions:
             - version: '2027'
               bitness: '64bit'
 
@@ -133,11 +137,13 @@ stages:
       buildOutputLocation: 'Built'
       archiveLocation: '\\nirvana\Measurements\VeriStandAddons\netcore\scan_engine_custom_device'
       repoName: 'niveristand-scan-engine-ethercat-custom-device'
+
       packages:
         - controlFileName: 'control'
           payloadMaps:
             - payloadLocation: 'Scan Engine'
               installLocation: 'programdata\National Instruments\NI VeriStand $(lvVersion)\Addons\Custom Devices\Scan Engine'
+
             - payloadLocation: 'Errors'
               installLocation: 'ni-paths-NISHAREDDIR$(nipkgx64suffix)\LabVIEW Run-Time\$(lvVersion)\errors\English'
 
@@ -151,32 +157,30 @@ stages:
             - payloadLocation: 'Examples\Scan Engine'
               installLocation: 'ni-paths-LV$(lvVersion)DIR$(nipkgx64suffix)\examples\NI VeriStand Custom Devices\Scan Engine'
 
+  # =====================================================================
+  # LINUX BUILD
+  # =====================================================================
+  - template: azure-templates/linux-stage.yml@niveristand-custom-device-build-tools
+    parameters:
+      stageName: LinuxBuild
 
-# =====================================================================
-# LINUX BUILD
-# =====================================================================
-- template: azure-templates/linux-stage.yml@niveristand-custom-device-build-tools
-  parameters:
-    stageName: LinuxBuild
+      dependsOn:
+        - WindowsBuild
 
-    # If your linux-stage.yml supports these parameters:
-    dependsOn: 
-      - WindowsBuild
+      lvVersionsToBuild:
+        - version: '2027'
+          bitness: '64bit'
 
-    lvVersionsToBuild:
-      - version: '2027'
-        bitness: '64bit'
+      buildSteps:
+        - id: 'scan-engine-custom-device_configuration_release'
+          projectLocation: 'Custom Device Source\Scan Engine.lvproj'
+          buildOperation: 'ExecuteBuildSpec'
+          target: 'My Computer'
+          buildSpec: 'Configuration(Linux) Release'
 
-    buildSteps:
-      - id: 'scan-engine-custom-device_configuration_release'
-        projectLocation: 'Custom Device Source\Scan Engine.lvproj'
-        buildOperation: 'ExecuteBuildSpec'
-        target: 'My Computer'
-        buildSpec: 'Configuration(Linux) Release'
-      
-    releaseVersion: '27.0.0'
-    branch: 'main'
-    debugBuild: 'no'
-    buildOutputLocation: 'Built'
-    archiveLocation: '\\nirvana\Measurements\VeriStandAddons\netcore\scan_engine_custom_device'
-    repoName: 'niveristand-scan-engine-ethercat-custom-device'
+      releaseVersion: '27.0.0'
+      branch: 'main'
+      debugBuild: 'no'
+      buildOutputLocation: 'Built'
+      archiveLocation: '\\nirvana\Measurements\VeriStandAddons\netcore\scan_engine_custom_device'
+      repoName: 'niveristand-scan-engine-ethercat-custom-device'
