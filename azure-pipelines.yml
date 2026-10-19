@@ -35,6 +35,7 @@ resources:
 stages:
   - template: azure-templates/stages.yml@niveristand-custom-device-build-tools
     parameters:
+      stageName: WindowsBuild
 
       lvVersionsToBuild:
         - version: '2027'
