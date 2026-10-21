@@ -1,0 +1,5 @@
+<Configuration>
+  <Target name="Linux x64">
+    <EnableDebuggingForAllVIs>0</EnableDebuggingForAllVIs>
+  </Target>
+</Configuration>

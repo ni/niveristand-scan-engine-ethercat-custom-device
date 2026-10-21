@@ -12,54 +12,47 @@ variables:
 resources:
   repositories:
     - repository: niveristand-custom-device-build-tools
-      type:       github
-      ref:        main
-      endpoint:   nivs-custom-devices
-      name:       ni/niveristand-custom-device-build-tools
+      type: github
+      ref: main
+      endpoint: nivs-custom-devices
+      name: ni/niveristand-custom-device-build-tools
+
   pipelines:
     - pipeline: FxpLibraries
-      source:   ni.niveristand-scan-engine-fxp-libraries
-      trigger:  
-        branches: 
+      source: ni.niveristand-scan-engine-fxp-libraries
+      trigger:
+        branches:
           include:
             - main
+
     - pipeline: ModuleLibraries
-      source:   ni.niveristand-scan-engine-module-libraries
-      trigger:  
-        branches: 
+      source: ni.niveristand-scan-engine-module-libraries
+      trigger:
+        branches:
           include:
             - main
 
 stages:
   - template: azure-templates/stages.yml@niveristand-custom-device-build-tools
     parameters:
+      stageName: WindowsBuild
 
       lvVersionsToBuild:
-        - version: '2024'
-          bitness: '64bit'
-        - version: '2024'
-          bitness: '32bit'
-        - version: '2025'
-          bitness: '64bit'
-        - version: '2025'
-          bitness: '32bit'
-        - version: '2026'
-          bitness: '64bit'
-        - version: '2026'
-          bitness: '32bit'
         - version: '2027'
           bitness: '64bit'
         - version: '2027'
           bitness: '32bit'
 
       dependencies:
-        - source: '\\nirvana\Measurements\VeriStandAddons\scan_engine_fxp'
+        - source: '\\nirvana\Measurements\VeriStandAddons\netcore\scan_engine_fxp'
           file: '$target\FXP.llb'
           destination: 'Includes'
-        - source: '\\nirvana\Measurements\VeriStandAddons\scan_engine_modules'
+
+        - source: '\\nirvana\Measurements\VeriStandAddons\netcore\scan_engine_modules'
           file: '$target\Modules.lvlibp'
           destination: 'Includes'
-        - source: '\\nirvana\Measurements\VeriStandAddons\scan_engine_modules'
+
+        - source: '\\nirvana\Measurements\VeriStandAddons\netcore\scan_engine_modules'
           file: '$target\NI ECAT Remote IO.llb'
           destination: 'Includes'
 
@@ -74,12 +67,6 @@ stages:
           target: 'My Computer'
           buildSpec: 'Configuration Release'
           exclusions:
-            - version: '2024'
-              bitness: '32bit'
-            - version: '2025'
-              bitness: '32bit'
-            - version: '2026'
-              bitness: '32bit'
             - version: '2027'
               bitness: '32bit'
 
@@ -88,12 +75,6 @@ stages:
           target: 'My Computer'
           buildSpec: 'Revert to Scan Mode'
           exclusions:
-            - version: '2024'
-              bitness: '64bit'
-            - version: '2025'
-              bitness: '64bit'
-            - version: '2026'
-              bitness: '64bit'
             - version: '2027'
               bitness: '64bit'
 
@@ -102,12 +83,6 @@ stages:
           target: 'My Computer'
           buildSpec: 'Get HW Config'
           exclusions:
-            - version: '2024'
-              bitness: '64bit'
-            - version: '2025'
-              bitness: '64bit'
-            - version: '2026'
-              bitness: '64bit' 
             - version: '2027'
               bitness: '64bit'
 
@@ -116,12 +91,6 @@ stages:
           target: 'My Computer'
           buildSpec: 'Check and Download Bitfile'
           exclusions:
-            - version: '2024'
-              bitness: '64bit'
-            - version: '2025'
-              bitness: '64bit'
-            - version: '2026'
-              bitness: '64bit'
             - version: '2027'
               bitness: '64bit'
 
@@ -130,12 +99,6 @@ stages:
           target: 'My Computer'
           buildSpec: 'Import ESI File'
           exclusions:
-            - version: '2024'
-              bitness: '64bit'
-            - version: '2025'
-              bitness: '64bit'
-            - version: '2026'
-              bitness: '64bit'
             - version: '2027'
               bitness: '64bit'
 
@@ -144,12 +107,6 @@ stages:
           target: 'My Computer'
           buildSpec: 'Read Target ESI Files'
           exclusions:
-            - version: '2024'
-              bitness: '64bit'
-            - version: '2025'
-              bitness: '64bit'
-            - version: '2026'
-              bitness: '64bit'
             - version: '2027'
               bitness: '64bit'
 
@@ -158,12 +115,6 @@ stages:
           target: 'Linux x64'
           buildSpec: 'Engine Release'
           exclusions:
-            - version: '2024'
-              bitness: '64bit'
-            - version: '2025'
-              bitness: '64bit'
-            - version: '2026'
-              bitness: '64bit'
             - version: '2027'
               bitness: '64bit'
 
@@ -172,12 +123,6 @@ stages:
           target: 'My Computer'
           buildSpec: 'Scripting API'
           exclusions:
-            - version: '2024'
-              bitness: '32bit'
-            - version: '2025'
-              bitness: '32bit'
-            - version: '2026'
-              bitness: '32bit'
             - version: '2027'
               bitness: '32bit'
 
@@ -186,24 +131,20 @@ stages:
           target: 'My Computer'
           buildSpec: 'Examples'
           exclusions:
-            - version: '2024'
-              bitness: '32bit'
-            - version: '2025'
-              bitness: '32bit'
-            - version: '2026'
-              bitness: '32bit'
             - version: '2027'
               bitness: '32bit'
 
-      releaseVersion: '26.8.0'
+      releaseVersion: '27.0.0'
       buildOutputLocation: 'Built'
-      archiveLocation: '\\nirvana\Measurements\VeriStandAddons\scan_engine_custom_device'
+      archiveLocation: '\\nirvana\Measurements\VeriStandAddons\netcore\scan_engine_custom_device'
       repoName: 'niveristand-scan-engine-ethercat-custom-device'
+
       packages:
         - controlFileName: 'control'
           payloadMaps:
             - payloadLocation: 'Scan Engine'
               installLocation: 'programdata\National Instruments\NI VeriStand $(lvVersion)\Addons\Custom Devices\Scan Engine'
+
             - payloadLocation: 'Errors'
               installLocation: 'ni-paths-NISHAREDDIR$(nipkgx64suffix)\LabVIEW Run-Time\$(lvVersion)\errors\English'
 
