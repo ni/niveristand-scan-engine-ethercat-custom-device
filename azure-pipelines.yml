@@ -40,10 +40,6 @@ stages:
     parameters:
       stageName: LinuxBuild
 
-      # If your linux-stage.yml supports these parameters:
-      dependsOn: 
-        - WindowsBuild
-
       lvVersionsToBuild:
         - version: '2027'
           bitness: '64bit'
